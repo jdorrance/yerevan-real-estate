@@ -12,6 +12,7 @@ import shutil
 
 from scraper import run_scraper
 from geocode import run_geocoder
+from spread import run_spread
 from output import generate_csv, generate_geojson
 
 
@@ -30,13 +31,14 @@ def main():
     if not_geocoded:
         print(f"  {len(not_geocoded)} listings need geocoding...")
         listings, eu_coords = run_geocoder(listings)
-        with open(listings_path, "w", encoding="utf-8") as f:
-            json.dump(listings, f, indent=2, ensure_ascii=False)
     else:
         print(f"  All {len(listings)} already geocoded, skipping.")
         eu_coords = (40.1862324, 44.5047339)
 
-    # Always persist the current listings for the frontend to consume.
+    print("\n[2.5/3] SPREADING")
+    listings = run_spread(listings)
+
+    # Always persist the current listings (and spread coords) for the frontend to consume.
     listings_path.parent.mkdir(parents=True, exist_ok=True)
     with open(listings_path, "w", encoding="utf-8") as f:
         json.dump(listings, f, indent=2, ensure_ascii=False)
