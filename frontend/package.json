@@ -1,0 +1,22 @@
+{
+  "name": "yerevan-rentals-map",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build --base=/armenia/"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.20",
+    "@types/leaflet.markercluster": "^1.5.5",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}

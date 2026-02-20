@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yerevan Rentals</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="header">
+        <h1>Yerevan Rentals</h1>
+        <div class="stats" id="stats"></div>
+      </div>
+
+      <div id="controls">
+        <div class="control-group">
+          <label for="minPrice">Price:</label>
+          <input type="number" id="minPrice" value="2000" step="100" />
+          <span class="sep">-</span>
+          <input type="number" id="maxPrice" value="5000" step="100" />
+        </div>
+
+        <div class="control-group">
+          <label for="minArea">Min Area (m²):</label>
+          <input type="number" id="minArea" value="0" step="50" />
+        </div>
+
+        <div class="control-group">
+          <label for="minRooms">Min Rooms:</label>
+          <input type="number" id="minRooms" value="0" step="1" />
+        </div>
+
+        <div class="control-group">
+          <label for="distFilter">District:</label>
+          <select id="distFilter">
+            <option value="">All</option>
+          </select>
+        </div>
+
+        <button id="applyFilters" type="button">Filter</button>
+
+        <div class="legend" aria-label="Price legend">
+          <div class="legend-item">
+            <div class="legend-dot" data-color="low"></div>
+            ≤$2,500
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" data-color="mid1"></div>
+            $2,501-$3,500
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" data-color="mid2"></div>
+            $3,501-$4,200
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" data-color="high"></div>
+            $4,201+
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" data-color="eu"></div>
+            EU Delegation
+          </div>
+        </div>
+      </div>
+
+      <div id="map"></div>
+
+      <div id="table-container">
+        <table id="listings-table">
+          <thead>
+            <tr>
+              <th data-col="0">ID</th>
+              <th data-col="1">District</th>
+              <th data-col="2">Street</th>
+              <th data-col="3">Price</th>
+              <th data-col="4">Area m²</th>
+              <th data-col="5">Land m²</th>
+              <th data-col="6">Rooms</th>
+              <th data-col="7">Floors</th>
+              <th data-col="8">Type</th>
+              <th data-col="9">Photos</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+
+      <div class="photo-gallery" id="gallery" aria-hidden="true">
+        <button class="close" id="galleryClose" type="button" aria-label="Close gallery">
+          ×
+        </button>
+        <button class="nav prev" id="galleryPrev" type="button" aria-label="Previous photo">
+          ‹
+        </button>
+        <img id="gallery-img" alt="Listing photo" />
+        <button class="nav next" id="galleryNext" type="button" aria-label="Next photo">
+          ›
+        </button>
+        <div class="counter" id="gallery-counter"></div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

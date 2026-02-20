@@ -1,0 +1,85 @@
+#controls {
+  background: var(--color-surface);
+  padding: 12px 24px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.control-group label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.control-group input,
+.control-group select {
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: var(--font-size-sm);
+}
+
+.control-group input[type="number"] {
+  width: 70px;
+}
+
+.control-group input#minRooms {
+  width: 50px;
+}
+
+.sep {
+  color: #666;
+}
+
+#applyFilters {
+  background: var(--color-accent);
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+}
+
+#applyFilters:hover {
+  opacity: 0.9;
+}
+
+.legend {
+  display: flex;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-size-xs);
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.legend-dot[data-color="low"] { background: #2ecc71; }
+.legend-dot[data-color="mid1"] { background: #3498db; }
+.legend-dot[data-color="mid2"] { background: #f39c12; }
+.legend-dot[data-color="high"] { background: #e74c3c; }
+.legend-dot[data-color="eu"] {
+  background: var(--color-accent);
+  border: 2px solid gold;
+}

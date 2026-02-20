@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Scraped HTML cache (large, regenerable by re-running the scraper)
+data/raw/
+
+# Old standalone map (superseded by the Vite frontend)
+data/output/map.html
