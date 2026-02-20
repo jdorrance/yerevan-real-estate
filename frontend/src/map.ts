@@ -44,9 +44,9 @@ function createMarkerIcon(color: string): L.DivIcon {
   });
 }
 
-function createEuIcon(): L.DivIcon {
+function createCenterIcon(): L.DivIcon {
   return L.divIcon({
-    html: '<div class="eu-marker">EU</div>',
+    html: '<div class="center-marker">×</div>',
     className: "",
     iconSize: [20, 20],
     iconAnchor: [10, 10],
@@ -134,9 +134,9 @@ export class MapController {
     });
     this.map.addLayer(this.clusterGroup);
 
-    L.marker([eu.lat, eu.lng], { icon: createEuIcon() })
+    L.marker([eu.lat, eu.lng], { icon: createCenterIcon() })
       .addTo(this.map)
-      .bindPopup("<b>EU Delegation</b><br>21 Frik St, Yerevan");
+      .bindPopup("<b>Center point</b>");
   }
 
   setWalkingIsochrones(geojson: GeoJSON.FeatureCollection): void {

@@ -80,6 +80,27 @@
 .legend-dot[data-color="mid2"] { background: #f39c12; }
 .legend-dot[data-color="high"] { background: #e74c3c; }
 .legend-dot[data-color="eu"] {
-  background: var(--color-accent);
-  border: 2px solid gold;
+  background: transparent;
+  border: 2px solid #fff;
+  position: relative;
+}
+
+.legend-dot[data-color="eu"]::before,
+.legend-dot[data-color="eu"]::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  transform-origin: center;
+}
+
+.legend-dot[data-color="eu"]::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.legend-dot[data-color="eu"]::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
