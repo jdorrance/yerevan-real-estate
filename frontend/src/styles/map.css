@@ -4,6 +4,44 @@
   width: 100%;
 }
 
+/* --- Price legend (Leaflet control, bottom-right) --- */
+
+.map-legend {
+  background: rgba(26, 26, 46, 0.88);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 11px;
+  color: var(--color-text);
+  line-height: 1.6;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.map-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.map-legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.map-legend-center {
+  background: #fff !important;
+  border: 2px solid #111;
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 10px;
+  text-align: center;
+  color: #111;
+}
+
 /* --- Marker icons (used via Leaflet divIcon, avoids inline styles) --- */
 
 .marker-dot {

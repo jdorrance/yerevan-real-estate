@@ -1,3 +1,8 @@
+export interface LatLng {
+  readonly lat: number;
+  readonly lng: number;
+}
+
 export interface ListingRaw {
   id: number;
   url?: string;
@@ -49,8 +54,10 @@ export interface Listing {
   photo_count: number;
 }
 
+/** Matches the shape of data/config.json — supports legacy "eu" key. */
 export interface AppConfig {
-  eu: { lat: number; lng: number };
+  eu?: LatLng;
+  center?: LatLng;
 }
 
 export interface FilterValues {

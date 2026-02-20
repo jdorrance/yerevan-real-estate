@@ -1,4 +1,6 @@
-export const DEFAULT_EU = { lat: 40.1862324, lng: 44.5047339 } as const;
+import type { LatLng } from "./types";
+
+export const DEFAULT_CENTER: LatLng = { lat: 40.1862324, lng: 44.5047339 };
 
 export const PRICE_BRACKETS = [
   { max: 2500, color: "#2ecc71", label: "low" },

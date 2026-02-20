@@ -14,12 +14,13 @@ interface TableOptions {
 }
 
 export class TableController {
-  private tbody: HTMLTableSectionElement;
+  private readonly tbody: HTMLTableSectionElement;
   private listings: Listing[] = [];
+  private listingsById = new Map<number, Listing>();
   private sortCol = -1;
   private sortAsc = true;
-  private onRowClick: TableOptions["onRowClick"];
-  private openGallery: TableOptions["openGallery"];
+  private readonly onRowClick: TableOptions["onRowClick"];
+  private readonly openGallery: TableOptions["openGallery"];
 
   constructor({ onRowClick, openGallery }: TableOptions) {
     const tbody = document.getElementById("tbody") as HTMLTableSectionElement | null;
@@ -33,7 +34,7 @@ export class TableController {
     thead.addEventListener("click", (e) => {
       const th = (e.target as HTMLElement).closest<HTMLTableCellElement>("th[data-col]");
       if (!th) return;
-      const col = Number(th.dataset.col);
+      const col = Number(th.dataset["col"]);
       if (Number.isFinite(col)) this.toggleSort(col);
     });
 
@@ -43,26 +44,30 @@ export class TableController {
       const photosCell = target.closest<HTMLElement>("[data-action='photos']");
       if (photosCell) {
         e.stopPropagation();
-        const listing = this.findById(Number(photosCell.dataset.id));
+        const listing = this.listingsById.get(Number(photosCell.dataset["id"]));
         if (listing) this.openGallery(listing.photo_urls);
         return;
       }
 
       const row = target.closest<HTMLTableRowElement>("tr[data-id]");
       if (!row) return;
-      const listing = this.findById(Number(row.dataset.id));
+      const listing = this.listingsById.get(Number(row.dataset["id"]));
       if (listing) this.onRowClick(listing);
     });
   }
 
   setListings(listings: Listing[]): void {
     this.listings = [...listings];
+    this.rebuildIndex();
     if (this.sortCol >= 0) this.applySort();
     this.renderRows();
   }
 
-  private findById(id: number): Listing | undefined {
-    return this.listings.find((l) => l.id === id);
+  private rebuildIndex(): void {
+    this.listingsById.clear();
+    for (const l of this.listings) {
+      this.listingsById.set(l.id, l);
+    }
   }
 
   private toggleSort(col: number): void {
@@ -84,7 +89,7 @@ export class TableController {
 
     for (const l of this.listings) {
       const tr = document.createElement("tr");
-      tr.dataset.id = String(l.id);
+      tr.dataset["id"] = String(l.id);
 
       tr.append(
         td(String(l.id)),
@@ -106,8 +111,8 @@ export class TableController {
 
   private createPhotosCell(l: Listing): HTMLTableCellElement {
     const cell = document.createElement("td");
-    cell.dataset.action = "photos";
-    cell.dataset.id = String(l.id);
+    cell.dataset["action"] = "photos";
+    cell.dataset["id"] = String(l.id);
     cell.className = "photos-cell";
     cell.textContent = `${l.photo_count} 📷`;
     return cell;

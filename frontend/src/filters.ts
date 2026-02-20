@@ -1,15 +1,10 @@
 import type { FilterValues, Listing } from "./types";
 
-let walkingMinutesById: ReadonlyMap<number, number> | null = null;
-
-export function setWalkingMinutesIndex(index: ReadonlyMap<number, number> | null): void {
-  walkingMinutesById = index;
-  const select = document.getElementById("walkFilter") as HTMLSelectElement | null;
-  if (!select) return;
-  select.disabled = !walkingMinutesById;
+export interface FilterContext {
+  walkingIndex: ReadonlyMap<number, number> | null;
 }
 
-export function initDistrictFilter(listings: Listing[]): void {
+export function initDistrictFilter(listings: readonly Listing[]): void {
   const select = document.getElementById("distFilter") as HTMLSelectElement | null;
   if (!select) throw new Error("District filter <select> not found");
 
@@ -35,21 +30,25 @@ export function readFilters(): FilterValues {
   };
 }
 
-export function applyFilters(all: Listing[], f: FilterValues): Listing[] {
+export function applyFilters(
+  all: readonly Listing[],
+  filters: FilterValues,
+  ctx: FilterContext,
+): Listing[] {
   return all.filter((l) => {
-    if (l.price != null && (l.price < f.minPrice || l.price > f.maxPrice)) return false;
-    if (l.area != null && l.area < f.minArea) return false;
-    if (l.rooms != null && l.rooms < f.minRooms) return false;
-    if (f.district && l.district !== f.district) return false;
-    if (f.walkMaxMinutes > 0) {
-      const minutes = walkingMinutesById?.get(l.id);
-      if (minutes == null || minutes > f.walkMaxMinutes) return false;
+    if (l.price != null && (l.price < filters.minPrice || l.price > filters.maxPrice)) return false;
+    if (l.area != null && l.area < filters.minArea) return false;
+    if (l.rooms != null && l.rooms < filters.minRooms) return false;
+    if (filters.district && l.district !== filters.district) return false;
+    if (filters.walkMaxMinutes > 0) {
+      const minutes = ctx.walkingIndex?.get(l.id);
+      if (minutes == null || minutes > filters.walkMaxMinutes) return false;
     }
     return true;
   });
 }
 
-/** Restore filter DOM controls from (partial) values — used to apply URL hash state on boot. */
+/** Restore filter DOM controls from (partial) values — used on boot from URL hash. */
 export function writeFilters(values: Partial<FilterValues>): void {
   if (values.minPrice != null) setInputValue("minPrice", values.minPrice);
   if (values.maxPrice != null) setInputValue("maxPrice", values.maxPrice);

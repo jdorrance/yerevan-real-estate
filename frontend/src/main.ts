@@ -1,13 +1,18 @@
 import "./styles/index.css";
 
-import { DEFAULT_EU } from "./config";
+import { DEFAULT_CENTER } from "./config";
 import { normalizeListing } from "./converters";
-import { applyFilters, initDistrictFilter, readFilters, setWalkingMinutesIndex, writeFilters } from "./filters";
+import { applyFilters, initDistrictFilter, readFilters, writeFilters, type FilterContext } from "./filters";
 import { GalleryController } from "./gallery";
+import { buildWalkingMinutesIndex } from "./geo";
 import { readHash, writeHashDebounced, type HashState } from "./hashState";
 import { MapController } from "./map";
 import { TableController } from "./table";
 import type { AppConfig, Listing, ListingRaw } from "./types";
+
+// ---------------------------------------------------------------------------
+// Data fetching
+// ---------------------------------------------------------------------------
 
 async function fetchJson<T>(url: string): Promise<T> {
   const res = await fetch(url);
@@ -19,9 +24,13 @@ async function loadConfig(base: string): Promise<AppConfig> {
   try {
     return await fetchJson<AppConfig>(`${base}data/config.json`);
   } catch {
-    return { eu: DEFAULT_EU };
+    return {};
   }
 }
+
+// ---------------------------------------------------------------------------
+// Boot
+// ---------------------------------------------------------------------------
 
 async function boot(): Promise<void> {
   const base = import.meta.env.BASE_URL;
@@ -36,28 +45,33 @@ async function boot(): Promise<void> {
     .map(normalizeListing)
     .filter((l): l is Listing => l != null);
 
-  const eu = config.eu ?? DEFAULT_EU;
+  const center = config.center ?? config.eu ?? DEFAULT_CENTER;
   const hasMapView = hash.zoom != null && hash.lat != null && hash.lng != null;
+
+  // --- Controllers --------------------------------------------------------
 
   const gallery = new GalleryController();
   const map = new MapController({
-    eu,
+    center,
     initialView: hasMapView ? { lat: hash.lat!, lng: hash.lng!, zoom: hash.zoom! } : undefined,
     openGallery: (p) => gallery.open(p),
-    preloadPhotos: (p: string[]) => void gallery.preloadAll(p),
+    preloadPhotos: (p) => void gallery.preloadAll(p),
   });
 
-  // --- Toggle checkboxes -------------------------------------------------
+  // --- Toggle checkboxes --------------------------------------------------
+
   const greensToggle = document.getElementById("greensToggle") as HTMLInputElement | null;
   const ringsToggle = document.getElementById("ringsToggle") as HTMLInputElement | null;
   const tableToggle = document.getElementById("tableToggle") as HTMLInputElement | null;
 
-  // Restore toggle state from hash (if present), otherwise keep DOM defaults.
   if (hash.greens != null && greensToggle) greensToggle.checked = hash.greens;
   if (hash.rings != null && ringsToggle) ringsToggle.checked = hash.rings;
   if (hash.table != null && tableToggle) tableToggle.checked = hash.table;
 
   // --- Overlays -----------------------------------------------------------
+
+  const filterCtx: FilterContext = { walkingIndex: null };
+
   try {
     const greens = await fetchJson<GeoJSON.FeatureCollection>(`${base}data/greens.geojson`);
     map.setGreens(greens);
@@ -67,33 +81,39 @@ async function boot(): Promise<void> {
       syncHash();
     });
   } catch {
-    // No greens overlay.
+    // Greens file absent — silently skip.
   }
 
   try {
     const isochrones = await fetchJson<GeoJSON.FeatureCollection>(`${base}data/isochrones.geojson`);
     map.setWalkingIsochrones(isochrones);
     if (ringsToggle && !ringsToggle.checked) map.setWalkingIsochronesVisible(false);
-    setWalkingMinutesIndex(buildWalkingMinutesIndex(listings, isochrones));
+    filterCtx.walkingIndex = buildWalkingMinutesIndex(listings, isochrones);
     ringsToggle?.addEventListener("change", () => {
       map.setWalkingIsochronesVisible(ringsToggle.checked);
       syncHash();
     });
   } catch {
-    setWalkingMinutesIndex(null);
     if (ringsToggle) {
       ringsToggle.checked = false;
       ringsToggle.disabled = true;
     }
   }
 
-  // --- Filters (district options populated first so hash value can be set) -
+  // Disable walk filter dropdown when no isochrone data is available.
+  const walkSelect = document.getElementById("walkFilter") as HTMLSelectElement | null;
+  if (walkSelect) walkSelect.disabled = filterCtx.walkingIndex == null;
+
+  // --- Filters (district options first so hash values can be applied) ------
+
   initDistrictFilter(listings);
   if (hash.filters) writeFilters(hash.filters);
 
   // --- Table toggle -------------------------------------------------------
+
   const tableVisible = tableToggle?.checked ?? false;
   document.body.classList.toggle("table-hidden", !tableVisible);
+
   if (tableToggle) {
     tableToggle.addEventListener("change", () => {
       document.body.classList.toggle("table-hidden", !tableToggle.checked);
@@ -111,6 +131,7 @@ async function boot(): Promise<void> {
   });
 
   // --- Render helpers -----------------------------------------------------
+
   function updateView(filtered: Listing[], opts?: { fit?: boolean }): void {
     map.render(filtered);
     if (opts?.fit) map.fitToListings(filtered);
@@ -118,11 +139,12 @@ async function boot(): Promise<void> {
   }
 
   function renderFromUi(): void {
-    updateView(applyFilters(listings, readFilters()));
+    updateView(applyFilters(listings, readFilters(), filterCtx));
     syncHash();
   }
 
   // --- Hash sync ----------------------------------------------------------
+
   function buildCurrentHash(): HashState {
     const view = map.getView();
     return {
@@ -140,11 +162,9 @@ async function boot(): Promise<void> {
     writeHashDebounced(buildCurrentHash());
   }
 
-  // Keep hash in sync with map pan/zoom.
-  map.onMoveEnd(() => syncHash());
+  map.onMoveEnd(syncHash);
 
-  // --- Live filtering + button --------------------------------------------
-  document.getElementById("applyFilters")?.addEventListener("click", renderFromUi);
+  // --- Live filtering -----------------------------------------------------
 
   const liveIds = ["minPrice", "maxPrice", "minArea", "minRooms", "distFilter", "walkFilter"];
   for (const id of liveIds) {
@@ -155,67 +175,11 @@ async function boot(): Promise<void> {
   }
 
   // --- Initial render -----------------------------------------------------
-  updateView(applyFilters(listings, readFilters()), { fit: !hasMapView });
+
+  updateView(applyFilters(listings, readFilters(), filterCtx), { fit: !hasMapView });
   syncHash();
 }
 
 boot().catch((err: unknown) => {
   console.error("App failed to start:", err);
 });
-
-type Ring = Array<[lng: number, lat: number]>;
-
-function pointInRing(lng: number, lat: number, ring: Ring): boolean {
-  // Ray casting. Ring is [lng,lat] points.
-  let inside = false;
-  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
-    const [xi, yi] = ring[i]!;
-    const [xj, yj] = ring[j]!;
-    const intersect = (yi > lat) !== (yj > lat) && lng < ((xj - xi) * (lat - yi)) / (yj - yi + 0.0) + xi;
-    if (intersect) inside = !inside;
-  }
-  return inside;
-}
-
-function extractOuterRings(geometry: GeoJSON.Geometry): Ring[] {
-  if (geometry.type === "Polygon") {
-    const coords = geometry.coordinates?.[0] ?? [];
-    return [coords.map((p) => [p[0] as number, p[1] as number])];
-  }
-  if (geometry.type === "MultiPolygon") {
-    return (geometry.coordinates ?? []).map((poly) =>
-      (poly?.[0] ?? []).map((p) => [p[0] as number, p[1] as number])
-    );
-  }
-  return [];
-}
-
-function buildWalkingMinutesIndex(listings: Listing[], geojson: GeoJSON.FeatureCollection): Map<number, number> {
-  const ringsByMinutes = new Map<number, Ring[]>();
-  for (const f of geojson.features) {
-    if (!f.geometry) continue;
-    const seconds = Number((f.properties as any)?.value ?? NaN);
-    if (!Number.isFinite(seconds)) continue;
-    const minutes = Math.round(seconds / 60);
-    if (minutes !== 15 && minutes !== 30) continue;
-    const rings = extractOuterRings(f.geometry);
-    if (!rings.length) continue;
-    ringsByMinutes.set(minutes, rings);
-  }
-
-  const rings15 = ringsByMinutes.get(15) ?? [];
-  const rings30 = ringsByMinutes.get(30) ?? [];
-
-  const out = new Map<number, number>();
-  for (const l of listings) {
-    const lng = l.lng;
-    const lat = l.lat;
-
-    let minutes: number | null = null;
-    if (rings15.some((r) => pointInRing(lng, lat, r))) minutes = 15;
-    else if (rings30.some((r) => pointInRing(lng, lat, r))) minutes = 30;
-
-    if (minutes != null) out.set(l.id, minutes);
-  }
-  return out;
-}

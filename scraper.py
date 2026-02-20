@@ -13,7 +13,7 @@ SEARCH_BASE = (
     f"{BASE_URL}/en/search?"
     "estate_role_id=2&estate_region=1"
     "&currency_id=USD&estate_min_price=2000&estate_max_price=5000"
-    "&estate_min_area=200&estate_type_id=2"
+    "&estate_min_area=170&estate_type_id=2"
 )
 DISTRICTS = {
     1: "Center",

@@ -91,16 +91,15 @@ export function writeHash(state: HashState): void {
   }
 }
 
-let pending: number | null = null;
+let pendingTimer: ReturnType<typeof setTimeout> | null = null;
 
 /** Debounced writeHash — coalesces rapid calls (e.g. during map pan). */
 export function writeHashDebounced(state: HashState, ms = 150): void {
-  if (pending != null) cancelAnimationFrame(pending);
-  const t = setTimeout(() => {
-    pending = null;
+  if (pendingTimer != null) clearTimeout(pendingTimer);
+  pendingTimer = setTimeout(() => {
+    pendingTimer = null;
     writeHash(state);
   }, ms);
-  pending = t as unknown as number;
 }
 
 function splitOnce(s: string, sep: string): [string, string] {

@@ -4,9 +4,10 @@ import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 
-import { priceColor } from "./config";
-import { escapeHtml, formatNullable, formatPrice } from "./dom";
-import type { Listing } from "./types";
+import { PRICE_BRACKETS, priceColor } from "./config";
+import { createLayerSets } from "./mapLayers";
+import { buildPopupHtml } from "./mapPopup";
+import type { LatLng, Listing } from "./types";
 
 export type OpenGalleryFn = (photos: string[]) => void;
 export type PreloadPhotosFn = (photos: string[]) => void;
@@ -18,11 +19,15 @@ export interface MapView {
 }
 
 interface MapOptions {
-  eu: { lat: number; lng: number };
+  center: LatLng;
   initialView?: MapView;
   openGallery: OpenGalleryFn;
   preloadPhotos?: PreloadPhotosFn;
 }
+
+// ---------------------------------------------------------------------------
+// Icon factories
+// ---------------------------------------------------------------------------
 
 const CLUSTER_SIZES = { small: 28, medium: 36, large: 44 } as const;
 
@@ -62,133 +67,82 @@ function createCenterIcon(): L.DivIcon {
   });
 }
 
-function buildPopupHtml(listing: Listing): string {
-  const {
-    photo_urls,
-    street,
-    district,
-    price,
-    area,
-    land_area,
-    rooms,
-    floors,
-    building_type,
-    photo_count,
-    url,
-    facilities,
-    amenities,
-    description,
-  } = listing;
+// ---------------------------------------------------------------------------
+// Isochrone styling
+// ---------------------------------------------------------------------------
 
-  const firstPhoto = photo_urls[0];
-  const thumb = firstPhoto
-    ? `<img class="popup-thumb" src="${escapeHtml(firstPhoto)}" alt="Listing photo" onerror="this.style.display='none'">`
-    : "";
-
-  const facilitiesStr = (facilities ?? []).filter(Boolean).join(", ");
-  const amenitiesStr = (amenities ?? []).filter(Boolean).join(", ");
-  const desc = (description ?? "").trim();
-  const descShort = desc.length > 420 ? `${desc.slice(0, 420).trim()}…` : desc;
-
-  const rows = [
-    ["District", escapeHtml(district || "?")],
-    ["Price", formatPrice(price) + (price != null ? "/mo" : "")],
-    ["Building", area == null ? "?" : `${area} m²`],
-    ["Land", land_area == null ? "?" : `${land_area} m²`],
-    ["Rooms", formatNullable(rooms)],
-    ["Floors", formatNullable(floors)],
-    ["Type", escapeHtml(building_type || "?")],
-    ["Facilities", facilitiesStr ? escapeHtml(facilitiesStr) : "?"],
-    ["Amenities", amenitiesStr ? escapeHtml(amenitiesStr) : "?"],
-    ["Photos", String(photo_count)],
-  ].map(([label, value]) =>
-    `<div class="detail-row"><span class="detail-label">${label}:</span> ${value}</div>`
-  ).join("");
-
-  const link = url
-    ? `<div class="popup-link"><a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">View on BestHouse</a></div>`
-    : "";
-
-  const descHtml = descShort ? `<div class="popup-desc">${escapeHtml(descShort)}</div>` : "";
-
-  return `<div class="popup-content">${thumb}<h3>${escapeHtml(
-    street || "Unknown"
-  )}</h3><div class="popup-body">${rows}${descHtml}${link}</div></div>`;
+function isochroneStyle(minutes: number): { color: string; fillColor: string } {
+  if (minutes <= 15) return { color: "#00E5FF", fillColor: "#00E5FF" };
+  return { color: "#FF2D95", fillColor: "#FF2D95" };
 }
 
+// ---------------------------------------------------------------------------
+// Price legend (rendered as a Leaflet control inside the map)
+// ---------------------------------------------------------------------------
+
+const LEGEND_LABELS: Record<string, string> = {
+  low: "≤$2,500",
+  mid1: "$2,501–$3,500",
+  mid2: "$3,501–$4,200",
+  high: "$4,201+",
+};
+
+function createLegendControl(): L.Control {
+  const Legend = L.Control.extend({
+    onAdd() {
+      const container = L.DomUtil.create("div", "map-legend");
+      for (const b of PRICE_BRACKETS) {
+        const row = L.DomUtil.create("div", "map-legend-item", container);
+        const dot = L.DomUtil.create("span", "map-legend-dot", row);
+        dot.style.background = b.color;
+        row.appendChild(document.createTextNode(` ${LEGEND_LABELS[b.label] ?? b.label}`));
+      }
+      const centerRow = L.DomUtil.create("div", "map-legend-item", container);
+      const xDot = L.DomUtil.create("span", "map-legend-dot map-legend-center", centerRow);
+      xDot.textContent = "×";
+      centerRow.appendChild(document.createTextNode(" Center"));
+      return container;
+    },
+  });
+  return new Legend({ position: "bottomright" });
+}
+
+const GREEN_STYLES: Record<string, L.PathOptions> = {
+  dog_park: { color: "#00E676", weight: 2, opacity: 0.95, fillColor: "#00E676", fillOpacity: 0.18 },
+  garden:   { color: "#76FF03", weight: 2, opacity: 0.9,  fillColor: "#76FF03", fillOpacity: 0.12 },
+  park:     { color: "#1BFF8A", weight: 2, opacity: 0.85, fillColor: "#1BFF8A", fillOpacity: 0.10 },
+};
+
+// ---------------------------------------------------------------------------
+// MapController
+// ---------------------------------------------------------------------------
+
 export class MapController {
-  private map: L.Map;
-  private baseLayers: Record<string, L.TileLayer> = {};
-  private overlayLayers: Record<string, L.Layer> = {};
-  private clusterGroup: L.MarkerClusterGroup;
-  private markersById = new Map<number, L.Marker>();
-  private euLatLng: L.LatLng;
-  private openGallery: OpenGalleryFn;
-  private preloadPhotos?: PreloadPhotosFn;
+  private readonly map: L.Map;
+  private readonly clusterGroup: L.MarkerClusterGroup;
+  private readonly markersById = new Map<number, L.Marker>();
+  private readonly centerLatLng: L.LatLng;
+  private readonly openGallery: OpenGalleryFn;
+  private readonly preloadPhotos?: PreloadPhotosFn;
+
   private isochroneLayer: L.GeoJSON | null = null;
   private greensLayer: L.GeoJSON | null = null;
 
-  constructor({ eu, initialView, openGallery, preloadPhotos }: MapOptions) {
-    this.euLatLng = L.latLng(eu.lat, eu.lng);
+  constructor({ center, initialView, openGallery, preloadPhotos }: MapOptions) {
+    this.centerLatLng = L.latLng(center.lat, center.lng);
     this.openGallery = openGallery;
     this.preloadPhotos = preloadPhotos;
 
-    const startLat = initialView?.lat ?? eu.lat;
-    const startLng = initialView?.lng ?? eu.lng;
+    const startLat = initialView?.lat ?? center.lat;
+    const startLng = initialView?.lng ?? center.lng;
     const startZoom = initialView?.zoom ?? 16;
     this.map = L.map("map").setView([startLat, startLng], startZoom);
 
-    // Basemaps and overlays.
-    const osmAttrib =
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-    const cartoAttrib = `${osmAttrib} &copy; <a href="https://carto.com/attributions">CARTO</a>`;
-    const esriAttrib = 'Tiles &copy; <a href="https://www.esri.com/">Esri</a>';
-    const opentopoAttrib = `${osmAttrib} &copy; <a href="https://opentopomap.org">OpenTopoMap</a>`;
-
-    const cartoLight = L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-      subdomains: "abcd",
-      maxZoom: 20,
-      attribution: cartoAttrib,
-    });
-    const cartoVoyager = L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-      subdomains: "abcd",
-      maxZoom: 20,
-      attribution: cartoAttrib,
-    });
-    const osmStandard = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      attribution: osmAttrib,
-    });
-    const openTopo = L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
-      maxZoom: 17,
-      attribution: opentopoAttrib,
-    });
-    const esriWorldImagery = L.tileLayer(
-      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-      { maxZoom: 19, attribution: esriAttrib }
-    );
-
-    // Terrain shading overlay (works on top of any base).
-    const esriHillshade = L.tileLayer(
-      "https://server.arcgisonline.com/ArcGIS/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}",
-      { maxZoom: 19, attribution: esriAttrib, opacity: 0.35 }
-    );
-
-    this.baseLayers = {
-      English: cartoLight,
-      Voyager: cartoVoyager,
-      OSM: osmStandard,
-      Topo: openTopo,
-      Satellite: esriWorldImagery,
-    };
-    this.overlayLayers = {
-      Hillshade: esriHillshade,
-    };
-
-    cartoVoyager.addTo(this.map);
-    // Default overlays (user preference): hillshade on.
-    esriHillshade.addTo(this.map);
-    L.control.layers(this.baseLayers, this.overlayLayers, { position: "topleft" }).addTo(this.map);
+    const layers = createLayerSets();
+    layers.defaultBase.addTo(this.map);
+    for (const overlay of layers.defaultOverlays) overlay.addTo(this.map);
+    L.control.layers(layers.baseLayers, layers.overlayLayers, { position: "topleft" }).addTo(this.map);
+    createLegendControl().addTo(this.map);
 
     this.clusterGroup = L.markerClusterGroup({
       maxClusterRadius: 1,
@@ -199,48 +153,44 @@ export class MapController {
     });
     this.map.addLayer(this.clusterGroup);
 
-    L.marker([eu.lat, eu.lng], { icon: createCenterIcon() })
+    L.marker([center.lat, center.lng], { icon: createCenterIcon() })
       .addTo(this.map)
       .bindPopup("<b>Center point</b>");
   }
 
+  // --- Isochrones ----------------------------------------------------------
+
   setWalkingIsochrones(geojson: GeoJSON.FeatureCollection): void {
-    // Replace existing layer (if any)
     if (this.isochroneLayer) {
       this.map.removeLayer(this.isochroneLayer);
       this.isochroneLayer = null;
     }
 
     const features = [...geojson.features].sort((a, b) => {
-      const av = Number((a.properties as any)?.value ?? 0);
-      const bv = Number((b.properties as any)?.value ?? 0);
-      return bv - av; // draw largest first (behind)
+      const av = Number(a.properties?.["value"] ?? 0);
+      const bv = Number(b.properties?.["value"] ?? 0);
+      return bv - av;
     });
 
     const sorted: GeoJSON.FeatureCollection = { type: "FeatureCollection", features };
-
-    const style: L.PathOptions | ((feature?: GeoJSON.Feature) => L.PathOptions) = (feature) => {
-      const seconds = Number((feature?.properties as any)?.value ?? 0);
-      const minutes = Math.round(seconds / 60);
-      const { color, fillColor } = isochroneStyle(minutes);
-      return {
-        color,
-        weight: 3,
-        opacity: 1,
-        fillColor,
-        fillOpacity: 0.32,
-        dashArray: minutes <= 15 ? undefined : "6 5",
-      };
-    };
-
-    this.isochroneLayer = L.geoJSON(sorted as any, {
-      style,
+    this.isochroneLayer = L.geoJSON(sorted, {
+      style: (feature) => {
+        const seconds = Number(feature?.properties?.["value"] ?? 0);
+        const minutes = Math.round(seconds / 60);
+        const { color, fillColor } = isochroneStyle(minutes);
+        return {
+          color, fillColor,
+          weight: 3,
+          opacity: 1,
+          fillOpacity: 0.32,
+          dashArray: minutes <= 15 ? undefined : "6 5",
+        };
+      },
       interactive: false,
     });
 
-    // Add above greens but below markers.
     this.isochroneLayer.addTo(this.map);
-    (this.isochroneLayer as any).bringToFront?.();
+    this.isochroneLayer.bringToFront();
   }
 
   setWalkingIsochronesVisible(visible: boolean): void {
@@ -249,32 +199,26 @@ export class MapController {
     else this.map.removeLayer(this.isochroneLayer);
   }
 
+  // --- Green spaces --------------------------------------------------------
+
   setGreens(geojson: GeoJSON.FeatureCollection): void {
     if (this.greensLayer) {
       this.map.removeLayer(this.greensLayer);
       this.greensLayer = null;
     }
 
-    const style: L.PathOptions | ((feature?: GeoJSON.Feature) => L.PathOptions) = (feature) => {
-      const kind = String((feature?.properties as any)?.kind ?? "");
-      if (kind === "dog_park") {
-        return { color: "#00E676", weight: 2, opacity: 0.95, fillColor: "#00E676", fillOpacity: 0.18 };
-      }
-      if (kind === "garden") {
-        return { color: "#76FF03", weight: 2, opacity: 0.9, fillColor: "#76FF03", fillOpacity: 0.12 };
-      }
-      // park (default)
-      return { color: "#1BFF8A", weight: 2, opacity: 0.85, fillColor: "#1BFF8A", fillOpacity: 0.10 };
-    };
-
-    this.greensLayer = L.geoJSON(geojson as any, {
-      style,
+    this.greensLayer = L.geoJSON(geojson, {
+      style: (feature) => {
+        const kind = String(feature?.properties?.["kind"] ?? "park");
+        return GREEN_STYLES[kind] ?? GREEN_STYLES["park"]!;
+      },
       interactive: false,
-      pointToLayer: (_f, latlng) => L.circleMarker(latlng, { radius: 4, color: "#1BFF8A", weight: 2, fillOpacity: 0.6 }),
+      pointToLayer: (_f, latlng) =>
+        L.circleMarker(latlng, { radius: 4, color: "#1BFF8A", weight: 2, fillOpacity: 0.6 }),
     });
 
     this.greensLayer.addTo(this.map);
-    (this.greensLayer as any).bringToBack?.();
+    this.greensLayer.bringToBack();
   }
 
   setGreensVisible(visible: boolean): void {
@@ -282,6 +226,8 @@ export class MapController {
     if (visible) this.greensLayer.addTo(this.map);
     else this.map.removeLayer(this.greensLayer);
   }
+
+  // --- View helpers --------------------------------------------------------
 
   getView(): MapView {
     const c = this.map.getCenter();
@@ -306,14 +252,16 @@ export class MapController {
     this.clusterGroup.zoomToShowLayer(marker, () => marker.openPopup());
   }
 
-  fitToListings(listings: Listing[]): void {
+  fitToListings(listings: readonly Listing[]): void {
     if (listings.length === 0) return;
     const bounds = L.latLngBounds(listings.map((l) => [l.lat, l.lng] as [number, number]));
-    bounds.extend(this.euLatLng);
+    bounds.extend(this.centerLatLng);
     this.map.fitBounds(bounds, { padding: [30, 30] });
   }
 
-  render(listings: Listing[]): void {
+  // --- Marker rendering ----------------------------------------------------
+
+  render(listings: readonly Listing[]): void {
     this.clusterGroup.clearLayers();
     this.markersById.clear();
 
@@ -338,10 +286,4 @@ export class MapController {
       this.markersById.set(listing.id, marker);
     }
   }
-}
-
-function isochroneStyle(minutes: number): { color: string; fillColor: string } {
-  // High-contrast palette for dark basemap. Minutes are expected to be 15/30.
-  if (minutes <= 15) return { color: "#00E5FF", fillColor: "#00E5FF" }; // cyan
-  return { color: "#FF2D95", fillColor: "#FF2D95" }; // magenta
 }
