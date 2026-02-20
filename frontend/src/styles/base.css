@@ -12,6 +12,11 @@
   --font-size-xs: 12px;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 *,
 *::before,
 *::after {
@@ -24,6 +29,12 @@ body {
   font-family: var(--font-sans);
   background: var(--color-bg);
   color: var(--color-text);
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {

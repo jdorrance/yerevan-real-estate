@@ -1,6 +1,13 @@
 #table-container {
   padding: 12px 24px;
   overflow-x: auto;
+  overflow-y: auto;
+  max-height: 32vh;
+  flex: 0 0 auto;
+}
+
+body.table-hidden #table-container {
+  display: none;
 }
 
 table {

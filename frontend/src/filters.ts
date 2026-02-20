@@ -49,6 +49,27 @@ export function applyFilters(all: Listing[], f: FilterValues): Listing[] {
   });
 }
 
+/** Restore filter DOM controls from (partial) values — used to apply URL hash state on boot. */
+export function writeFilters(values: Partial<FilterValues>): void {
+  if (values.minPrice != null) setInputValue("minPrice", values.minPrice);
+  if (values.maxPrice != null) setInputValue("maxPrice", values.maxPrice);
+  if (values.minArea != null) setInputValue("minArea", values.minArea);
+  if (values.minRooms != null) setInputValue("minRooms", values.minRooms);
+  if (values.district != null) {
+    const sel = document.getElementById("distFilter") as HTMLSelectElement | null;
+    if (sel) sel.value = values.district;
+  }
+  if (values.walkMaxMinutes != null) {
+    const sel = document.getElementById("walkFilter") as HTMLSelectElement | null;
+    if (sel) sel.value = String(values.walkMaxMinutes);
+  }
+}
+
+function setInputValue(id: string, value: number): void {
+  const el = document.getElementById(id) as HTMLInputElement | null;
+  if (el) el.value = String(value);
+}
+
 function readNumber(id: string, fallback: number): number {
   const el = document.getElementById(id) as HTMLInputElement | null;
   if (!el) return fallback;

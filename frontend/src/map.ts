@@ -9,10 +9,19 @@ import { escapeHtml, formatNullable, formatPrice } from "./dom";
 import type { Listing } from "./types";
 
 export type OpenGalleryFn = (photos: string[]) => void;
+export type PreloadPhotosFn = (photos: string[]) => void;
+
+export interface MapView {
+  lat: number;
+  lng: number;
+  zoom: number;
+}
 
 interface MapOptions {
   eu: { lat: number; lng: number };
+  initialView?: MapView;
   openGallery: OpenGalleryFn;
+  preloadPhotos?: PreloadPhotosFn;
 }
 
 const CLUSTER_SIZES = { small: 28, medium: 36, large: 44 } as const;
@@ -115,14 +124,19 @@ export class MapController {
   private markersById = new Map<number, L.Marker>();
   private euLatLng: L.LatLng;
   private openGallery: OpenGalleryFn;
+  private preloadPhotos?: PreloadPhotosFn;
   private isochroneLayer: L.GeoJSON | null = null;
   private greensLayer: L.GeoJSON | null = null;
 
-  constructor({ eu, openGallery }: MapOptions) {
+  constructor({ eu, initialView, openGallery, preloadPhotos }: MapOptions) {
     this.euLatLng = L.latLng(eu.lat, eu.lng);
     this.openGallery = openGallery;
+    this.preloadPhotos = preloadPhotos;
 
-    this.map = L.map("map").setView([eu.lat, eu.lng], 14);
+    const startLat = initialView?.lat ?? eu.lat;
+    const startLng = initialView?.lng ?? eu.lng;
+    const startZoom = initialView?.zoom ?? 16;
+    this.map = L.map("map").setView([startLat, startLng], startZoom);
 
     // Basemaps and overlays.
     const osmAttrib =
@@ -269,8 +283,21 @@ export class MapController {
     else this.map.removeLayer(this.greensLayer);
   }
 
+  getView(): MapView {
+    const c = this.map.getCenter();
+    return { lat: c.lat, lng: c.lng, zoom: this.map.getZoom() };
+  }
+
+  onMoveEnd(cb: () => void): void {
+    this.map.on("moveend", cb);
+  }
+
   setView(lat: number, lng: number, zoom = 16): void {
     this.map.setView([lat, lng], zoom);
+  }
+
+  invalidateSize(): void {
+    this.map.invalidateSize();
   }
 
   zoomToListing(id: number): void {
@@ -302,6 +329,7 @@ export class MapController {
       });
 
       marker.on("popupopen", (e) => {
+        this.preloadPhotos?.(listing.photo_urls);
         const thumb = e.popup.getElement()?.querySelector<HTMLImageElement>("img.popup-thumb");
         thumb?.addEventListener("click", () => this.openGallery(listing.photo_urls), { once: true });
       });

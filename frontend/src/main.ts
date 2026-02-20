@@ -2,8 +2,9 @@ import "./styles/index.css";
 
 import { DEFAULT_EU } from "./config";
 import { normalizeListing } from "./converters";
-import { applyFilters, initDistrictFilter, readFilters, setWalkingMinutesIndex } from "./filters";
+import { applyFilters, initDistrictFilter, readFilters, setWalkingMinutesIndex, writeFilters } from "./filters";
 import { GalleryController } from "./gallery";
+import { readHash, writeHashDebounced, type HashState } from "./hashState";
 import { MapController } from "./map";
 import { TableController } from "./table";
 import type { AppConfig, Listing, ListingRaw } from "./types";
@@ -24,6 +25,7 @@ async function loadConfig(base: string): Promise<AppConfig> {
 
 async function boot(): Promise<void> {
   const base = import.meta.env.BASE_URL;
+  const hash = readHash();
 
   const [config, rawListings] = await Promise.all([
     loadConfig(base),
@@ -35,37 +37,70 @@ async function boot(): Promise<void> {
     .filter((l): l is Listing => l != null);
 
   const eu = config.eu ?? DEFAULT_EU;
-  const gallery = new GalleryController();
-  const map = new MapController({ eu, openGallery: (p) => gallery.open(p) });
+  const hasMapView = hash.zoom != null && hash.lat != null && hash.lng != null;
 
-  // Optional overlay: parks/greens from OSM (static GeoJSON).
+  const gallery = new GalleryController();
+  const map = new MapController({
+    eu,
+    initialView: hasMapView ? { lat: hash.lat!, lng: hash.lng!, zoom: hash.zoom! } : undefined,
+    openGallery: (p) => gallery.open(p),
+    preloadPhotos: (p: string[]) => void gallery.preloadAll(p),
+  });
+
+  // --- Toggle checkboxes -------------------------------------------------
+  const greensToggle = document.getElementById("greensToggle") as HTMLInputElement | null;
+  const ringsToggle = document.getElementById("ringsToggle") as HTMLInputElement | null;
+  const tableToggle = document.getElementById("tableToggle") as HTMLInputElement | null;
+
+  // Restore toggle state from hash (if present), otherwise keep DOM defaults.
+  if (hash.greens != null && greensToggle) greensToggle.checked = hash.greens;
+  if (hash.rings != null && ringsToggle) ringsToggle.checked = hash.rings;
+  if (hash.table != null && tableToggle) tableToggle.checked = hash.table;
+
+  // --- Overlays -----------------------------------------------------------
   try {
     const greens = await fetchJson<GeoJSON.FeatureCollection>(`${base}data/greens.geojson`);
     map.setGreens(greens);
-    const toggle = document.getElementById("greensToggle") as HTMLInputElement | null;
-    toggle?.addEventListener("change", () => map.setGreensVisible(toggle.checked));
+    if (greensToggle && !greensToggle.checked) map.setGreensVisible(false);
+    greensToggle?.addEventListener("change", () => {
+      map.setGreensVisible(greensToggle.checked);
+      syncHash();
+    });
   } catch {
     // No greens overlay.
   }
 
-  // Optional overlay: walking time isochrones (committed as a static GeoJSON file).
   try {
     const isochrones = await fetchJson<GeoJSON.FeatureCollection>(`${base}data/isochrones.geojson`);
     map.setWalkingIsochrones(isochrones);
+    if (ringsToggle && !ringsToggle.checked) map.setWalkingIsochronesVisible(false);
     setWalkingMinutesIndex(buildWalkingMinutesIndex(listings, isochrones));
-    const ringsToggle = document.getElementById("ringsToggle") as HTMLInputElement | null;
-    ringsToggle?.addEventListener("change", () => map.setWalkingIsochronesVisible(ringsToggle.checked));
+    ringsToggle?.addEventListener("change", () => {
+      map.setWalkingIsochronesVisible(ringsToggle.checked);
+      syncHash();
+    });
   } catch {
-    // If the file isn't present (or network blocked), the overlay is simply omitted.
     setWalkingMinutesIndex(null);
-    const ringsToggle = document.getElementById("ringsToggle") as HTMLInputElement | null;
     if (ringsToggle) {
       ringsToggle.checked = false;
       ringsToggle.disabled = true;
     }
   }
 
+  // --- Filters (district options populated first so hash value can be set) -
   initDistrictFilter(listings);
+  if (hash.filters) writeFilters(hash.filters);
+
+  // --- Table toggle -------------------------------------------------------
+  const tableVisible = tableToggle?.checked ?? false;
+  document.body.classList.toggle("table-hidden", !tableVisible);
+  if (tableToggle) {
+    tableToggle.addEventListener("change", () => {
+      document.body.classList.toggle("table-hidden", !tableToggle.checked);
+      window.setTimeout(() => map.invalidateSize(), 50);
+      syncHash();
+    });
+  }
 
   const table = new TableController({
     onRowClick: (l) => {
@@ -75,26 +110,42 @@ async function boot(): Promise<void> {
     openGallery: (p) => gallery.open(p),
   });
 
-  const statsEl = document.getElementById("stats");
-
+  // --- Render helpers -----------------------------------------------------
   function updateView(filtered: Listing[], opts?: { fit?: boolean }): void {
     map.render(filtered);
     if (opts?.fit) map.fitToListings(filtered);
     table.setListings(filtered);
-    if (statsEl) {
-      statsEl.textContent = `${filtered.length} listings shown of ${listings.length} total`;
-    }
   }
 
   function renderFromUi(): void {
     updateView(applyFilters(listings, readFilters()));
+    syncHash();
   }
 
-  document.getElementById("applyFilters")?.addEventListener("click", () => {
-    renderFromUi();
-  });
+  // --- Hash sync ----------------------------------------------------------
+  function buildCurrentHash(): HashState {
+    const view = map.getView();
+    return {
+      zoom: view.zoom,
+      lat: view.lat,
+      lng: view.lng,
+      filters: readFilters(),
+      greens: greensToggle?.checked,
+      rings: ringsToggle?.checked,
+      table: tableToggle?.checked,
+    };
+  }
 
-  // Live filtering: any control change re-renders (without changing map zoom/center).
+  function syncHash(): void {
+    writeHashDebounced(buildCurrentHash());
+  }
+
+  // Keep hash in sync with map pan/zoom.
+  map.onMoveEnd(() => syncHash());
+
+  // --- Live filtering + button --------------------------------------------
+  document.getElementById("applyFilters")?.addEventListener("click", renderFromUi);
+
   const liveIds = ["minPrice", "maxPrice", "minArea", "minRooms", "distFilter", "walkFilter"];
   for (const id of liveIds) {
     const el = document.getElementById(id);
@@ -103,13 +154,13 @@ async function boot(): Promise<void> {
     el.addEventListener(evt, renderFromUi);
   }
 
-  updateView(listings, { fit: true });
+  // --- Initial render -----------------------------------------------------
+  updateView(applyFilters(listings, readFilters()), { fit: !hasMapView });
+  syncHash();
 }
 
 boot().catch((err: unknown) => {
   console.error("App failed to start:", err);
-  const el = document.getElementById("stats");
-  if (el) el.textContent = "Failed to start app (see console)";
 });
 
 type Ring = Array<[lng: number, lat: number]>;

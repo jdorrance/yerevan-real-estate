@@ -1,5 +1,6 @@
 #map {
-  height: 55vh;
+  flex: 1 1 auto;
+  min-height: 55vh;
   width: 100%;
 }
 
