@@ -109,11 +109,14 @@ function buildPopupHtml(listing: Listing): string {
 
 export class MapController {
   private map: L.Map;
+  private baseLayers: Record<string, L.TileLayer> = {};
+  private overlayLayers: Record<string, L.Layer> = {};
   private clusterGroup: L.MarkerClusterGroup;
   private markersById = new Map<number, L.Marker>();
   private euLatLng: L.LatLng;
   private openGallery: OpenGalleryFn;
   private isochroneLayer: L.GeoJSON | null = null;
+  private greensLayer: L.GeoJSON | null = null;
 
   constructor({ eu, openGallery }: MapOptions) {
     this.euLatLng = L.latLng(eu.lat, eu.lng);
@@ -121,9 +124,57 @@ export class MapController {
 
     this.map = L.map("map").setView([eu.lat, eu.lng], 14);
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: "&copy; OpenStreetMap contributors",
-    }).addTo(this.map);
+    // Basemaps and overlays.
+    const osmAttrib =
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+    const cartoAttrib = `${osmAttrib} &copy; <a href="https://carto.com/attributions">CARTO</a>`;
+    const esriAttrib = 'Tiles &copy; <a href="https://www.esri.com/">Esri</a>';
+    const opentopoAttrib = `${osmAttrib} &copy; <a href="https://opentopomap.org">OpenTopoMap</a>`;
+
+    const cartoLight = L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+      subdomains: "abcd",
+      maxZoom: 20,
+      attribution: cartoAttrib,
+    });
+    const cartoVoyager = L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
+      subdomains: "abcd",
+      maxZoom: 20,
+      attribution: cartoAttrib,
+    });
+    const osmStandard = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: osmAttrib,
+    });
+    const openTopo = L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
+      maxZoom: 17,
+      attribution: opentopoAttrib,
+    });
+    const esriWorldImagery = L.tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      { maxZoom: 19, attribution: esriAttrib }
+    );
+
+    // Terrain shading overlay (works on top of any base).
+    const esriHillshade = L.tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}",
+      { maxZoom: 19, attribution: esriAttrib, opacity: 0.35 }
+    );
+
+    this.baseLayers = {
+      English: cartoLight,
+      Voyager: cartoVoyager,
+      OSM: osmStandard,
+      Topo: openTopo,
+      Satellite: esriWorldImagery,
+    };
+    this.overlayLayers = {
+      Hillshade: esriHillshade,
+    };
+
+    cartoVoyager.addTo(this.map);
+    // Default overlays (user preference): hillshade on.
+    esriHillshade.addTo(this.map);
+    L.control.layers(this.baseLayers, this.overlayLayers, { position: "topleft" }).addTo(this.map);
 
     this.clusterGroup = L.markerClusterGroup({
       maxClusterRadius: 1,
@@ -160,10 +211,11 @@ export class MapController {
       const { color, fillColor } = isochroneStyle(minutes);
       return {
         color,
-        weight: 2,
-        opacity: 0.9,
+        weight: 3,
+        opacity: 1,
         fillColor,
-        fillOpacity: 0.24,
+        fillOpacity: 0.32,
+        dashArray: minutes <= 15 ? undefined : "6 5",
       };
     };
 
@@ -172,9 +224,49 @@ export class MapController {
       interactive: false,
     });
 
-    // Add behind markers.
+    // Add above greens but below markers.
     this.isochroneLayer.addTo(this.map);
-    (this.isochroneLayer as any).bringToBack?.();
+    (this.isochroneLayer as any).bringToFront?.();
+  }
+
+  setWalkingIsochronesVisible(visible: boolean): void {
+    if (!this.isochroneLayer) return;
+    if (visible) this.isochroneLayer.addTo(this.map);
+    else this.map.removeLayer(this.isochroneLayer);
+  }
+
+  setGreens(geojson: GeoJSON.FeatureCollection): void {
+    if (this.greensLayer) {
+      this.map.removeLayer(this.greensLayer);
+      this.greensLayer = null;
+    }
+
+    const style: L.PathOptions | ((feature?: GeoJSON.Feature) => L.PathOptions) = (feature) => {
+      const kind = String((feature?.properties as any)?.kind ?? "");
+      if (kind === "dog_park") {
+        return { color: "#00E676", weight: 2, opacity: 0.95, fillColor: "#00E676", fillOpacity: 0.18 };
+      }
+      if (kind === "garden") {
+        return { color: "#76FF03", weight: 2, opacity: 0.9, fillColor: "#76FF03", fillOpacity: 0.12 };
+      }
+      // park (default)
+      return { color: "#1BFF8A", weight: 2, opacity: 0.85, fillColor: "#1BFF8A", fillOpacity: 0.10 };
+    };
+
+    this.greensLayer = L.geoJSON(geojson as any, {
+      style,
+      interactive: false,
+      pointToLayer: (_f, latlng) => L.circleMarker(latlng, { radius: 4, color: "#1BFF8A", weight: 2, fillOpacity: 0.6 }),
+    });
+
+    this.greensLayer.addTo(this.map);
+    (this.greensLayer as any).bringToBack?.();
+  }
+
+  setGreensVisible(visible: boolean): void {
+    if (!this.greensLayer) return;
+    if (visible) this.greensLayer.addTo(this.map);
+    else this.map.removeLayer(this.greensLayer);
   }
 
   setView(lat: number, lng: number, zoom = 16): void {
@@ -223,5 +315,5 @@ export class MapController {
 function isochroneStyle(minutes: number): { color: string; fillColor: string } {
   // High-contrast palette for dark basemap. Minutes are expected to be 15/30.
   if (minutes <= 15) return { color: "#00E5FF", fillColor: "#00E5FF" }; // cyan
-  return { color: "#FFD400", fillColor: "#FFD400" }; // yellow
+  return { color: "#FF2D95", fillColor: "#FF2D95" }; // magenta
 }

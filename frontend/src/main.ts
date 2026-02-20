@@ -38,14 +38,31 @@ async function boot(): Promise<void> {
   const gallery = new GalleryController();
   const map = new MapController({ eu, openGallery: (p) => gallery.open(p) });
 
+  // Optional overlay: parks/greens from OSM (static GeoJSON).
+  try {
+    const greens = await fetchJson<GeoJSON.FeatureCollection>(`${base}data/greens.geojson`);
+    map.setGreens(greens);
+    const toggle = document.getElementById("greensToggle") as HTMLInputElement | null;
+    toggle?.addEventListener("change", () => map.setGreensVisible(toggle.checked));
+  } catch {
+    // No greens overlay.
+  }
+
   // Optional overlay: walking time isochrones (committed as a static GeoJSON file).
   try {
     const isochrones = await fetchJson<GeoJSON.FeatureCollection>(`${base}data/isochrones.geojson`);
     map.setWalkingIsochrones(isochrones);
     setWalkingMinutesIndex(buildWalkingMinutesIndex(listings, isochrones));
+    const ringsToggle = document.getElementById("ringsToggle") as HTMLInputElement | null;
+    ringsToggle?.addEventListener("change", () => map.setWalkingIsochronesVisible(ringsToggle.checked));
   } catch {
     // If the file isn't present (or network blocked), the overlay is simply omitted.
     setWalkingMinutesIndex(null);
+    const ringsToggle = document.getElementById("ringsToggle") as HTMLInputElement | null;
+    if (ringsToggle) {
+      ringsToggle.checked = false;
+      ringsToggle.disabled = true;
+    }
   }
 
   initDistrictFilter(listings);
@@ -60,20 +77,33 @@ async function boot(): Promise<void> {
 
   const statsEl = document.getElementById("stats");
 
-  function updateView(filtered: Listing[]): void {
+  function updateView(filtered: Listing[], opts?: { fit?: boolean }): void {
     map.render(filtered);
-    map.fitToListings(filtered);
+    if (opts?.fit) map.fitToListings(filtered);
     table.setListings(filtered);
     if (statsEl) {
       statsEl.textContent = `${filtered.length} listings shown of ${listings.length} total`;
     }
   }
 
-  document.getElementById("applyFilters")?.addEventListener("click", () => {
+  function renderFromUi(): void {
     updateView(applyFilters(listings, readFilters()));
+  }
+
+  document.getElementById("applyFilters")?.addEventListener("click", () => {
+    renderFromUi();
   });
 
-  updateView(listings);
+  // Live filtering: any control change re-renders (without changing map zoom/center).
+  const liveIds = ["minPrice", "maxPrice", "minArea", "minRooms", "distFilter", "walkFilter"];
+  for (const id of liveIds) {
+    const el = document.getElementById(id);
+    if (!el) continue;
+    const evt = el instanceof HTMLInputElement ? "input" : "change";
+    el.addEventListener(evt, renderFromUi);
+  }
+
+  updateView(listings, { fit: true });
 }
 
 boot().catch((err: unknown) => {

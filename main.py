@@ -14,6 +14,7 @@ from scraper import run_scraper
 from geocode import run_geocoder
 from spread import run_spread
 from isochrones import maybe_write_isochrones
+from greens import write_greens_geojson
 from output import generate_csv, generate_geojson
 
 
@@ -68,6 +69,10 @@ def main():
     else:
         # Keep any previously-committed isochrones.geojson in place.
         pass
+
+    wrote_greens = write_greens_geojson(out_path=frontend_data_dir / "greens.geojson", force=True)
+    if wrote_greens:
+        print("  Wrote frontend/public/data/greens.geojson (parks/greens)")
 
     total = len(listings)
     geocoded = sum(1 for l in listings if l.get("lat"))
