@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build --base=/armenia/"
+    "deploy": "vite build --base=/yerevan-real-estate/"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
