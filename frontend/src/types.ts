@@ -28,6 +28,8 @@ export interface ListingRaw {
   lat?: number | string | null;
   lng?: number | string | null;
   geocode_precision?: string;
+  ai_summary?: string;
+  ai_score?: number;
 }
 
 export interface Listing {
@@ -52,6 +54,8 @@ export interface Listing {
   description: string;
   photo_urls: string[];
   photo_count: number;
+  ai_summary: string;
+  ai_score: number | null;
 }
 
 /** Matches the shape of data/config.json — supports legacy "eu" key. */

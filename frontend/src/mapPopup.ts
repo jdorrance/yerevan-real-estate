@@ -39,6 +39,29 @@ export function buildPopupHtml(listing: Listing, isFavorite: boolean): string {
     ? `<div class="popup-desc">${escapeHtml(descShort)}</div>`
     : "";
 
+  const hasAi = listing.ai_summary.trim() || listing.ai_score != null;
+  const score = listing.ai_score;
+  const scoreClass =
+    score == null
+      ? ""
+      : score >= 7
+        ? "popup-ai-score--high"
+        : score >= 5
+          ? "popup-ai-score--mid"
+          : "popup-ai-score--low";
+  const aiBlock = hasAi
+    ? [
+        '<div class="popup-ai-review">',
+        score != null
+          ? `<span class="popup-ai-score ${scoreClass}" aria-label="Suitability score">${score}</span>`
+          : "",
+        listing.ai_summary.trim()
+          ? `<div class="popup-ai-text">${escapeHtml(listing.ai_summary.trim())}</div>`
+          : "",
+        "</div>",
+      ].join("")
+    : "";
+
   const favIcon = isFavorite ? "★" : "☆";
   const favClass = isFavorite ? "popup-fav active" : "popup-fav";
   const favBtn = listing.url
@@ -59,7 +82,7 @@ export function buildPopupHtml(listing: Listing, isFavorite: boolean): string {
     '<div class="popup-content">',
     thumb,
     `<div class="popup-titlebar"><h3>${escapeHtml(listing.street || "Unknown")}</h3><div class="popup-actions">${favBtn}${dislikeBtn}</div></div>`,
-    `<div class="popup-body">${rowsHtml}${descHtml}${link}</div>`,
+    `<div class="popup-body">${aiBlock}${rowsHtml}${descHtml}${link}</div>`,
     "</div>",
   ].join("");
 }
