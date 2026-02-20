@@ -42,8 +42,8 @@
     ],
     "photo_count": 8,
     "parsed_address_number": null,
-    "lat": 40.18889201137003,
-    "lng": 44.51366420962369,
+    "lat": 40.19107087692139,
+    "lng": 44.51157928607289,
     "geocode_precision": "street_spread"
   },
   {
@@ -468,8 +468,8 @@
     ],
     "photo_count": 21,
     "parsed_address_number": null,
-    "lat": 40.19652570858723,
-    "lng": 44.486439120562444,
+    "lat": 40.1966829606224,
+    "lng": 44.486402636365334,
     "geocode_precision": "street_jitter"
   },
   {
@@ -523,8 +523,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.15951924804234,
-    "lng": 44.511553938643814,
+    "lat": 40.15992576089319,
+    "lng": 44.511134666743345,
     "geocode_precision": "street_jitter"
   },
   {
@@ -800,8 +800,8 @@
     ],
     "photo_count": 23,
     "parsed_address_number": null,
-    "lat": 40.20168967311227,
-    "lng": 44.48671582991862,
+    "lat": 40.201779468803934,
+    "lng": 44.48647996833268,
     "geocode_precision": "street_jitter"
   },
   {
@@ -871,8 +871,8 @@
     ],
     "photo_count": 15,
     "parsed_address_number": null,
-    "lat": 40.1935650635308,
-    "lng": 44.50694816161661,
+    "lat": 40.19357520236096,
+    "lng": 44.50683774582039,
     "geocode_precision": "street_spread"
   },
   {
@@ -988,8 +988,8 @@
     ],
     "photo_count": 16,
     "parsed_address_number": null,
-    "lat": 40.20240670385443,
-    "lng": 44.487555188347685,
+    "lat": 40.20249649954609,
+    "lng": 44.487319327873486,
     "geocode_precision": "street_jitter"
   },
   {
@@ -1164,8 +1164,8 @@
     ],
     "photo_count": 6,
     "parsed_address_number": null,
-    "lat": 40.19592412701549,
-    "lng": 44.48713425047946,
+    "lat": 40.19608137905065,
+    "lng": 44.487097767894376,
     "geocode_precision": "street_jitter"
   },
   {
@@ -1216,8 +1216,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.207348063107744,
-    "lng": 44.49843992801207,
+    "lat": 40.207862979365736,
+    "lng": 44.49970907431016,
     "geocode_precision": "street_spread"
   },
   {
@@ -1274,8 +1274,8 @@
     ],
     "photo_count": 19,
     "parsed_address_number": null,
-    "lat": 40.192494733655636,
-    "lng": 44.500374683125884,
+    "lat": 40.19223225346783,
+    "lng": 44.5022380918931,
     "geocode_precision": "street_spread"
   },
   {
@@ -1326,8 +1326,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.18586046781587,
-    "lng": 44.52745658012991,
+    "lat": 40.18598276214198,
+    "lng": 44.5275374091612,
     "geocode_precision": "street_jitter"
   },
   {
@@ -1533,8 +1533,8 @@
     ],
     "photo_count": 17,
     "parsed_address_number": null,
-    "lat": 40.16186357770473,
-    "lng": 44.51438436193049,
+    "lat": 40.15844022652713,
+    "lng": 44.511302649924964,
     "geocode_precision": "street_spread"
   },
   {
@@ -1584,8 +1584,8 @@
     ],
     "photo_count": 10,
     "parsed_address_number": null,
-    "lat": 40.20240451981456,
-    "lng": 44.48627058924255,
+    "lat": 40.20249431550622,
+    "lng": 44.48603472706688,
     "geocode_precision": "street_jitter"
   },
   {
@@ -1642,9 +1642,64 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.2312105,
-    "lng": 44.5391216,
-    "geocode_precision": "street"
+    "lat": 40.23067519630894,
+    "lng": 44.53910691259766,
+    "geocode_precision": "street_jitter"
+  },
+  {
+    "id": 8331,
+    "url": "https://besthouse.am/en/estates/8331",
+    "title": "5 room house, Aygedzor St, Arabkir (Yerevan) | Best House",
+    "price_usd": 2500,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "Aygedzor St",
+    "bathrooms": "1",
+    "ceiling_height_m": 3.0,
+    "floors": 1,
+    "building_area_sqm": 180,
+    "land_area_sqm": 180,
+    "rooms": 5,
+    "building_type": "New construction",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Internet",
+      "Gas",
+      "Permanent water",
+      "Hot water",
+      "Drinking water"
+    ],
+    "amenities": [
+      "Euro windows",
+      "Tile"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/fp7qlrgD1byVx9stvTvNBMfj6GLWsDU1WgpSw0jR.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/cAuaHOLgW8GHhv58jZkgOjElNII0p6pqbKVEVEWY.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/2KeIRKyeHWmCm0GSRhJB9SGLHp77QPOckHEUEACN.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/S9hR2iVzaPAAkXn4df5RxIdK5SLYgSyks49nzEHW.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/Iylhyparazy5m4q3IKuZw12MVcwbWrT1bYf1QH0c.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/WX3dPFer42w4BtMCFp1mK5y7a8k0G79dewfoOyPm.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/hPRFqb0b5TOIYMsPwOTOtm06nZdE5BMnQiy96omU.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/D15gGoowXLPj1JtM2EJC4m5n4W6jHbyDTCZBJSeP.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/yWUfjGNhNsFCNfQ2NSsn37Gohsxmc8ykMOsSfkai.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/ZmjZpuBJmM24J6tmm2ZsgghMQuvs7MBpg4Zgx3pk.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/spipeAt6ugBpqZhQVnTBEMVxrcK722sJ5sHjRhjC.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/X6ApzrdFkUX5KbKzX1v1hdTnUdKwbZoWAtaesVch.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/TRcNbcOmnAUH9PLnpv4aBHwd5mStO20jUDORDQRo.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/iUGO7H1etF2DyHDU730qh7XpREABJ84e4X060IDH.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/nXaCF3g8IaicZ8lJO4vDkOeKrjMggxj7n61ENZUp.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/TysgyozvEwHCE58BH0QDPGhg0biCcrlMl2GsiAg4.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/M7hkFSMmoDW1ABcTJEcV12bCkIINt2ihkMVP4p1L.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8331/images/original/vAlSB1a66zXLcHTsGrUwxrdPgDAOkETJOzyqQbGr.webp"
+    ],
+    "photo_count": 18,
+    "parsed_address_number": null,
+    "lat": 40.19114861570117,
+    "lng": 44.49719226049209,
+    "geocode_precision": "street_spread"
   },
   {
     "id": 8528,
@@ -1694,8 +1749,8 @@
     ],
     "photo_count": 10,
     "parsed_address_number": null,
-    "lat": 40.16817418397192,
-    "lng": 44.518733043187005,
+    "lat": 40.167769394015025,
+    "lng": 44.519208630566936,
     "geocode_precision": "street_jitter"
   },
   {
@@ -1847,8 +1902,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.202586516272696,
-    "lng": 44.48719397081293,
+    "lat": 40.20267631196436,
+    "lng": 44.486958109860296,
     "geocode_precision": "street_jitter"
   },
   {
@@ -1949,8 +2004,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.19679359920855,
-    "lng": 44.48706297790787,
+    "lat": 40.19695085124371,
+    "lng": 44.4870264951575,
     "geocode_precision": "street_jitter"
   },
   {
@@ -2062,8 +2117,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.19041468878742,
-    "lng": 44.50201295350115,
+    "lat": 40.19100521729607,
+    "lng": 44.49935984450164,
     "geocode_precision": "street_spread"
   },
   {
@@ -2203,8 +2258,8 @@
     ],
     "photo_count": 37,
     "parsed_address_number": null,
-    "lat": 40.20400822266921,
-    "lng": 44.51729362482443,
+    "lat": 40.20405259989693,
+    "lng": 44.51774972866507,
     "geocode_precision": "street_jitter"
   },
   {
@@ -2275,8 +2330,8 @@
     ],
     "photo_count": 16,
     "parsed_address_number": null,
-    "lat": 40.20489362395241,
-    "lng": 44.517643712395284,
+    "lat": 40.20493800118013,
+    "lng": 44.5180998164651,
     "geocode_precision": "street_jitter"
   },
   {
@@ -2326,8 +2381,8 @@
     ],
     "photo_count": 14,
     "parsed_address_number": null,
-    "lat": 40.202310785600034,
-    "lng": 44.48737814487807,
+    "lat": 40.2024005812917,
+    "lng": 44.48714228416938,
     "geocode_precision": "street_jitter"
   },
   {
@@ -2382,8 +2437,8 @@
     ],
     "photo_count": 15,
     "parsed_address_number": null,
-    "lat": 40.20481369801424,
-    "lng": 44.51774543437911,
+    "lat": 40.204858075241965,
+    "lng": 44.51820153851551,
     "geocode_precision": "street_jitter"
   },
   {
@@ -2441,8 +2496,8 @@
     ],
     "photo_count": 16,
     "parsed_address_number": null,
-    "lat": 40.20206116552438,
-    "lng": 44.48737347374496,
+    "lat": 40.20215096121604,
+    "lng": 44.48713761303008,
     "geocode_precision": "street_jitter"
   },
   {
@@ -2566,8 +2621,8 @@
     ],
     "photo_count": 17,
     "parsed_address_number": null,
-    "lat": 40.20271866473948,
-    "lng": 44.48715067133257,
+    "lat": 40.20280846043114,
+    "lng": 44.48691481032259,
     "geocode_precision": "street_jitter"
   },
   {
@@ -2623,8 +2678,8 @@
     ],
     "photo_count": 21,
     "parsed_address_number": null,
-    "lat": 40.18588042800277,
-    "lng": 44.52664908123078,
+    "lat": 40.18600272232888,
+    "lng": 44.52672990880627,
     "geocode_precision": "street_jitter"
   },
   {
@@ -2765,8 +2820,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.202577565535236,
-    "lng": 44.515146972159954,
+    "lat": 40.20243315076693,
+    "lng": 44.51557724433148,
     "geocode_precision": "street_jitter"
   },
   {
@@ -2966,8 +3021,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.20186355598056,
-    "lng": 44.48666505356408,
+    "lat": 40.20195335167222,
+    "lng": 44.48642919191089,
     "geocode_precision": "street_jitter"
   },
   {
@@ -3028,8 +3083,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.20220336693382,
-    "lng": 44.486742848625596,
+    "lat": 40.20229316262549,
+    "lng": 44.486506987075444,
     "geocode_precision": "street_jitter"
   },
   {
@@ -3134,8 +3189,8 @@
     ],
     "photo_count": 17,
     "parsed_address_number": null,
-    "lat": 40.221858771512004,
-    "lng": 44.51322977458293,
+    "lat": 40.221943367693086,
+    "lng": 44.513195854003044,
     "geocode_precision": "street_spread"
   },
   {
@@ -3312,8 +3367,8 @@
     ],
     "photo_count": 15,
     "parsed_address_number": null,
-    "lat": 40.20357317698806,
-    "lng": 44.51466677274517,
+    "lat": 40.20342876221975,
+    "lng": 44.515097045939626,
     "geocode_precision": "street_jitter"
   },
   {
@@ -3355,8 +3410,66 @@
     ],
     "photo_count": 9,
     "parsed_address_number": null,
-    "lat": 40.16632474367203,
-    "lng": 44.39996172518975,
+    "lat": 40.16612858825289,
+    "lng": 44.39972097844133,
+    "geocode_precision": "street_spread"
+  },
+  {
+    "id": 18241,
+    "url": "https://besthouse.am/en/estates/18241",
+    "title": "4 room house, Hovsep Emin St, Arabkir (Yerevan) | Best House",
+    "price_usd": 2000,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "Hovsep Emin St",
+    "bathrooms": "1",
+    "ceiling_height_m": 3.0,
+    "floors": 3,
+    "building_area_sqm": 185,
+    "land_area_sqm": 100,
+    "rooms": 4,
+    "building_type": "Stone",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Internet",
+      "Electricity",
+      "Gas",
+      "Air conditioning",
+      "Permanent water",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Close to the road",
+      "Technique",
+      "Euro windows",
+      "Tile",
+      "Parquet",
+      "Sunny side",
+      "Beautiful paysage",
+      "Close to transport stop"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/CofFMdRaYaOfZVj8asnnTCT0cf6r8LZHrH1xnW8n.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/h7FCUCHrXbOhrMdEX3eNaySZUSBRI20b3uLbctUF.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/YOKp23Ro16SJvf8yNbYxZ3tewDDSheGuoHTgGXZt.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/A7kJuXsAtXuwFq6IADt9eFA53HghvxQXix0hI7Th.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/yxV7IkXqkTc48o2EvCG6nzlXTUyZgFMaJzrFVAX7.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/2CfRi4TicdaB46eNPQY2XfH2nakmzdsOp5tc2faR.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/uL3TOJ4a8u185amLPdhZcgdYwobr5YkSVC5TVoW5.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/gHuShEHrIUR7sNEN2v9V7SjZDllq5snlUPQlOyOL.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/5d7EoftTkYdNso5OOPLBkM0QrYxwdJ3XuyC7JWWe.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/WCLh8mXD8LUv9aMQDyIDvAChCwCZIABis6ebMDTw.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/2dcW3UV1sQUXeFg2bj5U5a3EPCLJAM6Ln5cTFxC4.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/R07dmmb5GlJNXJYdgtXB7wKG50yDlZ9W6Jf7qYMR.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18241/images/original/N7aUHbHl74lIKBGB0q9wohTVflNm8zncQENoXRux.webp"
+    ],
+    "photo_count": 13,
+    "parsed_address_number": null,
+    "lat": 40.204472998098616,
+    "lng": 44.49171935498555,
     "geocode_precision": "street_spread"
   },
   {
@@ -3441,6 +3554,113 @@
     "parsed_address_number": null,
     "lat": 40.1801122,
     "lng": 44.5146504,
+    "geocode_precision": "street"
+  },
+  {
+    "id": 18591,
+    "url": "https://besthouse.am/en/estates/18591",
+    "title": "4 room house, Charents St, Center (Yerevan) | Best House",
+    "price_usd": 4500,
+    "city": "Yerevan",
+    "district": "Center",
+    "street": "Charents St",
+    "bathrooms": "2",
+    "ceiling_height_m": 2.8,
+    "floors": 1,
+    "building_area_sqm": 170,
+    "land_area_sqm": 200,
+    "rooms": 4,
+    "building_type": "Stone",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Gas"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Euro windows",
+      "Tile",
+      "Parquet"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/1WuvYk3X2H9Ieeh7I1NbZPYplIrLFCOWBmmTY1j8.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/I5g2VgkdAFJ3vn4FPqaMt2sMzqnhgc0pyXK4s90i.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/mc8sFM9wPIvjX3G6rq2PvVO1MR00Z6y5lxMjfpch.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/Eoj8ziVIpERKDbyLE53AWNUAE8iiOnjxkfOilkeR.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/XY7DhFI4Rzg5SfYZsMtO8BbjIG2g305HC8WVqrrw.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/vSkJgmPj7A1KvyvNjvTcsiWg99WV5bCBnlSqKJuX.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/tE5K2ma7itAoXLYGtuRGRrXmxKGSn3yezwzvcrZx.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/v5aeGtrNA9yqI2DTIVqzQj3yjpNCdmZkSZ8kxu0e.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/A4lfs6ittoANFSQN2pmSNEMpLZNj5c75K1aVVWe5.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/VPZjOM805iFWWBCusviLYqrTw5WWwLR4jyb5aFkR.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/FOI1mQRTQsP5djhKlzPk2jHaRFMtv2rp8YkjajHK.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/92OWlKYOP4DGETZx6w4yToQgYhOv55cWHDkGG0wx.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/jge89oTRwzD4qfL25u0xYW99b2aht2bSpYn8BaqQ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/RALSGOQA3lWdjPGCflI2vTBm6w1LevSXZrlg5qKH.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/POvljsMMIPvX49Olp5kDgvaKHV4NUrtUrSYOdigT.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/qoDNthgzhkdTau63iZE3EMRaMLUWHe7xB4kKHURI.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18591/images/original/O6XJje6Cn4qpKxTpytBXD2REE3tgtvBfW1CtkoIS.webp"
+    ],
+    "photo_count": 17,
+    "parsed_address_number": null,
+    "lat": 40.178044207122,
+    "lng": 44.52759733377025,
+    "geocode_precision": "street_spread"
+  },
+  {
+    "id": 18678,
+    "url": "https://besthouse.am/en/estates/18678",
+    "title": "6 room house, Sayat-Nova Ave, Center (Yerevan) | Best House",
+    "price_usd": 2500,
+    "city": "Yerevan",
+    "district": "Center",
+    "street": "Sayat-Nova Ave",
+    "bathrooms": "3",
+    "ceiling_height_m": 2.8,
+    "floors": 3,
+    "building_area_sqm": 170,
+    "land_area_sqm": 250,
+    "rooms": 6,
+    "building_type": "New construction",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Internet",
+      "Gas",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/Y3Zj5SgqFIurPnSsxrboopdGxncJVjIxA1nb7Y6d.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/JOVyAz3GpK6LK9MRWzyNasxjgxdjDE18swQnz6xZ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/VnVapMkW1aeBgvV2t0hm36w8w0YJieB7hyrhhD6n.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/NTIkbijVCVZb6eP427NOmK3TsuVtT41qWwYIWCGI.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/35flyEL1NI3faTShBBBNqHe5v2biFahtnbdfkM5s.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/Ibayqoz4HUAhxXoP34nx6o55frWUPJfLZubY4uFj.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/VVhW9tIsuxffBskDSSZWW5In95qGANWBu1Aukru9.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/rRNtQDcdzvOSweHuVhMeTVsxnlSgQ4Y1vwVVZIVa.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/u9HgtKwsf51xzGzwdEEv41wvXFsNkpW4s003qVOp.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/FJp6Z1YHzJzWpcX257HvKY4FQDKsGU2cOVTalq8W.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/oM7ybSuyvXAhsrk9WnPiRv9fGrTuTnaQSpmnMBdS.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/U7ZwpKG1vEhKewiYXttfrR8xwgaVCgsmzUZJ5CC0.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/SUzoptbrK2OYBk3mJbuduJHW6nXxbPq8hg5IjB43.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/Vs8q4lQ7T5kVm4sajGBoB4FNvsnNlRZtuGQ25TT7.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/IS39SlxIZIljrx4NYw9bUmbtAXTMSnMJmu1Fjedm.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/6phCfOR93ZtObt0HcaA6b3FhyctQcSbx7WQyJlnd.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/QqqGsOF16wYG1eal6fHYAPbY4cJvU9tJ8WZlamtA.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/SlDt9HBic0FDsLZj3RguW223rd9h0XOGyQjGkv5r.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/jd5cMGZX57gdtdn6fYKsXr5LQXupgWpb2m53ERXR.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/18678/images/original/vpKAPl7ZVtFRO3huaQDmawWu09EpddmVI6CiGZ1V.webp"
+    ],
+    "photo_count": 20,
+    "parsed_address_number": null,
+    "lat": 40.1769503,
+    "lng": 44.5272402,
     "geocode_precision": "street"
   },
   {
@@ -3637,8 +3857,8 @@
     ],
     "photo_count": 15,
     "parsed_address_number": null,
-    "lat": 40.20435958837251,
-    "lng": 44.51717662979984,
+    "lat": 40.204403965600235,
+    "lng": 44.5176327335639,
     "geocode_precision": "street_jitter"
   },
   {
@@ -3684,8 +3904,8 @@
     ],
     "photo_count": 6,
     "parsed_address_number": null,
-    "lat": 40.22110245684308,
-    "lng": 44.5114760253645,
+    "lat": 40.22125362078357,
+    "lng": 44.51159198545894,
     "geocode_precision": "street_spread"
   },
   {
@@ -3755,6 +3975,67 @@
     "geocode_precision": "district_jitter"
   },
   {
+    "id": 19151,
+    "url": "https://besthouse.am/en/estates/19151",
+    "title": "4 room house, Jrvej district, Nor Norq (Yerevan) | Best House",
+    "price_usd": 4500,
+    "city": "Yerevan",
+    "district": "Nor Norq",
+    "street": "Jrvej district",
+    "bathrooms": "2",
+    "ceiling_height_m": 3.0,
+    "floors": 3,
+    "building_area_sqm": 180,
+    "land_area_sqm": 700,
+    "rooms": 4,
+    "building_type": "Stone",
+    "condition": "Renovated",
+    "facilities": [],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Open balcony"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/sx7PzWvpDlSSTyWkcSyrFmil6VDFObL8kfRGWMVU.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/dRiOEJxQfAFxrkc7ffX8tT6M2U965D2x0jF81w8c.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/LngtLZD6FuhTxBJiJuOaFaFUjh7IhyHtXR5CB1pt.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/H6LvMsyyiKVObU8vMStzLtGBRx719TwdjVOimR5f.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/n6ctShkWRXrEKg3r9wJ2Ok9bFUJKPlOxBuMWifGZ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/upeiqgFKMiT692vspoBiIXc4DM5mMSAYnmzE9qHc.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/Xe1rMpbvlAJZ6dmNfwhRr7lO7UWMAkxoCGk4Pcv3.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/sWEWqoF2ocaIfM1Ft4VzrsuqQLjnZqScTNaC9o8k.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/2d0FeRCknd21ifck8kZEB6yprDrEjUCQFjMZ5UNs.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/8tBIOA7RZjVNkxrU910QiUFuguNmwepfTx6Vorot.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/sujDZ8LWWczR0cvHVAlYYlWzRzroCHGweTBsVShd.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/D6YmhXz7Q00FBIZAdrZ0eDuSBZrXfmwyPrsRD77x.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/3cxZOSnEUL0HQGifXvghJN3VqRRf0NkuEJWi1XcP.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/TPWcSmnyDTKuN58u1gLErcLrrZNdGJ1XDGo1hON9.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/qA4e63F4tk4Pc4UQKNAGQWyqgUUSLqXQefsg3YKP.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/Xk8dbPxqqz1rQ8R5TalltbkK8AtQVATZsgYahZrn.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/S66LF3z7FfTnnTjABOT1p6bJ1tfxEDcv335ykTKQ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/8FV7pST17dP6szM7Rmc7mLOApdJxYxMWbpfcbyvO.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/gMFQcdYVk4feHmuLTDQ5W9INdNL5NPdHD4k5YHX1.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/WdmGemEJPGy5vih26Y5LMFsFKLQvTwUw0TveydYB.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/boCTdl712d2tF6OrmWAyOEe0yDBDEuS5yp03zYZc.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/iXvh7IzSJOVQ52oQ5E1LbNsPcMpUQxBF3lTPlHpP.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/vDtw3BIsQ4nkr2H0L960zOIAqoVFq0zwsoxP3JD0.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/pGSjFcq3QLz8X6RaGXkphI8pTwhkMq5i6qSr6SCY.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/JtoSakGLl5koYdE9x5iQ1DCZKUou4vGrbgQ6lbZ6.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/o4GMMPAMEuw4hn74EeKk3Ub9YS38KmevH6LVuW0P.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/ZO2aZr0NPtbu3hfCxW8ZZh7koDWdztKa5SUNDxfD.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/2o0oylgU2uhxh8gccQSnux0L4onW6sfNxMAVT8o1.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/WA3UMWauHwrrFSzzmTDj5FEP7F75t4Vj9GrOBRXM.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19151/images/original/gzfAPPM0UP4TySoKIZzzXEYMQyzKIUxZlqoawgYc.webp"
+    ],
+    "photo_count": 30,
+    "parsed_address_number": null,
+    "lat": 40.19229008457143,
+    "lng": 44.559161064236356,
+    "geocode_precision": "district_jitter"
+  },
+  {
     "id": 19407,
     "url": "https://besthouse.am/en/estates/19407",
     "title": "4 room house, Keri St, Arabkir (Yerevan) | Best House",
@@ -3821,8 +4102,8 @@
     ],
     "photo_count": 23,
     "parsed_address_number": null,
-    "lat": 40.20242850557903,
-    "lng": 44.48618849992472,
+    "lat": 40.20251830127069,
+    "lng": 44.485952637640324,
     "geocode_precision": "street_jitter"
   },
   {
@@ -3997,6 +4278,67 @@
     "geocode_precision": "street_spread"
   },
   {
+    "id": 19780,
+    "url": "https://besthouse.am/en/estates/19780",
+    "title": "4 room house, Aharonyants St, Arabkir (Yerevan) | Best House",
+    "price_usd": 2000,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "Aharonyants St",
+    "bathrooms": "3",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 182,
+    "land_area_sqm": 1200,
+    "rooms": 4,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Internet",
+      "Electricity",
+      "Gas",
+      "Air conditioning",
+      "Permanent water",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Close to the road",
+      "Technique",
+      "Euro windows",
+      "Tile",
+      "Laminat",
+      "Sunny side",
+      "Close to transport stop"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/V815LEmAp0mQut6lFUJU4toxj5MmSkvLgVPpU029.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/D4rET6kaetFHlr2K37ZqexHz2SNpYJt3zX5BltKG.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/JnpLszcL0pI2rcwBx8CcKP0LjgG6YjspjaqlgNk4.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/9S80EBYBgxXQREXh5pxyVIhi4LeAiMFhMkoGck8W.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/SevLQX6GPYjWBIJy2uRvZrcAQJ4bI64X4uZqVqkU.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/ZAGWTyfXKxRgFIEvLhDRGFQ4RylrUU3Q2V1tVlBQ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/ITzO5ca5zAgCga8UUNNJMo9juUHQtVPPfBTOs8bt.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/0RBdjRPiSgzAD9mw2EmxrhyVmsfPix6wp6tM2hTO.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/zmOb1ra6apyi8dhEkCtMDOScLHaF1Lj3tXhqniAs.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/glacltPc3xCffaxeaZ4lzwqA5Ua2rnqik7F2vrSn.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/yWeqvYBnhFmx6EpMBblybXuxzCmIcG3GVLAD9IPo.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/pvUfInTogqz5evypg2UyUoIPQLsKZwGQULDWtHig.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/ofXxSB4xkKxQ1pxb8OwnmiWWm0Pok8qmHAEkdbKz.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/6bFluSE4YDwUXFVON0h9UqjAaEEx1K6tjVWjVAdf.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/XuF39ePRclMQ6icKKw7GwLGRsQF3t5EaIkxUyzpI.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/TX7vU9PBDHsK42eyQ2Grgnwuyacomh15sSh2mqa7.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/19780/images/original/DGUv2Huo9ZycMPePa2iumjZCj6Ma2iFdbyBp2rBe.webp"
+    ],
+    "photo_count": 17,
+    "parsed_address_number": null,
+    "lat": 40.2078293,
+    "lng": 44.5095199,
+    "geocode_precision": "district"
+  },
+  {
     "id": 19794,
     "url": "https://besthouse.am/en/estates/19794",
     "title": "6 room house, Charents St, Center (Yerevan) | Best House",
@@ -4057,8 +4399,8 @@
     ],
     "photo_count": 21,
     "parsed_address_number": null,
-    "lat": 40.178663477304355,
-    "lng": 44.52763256614595,
+    "lat": 40.17549305971002,
+    "lng": 44.52917338091067,
     "geocode_precision": "street_spread"
   },
   {
@@ -4106,8 +4448,8 @@
     ],
     "photo_count": 14,
     "parsed_address_number": null,
-    "lat": 40.19615505504532,
-    "lng": 44.50847313844822,
+    "lat": 40.195633743336764,
+    "lng": 44.50882579987233,
     "geocode_precision": "street_jitter"
   },
   {
@@ -4164,8 +4506,8 @@
     ],
     "photo_count": 17,
     "parsed_address_number": null,
-    "lat": 40.20366434117527,
-    "lng": 44.5239424149888,
+    "lat": 40.199036772945405,
+    "lng": 44.519517255759425,
     "geocode_precision": "street_spread"
   },
   {
@@ -4757,8 +5099,8 @@
     ],
     "photo_count": 22,
     "parsed_address_number": null,
-    "lat": 40.204222607773666,
-    "lng": 44.52467502544739,
+    "lat": 40.19591021158054,
+    "lng": 44.51650426535824,
     "geocode_precision": "street_spread"
   },
   {
@@ -5025,8 +5367,8 @@
     ],
     "photo_count": 13,
     "parsed_address_number": null,
-    "lat": 40.19381278433562,
-    "lng": 44.50964303691237,
+    "lat": 40.193979100440195,
+    "lng": 44.50932048957172,
     "geocode_precision": "street_spread"
   },
   {
@@ -5157,8 +5499,8 @@
     ],
     "photo_count": 7,
     "parsed_address_number": null,
-    "lat": 40.186146331136904,
-    "lng": 44.52661359866536,
+    "lat": 40.186268625463015,
+    "lng": 44.526694426176874,
     "geocode_precision": "street_jitter"
   },
   {
@@ -5322,8 +5664,8 @@
     ],
     "photo_count": 24,
     "parsed_address_number": null,
-    "lat": 40.17986947728815,
-    "lng": 44.5275994235676,
+    "lat": 40.17302592358017,
+    "lng": 44.527135029417074,
     "geocode_precision": "street_spread"
   },
   {
@@ -5428,8 +5770,8 @@
     ],
     "photo_count": 4,
     "parsed_address_number": null,
-    "lat": 40.19239512250076,
-    "lng": 44.49880880303132,
+    "lat": 40.19046818128817,
+    "lng": 44.51223319139129,
     "geocode_precision": "street_spread"
   },
   {
@@ -5476,8 +5818,8 @@
     ],
     "photo_count": 18,
     "parsed_address_number": null,
-    "lat": 40.19268419333363,
-    "lng": 44.51203401919917,
+    "lat": 40.192852152557194,
+    "lng": 44.51141929461141,
     "geocode_precision": "street_spread"
   },
   {
@@ -5523,8 +5865,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.191031313289145,
-    "lng": 44.497927968128856,
+    "lat": 40.19018867577273,
+    "lng": 44.50126694335754,
     "geocode_precision": "street_spread"
   },
   {
@@ -5764,8 +6106,8 @@
     ],
     "photo_count": 19,
     "parsed_address_number": null,
-    "lat": 40.197037245216606,
-    "lng": 44.508365882748244,
+    "lat": 40.19651593350805,
+    "lng": 44.508718544996924,
     "geocode_precision": "street_jitter"
   },
   {
@@ -6072,8 +6414,8 @@
     ],
     "photo_count": 21,
     "parsed_address_number": null,
-    "lat": 40.22080747420327,
-    "lng": 44.51121678641407,
+    "lat": 40.22092222322542,
+    "lng": 44.511854645301675,
     "geocode_precision": "street_spread"
   },
   {
@@ -6121,8 +6463,8 @@
     ],
     "photo_count": 13,
     "parsed_address_number": null,
-    "lat": 40.21092972512966,
-    "lng": 44.50431317434901,
+    "lat": 40.2102626878826,
+    "lng": 44.50598184327867,
     "geocode_precision": "street_spread"
   },
   {
@@ -6529,8 +6871,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.17559325259298,
-    "lng": 44.51881442049696,
+    "lat": 40.1759290725684,
+    "lng": 44.51821866047788,
     "geocode_precision": "street_jitter"
   },
   {
@@ -6633,8 +6975,8 @@
     ],
     "photo_count": 19,
     "parsed_address_number": null,
-    "lat": 40.19015869214898,
-    "lng": 44.51255203450327,
+    "lat": 40.19224704831278,
+    "lng": 44.501866841844254,
     "geocode_precision": "street_spread"
   },
   {
@@ -6696,8 +7038,8 @@
     ],
     "photo_count": 15,
     "parsed_address_number": null,
-    "lat": 40.19447658263937,
-    "lng": 44.50381988897738,
+    "lat": 40.195026257543915,
+    "lng": 44.50399753689735,
     "geocode_precision": "street_spread"
   },
   {
@@ -6920,8 +7262,8 @@
     ],
     "photo_count": 22,
     "parsed_address_number": null,
-    "lat": 40.19206699156889,
-    "lng": 44.51479280099311,
+    "lat": 40.19224750724336,
+    "lng": 44.51390893424216,
     "geocode_precision": "street_spread"
   },
   {
@@ -6992,6 +7334,68 @@
     "lat": 40.161438481119404,
     "lng": 44.517797647723626,
     "geocode_precision": "street_spread"
+  },
+  {
+    "id": 32008,
+    "url": "https://besthouse.am/en/estates/32008",
+    "title": "6 room house, Arshakunyats Ave, Center (Yerevan) | Best House",
+    "price_usd": 2400,
+    "city": "Yerevan",
+    "district": "Center",
+    "street": "Arshakunyats Ave",
+    "bathrooms": "2",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 170,
+    "land_area_sqm": 250,
+    "rooms": 6,
+    "building_type": "Stone",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Internet",
+      "Electricity",
+      "Gas",
+      "Air conditioning",
+      "Permanent water",
+      "Hot water",
+      "Drinking water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Closed balcony",
+      "Sunny side",
+      "Beautiful paysage",
+      "Close to transport stop"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/Yg5qAoUzlXONYntsSE3Gc3JSqrUVtfH7X8488Mn2.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/ZXiNBpYdj4KaXeURiSUGYGBQYWzdbx0ElSTzcToe.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/M72MebHWhWP7Wv2Szh1E6aiVtzTSGljrZ10CTYyJ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/aFmEdzEbWDua2nqzAZNuC4mA5tVl6CAox7LAJ2wI.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/AaLUZTsYzK7cii9C94l7WqaJ5wR7egVfziWKBDOL.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/MfXHwRsqjYuZIxCEIdP4kyOC4DnPrCw4yOY4ATx0.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/L6lTmxgQsIgLKJKOFTvEggRvXYVD9kQrGuUz3fpe.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/Ms6XNMIngaYYczD0YLFuu2ucOb8Bz7vBv8XUZJVJ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/MJJfQwNRezxSPHJ5cVuvTaBAqf3j8pjfkv0IOvaW.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/kzf2tGetGMjHA3yXj4Snypit01zJz5Xx2wDuUAQz.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/eTcqSifF92Py2Qf1MwDaeFd5fX226rYEQv31cNM1.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/DNvKGq4q7n0Mjma2TE7gBfxjsfMhKirxOpanEqkj.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/mi4bolPZw6XBSJvAM49MOOJ4zJsrgW3OnyWAWy6D.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/E4VTJ8QqrX3zOEESLSRbtqchntNd0GiXVjVb4BBh.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/hZJshLQhBXmcWuEAve8QX2Fu8FxdSsisIgeD6qGj.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/Y50TYiZOPGi5fKbkjHPyeAjZ7is9HAX9o7lRyx4y.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/MH1NpYL7HzYr2hFIbjYh7H17v45XkG5Xlfx5mdtP.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/KCWyq588UqAoL1mIIjdy7ReLhfHdi2P0ocfaeqA1.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/32008/images/original/cpcQyl5Yui6kyHrRgKqL1rO6q8Na6DX2EziJrJxf.webp"
+    ],
+    "photo_count": 19,
+    "parsed_address_number": null,
+    "lat": 40.1570652,
+    "lng": 44.5015005,
+    "geocode_precision": "street"
   },
   {
     "id": 32127,
@@ -7115,8 +7519,8 @@
     ],
     "photo_count": 13,
     "parsed_address_number": null,
-    "lat": 40.2016429700035,
-    "lng": 44.486904035896345,
+    "lat": 40.20173276569516,
+    "lng": 44.48666817455969,
     "geocode_precision": "street_jitter"
   },
   {
@@ -7181,8 +7585,8 @@
     ],
     "photo_count": 20,
     "parsed_address_number": null,
-    "lat": 40.2114090697752,
-    "lng": 44.49668080898558,
+    "lat": 40.21177229388182,
+    "lng": 44.496234044260234,
     "geocode_precision": "street_jitter"
   },
   {
@@ -7233,8 +7637,8 @@
     ],
     "photo_count": 16,
     "parsed_address_number": null,
-    "lat": 40.20432486214783,
-    "lng": 44.51914174683421,
+    "lat": 40.20412334683063,
+    "lng": 44.51886286432055,
     "geocode_precision": "street_jitter"
   },
   {
@@ -7424,8 +7828,8 @@
     ],
     "photo_count": 16,
     "parsed_address_number": null,
-    "lat": 40.167246914321986,
-    "lng": 44.40231943338762,
+    "lat": 40.167207344547236,
+    "lng": 44.401293373334475,
     "geocode_precision": "street_spread"
   },
   {
@@ -7565,8 +7969,8 @@
     ],
     "photo_count": 20,
     "parsed_address_number": null,
-    "lat": 40.19487386681272,
-    "lng": 44.503628860368686,
+    "lat": 40.19537681375385,
+    "lng": 44.504626096969545,
     "geocode_precision": "street_spread"
   },
   {
@@ -7681,8 +8085,8 @@
     ],
     "photo_count": 18,
     "parsed_address_number": null,
-    "lat": 40.19204389717475,
-    "lng": 44.51791886054865,
+    "lat": 40.194645452946254,
+    "lng": 44.51401990533449,
     "geocode_precision": "street_spread"
   },
   {
@@ -7747,8 +8151,8 @@
     ],
     "photo_count": 18,
     "parsed_address_number": null,
-    "lat": 40.19224704831278,
-    "lng": 44.501866841844254,
+    "lat": 40.187755448693,
+    "lng": 44.51466112787262,
     "geocode_precision": "street_spread"
   },
   {
@@ -7868,8 +8272,8 @@
     ],
     "photo_count": 10,
     "parsed_address_number": null,
-    "lat": 40.20420661627118,
-    "lng": 44.518307142276505,
+    "lat": 40.20400510095398,
+    "lng": 44.51802826224382,
     "geocode_precision": "street_jitter"
   },
   {
@@ -8242,8 +8646,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.202285366909244,
-    "lng": 44.48631689668141,
+    "lat": 40.20237516260091,
+    "lng": 44.48608103456707,
     "geocode_precision": "street_jitter"
   },
   {
@@ -8313,8 +8717,8 @@
     ],
     "photo_count": 18,
     "parsed_address_number": null,
-    "lat": 40.21066788625052,
-    "lng": 44.49639582943731,
+    "lat": 40.21103111035714,
+    "lng": 44.49594906318464,
     "geocode_precision": "street_jitter"
   },
   {
@@ -8383,8 +8787,8 @@
     ],
     "photo_count": 21,
     "parsed_address_number": null,
-    "lat": 40.19010962521403,
-    "lng": 44.501449832280194,
+    "lat": 40.18945445236568,
+    "lng": 44.502733230545395,
     "geocode_precision": "street_spread"
   },
   {
@@ -8683,6 +9087,65 @@
     "lat": 40.20112339779746,
     "lng": 44.57605893607537,
     "geocode_precision": "district_jitter"
+  },
+  {
+    "id": 35097,
+    "url": "https://besthouse.am/en/estates/35097",
+    "title": "3 room house, Antarayin St, Center (Yerevan) | Best House",
+    "price_usd": 2000,
+    "city": "Yerevan",
+    "district": "Center",
+    "street": "Antarayin St",
+    "bathrooms": "1",
+    "ceiling_height_m": 3.0,
+    "floors": 0,
+    "building_area_sqm": 180,
+    "land_area_sqm": 80,
+    "rooms": 3,
+    "building_type": "Stone",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Internet",
+      "Gas",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Sunny side",
+      "Close to transport stop"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/BZ8Xy7VQGfxMo30eKeXxfWudmmkOSLv4UIzblNlN.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/DOp4xOmncJ5scUhTQFmsmI4bvm8GbWipwxN4Tvt3.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/OvK850Y2uhERUOqTehPhlzLtgJYTDDzTHb716xjo.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/6bkqKjtKZQuIECooR5xtrBUvu4baIfi61j7fzAYO.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/fUzKuEU2ro5UUgsS8N5nKfOhwh0IWzvl6O2f51Bo.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/IGikJTm8TGk9ytVeI6EeMwesNXRi0ueMvLDjmqZ4.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/KW5U9UwkLyKCnhcNaY7Otcw5PSePfV7BQapY6pkx.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/cV0mTVghoiKx4K66Z39UicVMoXq9dEgXzCq0GEeS.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/zXnnWdtKdNZVLRkRE35JrYXh5rkEnXiZla0exMDG.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/g26bHZCVJJmUowKnIrBhzlM245sTPSFN5Xnv2wvV.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/XgDWXPymNxBfTwyW7k8251LivsQJibOkNYn81FpN.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/G8ff42N4VJsxGPUYhJjRYVOb2bSjUKp7nHsiHEy7.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/U8Uf2SNhwKvdJCXcYK4NFfhdCuEmfgXNI5e4EOqc.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/3OlgmUKBbtPahSTgBtfJ8IkS0mLHj7l9HU73J1s3.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/DbyOGNqhBqY4zJGnRmucWFJuVbxx6xczWUtgX5Sx.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/QbdegPeET8CicOyjICMbY4ZFSXbX9pdQAkFV39Xd.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/8lW5LeGBiwYIsWBudT3tTvHS2bZBpVIP8fF6FxBP.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/tDpKr9VeO9XYEfWLIJhq1oh5f5agWZdP1exyfPxC.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/SCJhkeQUhiVgaJ9EQCkhoPIgbp217wiKKLxO3qY0.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/uMSvtkZBPrGUFzsk4U5sprXMW0WwBQUFjGAEHhBR.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/nIIkvN3jzzCUxSYCUgQsZ3WrjY4A9Xa4r4Qx6VYf.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/35097/images/original/wdRMRc4Gwd1Mdxwy6KXDwASsGfmTcmj0ID9Kv41M.webp"
+    ],
+    "photo_count": 22,
+    "parsed_address_number": null,
+    "lat": 40.19193723128523,
+    "lng": 44.516543975662636,
+    "geocode_precision": "street_spread"
   },
   {
     "id": 35132,
@@ -9545,8 +10008,8 @@
     ],
     "photo_count": 4,
     "parsed_address_number": null,
-    "lat": 40.19482875568556,
-    "lng": 44.49599298778856,
+    "lat": 40.19449372335393,
+    "lng": 44.49679717641293,
     "geocode_precision": "street_spread"
   },
   {
@@ -9846,8 +10309,8 @@
     ],
     "photo_count": 10,
     "parsed_address_number": null,
-    "lat": 40.22018111581035,
-    "lng": 44.5137823762848,
+    "lat": 40.22046099201616,
+    "lng": 44.512801643825824,
     "geocode_precision": "street_spread"
   },
   {
@@ -10149,8 +10612,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.17058748372401,
-    "lng": 44.51364728145379,
+    "lat": 40.17005866753541,
+    "lng": 44.51360719872082,
     "geocode_precision": "street_spread"
   },
   {
@@ -10209,8 +10672,8 @@
     ],
     "photo_count": 18,
     "parsed_address_number": null,
-    "lat": 40.16153712850703,
-    "lng": 44.472128744081665,
+    "lat": 40.16062126794652,
+    "lng": 44.47008533240359,
     "geocode_precision": "street_spread"
   },
   {
@@ -10271,8 +10734,8 @@
     ],
     "photo_count": 13,
     "parsed_address_number": null,
-    "lat": 40.17114016511213,
-    "lng": 44.4905579042893,
+    "lat": 40.156788041730955,
+    "lng": 44.45804992718995,
     "geocode_precision": "street_spread"
   },
   {
@@ -10324,8 +10787,8 @@
     ],
     "photo_count": 8,
     "parsed_address_number": null,
-    "lat": 40.1755249471612,
-    "lng": 44.5199272952949,
+    "lat": 40.17586076713662,
+    "lng": 44.519331540783206,
     "geocode_precision": "street_jitter"
   },
   {
@@ -10381,8 +10844,8 @@
     ],
     "photo_count": 14,
     "parsed_address_number": null,
-    "lat": 40.191513779189115,
-    "lng": 44.51709620631369,
+    "lat": 40.19145989248188,
+    "lng": 44.51821229129357,
     "geocode_precision": "street_spread"
   },
   {
@@ -10426,8 +10889,8 @@
     ],
     "photo_count": 7,
     "parsed_address_number": null,
-    "lat": 40.204345110844294,
-    "lng": 44.51658169417505,
+    "lat": 40.20438948807202,
+    "lng": 44.51703779754964,
     "geocode_precision": "street_jitter"
   },
   {
@@ -10742,8 +11205,8 @@
     ],
     "photo_count": 24,
     "parsed_address_number": null,
-    "lat": 40.2117328055736,
-    "lng": 44.497046800611955,
+    "lat": 40.21209602968022,
+    "lng": 44.49660003784811,
     "geocode_precision": "street_jitter"
   },
   {
@@ -10846,6 +11309,50 @@
     "lat": 40.1656936,
     "lng": 44.5200458,
     "geocode_precision": "street"
+  },
+  {
+    "id": 40138,
+    "url": "https://besthouse.am/en/estates/40138",
+    "title": "5 room house, Ghapantsian St, Arabkir (Yerevan) | Best House",
+    "price_usd": 2000,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "Ghapantsian St",
+    "bathrooms": "2",
+    "ceiling_height_m": 2.8,
+    "floors": 1,
+    "building_area_sqm": 175,
+    "land_area_sqm": 600,
+    "rooms": 5,
+    "building_type": "Stone",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Gas"
+    ],
+    "amenities": [
+      "Euro windows",
+      "Tile",
+      "Laminat"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/40138/images/original/J5ZTa0w3lPQgVXp2wpPAtKZHCmNlc5ZCzvKBAVpv.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/40138/images/original/wrSwpuUG7lkgdIjAuL653iePhSV3bwI8PbfRj8V1.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/40138/images/original/KEA5GGbJ93RE5pOXVmZfhHvZpG2sFy4orazBDBVA.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/40138/images/original/cj4KqpbpsFPCFz4OcZxJcS9R4KUQasMoPYFvbpCJ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/40138/images/original/uWwXiolSmun9W7z5z1oC08SG1478QbKwZ1ATXZj1.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/40138/images/original/CXEsOPQURhVTvMoAxnGH49LxaucyEYXZfBYZ63hV.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/40138/images/original/9GGFX2MqWnikJWZwHocxSWQRJd8osL4bOb2GIQje.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/40138/images/original/yqXHlaJfVsjWZwTtAPs09zdKRivCGYCs0emmnhfC.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/40138/images/original/6hw3iDT0TXPEUQ2lAGAaDZNHMKLB5rsbNOaBm0M6.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/40138/images/original/BmHb4WqamXMHxQyc7vbfo97T32myYTSQy1Em3H1r.webp"
+    ],
+    "photo_count": 10,
+    "parsed_address_number": null,
+    "lat": 40.21972455534093,
+    "lng": 44.51496532903377,
+    "geocode_precision": "street_spread"
   },
   {
     "id": 40140,
@@ -11018,8 +11525,8 @@
     ],
     "photo_count": 17,
     "parsed_address_number": null,
-    "lat": 40.191976806466755,
-    "lng": 44.51975196228393,
+    "lat": 40.19649465224883,
+    "lng": 44.51199327629994,
     "geocode_precision": "street_spread"
   },
   {
@@ -11125,8 +11632,8 @@
     ],
     "photo_count": 32,
     "parsed_address_number": null,
-    "lat": 40.2046859874971,
-    "lng": 44.517661217358395,
+    "lat": 40.204730364724824,
+    "lng": 44.51811732143967,
     "geocode_precision": "street_jitter"
   },
   {
@@ -11293,8 +11800,8 @@
     ],
     "photo_count": 8,
     "parsed_address_number": null,
-    "lat": 40.21878406728839,
-    "lng": 44.51554283308163,
+    "lat": 40.21811502083783,
+    "lng": 44.51613234831766,
     "geocode_precision": "street_spread"
   },
   {
@@ -11346,8 +11853,8 @@
     ],
     "photo_count": 8,
     "parsed_address_number": null,
-    "lat": 40.211784682319625,
-    "lng": 44.5070198227582,
+    "lat": 40.211928404129175,
+    "lng": 44.507855671637515,
     "geocode_precision": "street_jitter"
   },
   {
@@ -11401,8 +11908,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.202261038468286,
-    "lng": 44.48614821582168,
+    "lat": 40.20235083415995,
+    "lng": 44.48591235348392,
     "geocode_precision": "street_jitter"
   },
   {
@@ -11453,8 +11960,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.212194255914525,
-    "lng": 44.50654153629982,
+    "lat": 40.212337977724076,
+    "lng": 44.50737738416484,
     "geocode_precision": "street_jitter"
   },
   {
@@ -11820,8 +12327,8 @@
     ],
     "photo_count": 14,
     "parsed_address_number": null,
-    "lat": 40.19601661748928,
-    "lng": 44.50822627613185,
+    "lat": 40.195495305780724,
+    "lng": 44.508578939453805,
     "geocode_precision": "street_jitter"
   },
   {
@@ -12291,8 +12798,8 @@
     ],
     "photo_count": 10,
     "parsed_address_number": null,
-    "lat": 40.19619233220246,
-    "lng": 44.50871767707695,
+    "lat": 40.195671020493904,
+    "lng": 44.50907033662108,
     "geocode_precision": "street_jitter"
   },
   {
@@ -12460,8 +12967,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.19681280008048,
-    "lng": 44.504690605165486,
+    "lat": 40.194467690686025,
+    "lng": 44.50418993054194,
     "geocode_precision": "street_spread"
   },
   {
@@ -12518,8 +13025,8 @@
     ],
     "photo_count": 16,
     "parsed_address_number": null,
-    "lat": 40.21775711512985,
-    "lng": 44.51586620464989,
+    "lat": 40.21744863599495,
+    "lng": 44.51650838789732,
     "geocode_precision": "street_spread"
   },
   {
@@ -12581,8 +13088,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.206725601887726,
-    "lng": 44.514413146951846,
+    "lat": 40.20711375667325,
+    "lng": 44.513680231557835,
     "geocode_precision": "street_jitter"
   },
   {
@@ -12638,8 +13145,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.19871864087538,
-    "lng": 44.50911984486306,
+    "lat": 40.198651059526476,
+    "lng": 44.50865327633236,
     "geocode_precision": "street_jitter"
   },
   {
@@ -12814,8 +13321,8 @@
     ],
     "photo_count": 8,
     "parsed_address_number": null,
-    "lat": 40.15683518863323,
-    "lng": 44.45407929124315,
+    "lat": 40.171443684133244,
+    "lng": 44.49104969923576,
     "geocode_precision": "street_spread"
   },
   {
@@ -13075,8 +13582,8 @@
     ],
     "photo_count": 14,
     "parsed_address_number": null,
-    "lat": 40.21727046325672,
-    "lng": 44.5177022423942,
+    "lat": 40.21692384642896,
+    "lng": 44.51773750361809,
     "geocode_precision": "street_spread"
   },
   {
@@ -13341,8 +13848,8 @@
     ],
     "photo_count": 13,
     "parsed_address_number": null,
-    "lat": 40.195427923326484,
-    "lng": 44.50381629924583,
+    "lat": 40.19584042145011,
+    "lng": 44.50425475761108,
     "geocode_precision": "street_jitter"
   },
   {
@@ -13409,8 +13916,8 @@
     ],
     "photo_count": 22,
     "parsed_address_number": null,
-    "lat": 40.195622481346994,
-    "lng": 44.50423085170015,
+    "lat": 40.19603497947062,
+    "lng": 44.50466931258716,
     "geocode_precision": "street_jitter"
   },
   {
@@ -13476,6 +13983,63 @@
     "lat": 40.160676350216114,
     "lng": 44.51813864312756,
     "geocode_precision": "street_spread"
+  },
+  {
+    "id": 48176,
+    "url": "https://besthouse.am/en/estates/48176",
+    "title": "5 room house, Jrvej district, Nor Norq (Yerevan) | Best House",
+    "price_usd": 3500,
+    "city": "Yerevan",
+    "district": "Nor Norq",
+    "street": "Jrvej district",
+    "bathrooms": "3",
+    "ceiling_height_m": 3.0,
+    "floors": 3,
+    "building_area_sqm": 170,
+    "land_area_sqm": 600,
+    "rooms": 5,
+    "building_type": "Stone",
+    "condition": "Renovated",
+    "facilities": [
+      "Gas",
+      "Heating",
+      "Hot water",
+      "Internet",
+      "Air conditioning",
+      "Electricity",
+      "Permanent water",
+      "Drinking water"
+    ],
+    "amenities": [
+      "Open balcony",
+      "Technique",
+      "Furniture",
+      "Sunny side",
+      "Close to transport stop"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/wWS5XQfeDwPcAtMgSWuopvatkPaY1njZerIXtMgL.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/zLl8bpvjT51SNJIvK3bG7u7yi2gKDS5PkIwZYNuQ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/ZknAhyo7K6DYGriL8PiYcVYqJAuaQWFaQ2s2efiG.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/wSZnRqZAbhTdWSiozlUCbM0RCZJCyLSxdEGbsc00.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/dNroS9IKDCHXhVCI92VQjUSp04K6sxxeNT96W3U9.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/99wrhprsTwt6r5jzZHz8tcsDjtvbGPncem8EVFhF.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/RzY2KZyBBEfT496tGm2Ga4V9GKfdeOnTZdTCaIGa.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/Hqvl08gPzXwPZoNvU47VYvWwd8arliBZSAkEFIwn.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/xYRmTyVjNIbwwhkGFkBYtLmeruXvHqeClqw9gD9g.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/Lnv9WyOQE0eEWnUXOJnEP7fKSiFTjWSCFkqSHBYj.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/jVLGaq4nN3EuTPFcMthhaCnghucQNZ47zTSdxTnq.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/lOq3NAJ6L4uJ8wpIcgZvdae4YIlylcrAqfgdAXtu.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/vmlhWJcIkW97qgQuS15Rxn1sVxyY8vLtTc3b3u8I.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/F84JfbJmBH6mnHx9OnJy0oxR3nRTT09lyQch5ehV.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/48176/images/original/dqBJZkJ1IeUlfLJSt2KcJcHdJLz2WPKQCBMaQp2X.webp"
+    ],
+    "photo_count": 15,
+    "parsed_address_number": null,
+    "lat": 40.19340606915855,
+    "lng": 44.5598341033341,
+    "geocode_precision": "district_jitter"
   },
   {
     "id": 48204,
@@ -13702,8 +14266,8 @@
     ],
     "photo_count": 16,
     "parsed_address_number": null,
-    "lat": 40.19608496718086,
-    "lng": 44.50410662595271,
+    "lat": 40.19649746530448,
+    "lng": 44.50454508608404,
     "geocode_precision": "street_jitter"
   },
   {
@@ -13835,8 +14399,8 @@
     ],
     "photo_count": 18,
     "parsed_address_number": null,
-    "lat": 40.20663935513284,
-    "lng": 44.514002425936155,
+    "lat": 40.20702750991837,
+    "lng": 44.51326950819024,
     "geocode_precision": "street_jitter"
   },
   {
@@ -13929,8 +14493,8 @@
     ],
     "photo_count": 13,
     "parsed_address_number": null,
-    "lat": 40.20286043595206,
-    "lng": 44.51497198589265,
+    "lat": 40.202716021183754,
+    "lng": 44.51540225843693,
     "geocode_precision": "street_jitter"
   },
   {
@@ -14160,8 +14724,8 @@
     ],
     "photo_count": 9,
     "parsed_address_number": null,
-    "lat": 40.188212242199874,
-    "lng": 44.5036255033914,
+    "lat": 40.187992550426465,
+    "lng": 44.503802479682435,
     "geocode_precision": "street_spread"
   },
   {
@@ -14578,8 +15142,8 @@
     ],
     "photo_count": 20,
     "parsed_address_number": null,
-    "lat": 40.20248556154882,
-    "lng": 44.486401025526405,
+    "lat": 40.202575357240484,
+    "lng": 44.486165163523495,
     "geocode_precision": "street_jitter"
   },
   {
@@ -14644,8 +15208,8 @@
     ],
     "photo_count": 22,
     "parsed_address_number": null,
-    "lat": 40.201806165810154,
-    "lng": 44.48636492084729,
+    "lat": 40.20189596150182,
+    "lng": 44.486129058796564,
     "geocode_precision": "street_jitter"
   },
   {
@@ -14769,6 +15333,122 @@
     "lat": 40.16048750407972,
     "lng": 44.51823323031465,
     "geocode_precision": "street_spread"
+  },
+  {
+    "id": 49786,
+    "url": "https://besthouse.am/en/estates/49786",
+    "title": "5 room house, Mar St, Nor Norq (Yerevan) | Best House",
+    "price_usd": 2000,
+    "city": "Yerevan",
+    "district": "Nor Norq",
+    "street": "Mar St",
+    "bathrooms": "2",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 175,
+    "land_area_sqm": 450,
+    "rooms": 5,
+    "building_type": "Stone",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Gas",
+      "Hot water",
+      "Internet",
+      "Air conditioning",
+      "Electricity",
+      "Permanent water",
+      "Drinking water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Euro windows",
+      "Sunny side",
+      "Garage"
+    ],
+    "description": "A two-story fully renovated 5-room private house is for rent on Mar Street. The house is equipped with all utilities.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/JTtEA2C2YVa03hWNpOPvzYBexZtctDgVJKtDBIYe.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/veURUkhevNUCjLNEVCVEskqMQnHhhAuisudzFQSw.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/Spkv9LO1nnnuO3387CyTzMbpBt8hmgXQtWiKSsmC.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/MG8STE9zlFZbtKuo2FfnoH6K9xedB891DwHHle2w.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/ulogXrgjRuly6jHDXrkIdhRYRrZ5zHOkkfGLJ9fV.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/HTgNyR1QA5is5v5Jl8l7FfUf6LMin9xDzgGN4rgf.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/webhxHpGlqoqvXFWKn0m1xZy4CYmLfhn0Ta9kOuY.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/RVmnfrQSgHx4Mv4fSddmpm2tJZeOO80qZRsaYe8T.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/5nV5TxWCx4VjQmJcMPjm9RmK9vwozkIyNLfkfl6R.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/rTLeTCPoC0QzpckoxyR04UsmQDEhnR61w95Z4gvG.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/pCxE6PPhm6dPZdkurqt8GSDayjOkBF0jkPrxYUJH.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/B62QZHh8dxhKcdElgU1tu6f94NFJLtPrLoWoOJwn.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/70c7BwDuM0S9lvITV1CSloaIAT79ikmIa78ULOa9.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49786/images/original/mwVmqNkhCoKOC3cHKF2KJB44xb2FmmLUSUUHWtt9.webp"
+    ],
+    "photo_count": 14,
+    "parsed_address_number": null,
+    "lat": 40.1867819040801,
+    "lng": 44.567482119588085,
+    "geocode_precision": "district_jitter"
+  },
+  {
+    "id": 49792,
+    "url": "https://besthouse.am/en/estates/49792",
+    "title": "5 room house, Mar alley, Nor Norq (Yerevan) | Best House",
+    "price_usd": 2000,
+    "city": "Yerevan",
+    "district": "Nor Norq",
+    "street": "Mar alley",
+    "bathrooms": "2",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 175,
+    "land_area_sqm": 450,
+    "rooms": 5,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Gas",
+      "Hot water",
+      "Central heating",
+      "Air conditioning",
+      "Permanent water",
+      "Electricity",
+      "Internet",
+      "Drinking water"
+    ],
+    "amenities": [
+      "Technique",
+      "Furniture",
+      "Euro windows",
+      "Laminat",
+      "Fireplace",
+      "Fence",
+      "Iron door",
+      "gate",
+      "Garage"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/Jx8Ulw9HB4LTpuTtf5NRCuUWN7HRN42GYSDrBkX3.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/ZGBitg7ljkbxEQFnraeuxBZHA1TTvIkk3WIG4nz0.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/qLFCrhjpnFXiFtVIejktsGvQPRmTeK8enlmDq7BZ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/Gd7ZVu3M5030CjspywCyIvKY1MP6nOYvDyoe8ari.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/v10XYiX7Xrdie6Ljcmp29genjpUBtk2an0saRujq.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/K1oFrkNiupkjcNgnFd8s57Ohhl9HAbql5H1cWQiH.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/AQQT61o5xX94yQkiWObr5C90K2LFcJWjIJGg5jJr.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/tATzlGnziAEgQ0KguUhmUaseXFIA1m7usgJtuQPa.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/B0fMrbtaAX6K4Vu4WUOM9PGDTxyjfvtd6FLOloVL.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/F8vbXtNuqN4Ct0Hollo88mFznt2ppMyAKdVvSDOS.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/xK8FSEcFRjMcF9tXZFXf4coAyO5E6o5xX8CEnxL1.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/9IR1ww7zuhmZht4EW4Vg0SnxlkAngAnJLlyiZOaW.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/49792/images/original/qa4c80D6mfYAnkZJL71F7k4qhsFMYBUan6Avyk6f.webp"
+    ],
+    "photo_count": 13,
+    "parsed_address_number": null,
+    "lat": 40.18582144084921,
+    "lng": 44.56995067744783,
+    "geocode_precision": "district_jitter"
   },
   {
     "id": 49822,
@@ -15011,8 +15691,8 @@
     ],
     "photo_count": 6,
     "parsed_address_number": null,
-    "lat": 40.20604976476229,
-    "lng": 44.513480246586084,
+    "lat": 40.20643791954782,
+    "lng": 44.51274732585002,
     "geocode_precision": "street_jitter"
   },
   {
@@ -15142,8 +15822,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.19122988842186,
-    "lng": 44.501966904483794,
+    "lat": 40.19061396414378,
+    "lng": 44.50114354355042,
     "geocode_precision": "street_spread"
   },
   {
@@ -15332,8 +16012,8 @@
     ],
     "photo_count": 20,
     "parsed_address_number": null,
-    "lat": 40.172756447310654,
-    "lng": 44.52793292533895,
+    "lat": 40.16993816985601,
+    "lng": 44.52698547530872,
     "geocode_precision": "street_spread"
   },
   {
@@ -15398,6 +16078,79 @@
     "lat": 40.160342343603595,
     "lng": 44.51839637031191,
     "geocode_precision": "street_spread"
+  },
+  {
+    "id": 50787,
+    "url": "https://besthouse.am/en/estates/50787",
+    "title": "8 room house, Tumanyan St, Center (Yerevan) | Best House",
+    "price_usd": 3000,
+    "city": "Yerevan",
+    "district": "Center",
+    "street": "Tumanyan St",
+    "bathrooms": "2",
+    "ceiling_height_m": 3.0,
+    "floors": 3,
+    "building_area_sqm": 177,
+    "land_area_sqm": 20,
+    "rooms": 8,
+    "building_type": "Stone",
+    "condition": "Renovated",
+    "facilities": [
+      "Gas",
+      "Heating",
+      "Hot water",
+      "Air conditioning",
+      "Internet",
+      "Electricity",
+      "Permanent water",
+      "Drinking water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Open balcony",
+      "Sunny side",
+      "Beautiful paysage",
+      "Close to transport stop"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/KmjnFKGCv5WOgsrpnk5ztF8abpRNiKZPLoELnQsM.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/QFixFu2i5FBPlmdjzgwu9tY4jXyCLByNAx1pMumc.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/TyxczOpvRHSdmc8tyDNVzjGMvSiGYQE3YOgwkwBv.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/TIiAs50bS4PmIXiEFdg53O8rIkhkxOm49OwLDgTi.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/wcEygMpqzkM2hWkNTK7VIaFg6NGyyGNWcbRBg8hJ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/bqAKcPm0ChAR5BqP7mM0ngZITi6h2HRJKgVCpDR1.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/xkGX57QZSg64rYAlaveRb6UgzBTHOP8hfJCTiz5t.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/lCDa64dvbSTZhe1bjFVf6iYJZgitJHPLZEBWezIC.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/4AiPQiBccUtoFXpX2BN9Mn8yd8mCMAbxFlfkLiTF.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/vEGcFG4g8VDpcJgM7smNDZcjK5FX2ljdajzIDpyv.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/0R8hAtxZ5Rxw5btWHD5aWqKEy87mvrDmyxiaHHiy.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/SS7F46WfMcUYKwnwyFIvJJPCYN3dd0IYxSeKe4AU.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/qzKctRDkStE9zQ9hcXJeMGfvyVGw1jt4fjaekqLT.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/kajUIQ5LHIBEVVywyNwFhL3lmBbol90WJkjZn0o5.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/9wUgAvDlizyZphndOmsCkwheytoa1GLLLbI7YcSW.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/m7RHaVwbiZ8lCRrwfQ3XUXiC9STrxcXRlpXX4Gva.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/PkUYE0oHvcmyqrMjEIfZ94HidYSCdqCvl56hmjbs.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/f655m1SerVENZNE1rZllB8QmRqZ5k3l5F5fNjeUD.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/aR4hsRbSHqJZbWsG8SqVaElvR983GBJI1Q6HHgI2.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/rnVRjmOVrzRQZmEup32mQ1wGhaIExXS2Qc0EctMB.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/am0oWM9U07rZ36TP6tz4qT0jAnTpS2lz6kde2IOF.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/aSvQNdWfd4XURKEr0boOd92jH9KoYmZK5CcK20Jj.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/f3t1CXwNbbI3EyCqVEApBKyZY7K6fIZkT8l4Pleo.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/m02MGJvht05pRwxZHEcHRtGdnQAOv1x2oiiA5dNy.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/IPIFFEiDpzexwIZuhS0oaF6UpOVNcOtnDXoezklB.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/WWuZaU17W5F5wTOi0KUuNikg9epatNFTTmlxwuHJ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/TxwY6EVJrGve8AujSisltZ7ER9ThlM8Tjdm3NgTw.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/zyjr1H1x2Of6rldngLJOKyRhAMc0H7aErAvSPxcW.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/Dc1wTAgbrBpERs51zmzIvP8kMSw3xz2ctst9jDwM.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/50787/images/original/PruUYgoblV0YL2GC7Eudl3OtRULTKsp3ornnpxbS.webp"
+    ],
+    "photo_count": 30,
+    "parsed_address_number": null,
+    "lat": 40.1822157,
+    "lng": 44.5177651,
+    "geocode_precision": "street"
   },
   {
     "id": 50946,
@@ -15519,8 +16272,8 @@
     ],
     "photo_count": 16,
     "parsed_address_number": null,
-    "lat": 40.21675283778303,
-    "lng": 44.51956220896899,
+    "lat": 40.21676889994744,
+    "lng": 44.51971166116552,
     "geocode_precision": "street_spread"
   },
   {
@@ -15697,8 +16450,8 @@
     ],
     "photo_count": 16,
     "parsed_address_number": null,
-    "lat": 40.20430274776004,
-    "lng": 44.51767558599363,
+    "lat": 40.20434712498776,
+    "lng": 44.51813169008431,
     "geocode_precision": "street_jitter"
   },
   {
@@ -15870,8 +16623,8 @@
     ],
     "photo_count": 23,
     "parsed_address_number": null,
-    "lat": 40.204888547055475,
-    "lng": 44.51760347151546,
+    "lat": 40.2049329242832,
+    "lng": 44.51805957555894,
     "geocode_precision": "street_jitter"
   },
   {
@@ -15926,8 +16679,8 @@
     ],
     "photo_count": 9,
     "parsed_address_number": null,
-    "lat": 40.21514106130593,
-    "lng": 44.520795197548466,
+    "lat": 40.21502533287268,
+    "lng": 44.52078726090436,
     "geocode_precision": "street_spread"
   },
   {
@@ -16394,8 +17147,8 @@
     ],
     "photo_count": 19,
     "parsed_address_number": null,
-    "lat": 40.19399770479466,
-    "lng": 44.50143805057603,
+    "lat": 40.1933132325522,
+    "lng": 44.50330121786906,
     "geocode_precision": "street_spread"
   },
   {
@@ -16536,8 +17289,8 @@
     ],
     "photo_count": 23,
     "parsed_address_number": null,
-    "lat": 40.19571781748597,
-    "lng": 44.51231089175327,
+    "lat": 40.191443219180435,
+    "lng": 44.51702777258489,
     "geocode_precision": "street_spread"
   },
   {
@@ -16597,8 +17350,8 @@
     ],
     "photo_count": 14,
     "parsed_address_number": null,
-    "lat": 40.21683996655649,
-    "lng": 44.52170792148104,
+    "lat": 40.21672564267711,
+    "lng": 44.52127796186336,
     "geocode_precision": "street_spread"
   },
   {
@@ -16649,8 +17402,8 @@
     ],
     "photo_count": 8,
     "parsed_address_number": null,
-    "lat": 40.19571800589204,
-    "lng": 44.48695319343886,
+    "lat": 40.195875257927206,
+    "lng": 44.486916710433896,
     "geocode_precision": "street_jitter"
   },
   {
@@ -17048,8 +17801,8 @@
     ],
     "photo_count": 5,
     "parsed_address_number": null,
-    "lat": 40.211168188909106,
-    "lng": 44.50705918971396,
+    "lat": 40.211311910718656,
+    "lng": 44.50789503867674,
     "geocode_precision": "street_jitter"
   },
   {
@@ -17114,8 +17867,8 @@
     ],
     "photo_count": 23,
     "parsed_address_number": null,
-    "lat": 40.19115720137962,
-    "lng": 44.5198501434589,
+    "lat": 40.190939613146135,
+    "lng": 44.519580685131025,
     "geocode_precision": "street_spread"
   },
   {
@@ -17248,8 +18001,51 @@
     ],
     "photo_count": 15,
     "parsed_address_number": null,
-    "lat": 40.19156997392923,
-    "lng": 44.498162906128556,
+    "lat": 40.190596334956105,
+    "lng": 44.50296420042434,
+    "geocode_precision": "street_spread"
+  },
+  {
+    "id": 53844,
+    "url": "https://besthouse.am/en/estates/53844",
+    "title": "5 room house, Aygedzor St, Arabkir (Yerevan) | Best House",
+    "price_usd": 2500,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "Aygedzor St",
+    "bathrooms": "3",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 180,
+    "land_area_sqm": 180,
+    "rooms": 5,
+    "building_type": "Stone",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Permanent water",
+      "Internet",
+      "Gas",
+      "Drinking water",
+      "Electricity",
+      "Air conditioning",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Euro windows"
+    ],
+    "description": "A fully renovated two-story 5-room apartment, equipped with necessary property and equipment, is for rent on Aygedzor street.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/53844/images/original/HkI9Sd2FbS3FukHtEw6pyrJIlHSE30cuAIrZxeG4.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/53844/images/original/1SfB6NSgGhobZw2SIKoMCzhJn1lRBXKKEs65ZSPn.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/53844/images/original/dgT52hUHhZeVTZwTu3WSycC5PEfGwzOiv23AQ3U6.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/53844/images/original/u2ksqhutiAQC6s2hN4J7fuUv11mwUyLWX3icpjUk.webp"
+    ],
+    "photo_count": 4,
+    "parsed_address_number": null,
+    "lat": 40.19119296186473,
+    "lng": 44.50278871679771,
     "geocode_precision": "street_spread"
   },
   {
@@ -17298,8 +18094,76 @@
     ],
     "photo_count": 7,
     "parsed_address_number": null,
-    "lat": 40.17122348060853,
-    "lng": 44.52688610184191,
+    "lat": 40.17049783749987,
+    "lng": 44.52568795882572,
+    "geocode_precision": "street_spread"
+  },
+  {
+    "id": 54180,
+    "url": "https://besthouse.am/en/estates/54180",
+    "title": "4 room house, Ghapantsian St, Arabkir (Yerevan) | Best House",
+    "price_usd": 2000,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "Ghapantsian St",
+    "bathrooms": "2",
+    "ceiling_height_m": 3.0,
+    "floors": 3,
+    "building_area_sqm": 195,
+    "land_area_sqm": 300,
+    "rooms": 4,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Permanent water",
+      "Internet",
+      "Gas",
+      "Drinking water",
+      "Electricity",
+      "Air conditioning",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Euro windows",
+      "Open balcony",
+      "Garage",
+      "Signal system",
+      "Sunny side",
+      "Fence"
+    ],
+    "description": "A three-story, 4-room, beautifully renovated townhouse is for rent on Zapantsyan Street. The house is equipped with all the necessary furniture and appliances.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/4twbJtHe2RthxuFZgfXV52RdwEDOTSIEeGtrXvVi.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/lkvngF5c89U8IhdtsfHnNJr4Ln2mVVOS3pcOTgwv.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/fooVehJHOorqUMlYUogDy1DAj4oQ8ULPcd03BNdU.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/Yac2gQ4Nrp1D5K4f5UOzOlDhXpqvNX5Tlt2yNo22.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/th9tucKYUcxYU1hmd7ifyZVcBLnv9XIIUpjXfXxq.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/JD0bO5eyLpFSLUhuC5ZGxQtppoa8DDv75C4oPBHY.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/LMqAwt40uLIpdys2PRKWqeHRfr629HBHtASEbUdp.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/cswqRe6VSJJTazgBescMLMU3LdZW5hWTuaBxGE5l.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/AWpcZpqfHYjmBXAFg6T42eNMdKCqDasi7PCmGiSM.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/WY1uVK1U9xsKpMMiPrrJ2a8sdzKRU4K070SbTqgU.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/8hbzTD46hkR3TVshFxj9B2MErmrSgtod3pTfTfIm.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/HBnzBWHfwoEYx3ilqFjCVXmORKf16wxKZb7BSLn8.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/BTawiArjq2Z4mdz6YvfamhInZVwG1wTnm5XE60Os.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/eyy4SBum1Ol6FH6tYKrEdPHhTpZz67c2NnpduJUo.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/cs7AV3dtCGH2pUqnqbLv5KIJFvEP3KZsvyz4Ecbc.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/ubKooh8k737BRJv9nd1F5lxmn2iyy10nrinYkr1L.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/E4u9TJfWWIi3tgafwtUSZV7VDE7SRiIHKTbfoX92.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/XVWpUh7VOrJhfkPGIhG9estgc48EUyeR53ocA0Q7.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/tcviOCwEFxbtahbOPQSopR2eVkWVimgZwuIGUggt.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/a80v0axkEU9MBe1BdWjanS2zypbz05joXmBFJsQl.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/NDKMOf6QKg08haDqXVxoLGONFJV0MlRzT8x4fWkQ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/vvJKNeaNsqrFskC07jiEWz2mUT5xFgw3ngoTed4W.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54180/images/original/ZhMBNEQpk989GEloOGMWnAZZMtaFe33HMdNbampF.webp"
+    ],
+    "photo_count": 23,
+    "parsed_address_number": null,
+    "lat": 40.21712099492086,
+    "lng": 44.52363572137291,
     "geocode_precision": "street_spread"
   },
   {
@@ -17417,8 +18281,8 @@
     ],
     "photo_count": 30,
     "parsed_address_number": null,
-    "lat": 40.1959634573325,
-    "lng": 44.5079577885707,
+    "lat": 40.19544214562395,
+    "lng": 44.50831045395676,
     "geocode_precision": "street_jitter"
   },
   {
@@ -17597,6 +18461,119 @@
     "geocode_precision": "district_jitter"
   },
   {
+    "id": 54498,
+    "url": "https://besthouse.am/en/estates/54498",
+    "title": "5 room house, Aygedzor St, Arabkir (Yerevan) | Best House",
+    "price_usd": 2700,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "Aygedzor St",
+    "bathrooms": "3",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 180,
+    "land_area_sqm": 200,
+    "rooms": 5,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Permanent water",
+      "Internet",
+      "Gas",
+      "Drinking water",
+      "Electricity",
+      "Air conditioning",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Tile",
+      "Parking",
+      "Close to transport stop",
+      "Technique",
+      "Iron door",
+      "Signal system",
+      "Sunny side",
+      "Euro windows",
+      "Open balcony",
+      "Laminat"
+    ],
+    "description": "A 2-story house is for rent on Aygedzor Street. The house has a spacious living room, kitchen, laundry room, guest bathroom on the 1st floor. On the 2nd floor there is one master bedroom, from which you can enter a room with wardrobes and a bathroom, 2 more spacious bedrooms and a bathroom. There is also a garage for one car. The house has all the amenities: hot, cold water, gas, heating, cooling, internet service, security system.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/wIJIZM8tK4JDovOIh7BzLGQ9nrsHrwFZenzk3fxG.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/iUBtGSCG4XJaCVIqo3Li2x9pomWOstyMwCBRryEy.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/7qWGgksSuIqMzBgEVmux2M6PZNnD2mUUvhfIpZLq.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/IM24ggioxgc0OMKJfGjcCeVSy2YUDWAU83VHBESI.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/zit1HJIeu8JxICQ394QzjnkKsBcF8L0nH78UU1vy.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/o4kFXsWeHwbZstRoWBTA23KBTZdrWP3VK0CMTqsF.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/L7febt9RhMMujhwEAjwwa6CDrK41WBYn0N1WNi8g.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/QtIwRflTTkGfigzP8hzR3aioaecOqG3b0bN3Q6ZL.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/AM9lyNZrzTEqDaDPLK5o1c3iB25xeBgwCd7Lotuv.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/4XmMvRhlpWXqdbBzSy6hiSDcWqLwM8kxjRQvR5MC.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/nZdjyWe6Xv3tLGw6h3QY0scSfBlwAdWrSaaYDmNU.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54498/images/original/xd07yWcNNC8ab5rAxwroL3qUNdqnfqydOGcC0Ezg.webp"
+    ],
+    "photo_count": 12,
+    "parsed_address_number": null,
+    "lat": 40.19134611924864,
+    "lng": 44.50060591525245,
+    "geocode_precision": "street_spread"
+  },
+  {
+    "id": 54500,
+    "url": "https://besthouse.am/en/estates/54500",
+    "title": "5 room house, Aygedzor St, Arabkir (Yerevan) | Best House",
+    "price_usd": 2500,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "Aygedzor St",
+    "bathrooms": "2",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 180,
+    "land_area_sqm": 200,
+    "rooms": 5,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Gas",
+      "Hot water",
+      "Central heating",
+      "Air conditioning",
+      "Internet",
+      "Drinking water",
+      "Permanent water",
+      "Electricity"
+    ],
+    "amenities": [
+      "Technique",
+      "Furniture",
+      "Close to transport stop",
+      "Beautiful paysage",
+      "Sunny side",
+      "Euro windows",
+      "Fence"
+    ],
+    "description": "For rent a bright two-story house on Aygedzor Street, 180 sq m, 3+ bathrooms, renovated in a designer style.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54500/images/original/PRzjPwSzVgsEjCXm4xG6ATs5azYGxFXOFuZ2oTWu.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54500/images/original/Nv72CW2HUImPj0h18eaBPDcojeIu1nK5McEwHbHa.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54500/images/original/mnPdUJDnsfVADjK6NtMpMe5PNdIklGEHY6EuC6jJ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54500/images/original/eC1bzT8imJjJoW8cm7puzxKFBuNhn9I9jDiZEcpM.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54500/images/original/owYYwNubqHHd74thcrXOtWOFRn8GtcziJdQizGt6.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54500/images/original/FWmOrZ3aW9QRzsSSDS3fvlQV7ZOIZbiwXX2dvPlv.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54500/images/original/9HSzRDjrTkQ61qdoAJrMT617YvIz0BsMxbpJnyEZ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54500/images/original/r40B3FdEGt5cwAQaS6oke9wYCfaniR300ZMHuWSE.webp"
+    ],
+    "photo_count": 8,
+    "parsed_address_number": null,
+    "lat": 40.191561686498254,
+    "lng": 44.498437103914725,
+    "geocode_precision": "street_spread"
+  },
+  {
     "id": 54811,
     "url": "https://besthouse.am/en/estates/54811",
     "title": "6 room house, Bagrevand district, Nor Norq (Yerevan) | Best House",
@@ -17650,6 +18627,78 @@
     "lat": 40.19952426203576,
     "lng": 44.579333831287435,
     "geocode_precision": "district_jitter"
+  },
+  {
+    "id": 54844,
+    "url": "https://besthouse.am/en/estates/54844",
+    "title": "4 room house, Aygedzor St, Arabkir (Yerevan) | Best House",
+    "price_usd": 2300,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "Aygedzor St",
+    "bathrooms": "3",
+    "ceiling_height_m": 3.2,
+    "floors": 2,
+    "building_area_sqm": 180,
+    "land_area_sqm": 200,
+    "rooms": 4,
+    "building_type": "New construction",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Electricity",
+      "Gas",
+      "Permanent water",
+      "Hot water",
+      "Drinking water",
+      "Internet",
+      "Air conditioning"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Open balcony",
+      "Garage",
+      "Signal system",
+      "Sunny side"
+    ],
+    "description": "...A spacious and unique 2-story newly built house is for rent in Aygedzor. The house is newly built in accordance with the latest European standards. The house has 3 bedrooms, a studio-style kitchen, a living room and 3 bathrooms. Garage: 30 sq m. and a terrace: 50 sq m. It is heated by a gas boiler, air conditioning is installed in the bedrooms. All rooms are full of built-in wardrobes. Kitchen furniture is installed. The house is fenced, the garage gates are remote controlled.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/3ovUbXiTZL6T2LI8QqZqpFF7moczKS0XDgVd7sdV.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/3JCxypFfZtaxTRZHCGKWCB6ZLsA1XGpyhLO5KwsE.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/XfXoMbYDfykPfMAm91H4pTesbz4BKgIovsCFo3Da.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/Yq4wFJVcVJlQnFnPgV48pioWd96wT7TV69uRMiWX.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/Cpk6MVHSHlyW76h3Xt6sm9wfclxzI6msai29Tr98.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/8pqWB0TQItNrAvwtHXs6eNUm1EQKMNIhVFyPWxWT.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/rPHOQhgVUQG3Km9jWFWXmMaTmr4qHEOaHe3GVm7Y.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/ctsFlrhUghJeqBZvGbgLtC3Kztuc1SjUlA7rvxQ3.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/8FN9ickYURvOOFXiYoIYXB7mqARGINM4lmGd8TwR.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/iGQQfm57YDNwu2zVPK0FSugmGCKcN71MTGIn8zS4.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/rcjEBteXr7zzilRcgEdXA3BBZFPrvbNOuQ6282Oy.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/SybtzpaV9WOUthyLw9EYyMOyxbaQXDenxh7GCEQB.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/g1q5tHQxLP1B5vxhRRdjXFAMk2bNiOcQkuXH7N9E.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/EVZsfsQQZYmOevN6D4OD82KgjFIlI8PaW71oMCwY.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/QzcYkgQKKCHOYImxT96j2nARHO0FX1cDOwHmuBMB.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/I2XZvqGv9D7vjPOjtSaJl978psD3ha0wM8iUAbSg.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/xT9m9esjDIZgBMJhhsabiS9FimMpaOM9G24AlOBr.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/4bYwpDLGfYydnhxV8eC8GEOaKt4446GPF85XCh8f.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/CP0BHP0J4U8o87ZXDPH0ZhfohTgvx2pZFD0ZmhrI.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/Gcx80BJWyCgZyEo4EY9l6Er1BRhNvtDmx3ZTT9Oi.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/okPzny4WY0O5YmelmEmD3kmyXgkoUyRw9NsovRN5.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/LyIJYvdzd0bhH6EjJ88ZSsEvQ5Y4AK1rSTOGdDvu.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/wylJYZK21svVcEyUGq54p2T94IeDeAHIqdJF5h5S.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/dnUqbxAeDm5rddl0PbusJ36MqRC0GcDaDp2UG33x.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/jDfhW3vvRCGCMScMd6hriPSWjaEOPA6L9Y9gfohp.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/57bHFEvwliOoUFRV0gDE4QKe8foynx2J44ONx844.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/3LiqwUaNCJ3Saqd2qW7vZqPbMDbrmFQHv61cVkPO.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/iwJVzkl25XIf58AAAy1aJW76h41hx4KlhLi4ZXJf.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/54844/images/original/ZJAjX8k4gZ59kneMHTIIJAGElAkJvb0lyxP7m7KY.webp"
+    ],
+    "photo_count": 29,
+    "parsed_address_number": null,
+    "lat": 40.19254616641257,
+    "lng": 44.497169818163684,
+    "geocode_precision": "street_spread"
   },
   {
     "id": 54862,
@@ -17758,8 +18807,8 @@
     ],
     "photo_count": 13,
     "parsed_address_number": null,
-    "lat": 40.202370069897974,
-    "lng": 44.48704671223776,
+    "lat": 40.20245986558964,
+    "lng": 44.486810851090084,
     "geocode_precision": "street_jitter"
   },
   {
@@ -18199,8 +19248,8 @@
     ],
     "photo_count": 13,
     "parsed_address_number": null,
-    "lat": 40.20257699372186,
-    "lng": 44.48668391242741,
+    "lat": 40.20266678941353,
+    "lng": 44.48644805079919,
     "geocode_precision": "street_jitter"
   },
   {
@@ -18268,8 +19317,8 @@
     ],
     "photo_count": 22,
     "parsed_address_number": null,
-    "lat": 40.20630346888595,
-    "lng": 44.52679030143109,
+    "lat": 40.20500293211684,
+    "lng": 44.5255340456536,
     "geocode_precision": "street_spread"
   },
   {
@@ -18408,8 +19457,8 @@
     ],
     "photo_count": 16,
     "parsed_address_number": null,
-    "lat": 40.19454172038847,
-    "lng": 44.501306113869404,
+    "lat": 40.194222841875245,
+    "lng": 44.50153060061665,
     "geocode_precision": "street_spread"
   },
   {
@@ -18474,8 +19523,8 @@
     ],
     "photo_count": 18,
     "parsed_address_number": null,
-    "lat": 40.21756876662511,
-    "lng": 44.524073568536416,
+    "lat": 40.218735479133606,
+    "lng": 44.524732190443295,
     "geocode_precision": "street_spread"
   },
   {
@@ -18675,8 +19724,8 @@
     ],
     "photo_count": 12,
     "parsed_address_number": null,
-    "lat": 40.21950483565603,
-    "lng": 44.525068794596464,
+    "lat": 40.22050240098604,
+    "lng": 44.525465798538654,
     "geocode_precision": "street_spread"
   },
   {
@@ -19094,8 +20143,8 @@
     ],
     "photo_count": 16,
     "parsed_address_number": null,
-    "lat": 40.1984708101298,
-    "lng": 44.50995309363161,
+    "lat": 40.1984032287809,
+    "lng": 44.509486524270386,
     "geocode_precision": "street_jitter"
   },
   {
@@ -19148,8 +20197,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.20174098847848,
-    "lng": 44.486898559158426,
+    "lat": 40.20183078417014,
+    "lng": 44.48666269781451,
     "geocode_precision": "street_jitter"
   },
   {
@@ -19421,8 +20470,8 @@
     ],
     "photo_count": 14,
     "parsed_address_number": null,
-    "lat": 40.195818318727014,
-    "lng": 44.51644529688971,
+    "lat": 40.20895161810176,
+    "lng": 44.52901702773322,
     "geocode_precision": "street_spread"
   },
   {
@@ -19614,8 +20663,8 @@
     ],
     "photo_count": 8,
     "parsed_address_number": null,
-    "lat": 40.20422969182291,
-    "lng": 44.51877015380619,
+    "lat": 40.20402817650571,
+    "lng": 44.51849127239714,
     "geocode_precision": "street_jitter"
   },
   {
@@ -19925,8 +20974,8 @@
     ],
     "photo_count": 19,
     "parsed_address_number": null,
-    "lat": 40.1676215508259,
-    "lng": 44.51821008351139,
+    "lat": 40.167216760869,
+    "lng": 44.518685674010015,
     "geocode_precision": "street_jitter"
   },
   {
@@ -20039,8 +21088,8 @@
     ],
     "photo_count": 15,
     "parsed_address_number": null,
-    "lat": 40.168433915848695,
-    "lng": 44.517660459210205,
+    "lat": 40.1680291258918,
+    "lng": 44.51813605298655,
     "geocode_precision": "street_jitter"
   },
   {
@@ -20240,6 +21289,66 @@
     "geocode_precision": "street_spread"
   },
   {
+    "id": 59812,
+    "url": "https://besthouse.am/en/estates/59812",
+    "title": "6 room house, Zavaryan St, Center (Yerevan) | Best House",
+    "price_usd": 2000,
+    "city": "Yerevan",
+    "district": "Center",
+    "street": "Zavaryan St",
+    "bathrooms": "2",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 178,
+    "land_area_sqm": 200,
+    "rooms": 6,
+    "building_type": "Stone",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Permanent water",
+      "Internet",
+      "Gas",
+      "Drinking water",
+      "Electricity",
+      "Air conditioning",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Euro windows",
+      "Garage"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/Rl2E8c2dNf2RwU9BHM2kheNN9D2ZOb1sT6RiCEDv.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/L4mCcMOvNx5UY9APlL9oiNTvjQylhubGtYgYAhS7.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/qgA3gRE8O1PUVDRw7Pgx5Ge3ksu2090vUiTXjqhD.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/oNhJJIRvcIsTIBAjWTilcIiIkauU2kopAbW24m9h.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/nMVx59Q22fiWBmLWEKcyGXNGschfWeHBF77ud2Nt.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/1WMiKzTxApckY3vde78ddBK2SSYTTxK1F3JFT229.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/DjWPWwTcLVQTaQBzl0mcdC64VDYPptoMc5jcVYER.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/UOqf0ZT7WktHcJdDSRY5dBreqeFDXi07EJZ8Gp3d.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/EK10dp421SYJLVdOBATNkikSKcDa1QRSpOo9s1ti.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/6yQWNdl8E7rGuVBXN7IjK3ptStztC1dzn1gwYpCG.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/zjvzJc2X1ZYkBbCAabzwNVksoBgT5hCfGKff9pOD.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/JzfNrfrbqaMw5gNfvNu7VNE3BeC97D2bYZrOHQc5.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/wmMtZZGeJLGo9rTjU8Jdw1DYUHr18nzZKULukV27.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/bNhgIT3x0M62Q1LtbOIb7joS3vmz2K7LBNsR1D99.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/bcddQcYaewWWXwq5WWEgPsay2C9nIgZLFNSa04VC.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/PSxHC1fgj7arfuIRPuOYZxa8ZTdEnGgDDtrvso4n.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/5Enhg9befPTemFLC6NgKJDON5EYWxXybUsZcR1Nj.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/1GZW6QRCKthsAUTU6tYzSl5rj5FenPelQW2jqYWd.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/59812/images/original/kbjKH2yfP8xNSeaXH3fMaQzKRCeIR9IZhE8ChxuE.webp"
+    ],
+    "photo_count": 19,
+    "parsed_address_number": null,
+    "lat": 40.1667438,
+    "lng": 44.513977,
+    "geocode_precision": "street"
+  },
+  {
     "id": 59873,
     "url": "https://besthouse.am/en/estates/59873",
     "title": "4 room house, Bagrevand district, Nor Norq (Yerevan) | Best House",
@@ -20344,8 +21453,8 @@
     ],
     "photo_count": 20,
     "parsed_address_number": null,
-    "lat": 40.1698006776333,
-    "lng": 44.52464981984,
+    "lat": 40.18505077480399,
+    "lng": 44.52676318690385,
     "geocode_precision": "street_spread"
   },
   {
@@ -20421,6 +21530,68 @@
     "geocode_precision": "street_spread"
   },
   {
+    "id": 60434,
+    "url": "https://besthouse.am/en/estates/60434",
+    "title": "5 room house, Shrjancik Tunel, Arabkir (Yerevan) | Best House",
+    "price_usd": 3000,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "Shrjancik Tunel",
+    "bathrooms": "3",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 180,
+    "land_area_sqm": 680,
+    "rooms": 5,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Permanent water",
+      "Internet",
+      "Gas",
+      "Drinking water",
+      "Electricity",
+      "Air conditioning",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Tile",
+      "Parking",
+      "Technique",
+      "Iron door",
+      "Signal system",
+      "Sunny side",
+      "Euro windows",
+      "Open balcony",
+      "Laminat",
+      "Swimming pool"
+    ],
+    "description": "A two-story house is for rent in the Arabkir area of Yerevan. The house has all the amenities for a complete vacation.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/lS0JoKfXJwtE5tRFuE9acW7ky5BUGEHzZkshapBh.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/tRJFnwSTbsdak4qaJ4JS7brWpWjyZ5BBFxLpdss8.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/cRQ5y1qsKU7qL5VU5hx4uC5DymX6V1Fi2gzOBsGY.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/wU3riRrbQU15iaAH83LWM04m8HGcNytUBSnSkLjV.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/av0FeB55QFgLm91YI8DOwDDGKrfaLiQE9zVRyZRO.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/01AaUNd4SSy7Z26tsUvMuBU2rXhl0EmGR1KgZuNB.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/EtHlBjFEjvfvzCWtwzos0NQUma2P4cnqVuKe25TC.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/75hptBnHvK3Lo8T2wPFWlC4j1oVFoM8OgaPsiacW.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/W71HhiraNzQcXn097dzgN98yjoNsEfE8NDUlxsxm.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/Jk3SRDdhcLiZsiGz9GQGdUcoRCsC4X0MABnps5Wy.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/euhWV9bw5uZ06SoZhIbTJMjIPeO3F1eN8EP1plYs.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/cKJBHTAXhJtswrKRhzMgJQAR4T1qtI6qeDsookct.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/k1cNrwEkgb3g3YL7KJdWKsthuCgvbDWa91f2Qn7V.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/60434/images/original/vSpljQ5uKdgO63NeGTFQhLLgYoMiPgrZ2H1BPk1y.webp"
+    ],
+    "photo_count": 14,
+    "parsed_address_number": null,
+    "lat": 40.23115230935405,
+    "lng": 44.539431917160165,
+    "geocode_precision": "street_jitter"
+  },
+  {
     "id": 60435,
     "url": "https://besthouse.am/en/estates/60435",
     "title": "4 room house, V. Davtyan St, Arabkir (Yerevan) | Best House",
@@ -20472,8 +21643,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.19891562876125,
-    "lng": 44.509815704997386,
+    "lat": 40.19884804741235,
+    "lng": 44.5093491357731,
     "geocode_precision": "street_jitter"
   },
   {
@@ -20537,8 +21708,8 @@
     ],
     "photo_count": 4,
     "parsed_address_number": null,
-    "lat": 40.18789511795754,
-    "lng": 44.5145382918002,
+    "lat": 40.19649660702188,
+    "lng": 44.49377952512714,
     "geocode_precision": "street_spread"
   },
   {
@@ -20792,6 +21963,65 @@
     "lat": 40.19806153125593,
     "lng": 44.57730511568672,
     "geocode_precision": "district_jitter"
+  },
+  {
+    "id": 61007,
+    "url": "https://besthouse.am/en/estates/61007",
+    "title": "5 room house, Aygedzor St, Arabkir (Yerevan) | Best House",
+    "price_usd": 3000,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "Aygedzor St",
+    "bathrooms": "3",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 180,
+    "land_area_sqm": 200,
+    "rooms": 5,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Gas",
+      "Hot water",
+      "Air conditioning",
+      "Internet",
+      "Electricity",
+      "Permanent water",
+      "Drinking water",
+      "Sewage"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Open balcony",
+      "Close to transport stop",
+      "Beautiful paysage",
+      "Sunny side",
+      "Euro windows",
+      "Signal system"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/9TIg4Xf2Wi5cSDJfMOhI7fd8MSCf2pZiLf5j9lKO.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/gSES5P2dvyTyaT8O9JNgp5K6Qqa0meIMcKOFyP2x.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/0liptDvRwLBDIf2euj0QH1TZFpFvmplu4JSaexfP.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/mwv3fbfMoix92L6g2mI9gX0D7YQo8ldPNZXjp8G4.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/lHGAeIk2jBcUNj6Uf3XqZzwgH8cpDniuoDXaKPdy.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/z3jJ5RYhH5iPRg4LLp0tz1CnzVWYxoRNOjP304qQ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/OLbrHupG3kyhOW869DxZF1rdKPUTclufoCbqpE5q.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/w7wzFtoceHYUw9ILvnbz4VcqrztdKNXEWseZQEWh.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/Z62HTrjySR2wS38wzUiJO0QIETzloNR1JK4KDauW.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/bJIzxzHBGvfVnsror27VXcwnkBZziZBiX0jfNXCj.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/lmmJVNPK2as8G0MM4NlPqoCbVulgIWHW5y6Yh7G2.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/OmgnybYHJX9pnc8uWvBeHlVElQgzNeobnkPrgBeD.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61007/images/original/KZIO5I0FfLRZN4sLiYvmY0JfZU5MeobeGlm6Ptd3.webp"
+    ],
+    "photo_count": 13,
+    "parsed_address_number": null,
+    "lat": 40.19095075567855,
+    "lng": 44.50512925430419,
+    "geocode_precision": "street_spread"
   },
   {
     "id": 61192,
@@ -21100,6 +22330,74 @@
     "geocode_precision": "district_jitter"
   },
   {
+    "id": 61432,
+    "url": "https://besthouse.am/en/estates/61432",
+    "title": "4 room house, Jrvej district, Nor Norq (Yerevan) | Best House",
+    "price_usd": 2122,
+    "city": "Yerevan",
+    "district": "Nor Norq",
+    "street": "Jrvej district",
+    "bathrooms": "2",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 185,
+    "land_area_sqm": 550,
+    "rooms": 4,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Permanent water",
+      "Internet",
+      "Gas",
+      "Drinking water",
+      "Electricity",
+      "Air conditioning",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Tile",
+      "Parking",
+      "Technique",
+      "Iron door",
+      "Signal system",
+      "Sunny side",
+      "Euro windows",
+      "Open balcony",
+      "Laminat",
+      "Swimming pool"
+    ],
+    "description": "",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/8w2vHkFGDkZ3YNVAhRPgCwALhLzE6f4bx0SVwd4u.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/BxNMNsIzOChiGejvJR3UJOIrvuQqO1NYSZ6FQsIm.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/sm8foBEjwsa5RLbEs0eusmztxNHd9q51viuk4kl9.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/9sYFxXvi37LD5uOlce1zCVrMwGASYYxEqnF658w5.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/ZqnGxeEbDSs0fFRE7wJRO6PYFTAxgDDBHx2UTBJt.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/y6UCbpOuHC9LgXld5GIIWl5wTChihdgzM4jISGWW.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/sXRWmPqZDKEqKAXdvPAdR9XF5a98uH1HkrbvxChZ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/0QBlpTXgGC7gGwSTpgLhTlrXSjmDBDFRvroK0mc8.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/FcJAkIZ04s1BeVTAjcMp5U3Tg5SQQ7r6QgaQCYE2.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/pp4h6z4yB2Ju5F92NMNU6fVQ3LCz6hY8K8CmKUoL.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/TyFPJxqllXnLdkICgXn2GMNAHNIWyyf6zO6bKfzr.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/Wb2mKkRJ8ikqqCPLyvRCJucmj1V91JzqTWqYcAH3.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/8pRgMzxkntInaaobDIU5t2FsAyC3ylP0VtaMKqa1.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/amEH1Zm2W8cA8qznJKS9jhuqruCX6ptzPcFncMCQ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/rY0Hizbk7ZhsE76zYu8mXysKjmJJ7llNnWSf2ejo.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/p2FUcPI9po4zsuTgPUrIkCm9Ddqp9IPJAw2cwmRa.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/UCOCq926Pjw5PC5Nc1hvDRr1X54A1YSWjW09cUJg.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/OZuVxtRKD3Mg0n48Y8PokQhPCkEQqByktiGyiMG4.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/LOFu4jRygzeMi9oHrp2cccBxfXM5fmytZZfvRmS1.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61432/images/original/K3tmRKs1CydxLgZ07lvJjizbGTeRLAKYG6vhBYNq.webp"
+    ],
+    "photo_count": 20,
+    "parsed_address_number": null,
+    "lat": 40.1924216176092,
+    "lng": 44.559779881005646,
+    "geocode_precision": "district_jitter"
+  },
+  {
     "id": 61433,
     "url": "https://besthouse.am/en/estates/61433",
     "title": "4 room house, Lisinyan St, Center (Yerevan) | Best House",
@@ -21147,8 +22445,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.159657880466106,
-    "lng": 44.5113810124797,
+    "lat": 40.16006439331695,
+    "lng": 44.51096173954389,
     "geocode_precision": "street_jitter"
   },
   {
@@ -21208,8 +22506,8 @@
     ],
     "photo_count": 19,
     "parsed_address_number": null,
-    "lat": 40.22150242098344,
-    "lng": 44.52585204123705,
+    "lat": 40.222172336607564,
+    "lng": 44.52644234097928,
     "geocode_precision": "street_spread"
   },
   {
@@ -21264,8 +22562,8 @@
     ],
     "photo_count": 10,
     "parsed_address_number": null,
-    "lat": 40.2268022294228,
-    "lng": 44.52625813470636,
+    "lat": 40.2219846750334,
+    "lng": 44.5126062463296,
     "geocode_precision": "street_spread"
   },
   {
@@ -21329,8 +22627,8 @@
     ],
     "photo_count": 18,
     "parsed_address_number": null,
-    "lat": 40.22475102856737,
-    "lng": 44.526179079621464,
+    "lat": 40.225419560195036,
+    "lng": 44.5261054890516,
     "geocode_precision": "street_spread"
   },
   {
@@ -21387,8 +22685,8 @@
     ],
     "photo_count": 11,
     "parsed_address_number": null,
-    "lat": 40.16663671565569,
-    "lng": 44.40495405127387,
+    "lat": 40.16707953344914,
+    "lng": 44.403359193741345,
     "geocode_precision": "street_spread"
   },
   {
@@ -21535,6 +22833,67 @@
     "parsed_address_number": null,
     "lat": 40.19866015209302,
     "lng": 44.49842132638486,
+    "geocode_precision": "street_spread"
+  },
+  {
+    "id": 61704,
+    "url": "https://besthouse.am/en/estates/61704",
+    "title": "4 room house, Aygestan St, Center (Yerevan) | Best House",
+    "price_usd": 2653,
+    "city": "Yerevan",
+    "district": "Center",
+    "street": "Aygestan St",
+    "bathrooms": "2",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 195,
+    "land_area_sqm": 320,
+    "rooms": 4,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Permanent water",
+      "Internet",
+      "Gas",
+      "Electricity",
+      "Drinking water",
+      "Hot water",
+      "Air conditioning"
+    ],
+    "amenities": [
+      "Furniture",
+      "Tile",
+      "Parking",
+      "Close to transport stop",
+      "Technique",
+      "Iron door",
+      "Sunny side",
+      "Signal system",
+      "Euro windows",
+      "Laminat"
+    ],
+    "description": "Modern house for long-term rent in the center of Yerevan with a beautiful garden\r\n\r\nTwo-story, fully renovated and furnished house in the center of Yerevan.\r\n\r\nMain advantages:\r\n\r\nSpacious area: bright living room, separate kitchen, multifunctional rooms\r\n\r\nFully furnished and ready to move in\r\n\r\nAir conditioners on both floors, constant hot and cold water\r\n\r\nPrivate garden with fruit trees for relaxation or family gatherings\r\n\r\nOutdoor barbecue area\r\n\r\nGarage\r\n\r\nExcellent location — A quiet and safe neighborhood, away from the noise of the city, but at the same time in the city center.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/rs0tZDTVVXXe38ZvZGuGsEMdNvazZdke5v2R0sT7.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/gNtJkx8m6tlCrRc8Dfe7TOF1nSOe40JUthZlnlXz.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/oeJrSGcU0gD6Hp2TZW5YJfVVHfGtI9tO3VfLJcHR.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/HV84eAsGy8ccOuElMjV4JmJt1Jq8FUKdQIRBcjdJ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/fO17SIZGKGIxOqI7QTMRzfrnME2hpBvZr71LWvuA.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/IOv46cxkw4eVi1u3rhccutdLQiTwS1NNh5Foz0c8.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/tiHQxFs13ekjPZBbzOPwizErCCEXm89QxFqgLgvL.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/UDKU3A7Q2bd7YbH97PvE82EwDSt8LzQjABu3L5CT.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/cSuO3vLcx9RI9QmiMZaSK1aELUlmDuPpfps9CVrX.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/UbsTUV6vrUwUmxXvvXVIzwy0LsYEgatWYUpWIoZl.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/ESlbk3y72aIqBCGpgljoeChn7Zr52TSyRnhfEPAZ.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/LXjaFQ6NytdW7AuLFGfyicE2OJwgRC31yJOVvi3e.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/84E7aH8eLSEr8CCQZuZuXRX1660oJSdrKzgFHJyR.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61704/images/original/PpCJJq0PXkVkUMmsmNpEwvpziSJWtUNQBVyByo35.webp"
+    ],
+    "photo_count": 14,
+    "parsed_address_number": null,
+    "lat": 40.16642327965752,
+    "lng": 44.40517162057356,
     "geocode_precision": "street_spread"
   },
   {
@@ -21713,8 +23072,56 @@
     ],
     "photo_count": 19,
     "parsed_address_number": null,
-    "lat": 40.20417894908252,
-    "lng": 44.51747166604148,
+    "lat": 40.20422332631024,
+    "lng": 44.51792776999867,
+    "geocode_precision": "street_jitter"
+  },
+  {
+    "id": 62258,
+    "url": "https://besthouse.am/en/estates/62258",
+    "title": "4 room house, Aygestan 11 St, Center (Yerevan) | Best House",
+    "price_usd": 2653,
+    "city": "Yerevan",
+    "district": "Center",
+    "street": "Aygestan 11 St",
+    "bathrooms": "2",
+    "ceiling_height_m": 3.0,
+    "floors": 2,
+    "building_area_sqm": 193,
+    "land_area_sqm": 320,
+    "rooms": 4,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Gas",
+      "Hot water",
+      "Central heating",
+      "Air conditioning",
+      "Internet",
+      "Drinking water",
+      "Permanent water",
+      "Electricity"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Euro windows"
+    ],
+    "description": "For rent a two-story stone house on Mikael Chaylakhyan Street in the center, 193 square meters, 2 bathrooms.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/62258/images/original/nRAYJyfQiqqUxnL3LKAM8BZReEhaG6rl0ywIvGm8.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/62258/images/original/KsHidyBgXElNNVu4gldaRvO1NqGqS1n5LpE4XdGx.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/62258/images/original/H8k0athhqVcnlKrjnKvzwuhaZaUKFnXupIjLqR7m.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/62258/images/original/KH4MZl27awfaANP6yLu0wT9n34GA3GOQoVhJmCPK.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/62258/images/original/OtYuQPXzJh0EGEZKkibU78zbaWjZ0940krmNBnyV.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/62258/images/original/psm3boWYWNoL4Ewqr5Fsh4aQaDfgQm1DCHNdOdat.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/62258/images/original/zANVmfqlInkXZvlCZFHe7aKaGwEdgeZeNTt47zFY.webp"
+    ],
+    "photo_count": 7,
+    "parsed_address_number": null,
+    "lat": 40.18561523254367,
+    "lng": 44.52710513116359,
     "geocode_precision": "street_jitter"
   },
   {
@@ -21767,8 +23174,8 @@
     ],
     "photo_count": 8,
     "parsed_address_number": null,
-    "lat": 40.22267273396507,
-    "lng": 44.52641211953771,
+    "lat": 40.22357188231724,
+    "lng": 44.526308877586004,
     "geocode_precision": "street_spread"
   },
   {
@@ -21876,8 +23283,8 @@
     ],
     "photo_count": 14,
     "parsed_address_number": null,
-    "lat": 40.19222434005275,
-    "lng": 44.522399563421196,
+    "lat": 40.192161359904844,
+    "lng": 44.52230066020112,
     "geocode_precision": "street_spread"
   },
   {
@@ -21934,8 +23341,8 @@
     ],
     "photo_count": 8,
     "parsed_address_number": null,
-    "lat": 40.19031635092295,
-    "lng": 44.502937361031485,
+    "lat": 40.1925221176769,
+    "lng": 44.49602842990034,
     "geocode_precision": "street_spread"
   },
   {
@@ -22248,8 +23655,8 @@
     ],
     "photo_count": 7,
     "parsed_address_number": null,
-    "lat": 40.193298397335056,
-    "lng": 44.496948880779385,
+    "lat": 40.192317504479455,
+    "lng": 44.49486731274198,
     "geocode_precision": "street_spread"
   },
   {
@@ -22807,6 +24214,64 @@
     "geocode_precision": "district_jitter"
   },
   {
+    "id": 63791,
+    "url": "https://besthouse.am/en/estates/63791",
+    "title": "4 room house, A. Avetisyan St, Arabkir (Yerevan) | Best House",
+    "price_usd": 3500,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "A. Avetisyan St",
+    "bathrooms": "3",
+    "ceiling_height_m": 3.0,
+    "floors": 3,
+    "building_area_sqm": 190,
+    "land_area_sqm": 190,
+    "rooms": 4,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Permanent water",
+      "Internet",
+      "Gas",
+      "Drinking water",
+      "Electricity",
+      "Air conditioning",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Tile",
+      "Parking",
+      "Close to transport stop",
+      "Technique",
+      "Iron door",
+      "Sunny side",
+      "Euro windows",
+      "Laminat"
+    ],
+    "description": "A bright house is for rent on Avet Avetisyan Street, near the \"Barekamutyun\" metro station.\r\n\r\nThe house consists of:\r\n• 3 spacious bedrooms\r\n• comfortable living room\r\n• 2 hallways\r\n• 3 bathrooms (two of which are in the bedrooms)\r\n\r\nThe house has an open balcony, a large and beautiful yard, as well as a convenient parking area.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/rOa5tJuOZlOJo7SWirV7UsXUGeMKQuJXlsXslL96.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/qX7R2S0cOP5tLiWPTcwr9NveIiLx21Dsxwoz34ON.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/7yRzKN7C0SvRfE7RYp3Il6iSwVcjWbblbpVNm42A.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/Nrkz6GlCf3L05iuZVouTkGLJ9hzNFRa1k7RbU7Rp.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/vyKyJGuEOIxQ3IiF47LKHQZ2VffnWSHcJMh2Zs32.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/wOcdomi4JALq5sFJKl48enaxz7oIcgtGVDuw4MEM.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/mRSGyWnNK7LfMcTGrIslR31jGfhnMeoVLCtvMCM7.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/rQ1ZQOVyDA0Ehr2zGTVCv98iKIikM75ZkxAW3wOb.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/IepOWbn1Bxq7AuibbZouMdSFfQFYk6Lrli6GaiOe.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/n77vD8x6ppZOr6WpqTQLurtMkW6UDisRmhwQWDZP.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/MKWo1FzHhgUBCsYwY8Jw7U6y42m2AsJaY8MtvojT.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/63791/images/original/GEZ13usTNLIWJm957kETND9MoVPdsTT37DHLIQQN.webp"
+    ],
+    "photo_count": 12,
+    "parsed_address_number": null,
+    "lat": 40.20494560084311,
+    "lng": 44.5484236073499,
+    "geocode_precision": "street_spread"
+  },
+  {
     "id": 64018,
     "url": "https://besthouse.am/en/estates/64018",
     "title": "6 room house, Bagrevand district, Nor Norq (Yerevan) | Best House",
@@ -22901,5 +24366,63 @@
     "lat": 40.18054667990675,
     "lng": 44.50578256673753,
     "geocode_precision": "district_jitter"
+  },
+  {
+    "id": 64570,
+    "url": "https://besthouse.am/en/estates/64570",
+    "title": "4 room house, A. Avetisyan St, Arabkir (Yerevan) | Best House",
+    "price_usd": 3500,
+    "city": "Yerevan",
+    "district": "Arabkir",
+    "street": "A. Avetisyan St",
+    "bathrooms": "3",
+    "ceiling_height_m": 3.0,
+    "floors": 3,
+    "building_area_sqm": 190,
+    "land_area_sqm": 200,
+    "rooms": 4,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Permanent water",
+      "Internet",
+      "Gas",
+      "Drinking water",
+      "Electricity",
+      "Air conditioning",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Euro windows",
+      "Swimming pool"
+    ],
+    "description": "A three-story house with fully equipped utilities is for rent on Avetisyan Street.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/GRqRD9a77XQTbfIA9F75ksrZsJUXiS05b9WtoMLD.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/G9EKlkBVmWqX99IymQlienFDyAYpgo5ePpA7c5Ti.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/W07i7Lh8Z8c6ZarWxHcuruBua3D4FRsLcV9dQwPi.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/3UHgdl8SEGy9sDzLmerQxvHGGYUKWMwOOiabgx9D.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/Wf7iUMZtonQqeMBmGOJtKaJrUnEQy8CJMyoiaWjL.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/SaqasruVYoldgK7TwlqjhE7UHTYucvRIdD00cLcp.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/AE3oeAGEu9kzYABoaQcMFGVzQ843vQRwl6AjghrA.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/iEkqHUfOYest7xPkhOJGXV4bRDofe9qmJR0EPqSk.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/Kge0BMVV3wVU9SddKgZSOCTbFaa0czolqYxPgN9A.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/xE7mMlqKJM3VMCRWztwdYXKOIQDfInsEVG04n9jI.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/MkfYRkVcueKrMSus3mS9be60V0wr1c4dLVViCfTi.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/CY40w4tZyqp1VSICXwJX6oFQvI9oT6GiVPwQw1gs.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/uwCdcAUiYVs6nDsUmIpy7yKPsmWiPEgs7mTgGINT.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/Iknep3CGlDhi3d5PERJWKmwUIrNVktu4RxS1sf0P.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/aZIhWLJDg1dVkH4jQol13Kkc6TIMECflBtxXeeiC.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/LKbqVgXWqYymkw4Rz8QH2qw9tEZQSEiR3VcbkIB2.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/64570/images/original/uWte6w5kld4igS4du4zV4yQO0He9mm3WCKOFAMyq.webp"
+    ],
+    "photo_count": 17,
+    "parsed_address_number": null,
+    "lat": 40.17878009748407,
+    "lng": 44.564353803232436,
+    "geocode_precision": "street_spread"
   }
 ]
