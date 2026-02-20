@@ -3,6 +3,7 @@ import "./styles/index.css";
 import { DEFAULT_CENTER } from "./config";
 import { normalizeListing } from "./converters";
 import { applyFilters, initDistrictFilter, readFilters, writeFilters, type FilterContext } from "./filters";
+import { formatFavoritesForClipboard, getFavorites, onFavoritesChange } from "./favorites";
 import { GalleryController } from "./gallery";
 import { buildWalkingMinutesIndex } from "./geo";
 import { readHash, writeHashDebounced, type HashState } from "./hashState";
@@ -57,6 +58,50 @@ async function boot(): Promise<void> {
     openGallery: (p) => gallery.open(p),
     preloadPhotos: (p) => void gallery.preloadAll(p),
   });
+
+  // --- Favorites export ---------------------------------------------------
+  const exportBtn = document.getElementById("exportFavs") as HTMLButtonElement | null;
+  if (exportBtn) {
+    const update = (urls: ReadonlySet<string>) => {
+      exportBtn.textContent = `★ ${urls.size} — Copy`;
+    };
+    onFavoritesChange(update);
+
+    exportBtn.addEventListener("click", async () => {
+      const text = formatFavoritesForClipboard(listings);
+      if (!text) {
+        exportBtn.textContent = "No favorites";
+        window.setTimeout(() => update(getFavorites()), 900);
+        return;
+      }
+
+      const original = exportBtn.textContent;
+      try {
+        await navigator.clipboard.writeText(text);
+        exportBtn.textContent = "Copied!";
+      } catch {
+        // Fallback for stricter browser contexts (best-effort).
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        ta.style.position = "fixed";
+        ta.style.left = "-9999px";
+        document.body.appendChild(ta);
+        ta.select();
+        try {
+          document.execCommand("copy");
+          exportBtn.textContent = "Copied!";
+        } catch {
+          exportBtn.textContent = "Copy failed";
+        } finally {
+          document.body.removeChild(ta);
+        }
+      } finally {
+        window.setTimeout(() => {
+          if (original) exportBtn.textContent = original;
+        }, 1100);
+      }
+    });
+  }
 
   // --- Toggle checkboxes --------------------------------------------------
 

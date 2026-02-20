@@ -41,3 +41,23 @@
 .sep {
   color: #666;
 }
+
+#exportFavs {
+  appearance: none;
+  background: rgba(26, 26, 46, 0.6);
+  color: var(--color-text);
+  border: 1px solid rgba(255, 209, 102, 0.45);
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+#exportFavs:hover {
+  border-color: rgba(255, 209, 102, 0.75);
+}
+
+#exportFavs:active {
+  transform: translateY(0.5px);
+}

@@ -3,7 +3,7 @@ import type { Listing } from "./types";
 
 const DESC_MAX_LENGTH = 420;
 
-export function buildPopupHtml(listing: Listing): string {
+export function buildPopupHtml(listing: Listing, isFavorite: boolean): string {
   const firstPhoto = listing.photo_urls[0];
   const thumb = firstPhoto
     ? `<img class="popup-thumb" src="${escapeHtml(firstPhoto)}" alt="Listing photo" onerror="this.style.display='none'">`
@@ -39,10 +39,26 @@ export function buildPopupHtml(listing: Listing): string {
     ? `<div class="popup-desc">${escapeHtml(descShort)}</div>`
     : "";
 
+  const favIcon = isFavorite ? "★" : "☆";
+  const favClass = isFavorite ? "popup-fav active" : "popup-fav";
+  const favBtn = listing.url
+    ? `<button class="${favClass}" type="button" data-action="favorite" data-url="${escapeHtml(
+        listing.url
+      )}" aria-label="Toggle favorite">${favIcon}</button>`
+    : "";
+
+  // Dislike state is determined at popup-open time (MapController) to avoid coupling this module.
+  // We still render the button shell so MapController can toggle it.
+  const dislikeBtn = listing.url
+    ? `<button class="popup-dislike" type="button" data-action="dislike" data-url="${escapeHtml(
+        listing.url
+      )}" aria-label="Toggle dislike">×</button>`
+    : "";
+
   return [
     '<div class="popup-content">',
     thumb,
-    `<h3>${escapeHtml(listing.street || "Unknown")}</h3>`,
+    `<div class="popup-titlebar"><h3>${escapeHtml(listing.street || "Unknown")}</h3><div class="popup-actions">${favBtn}${dislikeBtn}</div></div>`,
     `<div class="popup-body">${rowsHtml}${descHtml}${link}</div>`,
     "</div>",
   ].join("");

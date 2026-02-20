@@ -5,6 +5,8 @@ import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 
 import { PRICE_BRACKETS, priceColor } from "./config";
+import { hasFavorite, removeFavorite, toggleFavorite } from "./favorites";
+import { hasDislike, removeDislike, toggleDislike } from "./dislikes";
 import { createLayerSets } from "./mapLayers";
 import { buildPopupHtml } from "./mapPopup";
 import type { LatLng, Listing } from "./types";
@@ -49,13 +51,27 @@ function createClusterIcon(cluster: L.MarkerCluster): L.DivIcon {
   });
 }
 
-function createMarkerIcon(color: string): L.DivIcon {
+function createMarkerIconWithFavorite(color: string, favorite: boolean): L.DivIcon {
   return L.divIcon({
-    html: `<div class="marker-dot" style="background:${color}"></div>`,
+    html: `<div class="marker-dot" style="background:${color}">${favorite ? '<span class="marker-fav-badge">★</span>' : ""}</div>`,
     className: "",
     iconSize: [14, 14],
     iconAnchor: [7, 7],
   });
+}
+
+function createDislikedMarkerIcon(): L.DivIcon {
+  return L.divIcon({
+    html: '<div class="marker-x">×</div>',
+    className: "",
+    iconSize: [18, 18],
+    iconAnchor: [9, 9],
+  });
+}
+
+function createListingIcon(listing: Listing): L.DivIcon {
+  if (hasDislike(listing.url)) return createDislikedMarkerIcon();
+  return createMarkerIconWithFavorite(priceColor(listing.price), hasFavorite(listing.url));
 }
 
 function createCenterIcon(): L.DivIcon {
@@ -267,10 +283,10 @@ export class MapController {
 
     for (const listing of listings) {
       const marker = L.marker([listing.lat, listing.lng], {
-        icon: createMarkerIcon(priceColor(listing.price)),
+        icon: createListingIcon(listing),
       });
 
-      marker.bindPopup(buildPopupHtml(listing), {
+      marker.bindPopup(buildPopupHtml(listing, hasFavorite(listing.url)), {
         maxWidth: 350,
         keepInView: true,
         autoPanPadding: [16, 16],
@@ -280,6 +296,42 @@ export class MapController {
         this.preloadPhotos?.(listing.photo_urls);
         const thumb = e.popup.getElement()?.querySelector<HTMLImageElement>("img.popup-thumb");
         thumb?.addEventListener("click", () => this.openGallery(listing.photo_urls), { once: true });
+
+        const favBtn = e.popup.getElement()?.querySelector<HTMLButtonElement>("button[data-action='favorite']");
+        if (favBtn) {
+          // Ensure the UI reflects latest state even if favorites changed after initial render.
+          const isFavNow = hasFavorite(listing.url);
+          favBtn.classList.toggle("active", isFavNow);
+          favBtn.textContent = isFavNow ? "★" : "☆";
+
+          favBtn.addEventListener("click", (evt) => {
+            evt.preventDefault();
+            evt.stopPropagation();
+            // Mutual exclusivity: favoriting clears dislike.
+            removeDislike(listing.url);
+            const next = toggleFavorite(listing.url);
+            favBtn.classList.toggle("active", next);
+            favBtn.textContent = next ? "★" : "☆";
+            marker.setIcon(createListingIcon(listing));
+          });
+        }
+
+        const dislikeBtn = e.popup.getElement()?.querySelector<HTMLButtonElement>("button[data-action='dislike']");
+        if (dislikeBtn) {
+          const isDislikedNow = hasDislike(listing.url);
+          dislikeBtn.classList.toggle("active", isDislikedNow);
+          dislikeBtn.textContent = "×";
+
+          dislikeBtn.addEventListener("click", (evt) => {
+            evt.preventDefault();
+            evt.stopPropagation();
+            // Mutual exclusivity: disliking clears favorite.
+            removeFavorite(listing.url);
+            const next = toggleDislike(listing.url);
+            dislikeBtn.classList.toggle("active", next);
+            marker.setIcon(createListingIcon(listing));
+          });
+        }
       });
 
       this.clusterGroup.addLayer(marker);

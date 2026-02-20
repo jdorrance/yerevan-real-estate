@@ -50,6 +50,24 @@
   border-radius: 50%;
   border: 2px solid white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.marker-fav-badge {
+  position: absolute;
+  top: -9px;
+  right: -9px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgba(26, 26, 46, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  color: #ffd166;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 14px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
 }
 
 .cluster-icon {
@@ -79,6 +97,23 @@
   line-height: 1;
 }
 
+/* Disliked listing marker: X instead of dot */
+.marker-x {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid rgba(255, 92, 92, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff5c5c;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+
 /* --- Popup content --- */
 
 .popup-content {
@@ -92,6 +127,58 @@
 .popup-content h3 {
   margin-bottom: 6px;
   color: var(--color-accent);
+}
+
+.popup-titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.popup-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.popup-fav {
+  appearance: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  padding: 0 2px;
+  color: #c6c6c6;
+}
+
+.popup-fav.active {
+  color: #ffd166;
+}
+
+.popup-fav:hover {
+  filter: brightness(1.06);
+}
+
+.popup-dislike {
+  appearance: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  padding: 0 2px;
+  color: #c6c6c6;
+}
+
+.popup-dislike.active {
+  color: #ff5c5c;
+}
+
+.popup-dislike:hover {
+  filter: brightness(1.06);
 }
 
 .popup-content .popup-thumb {
