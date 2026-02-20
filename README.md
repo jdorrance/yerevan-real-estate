@@ -112,7 +112,7 @@ Static output lands in `frontend/dist/` — ready to serve from any static host.
 Pushing to `main` triggers the GitHub Actions workflow which:
 
 1. Installs Node dependencies
-2. Runs `npm run deploy` (Vite build with `/armenia/` base path)
+2. Runs `npm run deploy` (Vite build with `/yerevan-real-estate/` base path)
 3. Deploys `frontend/dist/` to GitHub Pages
 
 No Python or scraping runs in CI. The listings JSON is committed to the repo and consumed at build time.

@@ -13,6 +13,7 @@ import shutil
 from scraper import run_scraper
 from geocode import run_geocoder
 from spread import run_spread
+from isochrones import maybe_write_isochrones
 from output import generate_csv, generate_geojson
 
 
@@ -53,6 +54,20 @@ def main():
     shutil.copyfile(listings_path, frontend_data_dir / "listings.json")
     with open(frontend_data_dir / "config.json", "w", encoding="utf-8") as f:
         json.dump({"eu": {"lat": eu_coords[0], "lng": eu_coords[1]}}, f, indent=2)
+
+    # Optional: generate walking isochrones (15/30 minutes).
+    wrote_iso = maybe_write_isochrones(
+        center_lat=eu_coords[0],
+        center_lng=eu_coords[1],
+        out_path=frontend_data_dir / "isochrones.geojson",
+        minutes=(15, 30),
+        force=True,
+    )
+    if wrote_iso:
+        print("  Wrote frontend/public/data/isochrones.geojson (walking isochrones)")
+    else:
+        # Keep any previously-committed isochrones.geojson in place.
+        pass
 
     total = len(listings)
     geocoded = sum(1 for l in listings if l.get("lat"))

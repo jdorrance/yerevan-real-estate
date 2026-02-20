@@ -1,5 +1,14 @@
 import type { FilterValues, Listing } from "./types";
 
+let walkingMinutesById: ReadonlyMap<number, number> | null = null;
+
+export function setWalkingMinutesIndex(index: ReadonlyMap<number, number> | null): void {
+  walkingMinutesById = index;
+  const select = document.getElementById("walkFilter") as HTMLSelectElement | null;
+  if (!select) return;
+  select.disabled = !walkingMinutesById;
+}
+
 export function initDistrictFilter(listings: Listing[]): void {
   const select = document.getElementById("distFilter") as HTMLSelectElement | null;
   if (!select) throw new Error("District filter <select> not found");
@@ -22,6 +31,7 @@ export function readFilters(): FilterValues {
     minArea: readNumber("minArea", 0),
     minRooms: readNumber("minRooms", 0),
     district: (document.getElementById("distFilter") as HTMLSelectElement | null)?.value ?? "",
+    walkMaxMinutes: readNumber("walkFilter", 0),
   };
 }
 
@@ -31,6 +41,10 @@ export function applyFilters(all: Listing[], f: FilterValues): Listing[] {
     if (l.area != null && l.area < f.minArea) return false;
     if (l.rooms != null && l.rooms < f.minRooms) return false;
     if (f.district && l.district !== f.district) return false;
+    if (f.walkMaxMinutes > 0) {
+      const minutes = walkingMinutesById?.get(l.id);
+      if (minutes == null || minutes > f.walkMaxMinutes) return false;
+    }
     return true;
   });
 }

@@ -54,12 +54,32 @@ function createEuIcon(): L.DivIcon {
 }
 
 function buildPopupHtml(listing: Listing): string {
-  const { photo_urls, street, district, price, area, land_area, rooms, floors, building_type, photo_count, url } = listing;
+  const {
+    photo_urls,
+    street,
+    district,
+    price,
+    area,
+    land_area,
+    rooms,
+    floors,
+    building_type,
+    photo_count,
+    url,
+    facilities,
+    amenities,
+    description,
+  } = listing;
 
   const firstPhoto = photo_urls[0];
   const thumb = firstPhoto
     ? `<img class="popup-thumb" src="${escapeHtml(firstPhoto)}" alt="Listing photo" onerror="this.style.display='none'">`
     : "";
+
+  const facilitiesStr = (facilities ?? []).filter(Boolean).join(", ");
+  const amenitiesStr = (amenities ?? []).filter(Boolean).join(", ");
+  const desc = (description ?? "").trim();
+  const descShort = desc.length > 420 ? `${desc.slice(0, 420).trim()}…` : desc;
 
   const rows = [
     ["District", escapeHtml(district || "?")],
@@ -69,6 +89,8 @@ function buildPopupHtml(listing: Listing): string {
     ["Rooms", formatNullable(rooms)],
     ["Floors", formatNullable(floors)],
     ["Type", escapeHtml(building_type || "?")],
+    ["Facilities", facilitiesStr ? escapeHtml(facilitiesStr) : "?"],
+    ["Amenities", amenitiesStr ? escapeHtml(amenitiesStr) : "?"],
     ["Photos", String(photo_count)],
   ].map(([label, value]) =>
     `<div class="detail-row"><span class="detail-label">${label}:</span> ${value}</div>`
@@ -78,7 +100,11 @@ function buildPopupHtml(listing: Listing): string {
     ? `<div class="popup-link"><a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">View on BestHouse</a></div>`
     : "";
 
-  return `<div class="popup-content">${thumb}<h3>${escapeHtml(street || "Unknown")}</h3>${rows}${link}</div>`;
+  const descHtml = descShort ? `<div class="popup-desc">${escapeHtml(descShort)}</div>` : "";
+
+  return `<div class="popup-content">${thumb}<h3>${escapeHtml(
+    street || "Unknown"
+  )}</h3><div class="popup-body">${rows}${descHtml}${link}</div></div>`;
 }
 
 export class MapController {
@@ -87,6 +113,7 @@ export class MapController {
   private markersById = new Map<number, L.Marker>();
   private euLatLng: L.LatLng;
   private openGallery: OpenGalleryFn;
+  private isochroneLayer: L.GeoJSON | null = null;
 
   constructor({ eu, openGallery }: MapOptions) {
     this.euLatLng = L.latLng(eu.lat, eu.lng);
@@ -110,6 +137,44 @@ export class MapController {
     L.marker([eu.lat, eu.lng], { icon: createEuIcon() })
       .addTo(this.map)
       .bindPopup("<b>EU Delegation</b><br>21 Frik St, Yerevan");
+  }
+
+  setWalkingIsochrones(geojson: GeoJSON.FeatureCollection): void {
+    // Replace existing layer (if any)
+    if (this.isochroneLayer) {
+      this.map.removeLayer(this.isochroneLayer);
+      this.isochroneLayer = null;
+    }
+
+    const features = [...geojson.features].sort((a, b) => {
+      const av = Number((a.properties as any)?.value ?? 0);
+      const bv = Number((b.properties as any)?.value ?? 0);
+      return bv - av; // draw largest first (behind)
+    });
+
+    const sorted: GeoJSON.FeatureCollection = { type: "FeatureCollection", features };
+
+    const style: L.PathOptions | ((feature?: GeoJSON.Feature) => L.PathOptions) = (feature) => {
+      const seconds = Number((feature?.properties as any)?.value ?? 0);
+      const minutes = Math.round(seconds / 60);
+      const { color, fillColor } = isochroneStyle(minutes);
+      return {
+        color,
+        weight: 2,
+        opacity: 0.9,
+        fillColor,
+        fillOpacity: 0.24,
+      };
+    };
+
+    this.isochroneLayer = L.geoJSON(sorted as any, {
+      style,
+      interactive: false,
+    });
+
+    // Add behind markers.
+    this.isochroneLayer.addTo(this.map);
+    (this.isochroneLayer as any).bringToBack?.();
   }
 
   setView(lat: number, lng: number, zoom = 16): void {
@@ -138,7 +203,11 @@ export class MapController {
         icon: createMarkerIcon(priceColor(listing.price)),
       });
 
-      marker.bindPopup(buildPopupHtml(listing), { maxWidth: 350 });
+      marker.bindPopup(buildPopupHtml(listing), {
+        maxWidth: 350,
+        keepInView: true,
+        autoPanPadding: [16, 16],
+      });
 
       marker.on("popupopen", (e) => {
         const thumb = e.popup.getElement()?.querySelector<HTMLImageElement>("img.popup-thumb");
@@ -149,4 +218,10 @@ export class MapController {
       this.markersById.set(listing.id, marker);
     }
   }
+}
+
+function isochroneStyle(minutes: number): { color: string; fillColor: string } {
+  // High-contrast palette for dark basemap. Minutes are expected to be 15/30.
+  if (minutes <= 15) return { color: "#00E5FF", fillColor: "#00E5FF" }; // cyan
+  return { color: "#FFD400", fillColor: "#FFD400" }; // yellow
 }

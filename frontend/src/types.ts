@@ -59,4 +59,5 @@ export interface FilterValues {
   minArea: number;
   minRooms: number;
   district: string;
+  walkMaxMinutes: number;
 }
