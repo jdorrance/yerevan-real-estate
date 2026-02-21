@@ -68,7 +68,6 @@ export interface FilterValues {
   minPrice: number;
   maxPrice: number;
   minArea: number;
-  minRooms: number;
-  district: string;
+  minAiScore: number;
   walkMaxMinutes: number;
 }

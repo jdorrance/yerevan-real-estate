@@ -2,7 +2,7 @@ import "./styles/index.css";
 
 import { DEFAULT_CENTER } from "./config";
 import { normalizeListing } from "./converters";
-import { applyFilters, initDistrictFilter, readFilters, writeFilters, type FilterContext } from "./filters";
+import { applyFilters, readFilters, writeFilters, type FilterContext } from "./filters";
 import { seedDefaultsIfEmpty as seedDislikesIfEmpty } from "./dislikes";
 import { formatFavoritesForClipboard, getFavorites, hasFavorite, onFavoritesChange, seedDefaultsIfEmpty } from "./favorites";
 import { GalleryController } from "./gallery";
@@ -157,9 +157,8 @@ async function boot(): Promise<void> {
   const walkSelect = document.getElementById("walkFilter") as HTMLSelectElement | null;
   if (walkSelect) walkSelect.disabled = filterCtx.walkingIndex == null;
 
-  // --- Filters (district options first so hash values can be applied) ------
+  // --- Filters (restore from hash if present) -------------------------------
 
-  initDistrictFilter(listings);
   if (hash.filters) writeFilters(hash.filters);
 
   // --- Table toggle -------------------------------------------------------
@@ -233,7 +232,7 @@ async function boot(): Promise<void> {
 
   // --- Live filtering -----------------------------------------------------
 
-  const liveIds = ["minPrice", "maxPrice", "minArea", "minRooms", "distFilter", "walkFilter"];
+  const liveIds = ["minPrice", "maxPrice", "minArea", "aiScoreFilter", "walkFilter"];
   for (const id of liveIds) {
     const el = document.getElementById(id);
     if (!el) continue;

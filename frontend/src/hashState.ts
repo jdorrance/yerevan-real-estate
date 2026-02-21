@@ -41,17 +41,14 @@ export function readHash(): HashState {
     const minPrice = safeNum(params.get("minPrice"));
     const maxPrice = safeNum(params.get("maxPrice"));
     const minArea = safeNum(params.get("minArea"));
-    const minRooms = safeNum(params.get("minRooms"));
+    const minAiScore = safeNum(params.get("aiScore"));
     const walkMaxMinutes = safeNum(params.get("walk"));
 
     if (minPrice != null) filters.minPrice = minPrice;
     if (maxPrice != null) filters.maxPrice = maxPrice;
     if (minArea != null) filters.minArea = minArea;
-    if (minRooms != null) filters.minRooms = minRooms;
+    if (minAiScore != null) filters.minAiScore = minAiScore;
     if (walkMaxMinutes != null) filters.walkMaxMinutes = walkMaxMinutes;
-
-    const district = params.get("district");
-    if (district != null) filters.district = district;
 
     if (Object.keys(filters).length) state.filters = filters;
 
@@ -76,8 +73,7 @@ export function writeHash(state: HashState): void {
     if (f.minPrice != null) params.set("minPrice", String(f.minPrice));
     if (f.maxPrice != null) params.set("maxPrice", String(f.maxPrice));
     if (f.minArea != null && f.minArea > 0) params.set("minArea", String(f.minArea));
-    if (f.minRooms != null && f.minRooms > 0) params.set("minRooms", String(f.minRooms));
-    if (f.district) params.set("district", f.district);
+    if (f.minAiScore != null && f.minAiScore > 0) params.set("aiScore", String(f.minAiScore));
     if (f.walkMaxMinutes != null && f.walkMaxMinutes > 0) params.set("walk", String(f.walkMaxMinutes));
   }
   if (state.greens != null) params.set("greens", state.greens ? "1" : "0");
