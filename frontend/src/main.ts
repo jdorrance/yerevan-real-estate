@@ -37,6 +37,7 @@ async function loadConfig(base: string): Promise<AppConfig> {
 async function boot(): Promise<void> {
   const base = import.meta.env.BASE_URL;
   const hash = readHash();
+  let selectedId: number | undefined = hash.selectedId;
 
   const [config, rawListings, shortlistUrls, defaultDislikes] = await Promise.all([
     loadConfig(base),
@@ -63,6 +64,10 @@ async function boot(): Promise<void> {
     initialView: hasMapView ? { lat: hash.lat!, lng: hash.lng!, zoom: hash.zoom! } : undefined,
     openGallery: (p) => gallery.open(p),
     preloadPhotos: (p) => void gallery.preloadAll(p),
+    onFocusListing: (id) => {
+      selectedId = id == null ? undefined : id;
+      syncHashNow();
+    },
   });
 
   // --- Favorites export ---------------------------------------------------
@@ -238,6 +243,7 @@ async function boot(): Promise<void> {
       table: tableToggle?.checked,
       favoritesOnly: favoritesOnlyToggle?.checked,
       hideDisliked: hideDislikedToggle?.checked,
+      selectedId,
     };
   }
 
@@ -273,6 +279,7 @@ async function boot(): Promise<void> {
     if (favoritesOnlyToggle?.checked) filtered = filtered.filter((l) => hasFavorite(l.url));
     if (hideDislikedToggle?.checked) filtered = filtered.filter((l) => !hasDislike(l.url));
     updateView(filtered, { fit: !hasMapView });
+    if (selectedId != null) map.zoomToListing(selectedId);
   })();
   syncHash();
 }

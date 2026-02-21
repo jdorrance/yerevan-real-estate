@@ -20,11 +20,14 @@ export interface MapView {
   zoom: number;
 }
 
+export type FocusListingFn = (id: number | null) => void;
+
 interface MapOptions {
   center: LatLng;
   initialView?: MapView;
   openGallery: OpenGalleryFn;
   preloadPhotos?: PreloadPhotosFn;
+  onFocusListing?: FocusListingFn;
 }
 
 // ---------------------------------------------------------------------------
@@ -140,14 +143,16 @@ export class MapController {
   private readonly centerLatLng: L.LatLng;
   private readonly openGallery: OpenGalleryFn;
   private readonly preloadPhotos?: PreloadPhotosFn;
+  private readonly onFocusListing?: FocusListingFn;
 
   private isochroneLayer: L.GeoJSON | null = null;
   private greensLayer: L.GeoJSON | null = null;
 
-  constructor({ center, initialView, openGallery, preloadPhotos }: MapOptions) {
+  constructor({ center, initialView, openGallery, preloadPhotos, onFocusListing }: MapOptions) {
     this.centerLatLng = L.latLng(center.lat, center.lng);
     this.openGallery = openGallery;
     this.preloadPhotos = preloadPhotos;
+    this.onFocusListing = onFocusListing;
 
     const startLat = initialView?.lat ?? center.lat;
     const startLng = initialView?.lng ?? center.lng;
@@ -293,6 +298,7 @@ export class MapController {
       });
 
       marker.on("popupopen", (e) => {
+        this.onFocusListing?.(listing.id);
         this.preloadPhotos?.(listing.photo_urls);
         const thumb = e.popup.getElement()?.querySelector<HTMLImageElement>("img.popup-thumb");
         thumb?.addEventListener("click", () => this.openGallery(listing.photo_urls), { once: true });
@@ -332,6 +338,10 @@ export class MapController {
             marker.setIcon(createListingIcon(listing));
           });
         }
+      });
+
+      marker.on("popupclose", () => {
+        this.onFocusListing?.(null);
       });
 
       this.clusterGroup.addLayer(marker);

@@ -10,6 +10,7 @@ export interface HashState {
   table?: boolean;
   favoritesOnly?: boolean;
   hideDisliked?: boolean;
+  selectedId?: number;
 }
 
 /**
@@ -58,6 +59,8 @@ export function readHash(): HashState {
     if (params.has("table")) state.table = params.get("table") === "1";
     if (params.has("fav")) state.favoritesOnly = params.get("fav") === "1";
     if (params.has("hide")) state.hideDisliked = params.get("hide") === "1";
+    const sel = safeNum(params.get("sel"));
+    if (sel != null) state.selectedId = sel;
   }
 
   return state;
@@ -83,6 +86,7 @@ export function writeHash(state: HashState): void {
   if (state.table != null) params.set("table", state.table ? "1" : "0");
   if (state.favoritesOnly != null) params.set("fav", state.favoritesOnly ? "1" : "0");
   if (state.hideDisliked != null) params.set("hide", state.hideDisliked ? "1" : "0");
+  if (state.selectedId != null) params.set("sel", String(state.selectedId));
 
   const query = params.toString();
   const hash = mapPart + (query ? `?${query}` : "");
