@@ -22755,7 +22755,9 @@
     "parsed_address_number": null,
     "lat": 40.197687922814794,
     "lng": 44.493226236016284,
-    "geocode_precision": "street_spread"
+    "geocode_precision": "street_spread",
+    "ai_score": 5,
+    "ai_summary": "The interiors appear modern with tile and parquet flooring, and the living area is spacious with large windows providing good natural light. However, the yard is very small at 80 m², which may not be ideal for a dog. The lack of visible grass and only a small outdoor space is a significant drawback for outdoor needs."
   },
   {
     "id": 60740,
@@ -25887,8 +25889,8 @@
     "lat": 40.198386,
     "lng": 44.523617,
     "geocode_precision": "source_map",
-    "ai_score": 4,
-    "ai_summary": "The interior has a Western-style touch with modern chairs and light paint, but the ornate chandelier and drapes may feel outdated. The wooden flooring is a plus, but there's no view of the yard, which raises concerns about its suitability for a dog and toddler. Lack of outdoor photos is a significant drawback."
+    "ai_score": 6,
+    "ai_summary": "The living room is spacious with modern furnishings and plenty of natural light. However, the heavy chandelier and decor might not suit Western tastes. The wood floors and high ceilings are pluses, but there's no view of the yard or details about outdoor space, which is a drawback for your needs."
   },
   {
     "id": 377339,
@@ -25924,7 +25926,7 @@
     "lng": 44.519357,
     "geocode_precision": "source_map",
     "ai_score": 6,
-    "ai_summary": "The property offers spacious interiors with light wood flooring and a functional layout. However, the yard is mostly paved without much grass, limiting space for a dog and child to play. Interior design appears somewhat dated with basic furnishings and fixtures."
+    "ai_summary": "The house offers a spacious interior with modern touches, but the yard is mostly paved with limited grassy area, which may not be ideal for dogs. The interior is bright, with light-colored walls and a simple design. However, the lack of significant green outdoor space and the rather hardscaped yard are notable drawbacks."
   },
   {
     "id": 408790,
@@ -25957,7 +25959,7 @@
     "lng": 44.527376,
     "geocode_precision": "source_map",
     "ai_score": 9,
-    "ai_summary": "This property on Babayan Street is nearly ideal. It boasts a large yard with a grassy area suitable for a dog and outdoor activities, complemented by a modern and well-maintained design. The balconies and spacious patio areas are great for relaxation, and the pool is an excellent bonus. Its generous size and contemporary feel make it a fantastic choice for a family."
+    "ai_summary": "This property offers an impressive outdoor space with a mix of grass, trees, and a pool, making it ideal for a dog and family activities. The house is modern with generous balconies and large windows for natural light. The spacious garage and renovated monolith structure enhance its appeal, though some of the exterior finish appears slightly dated. Overall, it’s a great fit for your needs."
   },
   {
     "id": 411680,
@@ -25992,9 +25994,7 @@
     "parsed_address_number": null,
     "lat": 40.198803,
     "lng": 44.514565,
-    "geocode_precision": "source_map",
-    "ai_score": 9,
-    "ai_summary": "This property is expansive and visually stunning with a vast, beautifully landscaped yard perfect for a dog. The modern glass and stone architecture is impressive, offering a Western-style interior with abundant natural light. The outdoor spaces, including the patio and garden areas, are ideal for family use and are toddler-friendly."
+    "geocode_precision": "source_map"
   },
   {
     "id": 412654,
@@ -26029,9 +26029,7 @@
     "parsed_address_number": null,
     "lat": 40.196688,
     "lng": 44.527279,
-    "geocode_precision": "source_map",
-    "ai_score": 7,
-    "ai_summary": "The property is incredibly spacious with large rooms and high ceilings, providing a modern and airy feel. The interior features elegant chandeliers, light-colored furniture, and abundant natural light. However, the yard wasn't pictured, which is a significant drawback if assessing outdoor suitability for a dog. The kitchen, with its pale blue cabinets, is modern but could be brighter."
+    "geocode_precision": "source_map"
   },
   {
     "id": 413766,
@@ -26066,7 +26064,7 @@
     "lng": 44.524145,
     "geocode_precision": "source_map",
     "ai_score": 6,
-    "ai_summary": "The property is spacious, with a large building area and numerous rooms, plus nice natural light through large windows. However, the outdoor area appears to be mostly a concrete pad with minimal greenery, which is not ideal for a dog. The interior leans toward darker wood, particularly in the kitchen, which may feel less modern to those preferring lighter styles."
+    "ai_summary": "The property boasts substantial space with large rooms and good natural light, evident from the expansive windows. However, the yard is mostly stone with a small grassy area, making it less ideal for a dog. The kitchen features dark wood cabinetry, which may not fit the preferred modern aesthetic. Additionally, the outdoor space feels closed in by high walls, lacking greenery and a true fence."
   },
   {
     "id": 418405,
@@ -26101,9 +26099,7 @@
     "parsed_address_number": null,
     "lat": 40.19695,
     "lng": 44.526301,
-    "geocode_precision": "source_map",
-    "ai_score": 7,
-    "ai_summary": "The property boasts spacious, bright rooms with large arched windows and glossy wood floors, offering a modern feel. The elegant stairway adds character, but the décor could use updating as the furniture appears outdated. The yard condition is not visible, which is crucial for dog suitability. Overall, a strong candidate if the outdoor space meets your needs."
+    "geocode_precision": "source_map"
   },
   {
     "id": 415214,
@@ -26138,9 +26134,7 @@
     "parsed_address_number": null,
     "lat": 40.190463,
     "lng": 44.513069,
-    "geocode_precision": "source_map",
-    "ai_score": 4,
-    "ai_summary": "The property lacks modern interior appeal, featuring dated parquet flooring and basic office furniture, giving it an unimpressive and utilitarian feel. The bathrooms appear outdated, with noticeable cracked tiles and mismatched fixtures. Without photos of the outdoor space, it's hard to assess the suitability for a family and potential dog. Significant updates would be needed to make this a more appealing home."
+    "geocode_precision": "source_map"
   },
   {
     "id": 395954,
@@ -26176,7 +26170,7 @@
     "lng": 44.48836,
     "geocode_precision": "source_map",
     "ai_score": 5,
-    "ai_summary": "The property features spacious rooms and a high ceiling, which are positive aspects. However, the interior styling leans towards older elements with heavy furniture and traditional decor, lacking the modern touch. The kitchen is narrow with dated patterns, which could feel cramped for frequent use. There's no visible outdoor space in the photos, making it unclear if it's suitable for a dog or a toddler-friendly environment."
+    "ai_summary": "The property offers generous space with a mix of ornate and dated elements, like patterned floors and wallpaper, which may feel old-fashioned. The kitchen is narrow and slightly cramped, challenging for \"Western-style\" preferences. There are no visible photos of outdoor spaces, which is a concern for dog-owners. Overall, the interior doesn't fully meet modern expectations, and the lack of yard details poses a potential issue."
   },
   {
     "id": 411599,
@@ -26211,9 +26205,7 @@
     "parsed_address_number": null,
     "lat": 40.197302,
     "lng": 44.485893,
-    "geocode_precision": "source_map",
-    "ai_score": 8,
-    "ai_summary": "This house offers a spacious layout with high ceilings, marble flooring, and a large open-plan living area, which is great for natural light and toddler safety. The modern kitchen has a sleek design, but the decor in the living spaces leans slightly towards dated. Although photos of the yard are missing, the ample indoor space and proximity to green areas of Arabkir suggest it could be suitable for a dog and family walks."
+    "geocode_precision": "source_map"
   },
   {
     "id": 357611,
@@ -26248,9 +26240,7 @@
     "parsed_address_number": null,
     "lat": 40.198791,
     "lng": 44.489553,
-    "geocode_precision": "source_map",
-    "ai_score": 7,
-    "ai_summary": "The property is extremely spacious with an impressive 600 m² area and modern renovations. The pool and marble interiors add a luxurious touch, but the dark wood entry door hints at a more classical style. Outdoor space and proximity to green areas for a dog and child aren't clearly depicted, which might be a compromise."
+    "geocode_precision": "source_map"
   },
   {
     "id": 415439,
@@ -26278,8 +26268,8 @@
     "lat": 40.202321,
     "lng": 44.518257,
     "geocode_precision": "source_map",
-    "ai_score": 1,
-    "ai_summary": "Without any photos to evaluate, I cannot assess the features important to you, such as the interior style or yard condition. Unless you can provide specific visual proof, I must consider this listing inadequate to meet your priorities."
+    "ai_score": 5,
+    "ai_summary": "Without photos, we're flying blind. The building area is decent, and the land size suggests a sizable yard, potentially a good fit for a dog. However, the lack of visual information on interiors and outdoor space specifics leaves significant uncertainties. The price is high for \"western-style\" expectations, without verification of modern finishes or natural light."
   },
   {
     "id": 392833,
@@ -26314,9 +26304,7 @@
     "parsed_address_number": null,
     "lat": 40.220472,
     "lng": 44.524019,
-    "geocode_precision": "source_map",
-    "ai_score": 10,
-    "ai_summary": "This property features a spacious layout with an open-plan kitchen and living area in modern blue and wood tones, perfect for family living. The large, well-maintained grassy yard with a pool is ideal for a dog and outdoor play. The house boasts ample natural light and sleek interiors, with a safe environment for a toddler."
+    "geocode_precision": "source_map"
   },
   {
     "id": 414464,
@@ -26351,9 +26339,7 @@
     "parsed_address_number": null,
     "lat": 40.219399,
     "lng": 44.521457,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "This property offers ample space with 350 m² of building area and a generous 1500 m² yard, ideal for a dog and outdoor activities. However, the interior feels dated, with checkered flooring and mismatched furnishings that clash with a modern Western-style preference. The yard's size is a plus, but the living areas need updating to align better with your style."
+    "geocode_precision": "source_map"
   },
   {
     "id": 400799,
@@ -26388,8 +26374,8 @@
     "lat": 40.180005,
     "lng": 44.496319,
     "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The rooms are spacious with light wood flooring and elegant chandeliers, lending a modern touch. However, there's a lack of visible outdoor space which is crucial for a dog. The interior is well-lit and in good condition, but the absence of yard images is a concern for the outdoor facility needs."
+    "ai_score": 7,
+    "ai_summary": "The property offers spacious rooms with light wood flooring, and modern lighting fixtures. The interior feels fresh but borders on minimalism, lacking personal touches. However, the absence of visible yard photos is a drawback, making it unclear if there's suitable outdoor space for a dog. The modern interior is a plus, though."
   },
   {
     "id": 412090,
@@ -26424,9 +26410,7 @@
     "parsed_address_number": null,
     "lat": 40.192028,
     "lng": 44.487534,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The home features spacious and modern interiors with bright natural lighting and a sleek, contemporary kitchen. However, the outdoor space is mainly a concrete pad with no visible garden or grassy area for a dog. The absence of a true yard is a significant drawback for outdoor needs."
+    "geocode_precision": "source_map"
   },
   {
     "id": 408270,
@@ -26460,9 +26444,7 @@
     "parsed_address_number": null,
     "lat": 40.204011,
     "lng": 44.495402,
-    "geocode_precision": "source_map",
-    "ai_score": 8,
-    "ai_summary": "The property is spacious with a large building area and good ceiling height. The yard is extensive and suitable for a dog, featuring grass and a picturesque staircase leading to the house. The interiors are bright and modern, with plenty of natural light and elegant wooden flooring. The only drawback might be the classic furnishing style, which may not entirely fit a \"Western-style\" preference, but overall it’s a strong candidate."
+    "geocode_precision": "source_map"
   },
   {
     "id": 416003,
@@ -26497,9 +26479,7 @@
     "parsed_address_number": null,
     "lat": 40.202269,
     "lng": 44.516717,
-    "geocode_precision": "source_map",
-    "ai_score": 5,
-    "ai_summary": "The property offers spacious and bright rooms with a modern layout, but the kitchen area is incomplete and lacks appliances. There is no visible outdoor space, which is a major downside for those needing a yard for a dog. The interior is modern, but the absence of landscaping or park proximity might not suit outdoor needs."
+    "geocode_precision": "source_map"
   },
   {
     "id": 410872,
@@ -26528,7 +26508,7 @@
     "lng": 44.490179,
     "geocode_precision": "source_map",
     "ai_score": 3,
-    "ai_summary": "Without photos, it's impossible to verify key priorities such as yard quality, interior style, and natural light. The large building and land area sound promising on paper, but without visual proof, crucial details are missing, making this a risky option for your needs."
+    "ai_summary": "Without photos, I can't assess the interiors or yard quality. While the property is spacious with ample land, the lack of visual information makes it impossible to confirm if it meets the couple's preferences for modern design and child safety. Major red flag is not knowing if the outdoor space has grass or a proper fence."
   },
   {
     "id": 401898,
@@ -26564,7 +26544,7 @@
     "lng": 44.488889,
     "geocode_precision": "source_map",
     "ai_score": 5,
-    "ai_summary": "This property offers spacious, well-lit interiors with modern ceiling designs. However, the yard is minimal and lacks a green area, which is less ideal for a dog and child. The balcony provides some outdoor space but doesn't compensate for the lack of a proper yard. The modern, bright finishes are appealing, though."
+    "ai_summary": "The interiors are modern with plenty of space and natural light, featuring smooth, cream-colored tiles and creative ceiling designs. However, there is no visible yard, just a balcony, which doesn’t meet the need for outdoor space for a dog. The house is safe and bright but lacks direct green area surroundings."
   },
   {
     "id": 418037,
@@ -26593,9 +26573,7 @@
     "parsed_address_number": null,
     "lat": 40.196897,
     "lng": 44.487782,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The interior is modern with marble-style flooring and a stylish kitchen, but the dining area seems a bit cramped. There's no view of the outdoor space, which is critical given your need for a yard suitable for a dog. The listing’s building size is quite small at 39 m², despite having a large land area, potentially indicating small interior spaces."
+    "geocode_precision": "source_map"
   },
   {
     "id": 407035,
@@ -26629,9 +26607,7 @@
     "parsed_address_number": null,
     "lat": 40.19937,
     "lng": 44.494701,
-    "geocode_precision": "source_map",
-    "ai_score": 5,
-    "ai_summary": "The property is spacious with modern lighting, but the interior is predominantly dark wood, which closely resembles a Soviet-era style. The rooms are bright with large windows, but without yard photos, it's unclear if the outdoor space is suitable for a dog or near green areas. The living room setup looks cramped given the space, not ideal for a Western-style expectation."
+    "geocode_precision": "source_map"
   },
   {
     "id": 403075,
@@ -26666,9 +26642,7 @@
     "parsed_address_number": null,
     "lat": 40.194946,
     "lng": 44.503773,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The house offers a spacious interior with modern renovations and chandeliers, but it leans towards a traditional style with its furniture choice. The kitchen is sleek and modern, though the living area feels quite formal. No images of a yard, which is crucial for the dog and outdoor preference. The lack of visible green space may be a drawback."
+    "geocode_precision": "source_map"
   },
   {
     "id": 379250,
@@ -26703,9 +26677,7 @@
     "parsed_address_number": null,
     "lat": 40.205548,
     "lng": 44.505853,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "This property is spacious and has a lovely green yard suitable for a dog, with a bonus pool area. However, the interior decor leans heavily towards dark wood and ornate furnishings, not quite matching the desired modern, Western-style aesthetic. Additionally, the outdoor kitchen is practical but the living spaces might feel dated."
+    "geocode_precision": "source_map"
   },
   {
     "id": 413457,
@@ -26740,9 +26712,7 @@
     "parsed_address_number": null,
     "lat": 40.15862,
     "lng": 44.51417,
-    "geocode_precision": "source_map",
-    "ai_score": 9,
-    "ai_summary": "The property boasts a spacious and well-maintained yard with plenty of grass, perfect for a dog and outdoor activities. The interior is modern with light wood flooring, large windows for natural light, and an up-to-date kitchen with white cabinetry. The open layout and renovated condition make it nearly move-in ready, though the exterior fence is solid concrete, providing privacy but lacking aesthetic warmth."
+    "geocode_precision": "source_map"
   },
   {
     "id": 414131,
@@ -26777,9 +26747,7 @@
     "parsed_address_number": null,
     "lat": 40.189819,
     "lng": 44.511224,
-    "geocode_precision": "source_map",
-    "ai_score": 5,
-    "ai_summary": "The interior appears modern with lots of light and wood flooring, but it looks more like an office space and lacks warmth. The yard has potential with grass, but it's small and untidy, which may not be ideal for a dog. The lack of visible amenities, like a kitchen or detailed living areas, raises concerns about the practicality for family living."
+    "geocode_precision": "source_map"
   },
   {
     "id": 400982,
@@ -26814,9 +26782,7 @@
     "parsed_address_number": null,
     "lat": 40.193881,
     "lng": 44.509941,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The interior is spacious with a modern, open kitchen design featuring light-colored cabinets and a marble backsplash. The living area is bright but the patterned wallpaper may seem outdated. Lack of photos of the yard is concerning for those prioritizing outdoor space for a dog."
+    "geocode_precision": "source_map"
   },
   {
     "id": 409540,
@@ -26851,9 +26817,7 @@
     "parsed_address_number": null,
     "lat": 40.261987,
     "lng": 44.523693,
-    "geocode_precision": "source_map",
-    "ai_score": 8,
-    "ai_summary": "This property features an impressive, spacious interior with high ceilings and modern, open-plan design. The abundant natural light and minimalistic glass and wood staircase add to the contemporary feel. However, the lack of visible yard space in the photos is a drawback for a family with a dog, requiring confirmation about outdoor areas."
+    "geocode_precision": "source_map"
   },
   {
     "id": 361266,
@@ -26888,9 +26852,7 @@
     "parsed_address_number": null,
     "lat": 40.172577,
     "lng": 44.489491,
-    "geocode_precision": "source_map",
-    "ai_score": 7,
-    "ai_summary": "The property boasts a spacious, lush yard with a pool, perfect for a dog and outdoor activities. However, the interior feels dated with dark wood furniture and heavy drapery, detracting from modern expectations. Its generous size and green surroundings make it a strong candidate despite the interior style mismatch."
+    "geocode_precision": "source_map"
   },
   {
     "id": 402843,
@@ -26923,8 +26885,8 @@
     "lat": 40.192775,
     "lng": 44.517095,
     "geocode_precision": "source_map",
-    "ai_score": 4,
-    "ai_summary": "The house is spacious, but the outdoor area appears neglected and unfinished, lacking a proper yard for a dog. The interior shows signs of incomplete renovation, with visible construction materials and unfinished surfaces. The balconies add some appeal, but the overall condition and lack of greenery in the surroundings are significant drawbacks."
+    "ai_score": 5,
+    "ai_summary": "The house is spacious and has a sizable yard with some greenery, suitable for a dog. However, the interiors appear unfinished and lack modern, \"Western-style\" amenities. The exterior is also somewhat dated, resembling older styles, and the surroundings appear quite barren."
   },
   {
     "id": 377414,
@@ -26959,9 +26921,7 @@
     "parsed_address_number": null,
     "lat": 40.181174,
     "lng": 44.529345,
-    "geocode_precision": "source_map",
-    "ai_score": 7,
-    "ai_summary": "The property offers a spacious open-plan interior with modern stone floors and ample natural light. The living area is large and updated, but the decor leans towards traditional rather than modern. The outdoor area features a covered patio, but the yard is more of a concrete pad with limited greenery, not ideal for a dog. The interior stairs could be a safety concern for toddlers."
+    "geocode_precision": "source_map"
   },
   {
     "id": 402895,
@@ -26995,9 +26955,7 @@
     "parsed_address_number": null,
     "lat": 40.181378,
     "lng": 44.502488,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The property is spacious with a decent 225 m² building area, but the interior feels dated with parquet flooring and older furniture styles that might not match your preference for modern Western styles. Although rooms receive natural light, there's no visible outdoor yard or play area suitable for a dog or toddler, which is a significant drawback. The overall condition seems decent, but lacks contemporary appeal."
+    "geocode_precision": "source_map"
   },
   {
     "id": 393226,
@@ -27032,7 +26990,7 @@
     "lng": 44.529369,
     "geocode_precision": "source_map",
     "ai_score": 9,
-    "ai_summary": "This property is spacious with a large yard featuring both grass and paved areas, perfect for a dog and child play. The house is modern with clean stone and light interiors, although largely unseen here. The yard's real fence and several mature trees provide green space, making it well-suited for family outdoor activities."
+    "ai_summary": "This property is spacious with a large yard featuring both grass and a play area, perfect for a dog and child. The stone building is in good condition with modern touches like an elevator. There's ample natural light and the outdoor seating area is inviting. The location seems central, enhancing its appeal."
   },
   {
     "id": 416404,
@@ -27067,9 +27025,7 @@
     "parsed_address_number": null,
     "lat": 40.190145,
     "lng": 44.505852,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The house is spacious with modern elements but features some dated decor, such as the heavy wood furniture and chandeliers. The kitchen is large and modern, with dark cabinets and good natural light. However, there's no visible yard space shown in the photos, which may not be ideal for a dog or toddler. Overall, it is an adequate option with some compromises."
+    "geocode_precision": "source_map"
   },
   {
     "id": 416036,
@@ -27104,9 +27060,7 @@
     "parsed_address_number": null,
     "lat": 40.190404,
     "lng": 44.516086,
-    "geocode_precision": "source_map",
-    "ai_score": 3,
-    "ai_summary": "The interior is modern with bright lighting and sleek kitchen cabinets, but the cramped living space is a concern. The lack of visible outdoor area or yard makes this unsuitable for a dog and toddler. The absence of natural light also detracts from the appeal, despite the renovated condition."
+    "geocode_precision": "source_map"
   },
   {
     "id": 407649,
@@ -27141,9 +27095,7 @@
     "parsed_address_number": null,
     "lat": 40.191037,
     "lng": 44.517291,
-    "geocode_precision": "source_map",
-    "ai_score": 4,
-    "ai_summary": "The living area feels dated with patterned furniture and parquet floors, lacking a modern touch. The yard and exterior are not shown, raising concerns about outdoor space suitability for a dog. The interior doesn't match the desired Western-style modern look, and the kitchen isn't visible for evaluation."
+    "geocode_precision": "source_map"
   },
   {
     "id": 416006,
@@ -27178,9 +27130,7 @@
     "parsed_address_number": null,
     "lat": 40.190372,
     "lng": 44.516223,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The property offers spacious rooms with high ceilings and an impressive panoramic view. However, the kitchen features dated dark wood cabinetry which lacks a modern touch. While there is a large balcony, there is no visible yard space suitable for a dog, which is a significant drawback for this listing."
+    "geocode_precision": "source_map"
   },
   {
     "id": 410472,
@@ -27215,9 +27165,7 @@
     "parsed_address_number": null,
     "lat": 40.175982,
     "lng": 44.526592,
-    "geocode_precision": "source_map",
-    "ai_score": 8,
-    "ai_summary": "The property offers a spacious interior with modern, light-filled rooms and large windows. The yard is sizable with some grassy areas, perfect for a dog, and features a small pool that looks unused and might need maintenance. The outdoor space includes a charming fireplace area, though it seems a bit weathered. Overall, a strong candidate with some outdoor upkeep needed."
+    "geocode_precision": "source_map"
   },
   {
     "id": 371179,
@@ -27252,9 +27200,7 @@
     "parsed_address_number": null,
     "lat": 40.191596,
     "lng": 44.513393,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The property offers generous space with high ceilings and stone construction, but the interior looks dated with marble tiles that may feel cold and the woodwork lacks modern features. While the large yard is a plus, the kitchen is cramped and lacks modern appliances. Could work for dog owners, but it isn't the best fit for those seeking modern, western-style interiors."
+    "geocode_precision": "source_map"
   },
   {
     "id": 378435,
@@ -27289,9 +27235,7 @@
     "parsed_address_number": null,
     "lat": 40.200527,
     "lng": 44.583872,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The property offers spacious interiors with modern touches, such as unique geometric wall design and bright lighting. However, the outdated furniture and lack of visible yard or outdoor space are drawbacks. The color schemes and decor have a slightly dated, dark undertone, which might not fully align with your preference for Western-style interiors."
+    "geocode_precision": "source_map"
   },
   {
     "id": 372895,
@@ -27326,9 +27270,7 @@
     "parsed_address_number": null,
     "lat": 40.207006,
     "lng": 44.574873,
-    "geocode_precision": "source_map",
-    "ai_score": 8,
-    "ai_summary": "The house is very spacious with a generous land area, perfect for a family with a dog. The living spaces are modern with light wood floors, although the wallpaper feels a bit dated. The kitchen is sleek and modern with high-contrast cabinetry, fitting the \"Western-style\" preference. However, the images do not show much of the yard, which is crucial for your outdoor needs."
+    "geocode_precision": "source_map"
   },
   {
     "id": 392538,
@@ -27363,9 +27305,7 @@
     "parsed_address_number": null,
     "lat": 40.169171,
     "lng": 44.551449,
-    "geocode_precision": "source_map",
-    "ai_score": 8,
-    "ai_summary": "The property offers a spacious yard suitable for a dog, with some green areas, but it's predominantly paved. The interiors are modern with a bright, open plan and a charming curved staircase, though the furnishings are quite traditional. The kitchen is compact, featuring light-colored cabinetry with red accents, which may feel slightly outdated. Overall, it's a strong candidate with only minor compromises."
+    "geocode_precision": "source_map"
   },
   {
     "id": 414643,
@@ -27400,9 +27340,7 @@
     "parsed_address_number": null,
     "lat": 40.168728,
     "lng": 44.551403,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The property is spacious with a large living area and classical-style furnishings, but the interior features ornate decor that may not appeal to those seeking a modern look. The outdoor space has potential with significant land area, though visible concrete and limited greenery detract from its suitability for a dog. Lack of visible fencing is a concern for safety and privacy."
+    "geocode_precision": "source_map"
   },
   {
     "id": 417129,
@@ -27437,9 +27375,7 @@
     "parsed_address_number": null,
     "lat": 40.197728,
     "lng": 44.574475,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The house is compact with only 80 m² of living space, but the large 1000 m² yard is a big plus for outdoor activities and a dog. The kitchen is modern but has dark wood and red tiles that might not appeal to those preferring lighter aesthetics. The overall decor feels a bit dated and there's limited natural light, which could be a concern for comfort and safety with a toddler."
+    "geocode_precision": "source_map"
   },
   {
     "id": 357437,
@@ -27474,9 +27410,7 @@
     "parsed_address_number": null,
     "lat": 40.183351,
     "lng": 44.515842,
-    "geocode_precision": "source_map",
-    "ai_score": 6,
-    "ai_summary": "The interior is modern with a lot of natural light and high ceilings, which is a plus. The marble-like tile flooring is bright but could be slippery for a toddler. However, there's no evidence of a suitable yard for a dog in the photos, and the only visible outdoor area through the window looks fenced but very narrow, which diminishes its appeal."
+    "geocode_precision": "source_map"
   },
   {
     "id": 416085,
@@ -27511,9 +27445,7 @@
     "parsed_address_number": null,
     "lat": 40.186258,
     "lng": 44.535396,
-    "geocode_precision": "source_map",
-    "ai_score": 10,
-    "ai_summary": "This property offers expansive outdoor space with lush greenery and beautifully landscaped gardens, perfect for a dog and strolls. The modern, uniquely designed stone building stands out and appears well-maintained. Its spacious yard and proximity to green areas make it an excellent fit for your family."
+    "geocode_precision": "source_map"
   },
   {
     "id": 415208,
