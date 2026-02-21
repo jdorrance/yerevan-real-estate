@@ -91,23 +91,50 @@ def parse_response(text: str) -> tuple[int | None, str]:
     return score, summary
 
 
+def _parse_429_retry_seconds(err: Exception) -> int:
+    """Extract 'try again in X.XXs' from OpenAI 429 error message."""
+    msg = getattr(err, "message", str(err))
+    m = re.search(r"try again in (\d+(?:\.\d+)?)\s*s", msg, re.I)
+    if m:
+        return max(5, int(float(m.group(1))) + 1)
+    return 20
+
+
 def review_one_openai(listing: dict, client, max_images: int | None = None) -> dict:
-    """Call OpenAI vision model for one listing."""
+    """Call OpenAI vision model for one listing. Retries on 429 with backoff."""
     content = build_user_content(listing, max_images=max_images)
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": content},
-        ],
-        max_tokens=400,
-    )
-    raw = (response.choices[0].message.content or "").strip()
-    score, summary = parse_response(raw)
-    out = dict(listing)
-    out["ai_score"] = score
-    out["ai_summary"] = summary
-    return out
+    last_err = None
+    for attempt in range(4):
+        try:
+            response = client.chat.completions.create(
+                model="gpt-4o",
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": content},
+                ],
+                max_tokens=400,
+            )
+            raw = (response.choices[0].message.content or "").strip()
+            score, summary = parse_response(raw)
+            out = dict(listing)
+            out["ai_score"] = score
+            out["ai_summary"] = summary
+            return out
+        except Exception as e:
+            last_err = e
+            msg = str(e).lower()
+            is_429 = (
+                getattr(e, "code", None) == 429
+                or getattr(getattr(e, "response", None), "status_code", None) == 429
+                or "429" in msg
+                or "rate_limit" in msg
+            )
+            if is_429 and attempt < 3:
+                sec = _parse_429_retry_seconds(e)
+                time.sleep(sec)
+                continue
+            raise
+    raise last_err
 
 
 def build_anthropic_content(listing: dict, max_images: int | None = None) -> list:
