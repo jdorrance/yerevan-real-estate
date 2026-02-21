@@ -44,5 +44,7 @@ export function normalizeListing(raw: ListingRaw): Listing | null {
     photo_count: toNumber(raw.photo_count) ?? photo_urls.length,
     ai_summary: raw.ai_summary ?? "",
     ai_score: toNumber(raw.ai_score),
+    resolved_address: raw.resolved_address ?? "",
+    resolved_address_confidence: raw.resolved_address_confidence ?? "",
   };
 }

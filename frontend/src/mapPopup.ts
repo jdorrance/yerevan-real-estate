@@ -14,6 +14,14 @@ export function buildPopupHtml(listing: Listing, isFavorite: boolean): string {
   const desc = listing.description.trim();
   const descShort = desc.length > DESC_MAX_LENGTH ? `${desc.slice(0, DESC_MAX_LENGTH).trim()}…` : desc;
 
+  const addrRow: string = listing.resolved_address
+    ? `<div class="popup-resolved-addr"><span class="detail-label">Address:</span> ${escapeHtml(listing.resolved_address)}${
+        listing.resolved_address_confidence
+          ? ` <span class="popup-addr-conf popup-addr-conf--${listing.resolved_address_confidence.toLowerCase()}">${listing.resolved_address_confidence}</span>`
+          : ""
+      }</div>`
+    : "";
+
   const rows: [string, string][] = [
     ["District", escapeHtml(listing.district || "?")],
     ["Price", formatPrice(listing.price) + (listing.price != null ? "/mo" : "")],
@@ -83,7 +91,7 @@ export function buildPopupHtml(listing: Listing, isFavorite: boolean): string {
     '<div class="popup-content">',
     thumb,
     `<div class="popup-titlebar"><h3>${escapeHtml(listing.street || "Unknown")}</h3><div class="popup-actions">${favBtn}${dislikeBtn}</div></div>`,
-    `<div class="popup-body">${aiBlock}${rowsHtml}${descHtml}${link2}</div>`,
+    `<div class="popup-body">${addrRow}${aiBlock}${rowsHtml}${descHtml}${link2}</div>`,
     "</div>",
   ].join("");
 }

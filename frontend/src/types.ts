@@ -31,6 +31,9 @@ export interface ListingRaw {
   geocode_precision?: string;
   ai_summary?: string;
   ai_score?: number;
+  resolved_address?: string | null;
+  resolved_address_confidence?: string | null;
+  resolved_address_source?: string | null;
 }
 
 export interface Listing {
@@ -58,6 +61,8 @@ export interface Listing {
   photo_count: number;
   ai_summary: string;
   ai_score: number | null;
+  resolved_address: string;
+  resolved_address_confidence: string;
 }
 
 /** Matches the shape of data/config.json — supports legacy "eu" key. */

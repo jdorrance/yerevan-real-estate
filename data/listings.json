@@ -1997,7 +1997,10 @@
     "ai_score": 7,
     "lat": 40.20285590334768,
     "lng": 44.48648638701783,
-    "geocode_precision": "street_jitter"
+    "geocode_precision": "street_jitter",
+    "resolved_address": "Hrazdan Riverbank Road",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse, no house number (Hrazdan Riverbank Road, Ajapnyak, Yerevan, 0036, Armenia)"
   },
   {
     "id": 10815,
@@ -2105,7 +2108,10 @@
     "ai_score": 8,
     "lat": 40.197265355314045,
     "lng": 44.48695352940296,
-    "geocode_precision": "street_jitter"
+    "geocode_precision": "street_jitter",
+    "resolved_address": "15 Barbyus street",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse (road mismatch: listing=Sevastopolyan St, reverse=Barbyus street)"
   },
   {
     "id": 11208,
@@ -2224,7 +2230,10 @@
     "ai_score": 8,
     "lat": 40.19100521729607,
     "lng": 44.49935984450164,
-    "geocode_precision": "street_spread"
+    "geocode_precision": "street_spread",
+    "resolved_address": "78/12 Aygedzor street",
+    "resolved_address_confidence": "HIGH",
+    "resolved_address_source": "Kentron cross-ref #410029 reverse geocode (78/12, Aygedzor street, Aygedzor, Arabkir, Yerevan, 0033, Armenia)"
   },
   {
     "id": 12806,
@@ -3737,7 +3746,10 @@
     "ai_score": 8,
     "lat": 40.1801122,
     "lng": 44.5146504,
-    "geocode_precision": "street"
+    "geocode_precision": "street",
+    "resolved_address": "2/5 Abovyan street",
+    "resolved_address_confidence": "HIGH",
+    "resolved_address_source": "Nominatim reverse geocode, road matches listing street (Ramen Ten, 2/5, Abovyan street, Kentron, Yerevan, 0010, Armenia)"
   },
   {
     "id": 18591,
@@ -6752,7 +6764,10 @@
     "ai_score": 5,
     "lat": 40.22092222322542,
     "lng": 44.511854645301675,
-    "geocode_precision": "street_spread"
+    "geocode_precision": "street_spread",
+    "resolved_address": "Ghapantsian street",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse, no house number (Ghapantsian street, Qanaqer HPS Disrict, Arabkir, Yerevan, 0021, Armenia)"
   },
   {
     "id": 25134,
@@ -12234,7 +12249,10 @@
     "ai_score": 6,
     "lat": 40.204819119180286,
     "lng": 44.51902953049798,
-    "geocode_precision": "street_jitter"
+    "geocode_precision": "street_jitter",
+    "resolved_address": "17 Budaghyan street",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse (road mismatch: listing=N. Zaryan St, reverse=Budaghyan street)"
   },
   {
     "id": 41788,
@@ -13638,7 +13656,10 @@
     "ai_score": 7,
     "lat": 40.19681280008048,
     "lng": 44.504690605165486,
-    "geocode_precision": "street_spread"
+    "geocode_precision": "street_spread",
+    "resolved_address": "28 Sose street",
+    "resolved_address_confidence": "HIGH",
+    "resolved_address_source": "Kentron cross-ref #403075 reverse geocode (28, Sose street, Arabkir, Yerevan, 0019, Armenia)"
   },
   {
     "id": 46191,
@@ -14559,7 +14580,10 @@
     "ai_score": 7,
     "lat": 40.19666541769735,
     "lng": 44.505131682343205,
-    "geocode_precision": "street_jitter"
+    "geocode_precision": "street_jitter",
+    "resolved_address": "72 Sose street",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse (road mismatch: listing=Khnko-Aper St, reverse=Sose street)"
   },
   {
     "id": 47878,
@@ -14814,7 +14838,10 @@
     "ai_score": 9,
     "lat": 40.18702563142026,
     "lng": 44.59424813140163,
-    "geocode_precision": "district_jitter"
+    "geocode_precision": "district_jitter",
+    "resolved_address": "17 Mayak district",
+    "resolved_address_confidence": "HIGH",
+    "resolved_address_source": "Nominatim reverse geocode, road matches listing street (17, Mayak district, Jrvej district, Nor Norq, Yerevan, Jrvej, Jrvezh community, )"
   },
   {
     "id": 48215,
@@ -16235,7 +16262,10 @@
     "ai_score": 8,
     "lat": 40.18582144084921,
     "lng": 44.56995067744783,
-    "geocode_precision": "district_jitter"
+    "geocode_precision": "district_jitter",
+    "resolved_address": "Ivan Tevosyan street",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse, no house number (Ivan Tevosyan street, Nor Nork Block 5, Nor Norq, Yerevan, 0076, Armenia)"
   },
   {
     "id": 49822,
@@ -16492,7 +16522,10 @@
     "ai_score": 9,
     "lat": 40.20721422911887,
     "lng": 44.511281471786816,
-    "geocode_precision": "street_jitter"
+    "geocode_precision": "street_jitter",
+    "resolved_address": "39 Komitas avenue",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse (road mismatch: listing=Arabkir 27 St, reverse=Komitas avenue)"
   },
   {
     "id": 50033,
@@ -17395,7 +17428,10 @@
     "ai_score": 9,
     "lat": 40.20500702246597,
     "lng": 44.508152895327534,
-    "geocode_precision": "district_jitter"
+    "geocode_precision": "district_jitter",
+    "resolved_address": "12/1 Nairi Zaryan street",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse (road mismatch: listing=Malkhasiants St, reverse=Nairi Zaryan street)"
   },
   {
     "id": 51233,
@@ -19195,7 +19231,10 @@
     "ai_score": 8,
     "lat": 40.194399522206844,
     "lng": 44.50901577659515,
-    "geocode_precision": "street_jitter"
+    "geocode_precision": "street_jitter",
+    "resolved_address": "8 Gevorg Emin street",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse (road mismatch: listing=V.Papazyan St, reverse=Gevorg Emin street)"
   },
   {
     "id": 54240,
@@ -20693,7 +20732,10 @@
     "ai_score": 8,
     "lat": 40.22050240098604,
     "lng": 44.525465798538654,
-    "geocode_precision": "street_spread"
+    "geocode_precision": "street_spread",
+    "resolved_address": "20 Ghapantsian street",
+    "resolved_address_confidence": "HIGH",
+    "resolved_address_source": "Nominatim reverse geocode, road matches listing street (20, Ghapantsian street, Qanaqer HPS Disrict, Arabkir, Yerevan, 0021, Armenia)"
   },
   {
     "id": 57001,
@@ -21129,7 +21171,10 @@
     "ai_score": 7,
     "lat": 40.198268066083095,
     "lng": 44.508553386943056,
-    "geocode_precision": "street_jitter"
+    "geocode_precision": "street_jitter",
+    "resolved_address": "52/6 Aghbyur Serob Street",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse (road mismatch: listing=V. Davtyan St, reverse=Aghbyur Serob Street)"
   },
   {
     "id": 58081,
@@ -21469,7 +21514,10 @@
     "ai_score": 9,
     "lat": 40.20895161810176,
     "lng": 44.52901702773322,
-    "geocode_precision": "street_spread"
+    "geocode_precision": "street_spread",
+    "resolved_address": "25 Azatutyan Avenue",
+    "resolved_address_confidence": "HIGH",
+    "resolved_address_source": "Nominatim reverse geocode, road matches listing street (\"Manana\" Beauty Salon, 25, Azatutyan Avenue, Arabkir, Yerevan, 0014, Armenia)"
   },
   {
     "id": 58587,
@@ -22045,7 +22093,10 @@
     "ai_score": 9,
     "lat": 40.1801129333675,
     "lng": 44.512164780444536,
-    "geocode_precision": "district_jitter"
+    "geocode_precision": "district_jitter",
+    "resolved_address": "Pavstos Buzand street",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse, no house number (Pavstos Buzand street, Kentron, Yerevan, 0010, Armenia)"
   },
   {
     "id": 59528,
@@ -23645,7 +23696,10 @@
     "ai_score": 9,
     "lat": 40.2219846750334,
     "lng": 44.5126062463296,
-    "geocode_precision": "street_spread"
+    "geocode_precision": "street_spread",
+    "resolved_address": "Ghapantsian street",
+    "resolved_address_confidence": "LOW",
+    "resolved_address_source": "Nominatim reverse, no house number (Ghapantsian street, Qanaqer Hydro Power Station, Arabkir, Yerevan, 0021, Armenia)"
   },
   {
     "id": 61517,
@@ -23926,7 +23980,10 @@
     "ai_score": 8,
     "lat": 40.19866015209302,
     "lng": 44.49842132638486,
-    "geocode_precision": "street_spread"
+    "geocode_precision": "street_spread",
+    "resolved_address": "13 Sundukyan Street",
+    "resolved_address_confidence": "HIGH",
+    "resolved_address_source": "Nominatim reverse geocode, road matches listing street (13, Sundukyan Street, Arabkir, Yerevan, 0033, Armenia)"
   },
   {
     "id": 61704,
@@ -24175,7 +24232,10 @@
     "ai_score": 7,
     "lat": 40.2043120807657,
     "lng": 44.518839978808806,
-    "geocode_precision": "street_jitter"
+    "geocode_precision": "street_jitter",
+    "resolved_address": "35 Nairi Zaryan street",
+    "resolved_address_confidence": "HIGH",
+    "resolved_address_source": "Nominatim reverse geocode, road matches listing street (35, Nairi Zaryan street, Arabkir, Yerevan, 0014, Armenia)"
   },
   {
     "id": 62258,
@@ -24283,7 +24343,10 @@
     "ai_score": 9,
     "lat": 40.22357188231724,
     "lng": 44.526308877586004,
-    "geocode_precision": "street_spread"
+    "geocode_precision": "street_spread",
+    "resolved_address": "24/2 Ghapantsian street",
+    "resolved_address_confidence": "HIGH",
+    "resolved_address_source": "Nominatim reverse geocode, road matches listing street (24/2, Ghapantsian street, Qanaqer HPS Disrict, Arabkir, Yerevan, 0021, Armenia)"
   },
   {
     "id": 62639,

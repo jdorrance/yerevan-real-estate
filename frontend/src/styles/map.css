@@ -197,6 +197,43 @@
   padding-right: 4px;
 }
 
+/* Resolved address */
+.popup-resolved-addr {
+  background: rgba(56, 128, 255, 0.08);
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin-bottom: 8px;
+  border-left: 3px solid rgba(56, 128, 255, 0.4);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.popup-addr-conf {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+.popup-addr-conf--high {
+  background: rgba(34, 139, 34, 0.2);
+  color: #1a5f1a;
+}
+
+.popup-addr-conf--medium {
+  background: rgba(210, 180, 0, 0.25);
+  color: #7a6b00;
+}
+
+.popup-addr-conf--low {
+  background: rgba(220, 53, 69, 0.2);
+  color: #a82835;
+}
+
 /* AI review block: score badge + summary */
 .popup-ai-review {
   background: rgba(26, 26, 46, 0.06);
