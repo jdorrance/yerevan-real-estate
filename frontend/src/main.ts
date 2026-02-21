@@ -3,6 +3,7 @@ import "./styles/index.css";
 import { DEFAULT_CENTER } from "./config";
 import { normalizeListing } from "./converters";
 import { applyFilters, initDistrictFilter, readFilters, writeFilters, type FilterContext } from "./filters";
+import { seedDefaultsIfEmpty as seedDislikesIfEmpty } from "./dislikes";
 import { formatFavoritesForClipboard, getFavorites, onFavoritesChange, seedDefaultsIfEmpty } from "./favorites";
 import { GalleryController } from "./gallery";
 import { buildWalkingMinutesIndex } from "./geo";
@@ -37,13 +38,15 @@ async function boot(): Promise<void> {
   const base = import.meta.env.BASE_URL;
   const hash = readHash();
 
-  const [config, rawListings, shortlistUrls] = await Promise.all([
+  const [config, rawListings, shortlistUrls, defaultDislikes] = await Promise.all([
     loadConfig(base),
     fetchJson<ListingRaw[]>(`${base}data/listings.json`),
     fetchJson<string[]>(`${base}data/shortlist.json`).catch(() => []),
+    fetchJson<string[]>(`${base}data/dislikes.json`).catch(() => []),
   ]);
 
   seedDefaultsIfEmpty(Array.isArray(shortlistUrls) ? shortlistUrls : []);
+  seedDislikesIfEmpty(Array.isArray(defaultDislikes) ? defaultDislikes : []);
 
   const listings: Listing[] = rawListings
     .map(normalizeListing)

@@ -66,6 +66,18 @@ export function getDislikes(): ReadonlySet<string> {
   return load();
 }
 
+/** If the user has no dislikes in localStorage, seed with default URLs and persist. */
+export function seedDefaultsIfEmpty(defaultUrls: string[]): void {
+  const urls = defaultUrls.filter((u) => typeof u === "string" && u.length > 0);
+  if (urls.length === 0) return;
+  const current = load();
+  if (current.size > 0) return;
+  for (const u of urls) current.add(u);
+  cache = current;
+  persist(current);
+  emit(current);
+}
+
 export function onDislikesChange(listener: Listener): () => void {
   listeners.add(listener);
   listener(load());
