@@ -4,7 +4,7 @@ import { DEFAULT_CENTER } from "./config";
 import { normalizeListing } from "./converters";
 import { applyFilters, initDistrictFilter, readFilters, writeFilters, type FilterContext } from "./filters";
 import { seedDefaultsIfEmpty as seedDislikesIfEmpty } from "./dislikes";
-import { formatFavoritesForClipboard, getFavorites, onFavoritesChange, seedDefaultsIfEmpty } from "./favorites";
+import { formatFavoritesForClipboard, getFavorites, hasFavorite, onFavoritesChange, seedDefaultsIfEmpty } from "./favorites";
 import { GalleryController } from "./gallery";
 import { buildWalkingMinutesIndex } from "./geo";
 import { readHash, writeHashDebounced, type HashState } from "./hashState";
@@ -113,10 +113,12 @@ async function boot(): Promise<void> {
 
   const greensToggle = document.getElementById("greensToggle") as HTMLInputElement | null;
   const ringsToggle = document.getElementById("ringsToggle") as HTMLInputElement | null;
+  const favoritesOnlyToggle = document.getElementById("favoritesOnly") as HTMLInputElement | null;
   const tableToggle = document.getElementById("tableToggle") as HTMLInputElement | null;
 
   if (hash.greens != null && greensToggle) greensToggle.checked = hash.greens;
   if (hash.rings != null && ringsToggle) ringsToggle.checked = hash.rings;
+  if (hash.favoritesOnly != null && favoritesOnlyToggle) favoritesOnlyToggle.checked = hash.favoritesOnly;
   if (hash.table != null && tableToggle) tableToggle.checked = hash.table;
 
   // --- Overlays -----------------------------------------------------------
@@ -165,6 +167,12 @@ async function boot(): Promise<void> {
   const tableVisible = tableToggle?.checked ?? false;
   document.body.classList.toggle("table-hidden", !tableVisible);
 
+  if (favoritesOnlyToggle) {
+    favoritesOnlyToggle.addEventListener("change", () => {
+      renderFromUi();
+    });
+  }
+
   if (tableToggle) {
     tableToggle.addEventListener("change", () => {
       document.body.classList.toggle("table-hidden", !tableToggle.checked);
@@ -172,6 +180,11 @@ async function boot(): Promise<void> {
       syncHash();
     });
   }
+
+  // Re-apply view when favorites change and "Favorites only" is on
+  onFavoritesChange(() => {
+    if (favoritesOnlyToggle?.checked) renderFromUi();
+  });
 
   const table = new TableController({
     onRowClick: (l) => {
@@ -190,7 +203,9 @@ async function boot(): Promise<void> {
   }
 
   function renderFromUi(): void {
-    updateView(applyFilters(listings, readFilters(), filterCtx));
+    let filtered = applyFilters(listings, readFilters(), filterCtx);
+    if (favoritesOnlyToggle?.checked) filtered = filtered.filter((l) => hasFavorite(l.url));
+    updateView(filtered);
     syncHash();
   }
 
@@ -206,6 +221,7 @@ async function boot(): Promise<void> {
       greens: greensToggle?.checked,
       rings: ringsToggle?.checked,
       table: tableToggle?.checked,
+      favoritesOnly: favoritesOnlyToggle?.checked,
     };
   }
 
@@ -227,7 +243,11 @@ async function boot(): Promise<void> {
 
   // --- Initial render -----------------------------------------------------
 
-  updateView(applyFilters(listings, readFilters(), filterCtx), { fit: !hasMapView });
+  (function doInitialRender() {
+    let filtered = applyFilters(listings, readFilters(), filterCtx);
+    if (favoritesOnlyToggle?.checked) filtered = filtered.filter((l) => hasFavorite(l.url));
+    updateView(filtered, { fit: !hasMapView });
+  })();
   syncHash();
 }
 

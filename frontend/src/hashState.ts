@@ -8,6 +8,7 @@ export interface HashState {
   greens?: boolean;
   rings?: boolean;
   table?: boolean;
+  favoritesOnly?: boolean;
 }
 
 /**
@@ -57,6 +58,7 @@ export function readHash(): HashState {
     if (params.has("greens")) state.greens = params.get("greens") === "1";
     if (params.has("rings")) state.rings = params.get("rings") === "1";
     if (params.has("table")) state.table = params.get("table") === "1";
+    if (params.has("fav")) state.favoritesOnly = params.get("fav") === "1";
   }
 
   return state;
@@ -81,6 +83,7 @@ export function writeHash(state: HashState): void {
   if (state.greens != null) params.set("greens", state.greens ? "1" : "0");
   if (state.rings != null) params.set("rings", state.rings ? "1" : "0");
   if (state.table != null) params.set("table", state.table ? "1" : "0");
+  if (state.favoritesOnly != null) params.set("fav", state.favoritesOnly ? "1" : "0");
 
   const query = params.toString();
   const hash = mapPart + (query ? `?${query}` : "");
