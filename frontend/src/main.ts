@@ -3,11 +3,11 @@ import "./styles/index.css";
 import { DEFAULT_CENTER } from "./config";
 import { normalizeListing } from "./converters";
 import { applyFilters, readFilters, writeFilters, type FilterContext } from "./filters";
-import { seedDefaultsIfEmpty as seedDislikesIfEmpty } from "./dislikes";
+import { hasDislike, onDislikesChange, seedDefaultsIfEmpty as seedDislikesIfEmpty } from "./dislikes";
 import { formatFavoritesForClipboard, getFavorites, hasFavorite, onFavoritesChange, seedDefaultsIfEmpty } from "./favorites";
 import { GalleryController } from "./gallery";
 import { buildWalkingMinutesIndex } from "./geo";
-import { readHash, writeHashDebounced, type HashState } from "./hashState";
+import { readHash, writeHash, writeHashDebounced, type HashState } from "./hashState";
 import { MapController } from "./map";
 import { TableController } from "./table";
 import type { AppConfig, Listing, ListingRaw } from "./types";
@@ -114,11 +114,13 @@ async function boot(): Promise<void> {
   const greensToggle = document.getElementById("greensToggle") as HTMLInputElement | null;
   const ringsToggle = document.getElementById("ringsToggle") as HTMLInputElement | null;
   const favoritesOnlyToggle = document.getElementById("favoritesOnly") as HTMLInputElement | null;
+  const hideDislikedToggle = document.getElementById("hideDisliked") as HTMLInputElement | null;
   const tableToggle = document.getElementById("tableToggle") as HTMLInputElement | null;
 
   if (hash.greens != null && greensToggle) greensToggle.checked = hash.greens;
   if (hash.rings != null && ringsToggle) ringsToggle.checked = hash.rings;
   if (hash.favoritesOnly != null && favoritesOnlyToggle) favoritesOnlyToggle.checked = hash.favoritesOnly;
+  if (hash.hideDisliked != null && hideDislikedToggle) hideDislikedToggle.checked = hash.hideDisliked;
   if (hash.table != null && tableToggle) tableToggle.checked = hash.table;
 
   // --- Overlays -----------------------------------------------------------
@@ -131,7 +133,7 @@ async function boot(): Promise<void> {
     if (greensToggle && !greensToggle.checked) map.setGreensVisible(false);
     greensToggle?.addEventListener("change", () => {
       map.setGreensVisible(greensToggle.checked);
-      syncHash();
+      syncHashNow();
     });
   } catch {
     // Greens file absent — silently skip.
@@ -144,7 +146,7 @@ async function boot(): Promise<void> {
     filterCtx.walkingIndex = buildWalkingMinutesIndex(listings, isochrones);
     ringsToggle?.addEventListener("change", () => {
       map.setWalkingIsochronesVisible(ringsToggle.checked);
-      syncHash();
+      syncHashNow();
     });
   } catch {
     if (ringsToggle) {
@@ -169,6 +171,14 @@ async function boot(): Promise<void> {
   if (favoritesOnlyToggle) {
     favoritesOnlyToggle.addEventListener("change", () => {
       renderFromUi();
+      syncHashNow();
+    });
+  }
+
+  if (hideDislikedToggle) {
+    hideDislikedToggle.addEventListener("change", () => {
+      renderFromUi();
+      syncHashNow();
     });
   }
 
@@ -176,14 +186,9 @@ async function boot(): Promise<void> {
     tableToggle.addEventListener("change", () => {
       document.body.classList.toggle("table-hidden", !tableToggle.checked);
       window.setTimeout(() => map.invalidateSize(), 50);
-      syncHash();
+      syncHashNow();
     });
   }
-
-  // Re-apply view when favorites change and "Favorites only" is on
-  onFavoritesChange(() => {
-    if (favoritesOnlyToggle?.checked) renderFromUi();
-  });
 
   const table = new TableController({
     onRowClick: (l) => {
@@ -191,6 +196,16 @@ async function boot(): Promise<void> {
       map.zoomToListing(l.id);
     },
     openGallery: (p) => gallery.open(p),
+  });
+
+  // Re-apply view when favorites/dislikes change and the corresponding filter is on.
+  // (onFavoritesChange/onDislikesChange invoke listeners immediately, so register only after controllers exist.)
+  onFavoritesChange(() => {
+    if (favoritesOnlyToggle?.checked) renderFromUi();
+  });
+
+  onDislikesChange(() => {
+    if (hideDislikedToggle?.checked) renderFromUi();
   });
 
   // --- Render helpers -----------------------------------------------------
@@ -204,6 +219,7 @@ async function boot(): Promise<void> {
   function renderFromUi(): void {
     let filtered = applyFilters(listings, readFilters(), filterCtx);
     if (favoritesOnlyToggle?.checked) filtered = filtered.filter((l) => hasFavorite(l.url));
+    if (hideDislikedToggle?.checked) filtered = filtered.filter((l) => !hasDislike(l.url));
     updateView(filtered);
     syncHash();
   }
@@ -221,11 +237,16 @@ async function boot(): Promise<void> {
       rings: ringsToggle?.checked,
       table: tableToggle?.checked,
       favoritesOnly: favoritesOnlyToggle?.checked,
+      hideDisliked: hideDislikedToggle?.checked,
     };
   }
 
   function syncHash(): void {
     writeHashDebounced(buildCurrentHash());
+  }
+
+  function syncHashNow(): void {
+    writeHash(buildCurrentHash());
   }
 
   map.onMoveEnd(syncHash);
@@ -236,8 +257,13 @@ async function boot(): Promise<void> {
   for (const id of liveIds) {
     const el = document.getElementById(id);
     if (!el) continue;
-    const evt = el instanceof HTMLInputElement ? "input" : "change";
-    el.addEventListener(evt, renderFromUi);
+    // Prefer "input" for live updates; for <select>, also listen to "change" for compatibility.
+    if (el instanceof HTMLSelectElement) {
+      el.addEventListener("input", renderFromUi);
+      el.addEventListener("change", renderFromUi);
+    } else {
+      el.addEventListener("input", renderFromUi);
+    }
   }
 
   // --- Initial render -----------------------------------------------------
@@ -245,6 +271,7 @@ async function boot(): Promise<void> {
   (function doInitialRender() {
     let filtered = applyFilters(listings, readFilters(), filterCtx);
     if (favoritesOnlyToggle?.checked) filtered = filtered.filter((l) => hasFavorite(l.url));
+    if (hideDislikedToggle?.checked) filtered = filtered.filter((l) => !hasDislike(l.url));
     updateView(filtered, { fit: !hasMapView });
   })();
   syncHash();

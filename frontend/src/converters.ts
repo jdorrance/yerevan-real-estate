@@ -21,6 +21,7 @@ export function normalizeListing(raw: ListingRaw): Listing | null {
 
   return {
     id: raw.id,
+    source: raw.source ?? "besthouse",
     url: raw.url ?? "",
     lat,
     lng,

@@ -31,8 +31,9 @@ export function buildPopupHtml(listing: Listing, isFavorite: boolean): string {
     .map(([label, value]) => `<div class="detail-row"><span class="detail-label">${label}:</span> ${value}</div>`)
     .join("");
 
-  const link = listing.url
-    ? `<div class="popup-link"><a href="${escapeHtml(listing.url)}" target="_blank" rel="noreferrer">View on BestHouse</a></div>`
+  const sourceLabel = listing.source === "kentron" ? "Kentron" : "BestHouse";
+  const link2 = listing.url
+    ? `<div class="popup-link"><a href="${escapeHtml(listing.url)}" target="_blank" rel="noreferrer">View on ${sourceLabel}</a></div>`
     : "";
 
   const descHtml = descShort
@@ -82,7 +83,7 @@ export function buildPopupHtml(listing: Listing, isFavorite: boolean): string {
     '<div class="popup-content">',
     thumb,
     `<div class="popup-titlebar"><h3>${escapeHtml(listing.street || "Unknown")}</h3><div class="popup-actions">${favBtn}${dislikeBtn}</div></div>`,
-    `<div class="popup-body">${aiBlock}${rowsHtml}${descHtml}${link}</div>`,
+    `<div class="popup-body">${aiBlock}${rowsHtml}${descHtml}${link2}</div>`,
     "</div>",
   ].join("");
 }

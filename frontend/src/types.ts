@@ -5,6 +5,7 @@ export interface LatLng {
 
 export interface ListingRaw {
   id: number;
+  source?: string;
   url?: string;
   title?: string;
   price_usd?: number | string | null;
@@ -34,6 +35,7 @@ export interface ListingRaw {
 
 export interface Listing {
   id: number;
+  source: string;
   url: string;
   lat: number;
   lng: number;

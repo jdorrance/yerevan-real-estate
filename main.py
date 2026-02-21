@@ -11,6 +11,7 @@ from pathlib import Path
 import shutil
 
 from scraper import run_scraper
+from scraper_kentron import run_kentron_scraper
 from geocode import run_geocoder
 from spread import run_spread
 from isochrones import maybe_write_isochrones
@@ -25,10 +26,50 @@ def main():
 
     listings_path = Path("data/listings.json")
 
-    print("\n[1/3] SCRAPING")
-    listings = run_scraper()
+    prev_by_id: dict[int, dict] = {}
+    if listings_path.exists():
+        try:
+            with open(listings_path, encoding="utf-8") as f:
+                for item in json.load(f):
+                    if isinstance(item, dict) and isinstance(item.get("id"), int):
+                        prev_by_id[item["id"]] = item
+            print(f"\n  Loaded {len(prev_by_id)} previous unified listings (for carry-forward fields)")
+        except Exception:
+            prev_by_id = {}
 
-    print("\n[2/3] GEOCODING")
+    print("\n[1a/4] SCRAPING (besthouse.am)")
+    besthouse = run_scraper()
+
+    print("\n[1b/4] SCRAPING (real-estate.am / Kentron)")
+    kentron = run_kentron_scraper()
+
+    listings = besthouse + kentron
+
+    # Carry forward computed fields from the previous unified output (AI review + geo coords).
+    if prev_by_id:
+        for l in listings:
+            pid = l.get("id")
+            if not isinstance(pid, int):
+                continue
+            prev = prev_by_id.get(pid)
+            if not prev:
+                continue
+
+            # AI fields
+            if (not (l.get("ai_summary") or "").strip()) and (prev.get("ai_summary") or "").strip():
+                l["ai_summary"] = prev.get("ai_summary")
+            if l.get("ai_score") is None and prev.get("ai_score") is not None:
+                l["ai_score"] = prev.get("ai_score")
+
+            # Geo fields (avoid re-geocoding)
+            if l.get("lat") is None and prev.get("lat") is not None:
+                l["lat"] = prev.get("lat")
+            if l.get("lng") is None and prev.get("lng") is not None:
+                l["lng"] = prev.get("lng")
+            if (not l.get("geocode_precision")) and prev.get("geocode_precision"):
+                l["geocode_precision"] = prev.get("geocode_precision")
+
+    print("\n[2/4] GEOCODING")
     not_geocoded = [l for l in listings if l.get("lat") is None]
     if not_geocoded:
         print(f"  {len(not_geocoded)} listings need geocoding...")
@@ -37,7 +78,7 @@ def main():
         print(f"  All {len(listings)} already geocoded, skipping.")
         eu_coords = (40.1862324, 44.5047339)
 
-    print("\n[2.5/3] SPREADING")
+    print("\n[3/4] SPREADING")
     listings = run_spread(listings)
 
     # Always persist the current listings (and spread coords) for the frontend to consume.
@@ -45,7 +86,7 @@ def main():
     with open(listings_path, "w", encoding="utf-8") as f:
         json.dump(listings, f, indent=2, ensure_ascii=False)
 
-    print("\n[3/3] GENERATING OUTPUTS")
+    print("\n[4/4] GENERATING OUTPUTS")
     generate_csv(listings)
     generate_geojson(listings)
 

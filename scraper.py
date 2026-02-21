@@ -92,7 +92,11 @@ def scrape_search_pages() -> list[int]:
 def parse_detail_page(listing_id: int, html: str) -> dict:
     """Parse a detail page HTML into a structured dict."""
     soup = BeautifulSoup(html, "html.parser")
-    data = {"id": listing_id, "url": f"{BASE_URL}/en/estates/{listing_id}"}
+    data = {
+        "id": listing_id,
+        "url": f"{BASE_URL}/en/estates/{listing_id}",
+        "source": "besthouse",
+    }
 
     title_tag = soup.find("title")
     data["title"] = title_tag.text.strip() if title_tag else ""
@@ -310,7 +314,7 @@ def scrape_all_details(listing_ids: list[int]) -> list[dict]:
 def run_scraper() -> list[dict]:
     """Main entry point: scrape search + details, return structured data."""
     RAW_DIR.mkdir(parents=True, exist_ok=True)
-    output_path = Path("data/listings.json")
+    output_path = Path("data/besthouse_listings.json")
 
     existing = {}
     if output_path.exists():
