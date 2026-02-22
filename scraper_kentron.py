@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://www.real-estate.am"
 SEARCH_URL = (
     f"{BASE_URL}/en/filtered-properties?"
-    "propertyActionType=RENT&propertyTypes=HOUSE&regionIds=5&districtIds=60%2C64%2C66%2C67"
+    "propertyActionType=RENT&propertyTypes=HOUSE&regionIds=5&districtIds=60%2C61%2C64%2C66%2C67"
 )
 
 RAW_DIR = Path("data/raw")

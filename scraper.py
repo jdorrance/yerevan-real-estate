@@ -18,6 +18,7 @@ SEARCH_BASE = (
 DISTRICTS = {
     1: "Center",
     2: "Arabkir",
+    4: "Achapnyak",
     9: "Nor-Norq",
 }
 RAW_DIR = Path("data/raw")
