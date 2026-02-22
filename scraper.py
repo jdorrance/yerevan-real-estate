@@ -20,6 +20,7 @@ DISTRICTS = {
     2: "Arabkir",
     4: "Achapnyak",
     9: "Nor-Norq",
+    13: "Vahagni",
 }
 RAW_DIR = Path("data/raw")
 HEADERS = {
