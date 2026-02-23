@@ -33,13 +33,16 @@ export function buildPopupHtml(listing: Listing, isFavorite: boolean): string {
     ["Facilities", facilitiesStr ? escapeHtml(facilitiesStr) : "?"],
     ["Amenities", amenitiesStr ? escapeHtml(amenitiesStr) : "?"],
     ["Photos", String(listing.photo_count)],
+    ...(listing.listed_date ? [["Listed", escapeHtml(listing.listed_date)]] : []),
+    ...(listing.renewed_date ? [["Renewed", escapeHtml(listing.renewed_date)]] : []),
   ];
 
   const rowsHtml = rows
     .map(([label, value]) => `<div class="detail-row"><span class="detail-label">${label}:</span> ${value}</div>`)
     .join("");
 
-  const sourceLabel = listing.source === "kentron" ? "Kentron" : "BestHouse";
+  const sourceLabel =
+    listing.source === "kentron" ? "Kentron" : listing.source === "listam" ? "list.am" : "BestHouse";
   const link2 = listing.url
     ? `<div class="popup-link"><a href="${escapeHtml(listing.url)}" target="_blank" rel="noreferrer">View on ${sourceLabel}</a></div>`
     : "";

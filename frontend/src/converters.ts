@@ -46,5 +46,7 @@ export function normalizeListing(raw: ListingRaw): Listing | null {
     ai_score: toNumber(raw.ai_score),
     resolved_address: raw.resolved_address ?? "",
     resolved_address_confidence: raw.resolved_address_confidence ?? "",
+    listed_date: raw.listed_date ?? "",
+    renewed_date: raw.renewed_date ?? "",
   };
 }

@@ -5,3 +5,4 @@ geojson
 shapely
 openai
 anthropic
+playwright

@@ -29,6 +29,8 @@ export interface ListingRaw {
   lat?: number | string | null;
   lng?: number | string | null;
   geocode_precision?: string;
+  listed_date?: string | null;
+  renewed_date?: string | null;
   ai_summary?: string;
   ai_score?: number;
   resolved_address?: string | null;
@@ -63,6 +65,8 @@ export interface Listing {
   ai_score: number | null;
   resolved_address: string;
   resolved_address_confidence: string;
+  listed_date: string;
+  renewed_date: string;
 }
 
 /** Matches the shape of data/config.json — supports legacy "eu" key. */

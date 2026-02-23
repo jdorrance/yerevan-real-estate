@@ -12,11 +12,55 @@ import shutil
 
 from scraper import run_scraper
 from scraper_kentron import run_kentron_scraper
-from geocode import run_geocoder
+from scraper_listam import run_listam_scraper
+from geocode import in_district_bbox, run_geocoder
 from spread import run_spread
 from isochrones import maybe_write_isochrones
 from greens import write_greens_geojson
 from output import generate_csv, generate_geojson
+
+
+def _reset_bad_geocodes_for_regen(listings: list[dict]) -> int:
+    """
+    Clear lat/lng so the improved district-aware geocoder can re-run.
+
+    Untouched: source_map (Kentron embedded coords), overrides, address-precision.
+    Reset: district / district_jitter precision (always); street-level results that
+    land outside the district bbox (likely wrong-district geocoding).
+    """
+    protected = {"source_map", "source_approx", "override", "address"}
+    cleared = 0
+    for l in listings:
+        prec = (l.get("geocode_precision") or "").strip()
+
+        if prec in protected:
+            continue
+
+        if prec in {"district", "district_jitter"}:
+            if l.get("lat") is not None or l.get("lng") is not None or l.get("geocode_precision"):
+                l["lat"] = None
+                l["lng"] = None
+                l["geocode_precision"] = None
+                cleared += 1
+            continue
+
+        lat = l.get("lat")
+        lng = l.get("lng")
+        district = l.get("district") or ""
+        if lat is None or lng is None or not district:
+            continue
+
+        # For street-level results, check against the district bbox.
+        # False positives (e.g. Vahagni's tight bbox) just cause an extra re-geocode,
+        # which is harmless.  False negatives (miss a wrong result) are the bigger risk.
+        ok = in_district_bbox(lat, lng, district)
+        if ok is False:
+            l["lat"] = None
+            l["lng"] = None
+            l["geocode_precision"] = None
+            cleared += 1
+
+    return cleared
 
 
 def main():
@@ -43,7 +87,10 @@ def main():
     print("\n[1b/4] SCRAPING (real-estate.am / Kentron)")
     kentron = run_kentron_scraper()
 
-    listings = besthouse + kentron
+    print("\n[1c/4] SCRAPING (list.am)")
+    listam = run_listam_scraper()
+
+    listings = besthouse + kentron + listam
 
     # Carry forward computed fields from the previous unified output (AI review + geo coords).
     if prev_by_id:
@@ -68,6 +115,10 @@ def main():
                 l["lng"] = prev.get("lng")
             if (not l.get("geocode_precision")) and prev.get("geocode_precision"):
                 l["geocode_precision"] = prev.get("geocode_precision")
+
+    reset_count = _reset_bad_geocodes_for_regen(listings)
+    if reset_count:
+        print(f"\n  Reset {reset_count} listings for re-geocoding (district precision / out-of-district)")
 
     print("\n[2/4] GEOCODING")
     not_geocoded = [l for l in listings if l.get("lat") is None]

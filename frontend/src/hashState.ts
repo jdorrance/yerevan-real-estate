@@ -18,7 +18,14 @@ export interface HashState {
  * Map portion is optional; if absent the app uses its default view.
  */
 export function readHash(): HashState {
-  const raw = location.hash.replace(/^#/, "");
+  // Some environments encode the fragment (e.g. "?" -> "%3F", "/" -> "%2F").
+  // Decode defensively so links like "#%3Fsel%3D123" still work.
+  let raw = location.hash.replace(/^#/, "");
+  try {
+    raw = decodeURIComponent(raw);
+  } catch {
+    // Keep the raw string if it's not valid URI encoding.
+  }
   if (!raw) return {};
 
   const [pathPart, queryPart] = splitOnce(raw, "?");
