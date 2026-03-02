@@ -4,6 +4,7 @@ import { DEFAULT_CENTER } from "./config";
 import { normalizeListing } from "./converters";
 import { applyFilters, readFilters, writeFilters, type FilterContext } from "./filters";
 import { hasDislike, onDislikesChange, seedDefaultsIfEmpty as seedDislikesIfEmpty } from "./dislikes";
+import { seedDefaultsIfEmpty as seedFavoriteStreetsIfEmpty } from "./favoriteStreets";
 import { formatFavoritesForClipboard, getFavorites, hasFavorite, onFavoritesChange, seedDefaultsIfEmpty } from "./favorites";
 import { GalleryController } from "./gallery";
 import { buildWalkingMinutesIndex } from "./geo";
@@ -39,15 +40,18 @@ async function boot(): Promise<void> {
   const hash = readHash();
   let selectedId: number | undefined = hash.selectedId;
 
-  const [config, rawListings, shortlistUrls, defaultDislikes] = await Promise.all([
-    loadConfig(base),
-    fetchJson<ListingRaw[]>(`${base}data/listings.json`),
-    fetchJson<string[]>(`${base}data/shortlist.json`).catch(() => []),
-    fetchJson<string[]>(`${base}data/dislikes.json`).catch(() => []),
-  ]);
+  const [config, rawListings, shortlistUrls, defaultDislikes, defaultFavoriteStreets] =
+    await Promise.all([
+      loadConfig(base),
+      fetchJson<ListingRaw[]>(`${base}data/listings.json`),
+      fetchJson<string[]>(`${base}data/shortlist.json`).catch(() => []),
+      fetchJson<string[]>(`${base}data/dislikes.json`).catch(() => []),
+      fetchJson<string[]>(`${base}data/favorite_streets.json`).catch(() => []),
+    ]);
 
   seedDefaultsIfEmpty(Array.isArray(shortlistUrls) ? shortlistUrls : []);
   seedDislikesIfEmpty(Array.isArray(defaultDislikes) ? defaultDislikes : []);
+  seedFavoriteStreetsIfEmpty(Array.isArray(defaultFavoriteStreets) ? defaultFavoriteStreets : []);
 
   const listings: Listing[] = rawListings
     .map(normalizeListing)

@@ -42,6 +42,12 @@
   color: #111;
 }
 
+.map-legend-street {
+  background: transparent !important;
+  border: 2px solid #ffd166;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
 /* --- Marker icons (used via Leaflet divIcon, avoids inline styles) --- */
 
 .marker-dot {
@@ -51,6 +57,10 @@
   border: 2px solid white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
   position: relative;
+}
+
+.marker-dot.marker-street-highlight {
+  box-shadow: 0 0 0 2px #ffd166, 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .marker-fav-badge {

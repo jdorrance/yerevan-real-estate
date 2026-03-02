@@ -25,8 +25,11 @@ SEARCH_QUERY = (
 )
 
 # Map list.am district labels to our unified naming (besthouse spelling).
+# n=5 = Davtashen (already in SEARCH_QUERY).
 DISTRICT_MAP = {
     "Ajapnyak": "Achapnyak",
+    "Davtashen": "Davtashen",
+    "Davitashen": "Davtashen",
     "Kentron": "Center",
     "Nor Nork": "Nor Norq",
 }

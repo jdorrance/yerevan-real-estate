@@ -18,6 +18,7 @@ SEARCH_BASE = (
 DISTRICTS = {
     1: "Center",
     2: "Arabkir",
+    3: "Davtashen",
     4: "Achapnyak",
     9: "Nor-Norq",
     10: "Nork-Marash",

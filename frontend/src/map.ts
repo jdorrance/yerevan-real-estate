@@ -7,6 +7,7 @@ import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import { PRICE_BRACKETS, priceColor } from "./config";
 import { hasFavorite, removeFavorite, toggleFavorite } from "./favorites";
 import { hasDislike, removeDislike, toggleDislike } from "./dislikes";
+import { isFavoriteStreet } from "./favoriteStreets";
 import { createLayerSets } from "./mapLayers";
 import { buildPopupHtml } from "./mapPopup";
 import type { LatLng, Listing } from "./types";
@@ -54,9 +55,14 @@ function createClusterIcon(cluster: L.MarkerCluster): L.DivIcon {
   });
 }
 
-function createMarkerIconWithFavorite(color: string, favorite: boolean): L.DivIcon {
+function createMarkerIconWithFavorite(
+  color: string,
+  favorite: boolean,
+  favoriteStreet: boolean
+): L.DivIcon {
+  const streetClass = favoriteStreet ? " marker-street-highlight" : "";
   return L.divIcon({
-    html: `<div class="marker-dot" style="background:${color}">${favorite ? '<span class="marker-fav-badge">★</span>' : ""}</div>`,
+    html: `<div class="marker-dot${streetClass}" style="background:${color}">${favorite ? '<span class="marker-fav-badge">★</span>' : ""}</div>`,
     className: "",
     iconSize: [14, 14],
     iconAnchor: [7, 7],
@@ -74,7 +80,11 @@ function createDislikedMarkerIcon(): L.DivIcon {
 
 function createListingIcon(listing: Listing): L.DivIcon {
   if (hasDislike(listing.url)) return createDislikedMarkerIcon();
-  return createMarkerIconWithFavorite(priceColor(listing.price), hasFavorite(listing.url));
+  return createMarkerIconWithFavorite(
+    priceColor(listing.price),
+    hasFavorite(listing.url),
+    isFavoriteStreet(listing.street)
+  );
 }
 
 function createCenterIcon(): L.DivIcon {
@@ -120,6 +130,9 @@ function createLegendControl(): L.Control {
       const xDot = L.DomUtil.create("span", "map-legend-dot map-legend-center", centerRow);
       xDot.textContent = "×";
       centerRow.appendChild(document.createTextNode(" Center"));
+      const streetRow = L.DomUtil.create("div", "map-legend-item", container);
+      const streetDot = L.DomUtil.create("span", "map-legend-dot map-legend-street", streetRow);
+      streetRow.appendChild(document.createTextNode(" Favorite street"));
       return container;
     },
   });
