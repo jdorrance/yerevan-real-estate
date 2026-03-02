@@ -21,6 +21,7 @@ DISTRICT_ALIASES = {
     "Center": "Kentron",
     "Nor Norq": "Nor-Nork",
     "Nor-Norq": "Nor-Nork",
+    "Norq Marash": "Nork-Marash",
     "Achapnyak": "Ajapnyak",
     "Vahagni district": "Vahagni",
 }

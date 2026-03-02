@@ -20,6 +20,7 @@ DISTRICTS = {
     2: "Arabkir",
     4: "Achapnyak",
     9: "Nor-Norq",
+    10: "Nork-Marash",
     13: "Vahagni",
 }
 RAW_DIR = Path("data/raw")
@@ -138,6 +139,10 @@ def parse_detail_page(listing_id: int, html: str) -> dict:
             data["street"] = match.group(1).strip()
             data["district"] = match.group(2).strip()
             data["city"] = match.group(3).strip()
+
+    # Normalize besthouse district labels to match our unified naming.
+    if (data.get("district") or "").strip() == "Norq Marash":
+        data["district"] = "Nork-Marash"
 
     data["bathrooms"] = None
     data["ceiling_height_m"] = None
