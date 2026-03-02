@@ -3,6 +3,18 @@ import type { Listing } from "./types";
 
 const DESC_MAX_LENGTH = 420;
 
+function buildMapLinksBlock(lat: number, lng: number): string {
+  const googleUrl = `https://www.google.com/maps?q=${lat},${lng}`;
+  const yandexUrl = `https://yandex.com/maps/?pt=${lng},${lat}&z=17`;
+  const linkAttrs = 'target="_blank" rel="noopener noreferrer"';
+  return [
+    '<div class="popup-map-links" role="group" aria-label="Open location in maps">',
+    `<a href="${escapeHtml(googleUrl)}" ${linkAttrs} class="popup-map-link popup-map-link--google" title="Google Maps" aria-label="Google Maps"><span class="popup-map-letter">G</span></a>`,
+    `<a href="${escapeHtml(yandexUrl)}" ${linkAttrs} class="popup-map-link popup-map-link--yandex" title="Yandex Maps" aria-label="Yandex Maps"><span class="popup-map-letter">Y</span></a>`,
+    "</div>",
+  ].join("");
+}
+
 export function buildPopupHtml(listing: Listing, isFavorite: boolean): string {
   const firstPhoto = listing.photo_urls[0];
   const thumb = firstPhoto
@@ -44,8 +56,15 @@ export function buildPopupHtml(listing: Listing, isFavorite: boolean): string {
   const sourceLabel =
     listing.source === "kentron" ? "Kentron" : listing.source === "listam" ? "list.am" : "BestHouse";
   const link2 = listing.url
-    ? `<div class="popup-link"><a href="${escapeHtml(listing.url)}" target="_blank" rel="noreferrer">View on ${sourceLabel}</a></div>`
+    ? `<div class="popup-link"><a href="${escapeHtml(listing.url)}" target="_blank" rel="noopener noreferrer">View on ${sourceLabel}</a></div>`
     : "";
+
+  const hasCoords =
+    listing.lat != null &&
+    listing.lng != null &&
+    !Number.isNaN(listing.lat) &&
+    !Number.isNaN(listing.lng);
+  const mapLinks = hasCoords ? buildMapLinksBlock(listing.lat, listing.lng) : "";
 
   const descHtml = descShort
     ? `<div class="popup-desc">${escapeHtml(descShort)}</div>`
@@ -93,7 +112,7 @@ export function buildPopupHtml(listing: Listing, isFavorite: boolean): string {
   return [
     '<div class="popup-content">',
     thumb,
-    `<div class="popup-titlebar"><h3>${escapeHtml(listing.street || "Unknown")}</h3><div class="popup-actions">${favBtn}${dislikeBtn}</div></div>`,
+    `<div class="popup-titlebar"><h3>${escapeHtml(listing.street || "Unknown")}</h3><div class="popup-actions">${favBtn}${dislikeBtn}${mapLinks}</div></div>`,
     `<div class="popup-body">${addrRow}${aiBlock}${rowsHtml}${descHtml}${link2}</div>`,
     "</div>",
   ].join("");

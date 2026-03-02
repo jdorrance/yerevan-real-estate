@@ -244,6 +244,62 @@
   color: #a82835;
 }
 
+/* Map links: Google & Yandex — inline with star/dislike in titlebar */
+.popup-map-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 4px;
+}
+
+.popup-map-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.popup-map-link:hover {
+  transform: scale(1.1);
+}
+
+.popup-map-link:active {
+  transform: scale(0.95);
+}
+
+.popup-map-link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.popup-map-link--google {
+  color: #fff;
+  background: #4285f4;
+}
+
+.popup-map-link--google:hover {
+  background: #3367d6;
+}
+
+.popup-map-link--yandex {
+  color: #fff;
+  background: #fc3f1d;
+}
+
+.popup-map-link--yandex:hover {
+  background: #e63514;
+}
+
+.popup-map-letter {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  font-family: var(--font-sans);
+}
+
 /* AI review block: score badge + summary */
 .popup-ai-review {
   background: rgba(26, 26, 46, 0.06);
