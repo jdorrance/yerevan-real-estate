@@ -74,43 +74,6 @@ async function boot(): Promise<void> {
     },
   });
 
-  // --- My location --------------------------------------------------------
-  const myLocationBtn = document.getElementById("myLocationBtn") as HTMLButtonElement | null;
-  if (myLocationBtn) {
-    myLocationBtn.addEventListener("click", () => {
-      if (!navigator.geolocation) {
-        myLocationBtn.textContent = "Unavailable";
-        setTimeout(() => (myLocationBtn.textContent = "📍 My location"), 2000);
-        return;
-      }
-      const original = myLocationBtn.textContent;
-      myLocationBtn.textContent = "…";
-      myLocationBtn.disabled = true;
-      navigator.geolocation.getCurrentPosition(
-        (pos) => {
-          map.setView(pos.coords.latitude, pos.coords.longitude, 16);
-          syncHashNow();
-          myLocationBtn.textContent = "📍 My location";
-          myLocationBtn.disabled = false;
-        },
-        (err) => {
-          const msg =
-            err.code === 1
-              ? "Denied"
-              : err.code === 2
-                ? "Unavailable"
-                : err.code === 3
-                  ? "Timeout"
-                  : "Error";
-          myLocationBtn.textContent = msg;
-          myLocationBtn.disabled = false;
-          setTimeout(() => (myLocationBtn.textContent = original), 2500);
-        },
-        { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 }
-      );
-    });
-  }
-
   // --- Favorites export ---------------------------------------------------
   const exportBtn = document.getElementById("exportFavs") as HTMLButtonElement | null;
   if (exportBtn) {
