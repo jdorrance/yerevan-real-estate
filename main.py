@@ -24,16 +24,32 @@ def _reset_bad_geocodes_for_regen(listings: list[dict]) -> int:
     """
     Clear lat/lng so the improved district-aware geocoder can re-run.
 
-    Untouched: source_map (Kentron embedded coords), overrides, address-precision.
+    Untouched: overrides, address-precision.
     Reset: district / district_jitter precision (always); street-level results that
     land outside the district bbox (likely wrong-district geocoding).
+    Also validate source_map (Kentron embedded coords) — if they fall outside the
+    district bbox, the source site has wrong data; clear so our geocoder can fix.
     """
-    protected = {"source_map", "source_approx", "override", "address"}
+    protected = {"source_approx", "override", "address"}
     cleared = 0
     for l in listings:
         prec = (l.get("geocode_precision") or "").strip()
 
         if prec in protected:
+            continue
+
+        # source_map: validate against district bbox; Kentron sometimes embeds wrong coords
+        if prec == "source_map":
+            lat = l.get("lat")
+            lng = l.get("lng")
+            district = l.get("district") or ""
+            if lat is not None and lng is not None and district:
+                ok = in_district_bbox(lat, lng, district)
+                if ok is False:
+                    l["lat"] = None
+                    l["lng"] = None
+                    l["geocode_precision"] = None
+                    cleared += 1
             continue
 
         if prec in {"district", "district_jitter"}:
