@@ -84,8 +84,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50487610100155,
-          40.19220581529952
+          44.51157928607289,
+          40.19107087692139
         ]
       },
       "properties": {
@@ -136,7 +136,7 @@
         "ai_score": 3,
         "geocode_precision": "street_spread",
         "address": "Baghramyan Ave (Kentron)",
-        "maps_url": "https://www.google.com/maps?q=40.19220581529952,44.50487610100155"
+        "maps_url": "https://www.google.com/maps?q=40.19107087692139,44.51157928607289"
       }
     },
     {
@@ -507,8 +507,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.55316009764543,
-          40.172702888552784
+          44.559716542852655,
+          40.177431229722934
         ]
       },
       "properties": {
@@ -565,7 +565,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Davit Bek",
-        "maps_url": "https://www.google.com/maps?q=40.172702888552784,44.55316009764543"
+        "maps_url": "https://www.google.com/maps?q=40.177431229722934,44.559716542852655"
       }
     },
     {
@@ -573,8 +573,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.485983062016736,
-          40.198491359026804
+          44.485964819399896,
+          40.19856998504439
         ]
       },
       "properties": {
@@ -640,7 +640,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "Sevastopolyan St",
-        "maps_url": "https://www.google.com/maps?q=40.198491359026804,44.485983062016736"
+        "maps_url": "https://www.google.com/maps?q=40.19856998504439,44.485964819399896"
       }
     },
     {
@@ -942,8 +942,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.506312859449054,
-          40.1646006586779
+          44.50610320812163,
+          40.16480391510332
         ]
       },
       "properties": {
@@ -1002,7 +1002,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Lisinyan St",
-        "maps_url": "https://www.google.com/maps?q=40.1646006586779,44.506312859449054"
+        "maps_url": "https://www.google.com/maps?q=40.16480391510332,44.50610320812163"
       }
     },
     {
@@ -1573,8 +1573,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48434111125964,
-          40.20192652416852
+          44.48427141907469,
+          40.20190870399795
         ]
       },
       "properties": {
@@ -1658,7 +1658,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20192652416852,44.48434111125964"
+        "maps_url": "https://www.google.com/maps?q=40.20190870399795,44.48427141907469"
       }
     },
     {
@@ -1666,8 +1666,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.506178923641464,
-          40.19383366445205
+          44.506755838673875,
+          40.19363004609583
         ]
       },
       "properties": {
@@ -1742,7 +1742,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Antarayin St",
-        "maps_url": "https://www.google.com/maps?q=40.19383366445205,44.506178923641464"
+        "maps_url": "https://www.google.com/maps?q=40.19363004609583,44.506755838673875"
       }
     },
     {
@@ -1973,8 +1973,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.485180472621124,
-          40.20264355491068
+          44.48511078021554,
+          40.20262573474011
         ]
       },
       "properties": {
@@ -2038,7 +2038,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20264355491068,44.485180472621124"
+        "maps_url": "https://www.google.com/maps?q=40.20262573474011,44.48511078021554"
       }
     },
     {
@@ -2278,8 +2278,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48667821208502,
-          40.19788977745506
+          44.48665997027427,
+          40.19796840347264
         ]
       },
       "properties": {
@@ -2335,7 +2335,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Sevastopolyan St",
-        "maps_url": "https://www.google.com/maps?q=40.19788977745506,44.48667821208502"
+        "maps_url": "https://www.google.com/maps?q=40.19796840347264,44.48665997027427"
       }
     },
     {
@@ -2408,8 +2408,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50147738953271,
-          40.192381398614764
+          44.5022380918931,
+          40.19223225346783
         ]
       },
       "properties": {
@@ -2471,7 +2471,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Baghramyan av(Arabkir)",
-        "maps_url": "https://www.google.com/maps?q=40.192381398614764,44.50147738953271"
+        "maps_url": "https://www.google.com/maps?q=40.19223225346783,44.5022380918931"
       }
     },
     {
@@ -2479,8 +2479,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52573663526413,
-          40.17953294589405
+          44.52565834463052,
+          40.179252519100665
         ]
       },
       "properties": {
@@ -2536,7 +2536,7 @@
         "ai_score": 4,
         "geocode_precision": "street_jitter",
         "address": "Aygestan 11 St",
-        "maps_url": "https://www.google.com/maps?q=40.17953294589405,44.52573663526413"
+        "maps_url": "https://www.google.com/maps?q=40.179252519100665,44.52565834463052"
       }
     },
     {
@@ -2713,8 +2713,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50877616894566,
-          40.15742457867091
+          44.51319589852941,
+          40.16549185938405
         ]
       },
       "properties": {
@@ -2782,7 +2782,7 @@
         "ai_score": 7,
         "geocode_precision": "street_spread",
         "address": "Tigran Mets Ave",
-        "maps_url": "https://www.google.com/maps?q=40.15742457867091,44.50877616894566"
+        "maps_url": "https://www.google.com/maps?q=40.16549185938405,44.51319589852941"
       }
     },
     {
@@ -2993,8 +2993,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.483895869028046,
-          40.20264137087081
+          44.483826176960136,
+          40.20262355070024
         ]
       },
       "properties": {
@@ -3049,7 +3049,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20264137087081,44.483895869028046"
+        "maps_url": "https://www.google.com/maps?q=40.20262355070024,44.483826176960136"
       }
     },
     {
@@ -3057,8 +3057,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53990465352336,
-          40.22592735668267
+          44.53988080304901,
+          40.22571304887234
         ]
       },
       "properties": {
@@ -3120,7 +3120,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Shrjancik Tunel",
-        "maps_url": "https://www.google.com/maps?q=40.22592735668267,44.53990465352336"
+        "maps_url": "https://www.google.com/maps?q=40.22571304887234,44.53988080304901"
       }
     },
     {
@@ -3189,6 +3189,70 @@
         "geocode_precision": "street_spread",
         "address": "Aygedzor St",
         "maps_url": "https://www.google.com/maps?q=40.19114861570117,44.49719226049209"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.53745148167711,
+          40.18621048279938
+        ]
+      },
+      "properties": {
+        "id": 8338,
+        "url": "https://besthouse.am/en/estates/8338",
+        "source": "besthouse",
+        "title": "6 room house, Armenak Armenakyan St, Norq Marash (Yerevan) | Best House",
+        "price_usd": 4000,
+        "city": "Yerevan",
+        "district": "Nork-Marash",
+        "street": "Armenak Armenakyan St",
+        "bathrooms": "3",
+        "ceiling_height_m": 3.0,
+        "floors": 3,
+        "building_area_sqm": 550,
+        "land_area_sqm": 800,
+        "rooms": 6,
+        "building_type": "Stone",
+        "condition": "Renovated",
+        "facilities": [
+          "Heating",
+          "Internet",
+          "Gas",
+          "Air conditioning",
+          "Hot water"
+        ],
+        "amenities": [
+          "Furniture",
+          "Technique",
+          "Open balcony",
+          "Garage",
+          "Swimming pool"
+        ],
+        "description": "",
+        "photo_urls": [
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/1QE1nqhTsfYS2dyStzbOMXT0GPrEIS4KqY404irp.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/SAbTz5fgoylk4jK8A3yGecAJMioDeICZVWDP2iqZ.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/DOXsqMWvhBDoKDFQK0XJATJeNE7iAYc5c08SCZg3.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/IbSNKPPTPmPmAIcQBHMzYjaEWaD2WgVbTyl2kDiw.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/PIAkSzNyJ0jZ2DMvorwP0VXWEQ9Ofd9ZbcC9wwpb.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/SkMY8IaeMcw4bcsqnjDtBley2wBAisj1kvZXQl9J.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/ow1dVsFzs0UGfvPh7n8GiA0nkYFms5IxIKaELArq.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/jMfXo0mHsVb3IAHRPXgodr6Y3Sz0LkGAryGfFYrq.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/blS7h0L7cGZsghbs8Tda0H5Sb8EzdugbMnnPoVxx.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/Fn9a753GrHUHSI9fWIwt8KCPX8dOOoUBV75e9tDB.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/4w30uIHQRULxlYbgS6Rx7Zz5yeLqiQpdLKhSrjmd.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/M5ioTQAy4lO8q7Ir5OmsdzSFelcJojKhVLzzkYsF.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/S6qSBJH7GAGRqgbSOQC00eIsffaNy5HETdrkWPVt.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/8338/images/original/uXp36kWoEqLMOTOMD0nyTQhb8Zh8VKM5Dp7Mkwnd.webp"
+        ],
+        "photo_count": 14,
+        "parsed_address_number": null,
+        "geocode_precision": "street_spread",
+        "address": "Armenak Armenakyan St",
+        "maps_url": "https://www.google.com/maps?q=40.18621048279938,44.53745148167711"
       }
     },
     {
@@ -3267,8 +3331,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52433800389575,
-          40.16489616793301
+          44.52154776593506,
+          40.167067349918945
         ]
       },
       "properties": {
@@ -3324,7 +3388,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "M.Khorenatsi St",
-        "maps_url": "https://www.google.com/maps?q=40.16489616793301,44.52433800389575"
+        "maps_url": "https://www.google.com/maps?q=40.167067349918945,44.52154776593506"
       }
     },
     {
@@ -3460,8 +3524,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53745148167711,
-          40.18621048279938
+          44.53890365436787,
+          40.18603009299328
         ]
       },
       "properties": {
@@ -3516,7 +3580,7 @@
         "ai_score": 7,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.18621048279938,44.53745148167711"
+        "maps_url": "https://www.google.com/maps?q=40.18603009299328,44.53890365436787"
       }
     },
     {
@@ -3524,8 +3588,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53890365436787,
-          40.18603009299328
+          44.54034806930716,
+          40.18579360320938
         ]
       },
       "properties": {
@@ -3575,7 +3639,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.18603009299328,44.53890365436787"
+        "maps_url": "https://www.google.com/maps?q=40.18579360320938,44.54034806930716"
       }
     },
     {
@@ -3649,8 +3713,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.484819253824405,
-          40.202823367328946
+          44.48474956151377,
+          40.20280554715838
         ]
       },
       "properties": {
@@ -3707,7 +3771,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.202823367328946,44.484819253824405"
+        "maps_url": "https://www.google.com/maps?q=40.20280554715838,44.48474956151377"
       }
     },
     {
@@ -3783,8 +3847,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48660693744729,
-          40.19875924964812
+          44.4865886955539,
+          40.1988378756657
         ]
       },
       "properties": {
@@ -3835,7 +3899,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "Sevastopolyan St",
-        "maps_url": "https://www.google.com/maps?q=40.19875924964812,44.48660693744729"
+        "maps_url": "https://www.google.com/maps?q=40.1988378756657,44.4865886955539"
       }
     },
     {
@@ -3917,8 +3981,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.54034806930716,
-          40.18579360320938
+          44.541790441975884,
+          40.18555001353413
         ]
       },
       "properties": {
@@ -3995,7 +4059,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.18579360320938,44.54034806930716"
+        "maps_url": "https://www.google.com/maps?q=40.18555001353413,44.541790441975884"
       }
     },
     {
@@ -4147,8 +4211,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5229949442931,
-          40.20456293801581
+          44.52322299804226,
+          40.204585126629674
         ]
       },
       "properties": {
@@ -4227,7 +4291,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "N. Zaryan St",
-        "maps_url": "https://www.google.com/maps?q=40.20456293801581,44.5229949442931"
+        "maps_url": "https://www.google.com/maps?q=40.204585126629674,44.52322299804226"
       }
     },
     {
@@ -4235,8 +4299,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52334503472873,
-          40.20544833929901
+          44.523573088592464,
+          40.20547052791287
         ]
       },
       "properties": {
@@ -4312,7 +4376,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "N. Zaryan St",
-        "maps_url": "https://www.google.com/maps?q=40.20544833929901,44.52334503472873"
+        "maps_url": "https://www.google.com/maps?q=40.20547052791287,44.523573088592464"
       }
     },
     {
@@ -4320,8 +4384,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.485003428532984,
-          40.202547636656284
+          44.48493373617394,
+          40.202529816485715
         ]
       },
       "properties": {
@@ -4376,7 +4440,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.202547636656284,44.485003428532984"
+        "maps_url": "https://www.google.com/maps?q=40.202529816485715,44.48493373617394"
       }
     },
     {
@@ -4384,8 +4448,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52344675754494,
-          40.205368413360844
+          44.52367481144198,
+          40.205390601974706
         ]
       },
       "properties": {
@@ -4445,7 +4509,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "N. Zaryan St",
-        "maps_url": "https://www.google.com/maps?q=40.205368413360844,44.52344675754494"
+        "maps_url": "https://www.google.com/maps?q=40.205390601974706,44.52367481144198"
       }
     },
     {
@@ -4453,8 +4517,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48499875738354,
-          40.20229801658063
+          44.48492906502573,
+          40.20228019641006
         ]
       },
       "properties": {
@@ -4517,7 +4581,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20229801658063,44.48499875738354"
+        "maps_url": "https://www.google.com/maps?q=40.20228019641006,44.48492906502573"
       }
     },
     {
@@ -4693,8 +4757,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48477595419277,
-          40.20295551579573
+          44.48470626189352,
+          40.20293769562516
         ]
       },
       "properties": {
@@ -4769,7 +4833,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20295551579573,44.48477595419277"
+        "maps_url": "https://www.google.com/maps?q=40.20293769562516,44.48470626189352"
       }
     },
     {
@@ -4777,8 +4841,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52492921167648,
-          40.17955290608095
+          44.524850924380004,
+          40.17927247928756
         ]
       },
       "properties": {
@@ -4839,7 +4903,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Aygestan 11 St",
-        "maps_url": "https://www.google.com/maps?q=40.17955290608095,44.52492921167648"
+        "maps_url": "https://www.google.com/maps?q=40.17927247928756,44.524850924380004"
       }
     },
     {
@@ -4969,8 +5033,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52052530842721,
-          40.20077238093136
+          44.52074043889921,
+          40.20070017354721
         ]
       },
       "properties": {
@@ -5020,7 +5084,7 @@
         "ai_score": 4,
         "geocode_precision": "street_jitter",
         "address": "H.Muradyan St",
-        "maps_url": "https://www.google.com/maps?q=40.20077238093136,44.52052530842721"
+        "maps_url": "https://www.google.com/maps?q=40.20070017354721,44.52074043889921"
       }
     },
     {
@@ -5387,8 +5451,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45689987462795,
-          40.206614604679636
+          44.45705490573959,
+          40.206614074844396
         ]
       },
       "properties": {
@@ -5442,7 +5506,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.206614604679636,44.45689987462795"
+        "maps_url": "https://www.google.com/maps?q=40.206614074844396,44.45705490573959"
       }
     },
     {
@@ -5450,8 +5514,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53942941839148,
-          40.17983804010862
+          44.539357167159416,
+          40.179734049361755
         ]
       },
       "properties": {
@@ -5518,7 +5582,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Norq 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.17983804010862,44.53942941839148"
+        "maps_url": "https://www.google.com/maps?q=40.179734049361755,44.539357167159416"
       }
     },
     {
@@ -5575,8 +5639,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.4842903347277,
-          40.20210040703681
+          44.484220642556096,
+          40.20208258686624
         ]
       },
       "properties": {
@@ -5643,7 +5707,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20210040703681,44.4842903347277"
+        "maps_url": "https://www.google.com/maps?q=40.20208258686624,44.484220642556096"
       }
     },
     {
@@ -5651,8 +5715,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48436813006101,
-          40.20244021799007
+          44.48429843786896,
+          40.202422397819504
         ]
       },
       "properties": {
@@ -5718,7 +5782,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20244021799007,44.48436813006101"
+        "maps_url": "https://www.google.com/maps?q=40.202422397819504,44.48429843786896"
       }
     },
     {
@@ -6154,8 +6218,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52004512179854,
-          40.201767992384184
+          44.52026025278196,
+          40.201695785000034
         ]
       },
       "properties": {
@@ -6211,7 +6275,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "H.Muradyan St",
-        "maps_url": "https://www.google.com/maps?q=40.201767992384184,44.52004512179854"
+        "maps_url": "https://www.google.com/maps?q=40.201695785000034,44.52026025278196"
       }
     },
     {
@@ -6346,8 +6410,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5004481581032,
-          40.2239530584918
+          44.50018474155974,
+          40.22403926018489
         ]
       },
       "properties": {
@@ -6425,7 +6489,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "Davtashen 4 St",
-        "maps_url": "https://www.google.com/maps?q=40.2239530584918,44.5004481581032"
+        "maps_url": "https://www.google.com/maps?q=40.22403926018489,44.50018474155974"
       }
     },
     {
@@ -6543,8 +6607,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.526797622656,
-          40.17397228728362
+          44.52753121246631,
+          40.17317470274015
         ]
       },
       "properties": {
@@ -6601,7 +6665,7 @@
         "ai_score": 4,
         "geocode_precision": "street_spread",
         "address": "Charents St",
-        "maps_url": "https://www.google.com/maps?q=40.17397228728362,44.526797622656"
+        "maps_url": "https://www.google.com/maps?q=40.17317470274015,44.52753121246631"
       }
     },
     {
@@ -7058,8 +7122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52287794831115,
-          40.204914303719114
+          44.523106002022004,
+          40.204936492332976
         ]
       },
       "properties": {
@@ -7115,7 +7179,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "N. Zaryan St",
-        "maps_url": "https://www.google.com/maps?q=40.204914303719114,44.52287794831115"
+        "maps_url": "https://www.google.com/maps?q=40.204936492332976,44.523106002022004"
       }
     },
     {
@@ -7262,8 +7326,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47722724985803,
-          40.187886354055244
+          44.4775832305094,
+          40.18771539156217
         ]
       },
       "properties": {
@@ -7333,7 +7397,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Leningradyan St",
-        "maps_url": "https://www.google.com/maps?q=40.187886354055244,44.47722724985803"
+        "maps_url": "https://www.google.com/maps?q=40.18771539156217,44.4775832305094"
       }
     },
     {
@@ -7415,8 +7479,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47814011214818,
-          40.18806927120798
+          44.4784960904987,
+          40.18789830871491
         ]
       },
       "properties": {
@@ -7469,7 +7533,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Leningradyan St",
-        "maps_url": "https://www.google.com/maps?q=40.18806927120798,44.47814011214818"
+        "maps_url": "https://www.google.com/maps?q=40.18789830871491,44.4784960904987"
       }
     },
     {
@@ -7546,8 +7610,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.483813779423436,
-          40.20266535663528
+          44.4837440873771,
+          40.20264753646471
         ]
       },
       "properties": {
@@ -7622,7 +7686,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20266535663528,44.483813779423436"
+        "maps_url": "https://www.google.com/maps?q=40.20264753646471,44.4837440873771"
       }
     },
     {
@@ -7841,8 +7905,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50881626503219,
-          40.20360364779872
+          44.50393905829287,
+          40.20837970683945
         ]
       },
       "properties": {
@@ -7893,7 +7957,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Riga St",
-        "maps_url": "https://www.google.com/maps?q=40.20360364779872,44.50881626503219"
+        "maps_url": "https://www.google.com/maps?q=40.20837970683945,44.50393905829287"
       }
     },
     {
@@ -7975,8 +8039,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52784318981766,
-          40.18161529745768
+          44.52985221478322,
+          40.1749318376629
         ]
       },
       "properties": {
@@ -8045,7 +8109,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Charents St",
-        "maps_url": "https://www.google.com/maps?q=40.18161529745768,44.52784318981766"
+        "maps_url": "https://www.google.com/maps?q=40.1749318376629,44.52985221478322"
       }
     },
     {
@@ -8119,8 +8183,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51288121140273,
-          40.1896386586884
+          44.51305752551136,
+          40.189378002834125
         ]
       },
       "properties": {
@@ -8173,7 +8237,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "V.Papazyan St",
-        "maps_url": "https://www.google.com/maps?q=40.1896386586884,44.51288121140273"
+        "maps_url": "https://www.google.com/maps?q=40.189378002834125,44.51305752551136"
       }
     },
     {
@@ -8181,8 +8245,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5239424149888,
-          40.20366434117527
+          44.519517255759425,
+          40.199036772945405
         ]
       },
       "properties": {
@@ -8244,7 +8308,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Azatutyan Ave",
-        "maps_url": "https://www.google.com/maps?q=40.20366434117527,44.5239424149888"
+        "maps_url": "https://www.google.com/maps?q=40.199036772945405,44.519517255759425"
       }
     },
     {
@@ -8847,8 +8911,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47135665358648,
-          40.2173130722926
+          44.471024846660846,
+          40.2173947744104
         ]
       },
       "properties": {
@@ -8926,7 +8990,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "Davtashen 1 St",
-        "maps_url": "https://www.google.com/maps?q=40.2173130722926,44.47135665358648"
+        "maps_url": "https://www.google.com/maps?q=40.2173947744104,44.471024846660846"
       }
     },
     {
@@ -9359,8 +9423,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.450911541302695,
-          40.221555259408035
+          44.44909760045271,
+          40.22706947852506
         ]
       },
       "properties": {
@@ -9411,7 +9475,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Sevak st",
-        "maps_url": "https://www.google.com/maps?q=40.221555259408035,44.450911541302695"
+        "maps_url": "https://www.google.com/maps?q=40.22706947852506,44.44909760045271"
       }
     },
     {
@@ -9659,8 +9723,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52066679227379,
-          40.1999858125955
+          44.51650426535824,
+          40.19591021158054
         ]
       },
       "properties": {
@@ -9739,7 +9803,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Azatutyan Ave",
-        "maps_url": "https://www.google.com/maps?q=40.1999858125955,44.52066679227379"
+        "maps_url": "https://www.google.com/maps?q=40.19591021158054,44.51650426535824"
       }
     },
     {
@@ -10029,8 +10093,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.503902326336316,
-          40.20842761854526
+          44.508609946140574,
+          40.201767231166926
         ]
       },
       "properties": {
@@ -10086,7 +10150,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Riga St",
-        "maps_url": "https://www.google.com/maps?q=40.20842761854526,44.503902326336316"
+        "maps_url": "https://www.google.com/maps?q=40.201767231166926,44.508609946140574"
       }
     },
     {
@@ -10162,8 +10226,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50838524043622,
-          40.19393317703941
+          44.50900097681096,
+          40.19402218433118
         ]
       },
       "properties": {
@@ -10214,7 +10278,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Antarayin St",
-        "maps_url": "https://www.google.com/maps?q=40.19393317703941,44.50838524043622"
+        "maps_url": "https://www.google.com/maps?q=40.19402218433118,44.50900097681096"
       }
     },
     {
@@ -10338,8 +10402,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52489373242034,
-          40.179818809215085
+          44.524815445270505,
+          40.1795383824217
         ]
       },
       "properties": {
@@ -10385,7 +10449,7 @@
         "ai_score": 4,
         "geocode_precision": "street_jitter",
         "address": "Aygestan 11 St",
-        "maps_url": "https://www.google.com/maps?q=40.179818809215085,44.52489373242034"
+        "maps_url": "https://www.google.com/maps?q=40.1795383824217,44.524815445270505"
       }
     },
     {
@@ -10521,8 +10585,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.527887092321336,
-          40.172790295631096
+          44.52757283305662,
+          40.179488549405306
         ]
       },
       "properties": {
@@ -10589,7 +10653,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Charents St",
-        "maps_url": "https://www.google.com/maps?q=40.172790295631096,44.527887092321336"
+        "maps_url": "https://www.google.com/maps?q=40.179488549405306,44.52757283305662"
       }
     },
     {
@@ -10748,8 +10812,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.439527909997786,
-          40.20303449165863
+          44.439498450753476,
+          40.20256387483455
         ]
       },
       "properties": {
@@ -10808,7 +10872,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Silikyan 4 St",
-        "maps_url": "https://www.google.com/maps?q=40.20303449165863,44.439527909997786"
+        "maps_url": "https://www.google.com/maps?q=40.20256387483455,44.439498450753476"
       }
     },
     {
@@ -10887,8 +10951,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50926585442805,
-          40.19154501263341
+          44.51223319139129,
+          40.19046818128817
         ]
       },
       "properties": {
@@ -10932,7 +10996,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Baghramyan av(Arabkir)",
-        "maps_url": "https://www.google.com/maps?q=40.19154501263341,44.50926585442805"
+        "maps_url": "https://www.google.com/maps?q=40.19046818128817,44.51223319139129"
       }
     },
     {
@@ -10940,8 +11004,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45674011986841,
-          40.20670760029356
+          44.456895150981296,
+          40.20670707045832
         ]
       },
       "properties": {
@@ -10999,7 +11063,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20670760029356,44.45674011986841"
+        "maps_url": "https://www.google.com/maps?q=40.20670707045832,44.456895150981296"
       }
     },
     {
@@ -11125,8 +11189,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51036205204696,
-          40.193249297200076
+          44.51092004323892,
+          40.19301834342925
         ]
       },
       "properties": {
@@ -11178,7 +11242,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Antarayin St",
-        "maps_url": "https://www.google.com/maps?q=40.193249297200076,44.51036205204696"
+        "maps_url": "https://www.google.com/maps?q=40.19301834342925,44.51092004323892"
       }
     },
     {
@@ -11747,8 +11811,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51277396600831,
-          40.19052084885969
+          44.51295028052909,
+          40.190260193005415
         ]
       },
       "properties": {
@@ -11809,7 +11873,7 @@
         "ai_score": 4,
         "geocode_precision": "street_jitter",
         "address": "V.Papazyan St",
-        "maps_url": "https://www.google.com/maps?q=40.19052084885969,44.51277396600831"
+        "maps_url": "https://www.google.com/maps?q=40.190260193005415,44.51295028052909"
       }
     },
     {
@@ -13217,8 +13281,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50033408734122,
-          40.22506485760177
+          44.50007067065262,
+          40.22515105929486
         ]
       },
       "properties": {
@@ -13272,7 +13336,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "Davtashen 4 St",
-        "maps_url": "https://www.google.com/maps?q=40.22506485760177,44.50033408734122"
+        "maps_url": "https://www.google.com/maps?q=40.22515105929486,44.50007067065262"
       }
     },
     {
@@ -13524,8 +13588,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51136720833299,
-          40.17979100228572
+          44.511069310263075,
+          40.17995891227343
         ]
       },
       "properties": {
@@ -13574,7 +13638,7 @@
         "ai_score": 4,
         "geocode_precision": "street_jitter",
         "address": "H. Shahinyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17979100228572,44.51136720833299"
+        "maps_url": "https://www.google.com/maps?q=40.17995891227343,44.511069310263075"
       }
     },
     {
@@ -14062,8 +14126,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.546137711029765,
-          40.18785722628981
+          44.54609525701207,
+          40.187949606317545
         ]
       },
       "properties": {
@@ -14128,7 +14192,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "Norq Marash",
-        "maps_url": "https://www.google.com/maps?q=40.18785722628981,44.546137711029765"
+        "maps_url": "https://www.google.com/maps?q=40.187949606317545,44.54609525701207"
       }
     },
     {
@@ -14197,8 +14261,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5079349185001,
-          40.191839960034066
+          44.501866841844254,
+          40.19224704831278
         ]
       },
       "properties": {
@@ -14262,7 +14326,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Baghramyan av(Arabkir)",
-        "maps_url": "https://www.google.com/maps?q=40.191839960034066,44.5079349185001"
+        "maps_url": "https://www.google.com/maps?q=40.19224704831278,44.501866841844254"
       }
     },
     {
@@ -14545,8 +14609,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45699847066346,
-          40.206405952448684
+          44.45715350177433,
+          40.20640542261344
         ]
       },
       "properties": {
@@ -14595,7 +14659,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.206405952448684,44.45699847066346"
+        "maps_url": "https://www.google.com/maps?q=40.20640542261344,44.45715350177433"
       }
     },
     {
@@ -14603,8 +14667,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51256824824398,
-          40.19255240511784
+          44.51317570306368,
+          40.19240667959067
         ]
       },
       "properties": {
@@ -14672,7 +14736,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Antarayin St",
-        "maps_url": "https://www.google.com/maps?q=40.19255240511784,44.51256824824398"
+        "maps_url": "https://www.google.com/maps?q=40.19240667959067,44.51317570306368"
       }
     },
     {
@@ -15002,8 +15066,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48452931789488,
-          40.20187982105975
+          44.48445962566046,
+          40.20186200088918
         ]
       },
       "properties": {
@@ -15060,7 +15124,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20187982105975,44.48452931789488"
+        "maps_url": "https://www.google.com/maps?q=40.20186200088918,44.48445962566046"
       }
     },
     {
@@ -15152,8 +15216,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.49109607780884,
-          40.21594937110797
+          44.49087268077885,
+          40.21613098316128
         ]
       },
       "properties": {
@@ -15223,7 +15287,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "H. Sahyan",
-        "maps_url": "https://www.google.com/maps?q=40.21594937110797,44.49109607780884"
+        "maps_url": "https://www.google.com/maps?q=40.21613098316128,44.49087268077885"
       }
     },
     {
@@ -15231,8 +15295,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.515655774997086,
-          40.201805920682816
+          44.5155163388177,
+          40.201705163024215
         ]
       },
       "properties": {
@@ -15288,7 +15352,7 @@
         "ai_score": 4,
         "geocode_precision": "street_jitter",
         "address": "A.Tigranyan St",
-        "maps_url": "https://www.google.com/maps?q=40.201805920682816,44.515655774997086"
+        "maps_url": "https://www.google.com/maps?q=40.201705163024215,44.5155163388177"
       }
     },
     {
@@ -15862,8 +15926,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.504115713654755,
-          40.19460911643325
+          44.504626096969545,
+          40.19537681375385
         ]
       },
       "properties": {
@@ -15936,7 +16000,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Sose St",
-        "maps_url": "https://www.google.com/maps?q=40.19460911643325,44.504115713654755"
+        "maps_url": "https://www.google.com/maps?q=40.19537681375385,44.504626096969545"
       }
     },
     {
@@ -16005,8 +16069,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.514872169170644,
-          40.192050781885605
+          44.51790110600924,
+          40.19204030903142
         ]
       },
       "properties": {
@@ -16078,7 +16142,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Antarayin St",
-        "maps_url": "https://www.google.com/maps?q=40.192050781885605,44.514872169170644"
+        "maps_url": "https://www.google.com/maps?q=40.19204030903142,44.51790110600924"
       }
     },
     {
@@ -16086,8 +16150,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50980122619747,
-          40.191474585008294
+          44.51466112787262,
+          40.187755448693
         ]
       },
       "properties": {
@@ -16157,7 +16221,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Baghramyan Ave (Kentron)",
-        "maps_url": "https://www.google.com/maps?q=40.191474585008294,44.50980122619747"
+        "maps_url": "https://www.google.com/maps?q=40.187755448693,44.51466112787262"
       }
     },
     {
@@ -16248,8 +16312,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.514821201449685,
-          40.201687674806166
+          44.514681766510634,
+          40.201586917147566
         ]
       },
       "properties": {
@@ -16304,7 +16368,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "A.Tigranyan St",
-        "maps_url": "https://www.google.com/maps?q=40.201687674806166,44.514821201449685"
+        "maps_url": "https://www.google.com/maps?q=40.201586917147566,44.514681766510634"
       }
     },
     {
@@ -16392,8 +16456,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.513798198928754,
-          40.18892163309973
+          44.494649974611086,
+          40.19582170094173
         ]
       },
       "properties": {
@@ -16453,7 +16517,7 @@
         "ai_score": 4,
         "geocode_precision": "street_spread",
         "address": "Baghramyan Ave (Kentron)",
-        "maps_url": "https://www.google.com/maps?q=40.18892163309973,44.513798198928754"
+        "maps_url": "https://www.google.com/maps?q=40.19582170094173,44.494649974611086"
       }
     },
     {
@@ -16688,8 +16752,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.483942176628695,
-          40.202522217965495
+          44.483872484548606,
+          40.202504397794925
         ]
       },
       "properties": {
@@ -16756,7 +16820,7 @@
         "ai_score": 4,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.202522217965495,44.483942176628695"
+        "maps_url": "https://www.google.com/maps?q=40.202504397794925,44.483872484548606"
       }
     },
     {
@@ -16926,8 +16990,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.49081107916705,
-          40.215208187583286
+          44.49058768137323,
+          40.2153897996366
         ]
       },
       "properties": {
@@ -17002,7 +17066,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "H. Sahyan",
-        "maps_url": "https://www.google.com/maps?q=40.215208187583286,44.49081107916705"
+        "maps_url": "https://www.google.com/maps?q=40.2153897996366,44.49058768137323"
       }
     },
     {
@@ -17669,8 +17733,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45604570475871,
-          40.206431578793975
+          44.456200735877026,
+          40.206431048958734
         ]
       },
       "properties": {
@@ -17738,7 +17802,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.206431578793975,44.45604570475871"
+        "maps_url": "https://www.google.com/maps?q=40.206431048958734,44.456200735877026"
       }
     },
     {
@@ -17746,8 +17810,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.517681265770314,
-          40.192027697958096
+          44.51665562836112,
+          40.191614172323256
         ]
       },
       "properties": {
@@ -17810,7 +17874,7 @@
         "ai_score": 4,
         "geocode_precision": "street_spread",
         "address": "Antarayin St",
-        "maps_url": "https://www.google.com/maps?q=40.192027697958096,44.517681265770314"
+        "maps_url": "https://www.google.com/maps?q=40.191614172323256,44.51665562836112"
       }
     },
     {
@@ -18567,8 +18631,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.54543494493743,
-          40.16664032426485
+          44.561237558382544,
+          40.17969541956352
         ]
       },
       "properties": {
@@ -18617,7 +18681,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Davit Bek",
-        "maps_url": "https://www.google.com/maps?q=40.16664032426485,44.54543494493743"
+        "maps_url": "https://www.google.com/maps?q=40.17969541956352,44.561237558382544"
       }
     },
     {
@@ -18712,8 +18776,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.525077452359334,
-          40.197109768571345
+          44.52173873518637,
+          40.1983660042819
         ]
       },
       "properties": {
@@ -18788,7 +18852,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Babayan St",
-        "maps_url": "https://www.google.com/maps?q=40.197109768571345,44.525077452359334"
+        "maps_url": "https://www.google.com/maps?q=40.1983660042819,44.52173873518637"
       }
     },
     {
@@ -18796,8 +18860,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47216512523866,
-          40.217352510434935
+          44.471833319287846,
+          40.21743421255274
         ]
       },
       "properties": {
@@ -18843,7 +18907,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Davtashen 1 St",
-        "maps_url": "https://www.google.com/maps?q=40.217352510434935,44.47216512523866"
+        "maps_url": "https://www.google.com/maps?q=40.21743421255274,44.471833319287846"
       }
     },
     {
@@ -19473,8 +19537,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.445405230980974,
-          40.22082931164081
+          44.44570384179815,
+          40.22093149353332
         ]
       },
       "properties": {
@@ -19528,7 +19592,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Silikyan 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.22082931164081,44.445405230980974"
+        "maps_url": "https://www.google.com/maps?q=40.22093149353332,44.44570384179815"
       }
     },
     {
@@ -19622,8 +19686,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.541790441975884,
-          40.18555001353413
+          44.533037109303805,
+          40.186620723097676
         ]
       },
       "properties": {
@@ -19694,7 +19758,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.18555001353413,44.541790441975884"
+        "maps_url": "https://www.google.com/maps?q=40.186620723097676,44.533037109303805"
       }
     },
     {
@@ -19863,8 +19927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.49599298778856,
-          40.19482875568556
+          44.49679717641293,
+          40.19449372335393
         ]
       },
       "properties": {
@@ -19916,7 +19980,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Baghramyan av(Arabkir)",
-        "maps_url": "https://www.google.com/maps?q=40.19482875568556,44.49599298778856"
+        "maps_url": "https://www.google.com/maps?q=40.19449372335393,44.49679717641293"
       }
     },
     {
@@ -20649,8 +20713,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.43967174202289,
-          40.20273826902652
+          44.43964228178011,
+          40.202267652202444
         ]
       },
       "properties": {
@@ -20714,7 +20778,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "Silikyan 4 St",
-        "maps_url": "https://www.google.com/maps?q=40.20273826902652,44.43967174202289"
+        "maps_url": "https://www.google.com/maps?q=40.202267652202444,44.43964228178011"
       }
     },
     {
@@ -20783,8 +20847,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53881844164948,
-          40.177164052421226
+          44.538837181329384,
+          40.17714476324029
         ]
       },
       "properties": {
@@ -20829,7 +20893,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.177164052421226,44.53881844164948"
+        "maps_url": "https://www.google.com/maps?q=40.17714476324029,44.538837181329384"
       }
     },
     {
@@ -20894,8 +20958,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.537344731316416,
-          40.16707627463887
+          44.55701485094461,
+          40.1747663694293
         ]
       },
       "properties": {
@@ -20959,7 +21023,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Davit Bek",
-        "maps_url": "https://www.google.com/maps?q=40.16707627463887,44.537344731316416"
+        "maps_url": "https://www.google.com/maps?q=40.1747663694293,44.55701485094461"
       }
     },
     {
@@ -21200,8 +21264,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5135713399073,
-          40.16958413342352
+          44.51057080182343,
+          40.15597487133018
         ]
       },
       "properties": {
@@ -21254,7 +21318,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Tigran Mets Ave",
-        "maps_url": "https://www.google.com/maps?q=40.16958413342352,44.5135713399073"
+        "maps_url": "https://www.google.com/maps?q=40.15597487133018,44.51057080182343"
       }
     },
     {
@@ -21773,8 +21837,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47293791430415,
-          40.16203352553891
+          44.4877147219607,
+          40.16938534086251
         ]
       },
       "properties": {
@@ -21838,7 +21902,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Isakov Ave",
-        "maps_url": "https://www.google.com/maps?q=40.16203352553891,44.47293791430415"
+        "maps_url": "https://www.google.com/maps?q=40.16938534086251,44.4877147219607"
       }
     },
     {
@@ -21846,8 +21910,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.484225837218,
-          40.16710923631277
+          44.48524191812103,
+          40.16771077257366
         ]
       },
       "properties": {
@@ -21913,7 +21977,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Isakov Ave",
-        "maps_url": "https://www.google.com/maps?q=40.16710923631277,44.484225837218"
+        "maps_url": "https://www.google.com/maps?q=40.16771077257366,44.48524191812103"
       }
     },
     {
@@ -21921,8 +21985,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51248015197998,
-          40.179722696853936
+          44.512182256664325,
+          40.179890606841646
         ]
       },
       "properties": {
@@ -21979,7 +22043,7 @@
         "ai_score": 4,
         "geocode_precision": "street_jitter",
         "address": "H. Shahinyan St",
-        "maps_url": "https://www.google.com/maps?q=40.179722696853936,44.51248015197998"
+        "maps_url": "https://www.google.com/maps?q=40.179890606841646,44.512182256664325"
       }
     },
     {
@@ -22062,8 +22126,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5168701717356,
-          40.1915728671942
+          44.518894659522694,
+          40.191713766948475
         ]
       },
       "properties": {
@@ -22124,7 +22188,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Antarayin St",
-        "maps_url": "https://www.google.com/maps?q=40.1915728671942,44.5168701717356"
+        "maps_url": "https://www.google.com/maps?q=40.191713766948475,44.518894659522694"
       }
     },
     {
@@ -22132,8 +22196,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.545966746985876,
-          40.18902457006494
+          44.545924292735336,
+          40.189116950092675
         ]
       },
       "properties": {
@@ -22209,7 +22273,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Norq Marash",
-        "maps_url": "https://www.google.com/maps?q=40.18902457006494,44.545966746985876"
+        "maps_url": "https://www.google.com/maps?q=40.189116950092675,44.545924292735336"
       }
     },
     {
@@ -22283,8 +22347,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.522283007818,
-          40.204899826190896
+          44.52251106133411,
+          40.20492201480476
         ]
       },
       "properties": {
@@ -22333,7 +22397,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "N. Zaryan St",
-        "maps_url": "https://www.google.com/maps?q=40.204899826190896,44.522283007818"
+        "maps_url": "https://www.google.com/maps?q=40.20492201480476,44.52251106133411"
       }
     },
     {
@@ -22341,8 +22405,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.44661905851724,
-          40.22145305606216
+          44.44691767116514,
+          40.22155523795467
         ]
       },
       "properties": {
@@ -22391,7 +22455,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "Silikyan 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.22145305606216,44.44661905851724"
+        "maps_url": "https://www.google.com/maps?q=40.22155523795467,44.44691767116514"
       }
     },
     {
@@ -22925,8 +22989,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.49146209395652,
-          40.216273106906364
+          44.4912386979075,
+          40.216454718959675
         ]
       },
       "properties": {
@@ -22992,7 +23056,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "H. Sahyan",
-        "maps_url": "https://www.google.com/maps?q=40.216273106906364,44.49146209395652"
+        "maps_url": "https://www.google.com/maps?q=40.216454718959675,44.4912386979075"
       }
     },
     {
@@ -23127,8 +23191,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45723456353832,
-          40.206305330757154
+          44.45738959464735,
+          40.20630480092191
         ]
       },
       "properties": {
@@ -23182,7 +23246,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.206305330757154,44.45723456353832"
+        "maps_url": "https://www.google.com/maps?q=40.20630480092191,44.45738959464735"
       }
     },
     {
@@ -23520,8 +23584,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51909294530215,
-          40.19178875156477
+          44.51644579705417,
+          40.1914691513582
         ]
       },
       "properties": {
@@ -23595,7 +23659,7 @@
         "ai_score": 4,
         "geocode_precision": "street_spread",
         "address": "Antarayin St",
-        "maps_url": "https://www.google.com/maps?q=40.19178875156477,44.51909294530215"
+        "maps_url": "https://www.google.com/maps?q=40.1914691513582,44.51644579705417"
       }
     },
     {
@@ -23603,8 +23667,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.49403831793602,
-          40.175369377529165
+          44.48960451281985,
+          40.17368116834669
         ]
       },
       "properties": {
@@ -23641,7 +23705,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Adana St",
-        "maps_url": "https://www.google.com/maps?q=40.175369377529165,44.49403831793602"
+        "maps_url": "https://www.google.com/maps?q=40.17368116834669,44.48960451281985"
       }
     },
     {
@@ -23649,8 +23713,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.539158705276904,
-          40.17665185714491
+          44.53917744486009,
+          40.17663256796398
         ]
       },
       "properties": {
@@ -23709,7 +23773,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17665185714491,44.539158705276904"
+        "maps_url": "https://www.google.com/maps?q=40.17663256796398,44.53917744486009"
       }
     },
     {
@@ -23798,8 +23862,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52336253983508,
-          40.2052407028437
+          44.52359059370455,
+          40.205262891457565
         ]
       },
       "properties": {
@@ -23877,7 +23941,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "N. Zaryan St",
-        "maps_url": "https://www.google.com/maps?q=40.2052407028437,44.52336253983508"
+        "maps_url": "https://www.google.com/maps?q=40.205262891457565,44.52359059370455"
       }
     },
     {
@@ -24111,8 +24175,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45659338664587,
-          40.20655253261359
+          44.45674841775991,
+          40.20655200277835
         ]
       },
       "properties": {
@@ -24181,7 +24245,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20655253261359,44.45659338664587"
+        "maps_url": "https://www.google.com/maps?q=40.20655200277835,44.45674841775991"
       }
     },
     {
@@ -24189,8 +24253,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53897034403331,
-          40.17646629570349
+          44.53898908367004,
+          40.17644700652256
         ]
       },
       "properties": {
@@ -24246,7 +24310,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17646629570349,44.53897034403331"
+        "maps_url": "https://www.google.com/maps?q=40.17644700652256,44.53898908367004"
       }
     },
     {
@@ -24394,8 +24458,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51746806115557,
-          40.213581204939004
+          44.5178859964526,
+          40.21365306584378
         ]
       },
       "properties": {
@@ -24452,7 +24516,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Griboedov St",
-        "maps_url": "https://www.google.com/maps?q=40.213581204939004,44.51746806115557"
+        "maps_url": "https://www.google.com/maps?q=40.21365306584378,44.5178859964526"
       }
     },
     {
@@ -24525,8 +24589,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48377349517965,
-          40.20249788952454
+          44.4837038031439,
+          40.20248006935397
         ]
       },
       "properties": {
@@ -24585,7 +24649,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20249788952454,44.48377349517965"
+        "maps_url": "https://www.google.com/maps?q=40.20248006935397,44.4837038031439"
       }
     },
     {
@@ -24593,8 +24657,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.456685575215715,
-          40.2060249983045
+          44.45684060632903,
+          40.20602446846926
         ]
       },
       "properties": {
@@ -24654,7 +24718,7 @@
         "ai_score": 3,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.2060249983045,44.456685575215715"
+        "maps_url": "https://www.google.com/maps?q=40.20602446846926,44.45684060632903"
       }
     },
     {
@@ -24662,8 +24726,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.456303350188215,
-          40.206669453448164
+          44.456458381304515,
+          40.20666892361292
         ]
       },
       "properties": {
@@ -24724,7 +24788,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.206669453448164,44.456303350188215"
+        "maps_url": "https://www.google.com/maps?q=40.20666892361292,44.456458381304515"
       }
     },
     {
@@ -24732,8 +24796,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.539818581468374,
-          40.17640781285031
+          44.539837320863974,
+          40.176388523669374
         ]
       },
       "properties": {
@@ -24796,7 +24860,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17640781285031,44.539818581468374"
+        "maps_url": "https://www.google.com/maps?q=40.176388523669374,44.539837320863974"
       }
     },
     {
@@ -24870,8 +24934,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51698976201812,
-          40.213990778533905
+          44.517407696807965,
+          40.21406263943868
         ]
       },
       "properties": {
@@ -24927,7 +24991,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Griboedov St",
-        "maps_url": "https://www.google.com/maps?q=40.213990778533905,44.51698976201812"
+        "maps_url": "https://www.google.com/maps?q=40.21406263943868,44.517407696807965"
       }
     },
     {
@@ -24935,8 +24999,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.488946634845625,
-          40.17310233581021
+          44.49273709637316,
+          40.17454304577796
         ]
       },
       "properties": {
@@ -24990,7 +25054,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Adana St",
-        "maps_url": "https://www.google.com/maps?q=40.17310233581021,44.488946634845625"
+        "maps_url": "https://www.google.com/maps?q=40.17454304577796,44.49273709637316"
       }
     },
     {
@@ -24998,8 +25062,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51935440284558,
-          40.164077944730465
+          44.51856317167347,
+          40.16593816407734
         ]
       },
       "properties": {
@@ -25072,7 +25136,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Rostom St",
-        "maps_url": "https://www.google.com/maps?q=40.164077944730465,44.51935440284558"
+        "maps_url": "https://www.google.com/maps?q=40.16593816407734,44.51856317167347"
       }
     },
     {
@@ -25249,8 +25313,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.519647090479516,
-          40.163267221075614
+          44.51889871580407,
+          40.165137124558285
         ]
       },
       "properties": {
@@ -25322,7 +25386,7 @@
         "ai_score": 7,
         "geocode_precision": "street_spread",
         "address": "Rostom St",
-        "maps_url": "https://www.google.com/maps?q=40.163267221075614,44.519647090479516"
+        "maps_url": "https://www.google.com/maps?q=40.165137124558285,44.51889871580407"
       }
     },
     {
@@ -25404,8 +25468,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51263437280588,
-          40.18950022113236
+          44.51281068786312,
+          40.189239565278086
         ]
       },
       "properties": {
@@ -25464,7 +25528,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "V.Papazyan St",
-        "maps_url": "https://www.google.com/maps?q=40.18950022113236,44.51263437280588"
+        "maps_url": "https://www.google.com/maps?q=40.189239565278086,44.51281068786312"
       }
     },
     {
@@ -25620,8 +25684,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.547046117762406,
-          40.16804924882747
+          44.550849100504195,
+          40.171605239757014
         ]
       },
       "properties": {
@@ -25694,7 +25758,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Davit Bek",
-        "maps_url": "https://www.google.com/maps?q=40.16804924882747,44.547046117762406"
+        "maps_url": "https://www.google.com/maps?q=40.171605239757014,44.550849100504195"
       }
     },
     {
@@ -25768,8 +25832,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.438163849746886,
-          40.21386632335724
+          44.43803957404346,
+          40.213574045351464
         ]
       },
       "properties": {
@@ -25847,7 +25911,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "Silikyan 5 St",
-        "maps_url": "https://www.google.com/maps?q=40.21386632335724,44.438163849746886"
+        "maps_url": "https://www.google.com/maps?q=40.213574045351464,44.43803957404346"
       }
     },
     {
@@ -25855,8 +25919,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45578188465718,
-          40.20636201897303
+          44.455936915777556,
+          40.20636148913779
         ]
       },
       "properties": {
@@ -25913,7 +25977,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20636201897303,44.45578188465718"
+        "maps_url": "https://www.google.com/maps?q=40.20636148913779,44.455936915777556"
       }
     },
     {
@@ -26063,8 +26127,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53897698551681,
-          40.176305127696125
+          44.53899572515165,
+          40.17628583851519
         ]
       },
       "properties": {
@@ -26121,7 +26185,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.176305127696125,44.53897698551681"
+        "maps_url": "https://www.google.com/maps?q=40.17628583851519,44.53899572515165"
       }
     },
     {
@@ -26129,8 +26193,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5458694407334,
-          40.185794212498784
+          44.54639507752161,
+          40.185414106618374
         ]
       },
       "properties": {
@@ -26197,7 +26261,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Norq 2 St",
-        "maps_url": "https://www.google.com/maps?q=40.185794212498784,44.5458694407334"
+        "maps_url": "https://www.google.com/maps?q=40.185414106618374,44.54639507752161"
       }
     },
     {
@@ -26205,8 +26269,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53957379614191,
-          40.176570622270205
+          44.5395925356071,
+          40.17655133308927
         ]
       },
       "properties": {
@@ -26274,7 +26338,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.176570622270205,44.53957379614191"
+        "maps_url": "https://www.google.com/maps?q=40.17655133308927,44.5395925356071"
       }
     },
     {
@@ -26426,8 +26490,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.456629961754075,
-          40.20722660561896
+          44.45678499286783,
+          40.20722607578372
         ]
       },
       "properties": {
@@ -26493,7 +26557,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20722660561896,44.456629961754075"
+        "maps_url": "https://www.google.com/maps?q=40.20722607578372,44.45678499286783"
       }
     },
     {
@@ -26577,8 +26641,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.513125726535215,
-          40.18967593584554
+          44.51330203970416,
+          40.189415279991266
         ]
       },
       "properties": {
@@ -26634,7 +26698,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "V.Papazyan St",
-        "maps_url": "https://www.google.com/maps?q=40.18967593584554,44.513125726535215"
+        "maps_url": "https://www.google.com/maps?q=40.189415279991266,44.51330203970416"
       }
     },
     {
@@ -26642,8 +26706,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.457380522447544,
-          40.20654227242288
+          44.457535553555424,
+          40.20654174258764
         ]
       },
       "properties": {
@@ -26711,7 +26775,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20654227242288,44.457380522447544"
+        "maps_url": "https://www.google.com/maps?q=40.20654174258764,44.457535553555424"
       }
     },
     {
@@ -27164,8 +27228,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50474796393014,
-          40.196427093823075
+          44.50418993054194,
+          40.194467690686025
         ]
       },
       "properties": {
@@ -27224,7 +27288,7 @@
         "ai_score": 7,
         "geocode_precision": "street_spread",
         "address": "Sose St",
-        "maps_url": "https://www.google.com/maps?q=40.196427093823075,44.50474796393014"
+        "maps_url": "https://www.google.com/maps?q=40.194467690686025,44.50418993054194"
       }
     },
     {
@@ -27369,8 +27433,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50525140285444,
-          40.2115775367068
+          44.50488491944864,
+          40.21177161409956
         ]
       },
       "properties": {
@@ -27437,7 +27501,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "Arabkir 27 St",
-        "maps_url": "https://www.google.com/maps?q=40.2115775367068,44.50525140285444"
+        "maps_url": "https://www.google.com/maps?q=40.21177161409956,44.50488491944864"
       }
     },
     {
@@ -27445,8 +27509,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50328777165344,
-          40.197873874014114
+          44.50305449023639,
+          40.19784008333966
         ]
       },
       "properties": {
@@ -27507,7 +27571,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "V. Davtyan St",
-        "maps_url": "https://www.google.com/maps?q=40.197873874014114,44.50328777165344"
+        "maps_url": "https://www.google.com/maps?q=40.19784008333966,44.50305449023639"
       }
     },
     {
@@ -27657,8 +27721,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.538787686158784,
-          40.17625947528414
+          44.53880642584743,
+          40.17624018610321
         ]
       },
       "properties": {
@@ -27724,7 +27788,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17625947528414,44.538787686158784"
+        "maps_url": "https://www.google.com/maps?q=40.17624018610321,44.53880642584743"
       }
     },
     {
@@ -27732,8 +27796,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47681041537058,
-          40.20145740332862
+          44.47686173322238,
+          40.20157388926222
         ]
       },
       "properties": {
@@ -27791,7 +27855,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "Abelyan St",
-        "maps_url": "https://www.google.com/maps?q=40.20145740332862,44.47681041537058"
+        "maps_url": "https://www.google.com/maps?q=40.20157388926222,44.47686173322238"
       }
     },
     {
@@ -27799,8 +27863,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53833254335021,
-          40.17623019814754
+          44.53835128316824,
+          40.17621090896661
         ]
       },
       "properties": {
@@ -27859,7 +27923,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17623019814754,44.53833254335021"
+        "maps_url": "https://www.google.com/maps?q=40.17621090896661,44.53835128316824"
       }
     },
     {
@@ -27942,8 +28006,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.518404065432385,
-          40.16631144126707
+          44.51923306861994,
+          40.16433600519988
         ]
       },
       "properties": {
@@ -28015,7 +28079,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Rostom St",
-        "maps_url": "https://www.google.com/maps?q=40.16631144126707,44.518404065432385"
+        "maps_url": "https://www.google.com/maps?q=40.16433600519988,44.51923306861994"
       }
     },
     {
@@ -28095,8 +28159,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.493543941986935,
-          40.17282715916156
+          44.477771119338016,
+          40.164186386919056
         ]
       },
       "properties": {
@@ -28154,7 +28218,7 @@
         "ai_score": 4,
         "geocode_precision": "street_spread",
         "address": "Isakov Ave",
-        "maps_url": "https://www.google.com/maps?q=40.17282715916156,44.493543941986935"
+        "maps_url": "https://www.google.com/maps?q=40.164186386919056,44.477771119338016"
       }
     },
     {
@@ -28394,8 +28458,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.539863701322595,
-          40.17663877205012
+          44.53988244070537,
+          40.176619482869185
         ]
       },
       "properties": {
@@ -28459,7 +28523,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17663877205012,44.539863701322595"
+        "maps_url": "https://www.google.com/maps?q=40.176619482869185,44.53988244070537"
       }
     },
     {
@@ -28547,8 +28611,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53887057639049,
-          40.17714911799736
+          44.538889316055574,
+          40.177129828816426
         ]
       },
       "properties": {
@@ -28612,7 +28676,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17714911799736,44.53887057639049"
+        "maps_url": "https://www.google.com/maps?q=40.177129828816426,44.538889316055574"
       }
     },
     {
@@ -29006,8 +29070,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45687391061273,
-          40.2067356755607
+          44.45702894172457,
+          40.20673514572546
         ]
       },
       "properties": {
@@ -29070,7 +29134,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.2067356755607,44.45687391061273"
+        "maps_url": "https://www.google.com/maps?q=40.20673514572546,44.45702894172457"
       }
     },
     {
@@ -29151,8 +29215,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53814536568994,
-          40.17674442495302
+          44.53816410556118,
+          40.17672513577209
         ]
       },
       "properties": {
@@ -29218,7 +29282,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17674442495302,44.53814536568994"
+        "maps_url": "https://www.google.com/maps?q=40.17672513577209,44.53816410556118"
       }
     },
     {
@@ -29391,8 +29455,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.54592676512726,
-          40.18862234456059
+          44.54588431082226,
+          40.18871472458833
         ]
       },
       "properties": {
@@ -29463,7 +29527,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "Norq Marash",
-        "maps_url": "https://www.google.com/maps?q=40.18862234456059,44.54592676512726"
+        "maps_url": "https://www.google.com/maps?q=40.18871472458833,44.54588431082226"
       }
     },
     {
@@ -29471,8 +29535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.55532667999352,
-          40.173644948168906
+          44.54613750642897,
+          40.16725740066461
         ]
       },
       "properties": {
@@ -29544,7 +29608,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Davit Bek",
-        "maps_url": "https://www.google.com/maps?q=40.173644948168906,44.55532667999352"
+        "maps_url": "https://www.google.com/maps?q=40.16725740066461,44.54613750642897"
       }
     },
     {
@@ -29552,8 +29616,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.509297220529994,
-          40.20058414987177
+          44.50951646605109,
+          40.200790398933584
         ]
       },
       "properties": {
@@ -29619,7 +29683,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "Khnko-Aper St",
-        "maps_url": "https://www.google.com/maps?q=40.20058414987177,44.509297220529994"
+        "maps_url": "https://www.google.com/maps?q=40.200790398933584,44.50951646605109"
       }
     },
     {
@@ -29700,8 +29764,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.509711804510125,
-          40.20077870789228
+          44.509931051292426,
+          40.200984956954095
         ]
       },
       "properties": {
@@ -29773,7 +29837,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Khnko-Aper St",
-        "maps_url": "https://www.google.com/maps?q=40.20077870789228,44.509711804510125"
+        "maps_url": "https://www.google.com/maps?q=40.200984956954095,44.509931051292426"
       }
     },
     {
@@ -29781,8 +29845,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53973438779165,
-          40.18083039995838
+          44.53966213609216,
+          40.180726409211516
         ]
       },
       "properties": {
@@ -29850,7 +29914,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Norq 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.18083039995838,44.53973438779165"
+        "maps_url": "https://www.google.com/maps?q=40.180726409211516,44.53966213609216"
       }
     },
     {
@@ -30426,8 +30490,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50958756931559,
-          40.20124119372615
+          44.509806815719955,
+          40.20144744278796
         ]
       },
       "properties": {
@@ -30488,7 +30552,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "Khnko-Aper St",
-        "maps_url": "https://www.google.com/maps?q=40.20124119372615,44.50958756931559"
+        "maps_url": "https://www.google.com/maps?q=40.20144744278796,44.509806815719955"
       }
     },
     {
@@ -30579,8 +30643,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45703757168387,
-          40.207035771168336
+          44.457192602794436,
+          40.207035241333095
         ]
       },
       "properties": {
@@ -30655,7 +30719,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.207035771168336,44.45703757168387"
+        "maps_url": "https://www.google.com/maps?q=40.207035241333095,44.457192602794436"
       }
     },
     {
@@ -30663,8 +30727,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.504840652436606,
-          40.211491289951915
+          44.504474167854575,
+          40.21168536734468
         ]
       },
       "properties": {
@@ -30731,7 +30795,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Arabkir 27 St",
-        "maps_url": "https://www.google.com/maps?q=40.211491289951915,44.504840652436606"
+        "maps_url": "https://www.google.com/maps?q=40.21168536734468,44.504474167854575"
       }
     },
     {
@@ -30792,8 +30856,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.520350326819205,
-          40.20105525134819
+          44.52056545747757,
+          40.20098304396404
         ]
       },
       "properties": {
@@ -30851,7 +30915,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "H.Muradyan St",
-        "maps_url": "https://www.google.com/maps?q=40.20105525134819,44.520350326819205"
+        "maps_url": "https://www.google.com/maps?q=40.20098304396404,44.52056545747757"
       }
     },
     {
@@ -30859,8 +30923,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51874461339898,
-          40.16551162050091
+          44.51954981753159,
+          40.16353123356225
         ]
       },
       "properties": {
@@ -30927,7 +30991,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Rostom St",
-        "maps_url": "https://www.google.com/maps?q=40.16551162050091,44.51874461339898"
+        "maps_url": "https://www.google.com/maps?q=40.16353123356225,44.51954981753159"
       }
     },
     {
@@ -30935,8 +30999,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.56014380412338,
-          40.177795356704166
+          44.539481096631405,
+          40.16652186983484
         ]
       },
       "properties": {
@@ -31004,7 +31068,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Davit Bek",
-        "maps_url": "https://www.google.com/maps?q=40.177795356704166,44.56014380412338"
+        "maps_url": "https://www.google.com/maps?q=40.16652186983484,44.539481096631405"
       }
     },
     {
@@ -31012,8 +31076,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45719033032069,
-          40.20626063563096
+          44.457345361430065,
+          40.20626010579572
         ]
       },
       "properties": {
@@ -31100,7 +31164,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20626063563096,44.45719033032069"
+        "maps_url": "https://www.google.com/maps?q=40.20626010579572,44.457345361430065"
       }
     },
     {
@@ -31108,8 +31172,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52254758546808,
-          40.19805938761652
+          44.524777735776425,
+          40.19722360109859
         ]
       },
       "properties": {
@@ -31159,7 +31223,7 @@
         "ai_score": 7,
         "geocode_precision": "street_spread",
         "address": "Babayan St",
-        "maps_url": "https://www.google.com/maps?q=40.19805938761652,44.52254758546808"
+        "maps_url": "https://www.google.com/maps?q=40.19722360109859,44.524777735776425"
       }
     },
     {
@@ -31167,8 +31231,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.448646219703924,
-          40.224512256302354
+          44.44905056787101,
+          40.22480170669267
         ]
       },
       "properties": {
@@ -31235,7 +31299,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Silikyan 1 St",
-        "maps_url": "https://www.google.com/maps?q=40.224512256302354,44.448646219703924"
+        "maps_url": "https://www.google.com/maps?q=40.22480170669267,44.44905056787101"
       }
     },
     {
@@ -31841,8 +31905,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45681337724004,
-          40.20607358460513
+          44.45696840835235,
+          40.20607305476989
         ]
       },
       "properties": {
@@ -31900,7 +31964,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20607358460513,44.45681337724004"
+        "maps_url": "https://www.google.com/maps?q=40.20607305476989,44.45696840835235"
       }
     },
     {
@@ -32296,8 +32360,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53946571960145,
-          40.17670286554155
+          44.53948445909736,
+          40.17668357636062
         ]
       },
       "properties": {
@@ -32358,7 +32422,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17670286554155,44.53946571960145"
+        "maps_url": "https://www.google.com/maps?q=40.17668357636062,44.53948445909736"
       }
     },
     {
@@ -32366,8 +32430,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.4840263057676,
-          40.20272241260507
+          44.4839566136654,
+          40.2027045924345
         ]
       },
       "properties": {
@@ -32435,7 +32499,7 @@
         "ai_score": 3,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20272241260507,44.4840263057676"
+        "maps_url": "https://www.google.com/maps?q=40.2027045924345,44.4839566136654"
       }
     },
     {
@@ -32518,8 +32582,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48399020096235,
-          40.202043016866405
+          44.483920508869645,
+          40.202025196695836
         ]
       },
       "properties": {
@@ -32589,7 +32653,7 @@
         "ai_score": 3,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.202043016866405,44.48399020096235"
+        "maps_url": "https://www.google.com/maps?q=40.202025196695836,44.483920508869645"
       }
     },
     {
@@ -32954,8 +33018,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53959997555289,
-          40.17708016455767
+          44.53961871501063,
+          40.17706087537674
         ]
       },
       "properties": {
@@ -33008,7 +33072,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17708016455767,44.53959997555289"
+        "maps_url": "https://www.google.com/maps?q=40.17706087537674,44.53961871501063"
       }
     },
     {
@@ -33086,8 +33150,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51907124924218,
-          40.16470842845459
+          44.51984811193715,
+          40.16272162051522
         ]
       },
       "properties": {
@@ -33149,7 +33213,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Rostom St",
-        "maps_url": "https://www.google.com/maps?q=40.16470842845459,44.51907124924218"
+        "maps_url": "https://www.google.com/maps?q=40.16272162051522,44.51984811193715"
       }
     },
     {
@@ -33245,8 +33309,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.54619593729818,
-          40.18565545813222
+          44.546721572256885,
+          40.18527535225181
         ]
       },
       "properties": {
@@ -33306,7 +33370,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Norq 2 St",
-        "maps_url": "https://www.google.com/maps?q=40.18565545813222,44.54619593729818"
+        "maps_url": "https://www.google.com/maps?q=40.18527535225181,44.546721572256885"
       }
     },
     {
@@ -33401,8 +33465,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.54051345556158,
-          40.180029136541485
+          44.54044120266801,
+          40.17992514579462
         ]
       },
       "properties": {
@@ -33477,7 +33541,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "Norq 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.180029136541485,44.54051345556158"
+        "maps_url": "https://www.google.com/maps?q=40.17992514579462,44.54044120266801"
       }
     },
     {
@@ -33485,8 +33549,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.504318435705464,
-          40.21090169958136
+          44.503951949628004,
+          40.211095776974126
         ]
       },
       "properties": {
@@ -33545,7 +33609,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Arabkir 27 St",
-        "maps_url": "https://www.google.com/maps?q=40.21090169958136,44.504318435705464"
+        "maps_url": "https://www.google.com/maps?q=40.211095776974126,44.503951949628004"
       }
     },
     {
@@ -33619,8 +33683,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53811116587783,
-          40.17677083760949
+          44.53812990575879,
+          40.176751548428555
         ]
       },
       "properties": {
@@ -33676,7 +33740,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17677083760949,44.53811116587783"
+        "maps_url": "https://www.google.com/maps?q=40.176751548428555,44.53812990575879"
       }
     },
     {
@@ -34272,8 +34336,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.539464275864475,
-          40.17653167435808
+          44.539483015360794,
+          40.17651238517715
         ]
       },
       "properties": {
@@ -34330,7 +34394,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17653167435808,44.539464275864475"
+        "maps_url": "https://www.google.com/maps?q=40.17651238517715,44.539483015360794"
       }
     },
     {
@@ -34338,8 +34402,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.44649093627142,
-          40.221200200169996
+          44.44678954872608,
+          40.221302382062504
         ]
       },
       "properties": {
@@ -34401,7 +34465,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Silikyan 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.221200200169996,44.44649093627142"
+        "maps_url": "https://www.google.com/maps?q=40.221302382062504,44.44678954872608"
       }
     },
     {
@@ -34409,8 +34473,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45704366201684,
-          40.207119176682674
+          44.45719869312735,
+          40.207118646847434
         ]
       },
       "properties": {
@@ -34475,7 +34539,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.207119176682674,44.45704366201684"
+        "maps_url": "https://www.google.com/maps?q=40.207118646847434,44.45719869312735"
       }
     },
     {
@@ -34802,8 +34866,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.527593358844825,
-          40.179796993211205
+          44.52605655878621,
+          40.17065989812935
         ]
       },
       "properties": {
@@ -34868,7 +34932,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Charents St",
-        "maps_url": "https://www.google.com/maps?q=40.179796993211205,44.527593358844825"
+        "maps_url": "https://www.google.com/maps?q=40.17065989812935,44.52605655878621"
       }
     },
     {
@@ -35552,8 +35616,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47174670119897,
-          40.21623787445316
+          44.47141489474363,
+          40.21631957657096
         ]
       },
       "properties": {
@@ -35609,7 +35673,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Davtashen 1 St",
-        "maps_url": "https://www.google.com/maps?q=40.21623787445316,44.47174670119897"
+        "maps_url": "https://www.google.com/maps?q=40.21631957657096,44.47141489474363"
       }
     },
     {
@@ -35691,8 +35755,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.457092965270306,
-          40.20707955566963
+          44.45724799638044,
+          40.20707902583439
         ]
       },
       "properties": {
@@ -35750,7 +35814,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20707955566963,44.457092965270306"
+        "maps_url": "https://www.google.com/maps?q=40.20707902583439,44.45724799638044"
       }
     },
     {
@@ -35758,8 +35822,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52337690858789,
-          40.20485746310664
+          44.523604962462066,
+          40.2048796517205
         ]
       },
       "properties": {
@@ -35824,7 +35888,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "N. Zaryan St",
-        "maps_url": "https://www.google.com/maps?q=40.20485746310664,44.52337690858789"
+        "maps_url": "https://www.google.com/maps?q=40.2048796517205,44.523604962462066"
       }
     },
     {
@@ -35966,8 +36030,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.523304793519614,
-          40.20544326240208
+          44.52353284737018,
+          40.20546545101594
         ]
       },
       "properties": {
@@ -36036,7 +36100,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "N. Zaryan St",
-        "maps_url": "https://www.google.com/maps?q=40.20544326240208,44.523304793519614"
+        "maps_url": "https://www.google.com/maps?q=40.20546545101594,44.52353284737018"
       }
     },
     {
@@ -36545,8 +36609,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.561789937372694,
-          40.181167452499615
+          44.53816687960117,
+          40.166826345344546
         ]
       },
       "properties": {
@@ -36607,7 +36671,7 @@
         "ai_score": 7,
         "geocode_precision": "street_spread",
         "address": "Davit Bek",
-        "maps_url": "https://www.google.com/maps?q=40.181167452499615,44.561789937372694"
+        "maps_url": "https://www.google.com/maps?q=40.166826345344546,44.53816687960117"
       }
     },
     {
@@ -36966,8 +37030,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.456459007027625,
-          40.20703423064149
+          44.45661403814271,
+          40.20703370080625
         ]
       },
       "properties": {
@@ -37027,7 +37091,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20703423064149,44.456459007027625"
+        "maps_url": "https://www.google.com/maps?q=40.20703370080625,44.45661403814271"
       }
     },
     {
@@ -37298,8 +37362,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.500745052309384,
-          40.19533950227249
+          44.50330121786906,
+          40.1933132325522
         ]
       },
       "properties": {
@@ -37365,7 +37429,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Sose St",
-        "maps_url": "https://www.google.com/maps?q=40.19533950227249,44.500745052309384"
+        "maps_url": "https://www.google.com/maps?q=40.1933132325522,44.50330121786906"
       }
     },
     {
@@ -37462,8 +37526,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51222752439128,
-          40.1959405003926
+          44.511939464435535,
+          40.19658712260725
         ]
       },
       "properties": {
@@ -37533,7 +37597,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Antarayin St",
-        "maps_url": "https://www.google.com/maps?q=40.1959405003926,44.51222752439128"
+        "maps_url": "https://www.google.com/maps?q=40.19658712260725,44.511939464435535"
       }
     },
     {
@@ -37688,8 +37752,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48649714979572,
-          40.19768365633161
+          44.48647890777501,
+          40.197762282349196
         ]
       },
       "properties": {
@@ -37745,7 +37809,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Sevastopolyan St",
-        "maps_url": "https://www.google.com/maps?q=40.19768365633161,44.48649714979572"
+        "maps_url": "https://www.google.com/maps?q=40.197762282349196,44.48647890777501"
       }
     },
     {
@@ -37823,8 +37887,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.46292759537138,
-          40.21131168475676
+          44.46347816066353,
+          40.212161695919214
         ]
       },
       "properties": {
@@ -37879,7 +37943,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Gevorg Chaush St",
-        "maps_url": "https://www.google.com/maps?q=40.21131168475676,44.46292759537138"
+        "maps_url": "https://www.google.com/maps?q=40.212161695919214,44.46347816066353"
       }
     },
     {
@@ -38101,8 +38165,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5317306449749,
-          40.19845381678307
+          44.52002498133719,
+          40.19902019490864
         ]
       },
       "properties": {
@@ -38160,7 +38224,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Babayan St",
-        "maps_url": "https://www.google.com/maps?q=40.19845381678307,44.5317306449749"
+        "maps_url": "https://www.google.com/maps?q=40.19902019490864,44.52002498133719"
       }
     },
     {
@@ -38168,8 +38232,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.464201896672066,
-          40.21323494429674
+          44.462739204616966,
+          40.21038840447471
         ]
       },
       "properties": {
@@ -38234,7 +38298,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Gevorg Chaush St",
-        "maps_url": "https://www.google.com/maps?q=40.21323494429674,44.464201896672066"
+        "maps_url": "https://www.google.com/maps?q=40.21038840447471,44.462739204616966"
       }
     },
     {
@@ -38612,8 +38676,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51750742915492,
-          40.212964711528485
+          44.517925364493685,
+          40.21303657243326
         ]
       },
       "properties": {
@@ -38663,7 +38727,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "Griboedov St",
-        "maps_url": "https://www.google.com/maps?q=40.212964711528485,44.51750742915492"
+        "maps_url": "https://www.google.com/maps?q=40.21303657243326,44.517925364493685"
       }
     },
     {
@@ -38671,8 +38735,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51648424838404,
-          40.19146729807338
+          44.513046735071235,
+          40.19501965151803
         ]
       },
       "properties": {
@@ -38742,7 +38806,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Antarayin St",
-        "maps_url": "https://www.google.com/maps?q=40.19146729807338,44.51648424838404"
+        "maps_url": "https://www.google.com/maps?q=40.19501965151803,44.513046735071235"
       }
     },
     {
@@ -38902,8 +38966,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.43810987424869,
-          40.21346591242339
+          44.437985598778056,
+          40.213173634417615
         ]
       },
       "properties": {
@@ -38972,7 +39036,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Silikyan 5 St",
-        "maps_url": "https://www.google.com/maps?q=40.21346591242339,44.43810987424869"
+        "maps_url": "https://www.google.com/maps?q=40.213173634417615,44.437985598778056"
       }
     },
     {
@@ -38980,8 +39044,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.462001700301684,
-          40.219163357872134
+          44.47080864731909,
+          40.21553284143639
         ]
       },
       "properties": {
@@ -39037,7 +39101,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Ashtarak hightway",
-        "maps_url": "https://www.google.com/maps?q=40.219163357872134,44.462001700301684"
+        "maps_url": "https://www.google.com/maps?q=40.21553284143639,44.47080864731909"
       }
     },
     {
@@ -39398,8 +39462,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.522848094976325,
-          40.170302506625276
+          44.527281623389115,
+          40.18362874310694
         ]
       },
       "properties": {
@@ -39453,7 +39517,7 @@
         "ai_score": 7,
         "geocode_precision": "street_spread",
         "address": "Charents St",
-        "maps_url": "https://www.google.com/maps?q=40.170302506625276,44.522848094976325"
+        "maps_url": "https://www.google.com/maps?q=40.18362874310694,44.527281623389115"
       }
     },
     {
@@ -39461,8 +39525,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.46340911483005,
-          40.21187205419055
+          44.46501143583971,
+          40.21430839742661
         ]
       },
       "properties": {
@@ -39530,7 +39594,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Gevorg Chaush St",
-        "maps_url": "https://www.google.com/maps?q=40.21187205419055,44.46340911483005"
+        "maps_url": "https://www.google.com/maps?q=40.21430839742661,44.46501143583971"
       }
     },
     {
@@ -39681,8 +39745,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51236591104208,
-          40.18944706097559
+          44.51254222713105,
+          40.18918640512131
         ]
       },
       "properties": {
@@ -39756,7 +39820,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "V.Papazyan St",
-        "maps_url": "https://www.google.com/maps?q=40.18944706097559,44.51236591104208"
+        "maps_url": "https://www.google.com/maps?q=40.18918640512131,44.51254222713105"
       }
     },
     {
@@ -39764,8 +39828,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.529871104797294,
-          40.19730280404794
+          44.5173511681421,
+          40.19946729476877
         ]
       },
       "properties": {
@@ -39827,7 +39891,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Babayan St",
-        "maps_url": "https://www.google.com/maps?q=40.19730280404794,44.529871104797294"
+        "maps_url": "https://www.google.com/maps?q=40.19946729476877,44.5173511681421"
       }
     },
     {
@@ -39835,8 +39899,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47786360917687,
-          40.20177221859826
+          44.477914928838224,
+          40.20188870453186
         ]
       },
       "properties": {
@@ -39902,7 +39966,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "Abelyan St",
-        "maps_url": "https://www.google.com/maps?q=40.20177221859826,44.47786360917687"
+        "maps_url": "https://www.google.com/maps?q=40.20188870453186,44.477914928838224"
       }
     },
     {
@@ -39910,8 +39974,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47747797837732,
-          40.201191646377566
+          44.4775292973761,
+          40.20130813231117
         ]
       },
       "properties": {
@@ -39969,7 +40033,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "Abelyan St",
-        "maps_url": "https://www.google.com/maps?q=40.201191646377566,44.47747797837732"
+        "maps_url": "https://www.google.com/maps?q=40.20130813231117,44.4775292973761"
       }
     },
     {
@@ -40321,8 +40385,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.533037109303805,
-          40.186620723097676
+          44.53188145897149,
+          40.184922089444854
         ]
       },
       "properties": {
@@ -40395,7 +40459,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.186620723097676,44.533037109303805"
+        "maps_url": "https://www.google.com/maps?q=40.184922089444854,44.53188145897149"
       }
     },
     {
@@ -40614,8 +40678,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45700750589306,
-          40.20650235497981
+          44.45716253700386,
+          40.20650182514457
         ]
       },
       "properties": {
@@ -40679,7 +40743,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20650235497981,44.45700750589306"
+        "maps_url": "https://www.google.com/maps?q=40.20650182514457,44.45716253700386"
       }
     },
     {
@@ -40840,8 +40904,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52015378731127,
-          40.16191362412822
+          44.518083450290796,
+          40.16706620964331
         ]
       },
       "properties": {
@@ -40898,7 +40962,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Rostom St",
-        "maps_url": "https://www.google.com/maps?q=40.16191362412822,44.52015378731127"
+        "maps_url": "https://www.google.com/maps?q=40.16706620964331,44.518083450290796"
       }
     },
     {
@@ -40974,8 +41038,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48467199473477,
-          40.202606920954224
+          44.48460230246284,
+          40.202589100783655
         ]
       },
       "properties": {
@@ -41037,7 +41101,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.202606920954224,44.48467199473477"
+        "maps_url": "https://www.google.com/maps?q=40.202589100783655,44.48460230246284"
       }
     },
     {
@@ -41120,8 +41184,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51788157962641,
-          40.167537663486634
+          44.51996347187393,
+          40.162412118843875
         ]
       },
       "properties": {
@@ -41185,7 +41249,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Rostom St",
-        "maps_url": "https://www.google.com/maps?q=40.167537663486634,44.51788157962641"
+        "maps_url": "https://www.google.com/maps?q=40.162412118843875,44.51996347187393"
       }
     },
     {
@@ -41402,8 +41466,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51822386797342,
-          40.16673827464421
+          44.52010301293931,
+          40.16160071483087
         ]
       },
       "properties": {
@@ -41468,7 +41532,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Rostom St",
-        "maps_url": "https://www.google.com/maps?q=40.16673827464421,44.51822386797342"
+        "maps_url": "https://www.google.com/maps?q=40.16160071483087,44.52010301293931"
       }
     },
     {
@@ -41476,8 +41540,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53188145897149,
-          40.184922089444854
+          44.53221130670052,
+          40.186015463329404
         ]
       },
       "properties": {
@@ -41532,7 +41596,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.184922089444854,44.53188145897149"
+        "maps_url": "https://www.google.com/maps?q=40.186015463329404,44.53221130670052"
       }
     },
     {
@@ -41706,8 +41770,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.455938896035306,
-          40.20653082743065
+          44.456093927154456,
+          40.20653029759541
         ]
       },
       "properties": {
@@ -41775,7 +41839,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20653082743065,44.455938896035306"
+        "maps_url": "https://www.google.com/maps?q=40.20653029759541,44.456093927154456"
       }
     },
     {
@@ -41783,8 +41847,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48430919365691,
-          40.20281384477811
+          44.48423950148035,
+          40.202796024607544
         ]
       },
       "properties": {
@@ -41851,7 +41915,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20281384477811,44.48430919365691"
+        "maps_url": "https://www.google.com/maps?q=40.202796024607544,44.48423950148035"
       }
     },
     {
@@ -41859,8 +41923,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51758745281104,
-          40.19674231030999
+          44.5255340456536,
+          40.20500293211684
         ]
       },
       "properties": {
@@ -41933,7 +41997,7 @@
         "ai_score": 7,
         "geocode_precision": "street_spread",
         "address": "Azatutyan Ave",
-        "maps_url": "https://www.google.com/maps?q=40.19674231030999,44.51758745281104"
+        "maps_url": "https://www.google.com/maps?q=40.20500293211684,44.5255340456536"
       }
     },
     {
@@ -41941,8 +42005,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45704077742387,
-          40.20669782938073
+          44.457195808534415,
+          40.20669729954549
         ]
       },
       "properties": {
@@ -42003,7 +42067,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20669782938073,44.45704077742387"
+        "maps_url": "https://www.google.com/maps?q=40.20669729954549,44.457195808534415"
       }
     },
     {
@@ -42083,8 +42147,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.457365812028854,
-          40.206813893965375
+          44.45752084313685,
+          40.206813364130134
         ]
       },
       "properties": {
@@ -42149,7 +42213,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.206813893965375,44.457365812028854"
+        "maps_url": "https://www.google.com/maps?q=40.206813364130134,44.45752084313685"
       }
     },
     {
@@ -42157,8 +42221,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53429307831321,
-          40.16436771421513
+          44.54518097316778,
+          40.16636113824143
         ]
       },
       "properties": {
@@ -42233,7 +42297,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Davit Bek",
-        "maps_url": "https://www.google.com/maps?q=40.16436771421513,44.53429307831321"
+        "maps_url": "https://www.google.com/maps?q=40.16636113824143,44.54518097316778"
       }
     },
     {
@@ -42241,8 +42305,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.46942293347501,
-          40.216259279287755
+          44.46754018600566,
+          40.216857226553174
         ]
       },
       "properties": {
@@ -42305,7 +42369,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Ashtarak hightway",
-        "maps_url": "https://www.google.com/maps?q=40.216259279287755,44.46942293347501"
+        "maps_url": "https://www.google.com/maps?q=40.216857226553174,44.46754018600566"
       }
     },
     {
@@ -42313,8 +42377,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47681414309866,
-          40.201188062649365
+          44.476865460956866,
+          40.20130454858297
         ]
       },
       "properties": {
@@ -42380,7 +42444,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "Abelyan St",
-        "maps_url": "https://www.google.com/maps?q=40.201188062649365,44.47681414309866"
+        "maps_url": "https://www.google.com/maps?q=40.20130454858297,44.476865460956866"
       }
     },
     {
@@ -42388,8 +42452,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.502723620191276,
-          40.19349666106124
+          44.50153060061665,
+          40.194222841875245
         ]
       },
       "properties": {
@@ -42462,7 +42526,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Sose St",
-        "maps_url": "https://www.google.com/maps?q=40.19349666106124,44.502723620191276"
+        "maps_url": "https://www.google.com/maps?q=40.194222841875245,44.50153060061665"
       }
     },
     {
@@ -42555,8 +42619,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.539169635770044,
-          40.17992643052943
+          44.53909738493615,
+          40.17982243978256
         ]
       },
       "properties": {
@@ -42620,7 +42684,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Norq 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.17992643052943,44.539169635770044"
+        "maps_url": "https://www.google.com/maps?q=40.17982243978256,44.53909738493615"
       }
     },
     {
@@ -42707,8 +42771,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.472069959128994,
-          40.21501629315523
+          44.46519058687921,
+          40.217830631191
         ]
       },
       "properties": {
@@ -42776,7 +42840,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Ashtarak hightway",
-        "maps_url": "https://www.google.com/maps?q=40.21501629315523,44.472069959128994"
+        "maps_url": "https://www.google.com/maps?q=40.217830631191,44.46519058687921"
       }
     },
     {
@@ -42853,8 +42917,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53306956261629,
-          40.16267279260177
+          44.549775965792726,
+          40.17080903475569
         ]
       },
       "properties": {
@@ -42926,7 +42990,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Davit Bek",
-        "maps_url": "https://www.google.com/maps?q=40.16267279260177,44.53306956261629"
+        "maps_url": "https://www.google.com/maps?q=40.17080903475569,44.549775965792726"
       }
     },
     {
@@ -42934,8 +42998,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47753904000589,
-          40.21723181647578
+          44.47742872945496,
+          40.21719248030825
         ]
       },
       "properties": {
@@ -43006,7 +43070,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Davtashen 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.21723181647578,44.47753904000589"
+        "maps_url": "https://www.google.com/maps?q=40.21719248030825,44.47742872945496"
       }
     },
     {
@@ -43243,8 +43307,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.456573085815315,
-          40.206730361080645
+          44.45672811692951,
+          40.206729831245404
         ]
       },
       "properties": {
@@ -43301,7 +43365,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.206730361080645,44.456573085815315"
+        "maps_url": "https://www.google.com/maps?q=40.206729831245404,44.45672811692951"
       }
     },
     {
@@ -43309,8 +43373,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45640629501481,
-          40.2069888267901
+          44.456561326130306,
+          40.20698829695486
         ]
       },
       "properties": {
@@ -43371,7 +43435,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.2069888267901,44.45640629501481"
+        "maps_url": "https://www.google.com/maps?q=40.20698829695486,44.456561326130306"
       }
     },
     {
@@ -43379,8 +43443,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52775830916136,
-          40.19617991147457
+          44.53147995822955,
+          40.197750841341055
         ]
       },
       "properties": {
@@ -43447,7 +43511,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Babayan St",
-        "maps_url": "https://www.google.com/maps?q=40.19617991147457,44.52775830916136"
+        "maps_url": "https://www.google.com/maps?q=40.197750841341055,44.53147995822955"
       }
     },
     {
@@ -43532,8 +43596,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.4563478577586,
-          40.20668729439986
+          44.45650288887456,
+          40.20668676456462
         ]
       },
       "properties": {
@@ -43597,7 +43661,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20668729439986,44.4563478577586"
+        "maps_url": "https://www.google.com/maps?q=40.20668676456462,44.45650288887456"
       }
     },
     {
@@ -43668,8 +43732,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.477018877849794,
-          40.21633810086463
+          44.47690856760082,
+          40.2162987646971
         ]
       },
       "properties": {
@@ -43736,7 +43800,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Davtashen 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.21633810086463,44.477018877849794"
+        "maps_url": "https://www.google.com/maps?q=40.2162987646971,44.47690856760082"
       }
     },
     {
@@ -43744,8 +43808,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.44771467854387,
-          40.22492565852978
+          44.44811902273059,
+          40.225215108920096
         ]
       },
       "properties": {
@@ -43804,7 +43868,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Silikyan 1 St",
-        "maps_url": "https://www.google.com/maps?q=40.22492565852978,44.44771467854387"
+        "maps_url": "https://www.google.com/maps?q=40.225215108920096,44.44811902273059"
       }
     },
     {
@@ -44812,8 +44876,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.49055260976054,
-          40.173871615315704
+          44.49436500532845,
+          40.17557263718861
         ]
       },
       "properties": {
@@ -44881,7 +44945,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Adana St",
-        "maps_url": "https://www.google.com/maps?q=40.173871615315704,44.49055260976054"
+        "maps_url": "https://www.google.com/maps?q=40.17557263718861,44.49436500532845"
       }
     },
     {
@@ -44889,8 +44953,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.456065873331916,
-          40.20605465511028
+          44.45622090445008,
+          40.20605412527504
         ]
       },
       "properties": {
@@ -44946,7 +45010,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20605465511028,44.456065873331916"
+        "maps_url": "https://www.google.com/maps?q=40.20605412527504,44.45622090445008"
       }
     },
     {
@@ -44954,8 +45018,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53221130670052,
-          40.186015463329404
+          44.53332309572201,
+          40.190583891559996
         ]
       },
       "properties": {
@@ -45016,7 +45080,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.186015463329404,44.53221130670052"
+        "maps_url": "https://www.google.com/maps?q=40.190583891559996,44.53332309572201"
       }
     },
     {
@@ -45024,8 +45088,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45634984071863,
-          40.20698221710035
+          44.45650487183457,
+          40.206981687265106
         ]
       },
       "properties": {
@@ -45079,7 +45143,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20698221710035,44.45634984071863"
+        "maps_url": "https://www.google.com/maps?q=40.206981687265106,44.45650487183457"
       }
     },
     {
@@ -45087,8 +45151,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53332309572201,
-          40.190583891559996
+          44.53240261065326,
+          40.19035468770696
         ]
       },
       "properties": {
@@ -45164,7 +45228,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.190583891559996,44.53332309572201"
+        "maps_url": "https://www.google.com/maps?q=40.19035468770696,44.53240261065326"
       }
     },
     {
@@ -45172,8 +45236,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53240261065326,
-          40.19035468770696
+          44.53137761028133,
+          40.18959355246036
         ]
       },
       "properties": {
@@ -45248,7 +45312,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.19035468770696,44.53240261065326"
+        "maps_url": "https://www.google.com/maps?q=40.18959355246036,44.53137761028133"
       }
     },
     {
@@ -45256,8 +45320,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50412101004071,
-          40.197626043268535
+          44.503887728208426,
+          40.197592252594085
         ]
       },
       "properties": {
@@ -45325,7 +45389,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "V. Davtyan St",
-        "maps_url": "https://www.google.com/maps?q=40.197626043268535,44.50412101004071"
+        "maps_url": "https://www.google.com/maps?q=40.197592252594085,44.503887728208426"
       }
     },
     {
@@ -45333,8 +45397,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48452384113783,
-          40.20197783953473
+          44.484454148904845,
+          40.20196001936416
         ]
       },
       "properties": {
@@ -45392,7 +45456,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20197783953473,44.48452384113783"
+        "maps_url": "https://www.google.com/maps?q=40.20196001936416,44.484454148904845"
       }
     },
     {
@@ -45628,8 +45692,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51644529688971,
-          40.195818318727014
+          44.52901702773322,
+          40.20895161810176
         ]
       },
       "properties": {
@@ -45717,7 +45781,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Azatutyan Ave",
-        "maps_url": "https://www.google.com/maps?q=40.195818318727014,44.51644529688971"
+        "maps_url": "https://www.google.com/maps?q=40.20895161810176,44.52901702773322"
       }
     },
     {
@@ -45829,8 +45893,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45671055382386,
-          40.206592448482176
+          44.456865584936985,
+          40.206591918646936
         ]
       },
       "properties": {
@@ -45891,7 +45955,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.206592448482176,44.45671055382386"
+        "maps_url": "https://www.google.com/maps?q=40.206591918646936,44.456865584936985"
       }
     },
     {
@@ -45899,8 +45963,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53137761028133,
-          40.18959355246036
+          44.53050350490961,
+          40.188683981030124
         ]
       },
       "properties": {
@@ -45961,7 +46025,7 @@
         "ai_score": 7,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.18959355246036,44.53137761028133"
+        "maps_url": "https://www.google.com/maps?q=40.188683981030124,44.53050350490961"
       }
     },
     {
@@ -45969,8 +46033,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.536674849042335,
-          40.162645526147934
+          44.55590895161557,
+          40.173985333008595
         ]
       },
       "properties": {
@@ -46025,7 +46089,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Davit Bek",
-        "maps_url": "https://www.google.com/maps?q=40.162645526147934,44.536674849042335"
+        "maps_url": "https://www.google.com/maps?q=40.173985333008595,44.55590895161557"
       }
     },
     {
@@ -46033,8 +46097,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.515284195775855,
-          40.2017107503579
+          44.51514476014871,
+          40.2016099926993
         ]
       },
       "properties": {
@@ -46089,7 +46153,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "A.Tigranyan St",
-        "maps_url": "https://www.google.com/maps?q=40.2017107503579,44.515284195775855"
+        "maps_url": "https://www.google.com/maps?q=40.2016099926993,44.51514476014871"
       }
     },
     {
@@ -46097,8 +46161,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53050350490961,
-          40.188683981030124
+          44.53036938705045,
+          40.187613833506354
         ]
       },
       "properties": {
@@ -46161,7 +46225,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.188683981030124,44.53050350490961"
+        "maps_url": "https://www.google.com/maps?q=40.187613833506354,44.53036938705045"
       }
     },
     {
@@ -46169,8 +46233,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.54078029094747,
-          40.15660773461352
+          44.56236947963791,
+          40.18349846354295
         ]
       },
       "properties": {
@@ -46241,7 +46305,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_spread",
         "address": "Davit Bek",
-        "maps_url": "https://www.google.com/maps?q=40.15660773461352,44.54078029094747"
+        "maps_url": "https://www.google.com/maps?q=40.18349846354295,44.56236947963791"
       }
     },
     {
@@ -46529,8 +46593,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.49978074418404,
-          40.22501702961977
+          44.49951732679129,
+          40.22510323131286
         ]
       },
       "properties": {
@@ -46601,7 +46665,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Davtashen 4 St",
-        "maps_url": "https://www.google.com/maps?q=40.22501702961977,44.49978074418404"
+        "maps_url": "https://www.google.com/maps?q=40.22510323131286,44.49951732679129"
       }
     },
     {
@@ -46674,8 +46738,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53843471508272,
-          40.17700860557046
+          44.53845345487171,
+          40.17698931638952
         ]
       },
       "properties": {
@@ -46740,7 +46804,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "G. Hovsepyan St",
-        "maps_url": "https://www.google.com/maps?q=40.17700860557046,44.53843471508272"
+        "maps_url": "https://www.google.com/maps?q=40.17698931638952,44.53845345487171"
       }
     },
     {
@@ -46902,8 +46966,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45381220499112,
-          40.22315556043753
+          44.47905817407081,
+          40.212066558847695
         ]
       },
       "properties": {
@@ -46985,7 +47049,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Ashtarak hightway",
-        "maps_url": "https://www.google.com/maps?q=40.22315556043753,44.45381220499112"
+        "maps_url": "https://www.google.com/maps?q=40.212066558847695,44.47905817407081"
       }
     },
     {
@@ -46993,8 +47057,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52381506947375,
-          40.16434353478699
+          44.521024814786884,
+          40.16651471677292
         ]
       },
       "properties": {
@@ -47060,7 +47124,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "M.Khorenatsi St",
-        "maps_url": "https://www.google.com/maps?q=40.16434353478699,44.52381506947375"
+        "maps_url": "https://www.google.com/maps?q=40.16651471677292,44.521024814786884"
       }
     },
     {
@@ -47132,8 +47196,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.523265471713806,
-          40.16515589980978
+          44.52047519944793,
+          40.16732708179572
         ]
       },
       "properties": {
@@ -47200,7 +47264,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "M.Khorenatsi St",
-        "maps_url": "https://www.google.com/maps?q=40.16515589980978,44.523265471713806"
+        "maps_url": "https://www.google.com/maps?q=40.16732708179572,44.52047519944793"
       }
     },
     {
@@ -47638,8 +47702,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.522981440846664,
-          40.16761549896047
+          44.527425735640044,
+          40.18357130132035
         ]
       },
       "properties": {
@@ -47705,7 +47769,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Charents St",
-        "maps_url": "https://www.google.com/maps?q=40.16761549896047,44.522981440846664"
+        "maps_url": "https://www.google.com/maps?q=40.18357130132035,44.527425735640044"
       }
     },
     {
@@ -47713,8 +47777,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45706968566414,
-          40.20703593895446
+          44.45722471677445,
+          40.20703540911922
         ]
       },
       "properties": {
@@ -47765,7 +47829,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20703593895446,44.45706968566414"
+        "maps_url": "https://www.google.com/maps?q=40.20703540911922,44.45722471677445"
       }
     },
     {
@@ -47833,8 +47897,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47864208334772,
-          40.21628809388234
+          44.47853177215646,
+          40.21624875771481
         ]
       },
       "properties": {
@@ -47898,7 +47962,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Davtashen 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.21628809388234,44.47864208334772"
+        "maps_url": "https://www.google.com/maps?q=40.21624875771481,44.47853177215646"
       }
     },
     {
@@ -48152,8 +48216,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.54022963530442,
-          40.22640446972778
+          44.54020578380188,
+          40.22619016191746
         ]
       },
       "properties": {
@@ -48219,7 +48283,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Shrjancik Tunel",
-        "maps_url": "https://www.google.com/maps?q=40.22640446972778,44.54022963530442"
+        "maps_url": "https://www.google.com/maps?q=40.22619016191746,44.54020578380188"
       }
     },
     {
@@ -48227,8 +48291,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50398362311819,
-          40.198070861899986
+          44.50375034135436,
+          40.198037071225535
         ]
       },
       "properties": {
@@ -48288,7 +48352,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "V. Davtyan St",
-        "maps_url": "https://www.google.com/maps?q=40.198070861899986,44.50398362311819"
+        "maps_url": "https://www.google.com/maps?q=40.198037071225535,44.50375034135436"
       }
     },
     {
@@ -48296,8 +48360,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5150659154233,
-          40.18725516947107
+          44.49377952512714,
+          40.19649660702188
         ]
       },
       "properties": {
@@ -48366,7 +48430,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Baghramyan av(Arabkir)",
-        "maps_url": "https://www.google.com/maps?q=40.18725516947107,44.5150659154233"
+        "maps_url": "https://www.google.com/maps?q=40.19649660702188,44.49377952512714"
       }
     },
     {
@@ -49391,8 +49455,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53036938705045,
-          40.187613833506354
+          44.53093023106181,
+          40.186570016261285
         ]
       },
       "properties": {
@@ -49462,7 +49526,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.187613833506354,44.53036938705045"
+        "maps_url": "https://www.google.com/maps?q=40.186570016261285,44.53093023106181"
       }
     },
     {
@@ -49470,8 +49534,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.53093023106181,
-          40.186570016261285
+          44.53147484252428,
+          40.18552103294663
         ]
       },
       "properties": {
@@ -49527,7 +49591,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.186570016261285,44.53093023106181"
+        "maps_url": "https://www.google.com/maps?q=40.18552103294663,44.53147484252428"
       }
     },
     {
@@ -49614,8 +49678,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47405294674321,
-          40.21431605259443
+          44.483814136230684,
+          40.21120353612453
         ]
       },
       "properties": {
@@ -49673,89 +49737,7 @@
         "ai_score": 3,
         "geocode_precision": "street_spread",
         "address": "Ashtarak hightway",
-        "maps_url": "https://www.google.com/maps?q=40.21431605259443,44.47405294674321"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          44.53147484252428,
-          40.18552103294663
-        ]
-      },
-      "properties": {
-        "id": 61371,
-        "url": "https://besthouse.am/en/estates/61371",
-        "source": "besthouse",
-        "title": "4 room house, Armenak Armenakyan St, Norq Marash (Yerevan) | Best House",
-        "price_usd": 2255,
-        "city": "Yerevan",
-        "district": "Nork-Marash",
-        "street": "Armenak Armenakyan St",
-        "bathrooms": "2",
-        "ceiling_height_m": 3.0,
-        "floors": 2,
-        "building_area_sqm": 250,
-        "land_area_sqm": 1100,
-        "rooms": 4,
-        "building_type": "Monolith",
-        "condition": "Renovated",
-        "facilities": [
-          "Heating",
-          "Permanent water",
-          "Internet",
-          "Gas",
-          "Drinking water",
-          "Electricity",
-          "Air conditioning",
-          "Hot water"
-        ],
-        "amenities": [
-          "Furniture",
-          "Tile",
-          "Parking",
-          "Technique",
-          "Iron door",
-          "Sunny side",
-          "Signal system",
-          "Euro windows",
-          "Open balcony",
-          "Laminat"
-        ],
-        "description": "In the very center of Nork, there are 3 supermarkets nearby, and it is also close to the bus stop. There is an orchard, the yard is green. Living in this house, you will find yourself in the lap of nature and just 10 minutes away from the city center. The house is full of warmth and comfort, and everyone who enters here immediately feels harmony and indescribable tranquility.",
-        "photo_urls": [
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/9YMxbr3ho8lHlKl6rh6m3QNFq2AG0oALn5LS6FhC.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/ZezFsYLZEMcWzZCpbIUYilnUURKIagFh5XMvXRJX.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/dcSj8D1tT1fqbONbwApZNRKcW0a5WGYuQs4OE6dr.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/pdkmp9XM5S4GSkGKvOmFM9BSbIf0uSgLgebSuYMW.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/0xJhdBQT6LA5bJXjeiZ4ThacRSF4EXi3kM79xokD.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/Fu9RiKG7WSOV49JV6KqgQaUxmITHAimZt8rai4Kv.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/K2troa82aCsWOuNrlkS32pMiWPdJtxYTAoBiwEOh.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/ch13bthqtoZBxNZYvJ5lqiYPTNEkmEhpFeErkQ2Z.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/XTEN9XFnS9b6NAVrz3HOPdaq3JYrVkVBfSSSlF9U.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/IQPX2FAl3mN8vVFam7zD4doMIelMD6egkiOuq9FW.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/7FS0bmfEJEratUBhYI8R9I5xeI9sb9SIY52WAo3y.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/BiTAe0TK9QECUR9lPBbG2XwQNjXYhj7G4dpTZQEI.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/IEGKn5Y0IonW3x8uRHWL7nzkAyNoAhXDQZk1R3w2.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/SUezfPAtwPO0NVQHANzdpNtgzA6drXfDHNHGJbSt.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/zcXilzRq0xjTYV5Mno54HwB7yzC2eEa8SwjmWLI2.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/ZqZDDCkklntgWXIr1llXuTDlq2NfCam6rDagY7fV.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/fj8QW1TJXhHD4CPrxL4t0DbtznOQgl4sbuIcJ08B.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/wxn3Nm6hEZXoBXghswEZgVL7ckd8RRTrwiM0zH4X.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/2HBKz8g1Dx3LP8HqsoisQFC0qcOsdROWGKAgveJH.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/nM7soomV5W5TKIEjBO2mLedPeyiSwcEsWpnh28We.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/Y8AefZsbXPRirlGENrZ7Uzp0BI5ilkP7BHbhHDrC.webp",
-          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/61371/images/original/sTr2hORZDRh91gEnoCQyJN4HeCHdDHIl4qVUwkWt.webp"
-        ],
-        "photo_count": 22,
-        "parsed_address_number": null,
-        "ai_summary": "This property is a spacious 250 m² house with excellent amenities, featuring a large 1100 m² green yard with ample room for a dog and safe play for a toddler. The modern interior, bright large rooms, and minimalist decor are complemented by a sleek kitchen and contemporary bathrooms. The abundant natural light and proximity to greenery make this a standout choice.",
-        "ai_score": 9,
-        "geocode_precision": "street_spread",
-        "address": "Armenak Armenakyan St",
-        "maps_url": "https://www.google.com/maps?q=40.18552103294663,44.53147484252428"
+        "maps_url": "https://www.google.com/maps?q=40.21120353612453,44.483814136230684"
       }
     },
     {
@@ -49973,8 +49955,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.50613992034169,
-          40.16473929110166
+          44.50593026849646,
+          40.16494254752708
         ]
       },
       "properties": {
@@ -50030,7 +50012,7 @@
         "ai_score": 5,
         "geocode_precision": "street_jitter",
         "address": "Lisinyan St",
-        "maps_url": "https://www.google.com/maps?q=40.16473929110166,44.50613992034169"
+        "maps_url": "https://www.google.com/maps?q=40.16494254752708,44.50593026849646"
       }
     },
     {
@@ -50776,8 +50758,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52317298696707,
-          40.20473366442912
+          44.52340104077449,
+          40.20475585304298
         ]
       },
       "properties": {
@@ -50858,7 +50840,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "N. Zaryan St",
-        "maps_url": "https://www.google.com/maps?q=40.20473366442912,44.52317298696707"
+        "maps_url": "https://www.google.com/maps?q=40.20475585304298,44.52340104077449"
       }
     },
     {
@@ -50866,8 +50848,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47278636888196,
-          40.216980259982016
+          44.4728381147553,
+          40.21687424611921
         ]
       },
       "properties": {
@@ -50931,7 +50913,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Samvel Gevorgyan St",
-        "maps_url": "https://www.google.com/maps?q=40.216980259982016,44.47278636888196"
+        "maps_url": "https://www.google.com/maps?q=40.21687424611921,44.4728381147553"
       }
     },
     {
@@ -50939,8 +50921,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47105197462527,
-          40.216818168550844
+          44.47110372321215,
+          40.21671215468804
         ]
       },
       "properties": {
@@ -50997,7 +50979,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "Samvel Gevorgyan St",
-        "maps_url": "https://www.google.com/maps?q=40.216818168550844,44.47105197462527"
+        "maps_url": "https://www.google.com/maps?q=40.21671215468804,44.47110372321215"
       }
     },
     {
@@ -51005,8 +50987,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.52530439836223,
-          40.17916541629574
+          44.52522610951509,
+          40.17888498950235
         ]
       },
       "properties": {
@@ -51058,7 +51040,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Aygestan 11 St",
-        "maps_url": "https://www.google.com/maps?q=40.17916541629574,44.52530439836223"
+        "maps_url": "https://www.google.com/maps?q=40.17888498950235,44.52522610951509"
       }
     },
     {
@@ -51157,8 +51139,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47988915250045,
-          40.21167419313527
+          44.4601082007327,
+          40.22007636223066
         ]
       },
       "properties": {
@@ -51231,7 +51213,7 @@
         "ai_score": 9,
         "geocode_precision": "street_spread",
         "address": "Ashtarak hightway",
-        "maps_url": "https://www.google.com/maps?q=40.21167419313527,44.47988915250045"
+        "maps_url": "https://www.google.com/maps?q=40.22007636223066,44.4601082007327"
       }
     },
     {
@@ -51723,8 +51705,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51967845491372,
-          40.19918653637133
+          44.52887717616942,
+          40.197202049639095
         ]
       },
       "properties": {
@@ -51795,7 +51777,7 @@
         "ai_score": 8,
         "geocode_precision": "street_spread",
         "address": "Babayan St",
-        "maps_url": "https://www.google.com/maps?q=40.19918653637133,44.51967845491372"
+        "maps_url": "https://www.google.com/maps?q=40.197202049639095,44.52887717616942"
       }
     },
     {
@@ -52078,8 +52060,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51694256195675,
-          40.19949062271383
+          44.52685187315989,
+          40.19644761893516
         ]
       },
       "properties": {
@@ -52157,7 +52139,7 @@
         "ai_score": 5,
         "geocode_precision": "street_spread",
         "address": "Babayan St",
-        "maps_url": "https://www.google.com/maps?q=40.19949062271383,44.51694256195675"
+        "maps_url": "https://www.google.com/maps?q=40.19644761893516,44.52685187315989"
       }
     },
     {
@@ -52165,8 +52147,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.456660437367965,
-          40.206143926225074
+          44.45681546848148,
+          40.206143396389834
         ]
       },
       "properties": {
@@ -52219,7 +52201,7 @@
         "ai_score": 7,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.206143926225074,44.456660437367965"
+        "maps_url": "https://www.google.com/maps?q=40.206143396389834,44.45681546848148"
       }
     },
     {
@@ -52227,8 +52209,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.4566455096774,
-          40.206282665533315
+          44.456800540791036,
+          40.206282135698075
         ]
       },
       "properties": {
@@ -52288,7 +52270,7 @@
         "ai_score": 8,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.206282665533315,44.4566455096774"
+        "maps_url": "https://www.google.com/maps?q=40.206282135698075,44.456800540791036"
       }
     },
     {
@@ -52366,8 +52348,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51587960382099,
-          40.199541537514335
+          44.514128827250246,
+          40.199622044695055
         ]
       },
       "properties": {
@@ -52427,7 +52409,7 @@
         "ai_score": 6,
         "geocode_precision": "street_spread",
         "address": "Babayan St",
-        "maps_url": "https://www.google.com/maps?q=40.199541537514335,44.51587960382099"
+        "maps_url": "https://www.google.com/maps?q=40.199622044695055,44.514128827250246"
       }
     },
     {
@@ -52435,8 +52417,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.51306554739796,
-          40.19966920624057
+          44.53168616157648,
+          40.19973322638396
         ]
       },
       "properties": {
@@ -52491,7 +52473,7 @@
         "ai_score": 7,
         "geocode_precision": "street_spread",
         "address": "Babayan St",
-        "maps_url": "https://www.google.com/maps?q=40.19966920624057,44.51306554739796"
+        "maps_url": "https://www.google.com/maps?q=40.19973322638396,44.53168616157648"
       }
     },
     {
@@ -53694,8 +53676,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45703746110756,
-          40.206178858976045
+          44.45719249221813,
+          40.206178329140805
         ]
       },
       "properties": {
@@ -53751,7 +53733,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.206178858976045,44.45703746110756"
+        "maps_url": "https://www.google.com/maps?q=40.206178329140805,44.45719249221813"
       }
     },
     {
@@ -54098,8 +54080,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.484620307032,
-          40.20209400950448
+          44.48455061477367,
+          40.20207618933391
         ]
       },
       "properties": {
@@ -54161,7 +54143,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20209400950448,44.484620307032"
+        "maps_url": "https://www.google.com/maps?q=40.20207618933391,44.48455061477367"
       }
     },
     {
@@ -54169,8 +54151,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48468621478488,
-          40.20172422154197
+          44.48461652250922,
+          40.2017064013714
         ]
       },
       "properties": {
@@ -54241,7 +54223,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20172422154197,44.48468621478488"
+        "maps_url": "https://www.google.com/maps?q=40.2017064013714,44.48461652250922"
       }
     },
     {
@@ -54304,8 +54286,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45694795819316,
-          40.205948796831606
+          44.457102989304424,
+          40.205948266996366
         ]
       },
       "properties": {
@@ -54358,7 +54340,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.205948796831606,44.45694795819316"
+        "maps_url": "https://www.google.com/maps?q=40.205948266996366,44.457102989304424"
       }
     },
     {
@@ -54423,8 +54405,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47814305131416,
-          40.216039210301005
+          44.478032740412594,
+          40.21599987413347
         ]
       },
       "properties": {
@@ -54484,7 +54466,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Davtashen 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.216039210301005,44.47814305131416"
+        "maps_url": "https://www.google.com/maps?q=40.21599987413347,44.478032740412594"
       }
     },
     {
@@ -54492,8 +54474,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.477062954568346,
-          40.21665865093739
+          44.47695264429379,
+          40.21661931476986
         ]
       },
       "properties": {
@@ -54547,7 +54529,7 @@
         "ai_score": 6,
         "geocode_precision": "street_jitter",
         "address": "Davtashen 10 St",
-        "maps_url": "https://www.google.com/maps?q=40.21665865093739,44.477062954568346"
+        "maps_url": "https://www.google.com/maps?q=40.21661931476986,44.47695264429379"
       }
     },
     {
@@ -54626,8 +54608,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.524250626223846,
-          40.16469505317512
+          44.52146038546836,
+          40.16686623516106
         ]
       },
       "properties": {
@@ -54698,7 +54680,7 @@
         "ai_score": 9,
         "geocode_precision": "street_jitter",
         "address": "M.Khorenatsi St",
-        "maps_url": "https://www.google.com/maps?q=40.16469505317512,44.524250626223846"
+        "maps_url": "https://www.google.com/maps?q=40.16686623516106,44.52146038546836"
       }
     },
     {
@@ -55211,8 +55193,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5395521792983,
-          40.226413231279786
+          44.5395283299391,
+          40.22619892346946
         ]
       },
       "properties": {
@@ -55267,7 +55249,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Shrjancik Tunel",
-        "maps_url": "https://www.google.com/maps?q=40.226413231279786,44.5395521792983"
+        "maps_url": "https://www.google.com/maps?q=40.22619892346946,44.5395283299391"
       }
     },
     {
@@ -55275,8 +55257,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.486140116863176,
-          40.21130609535528
+          44.45590591091822,
+          40.221933349096595
         ]
       },
       "properties": {
@@ -55335,7 +55317,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_spread",
         "address": "Ashtarak hightway",
-        "maps_url": "https://www.google.com/maps?q=40.21130609535528,44.486140116863176"
+        "maps_url": "https://www.google.com/maps?q=40.221933349096595,44.45590591091822"
       }
     },
     {
@@ -55473,8 +55455,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.46337808279043,
-          40.21182422180783
+          44.46392893205726,
+          40.21282230762493
         ]
       },
       "properties": {
@@ -55530,7 +55512,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_spread",
         "address": "Gevorg Chaush St",
-        "maps_url": "https://www.google.com/maps?q=40.21182422180783,44.46337808279043"
+        "maps_url": "https://www.google.com/maps?q=40.21282230762493,44.46392893205726"
       }
     },
     {
@@ -55538,8 +55520,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.463518078610456,
-          40.15804357714432
+          44.47683007732358,
+          40.16365488153375
         ]
       },
       "properties": {
@@ -55592,7 +55574,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_spread",
         "address": "Isakov Ave",
-        "maps_url": "https://www.google.com/maps?q=40.15804357714432,44.463518078610456"
+        "maps_url": "https://www.google.com/maps?q=40.16365488153375,44.47683007732358"
       }
     },
     {
@@ -55600,8 +55582,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47182043781679,
-          40.216422919527425
+          44.47187218520137,
+          40.21631690566462
         ]
       },
       "properties": {
@@ -55665,7 +55647,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Samvel Gevorgyan St",
-        "maps_url": "https://www.google.com/maps?q=40.216422919527425,44.47182043781679"
+        "maps_url": "https://www.google.com/maps?q=40.21631690566462,44.47187218520137"
       }
     },
     {
@@ -55826,8 +55808,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45843871092783,
-          40.19674904433677
+          44.45909325617269,
+          40.196730423768
         ]
       },
       "properties": {
@@ -55880,7 +55862,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Lukashin 3 St",
-        "maps_url": "https://www.google.com/maps?q=40.19674904433677,44.45843871092783"
+        "maps_url": "https://www.google.com/maps?q=40.196730423768,44.45909325617269"
       }
     },
     {
@@ -55888,8 +55870,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.47234067913481,
-          40.21692946043773
+          44.47239242570545,
+          40.21682344657493
         ]
       },
       "properties": {
@@ -55941,7 +55923,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Samvel Gevorgyan St",
-        "maps_url": "https://www.google.com/maps?q=40.21692946043773,44.47234067913481"
+        "maps_url": "https://www.google.com/maps?q=40.21682344657493,44.47239242570545"
       }
     },
     {
@@ -55949,8 +55931,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45789077311761,
-          40.19657021707557
+          44.45854531851295,
+          40.1965515965068
         ]
       },
       "properties": {
@@ -56011,7 +55993,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Lukashin 3 St",
-        "maps_url": "https://www.google.com/maps?q=40.19657021707557,44.45789077311761"
+        "maps_url": "https://www.google.com/maps?q=40.1965515965068,44.45854531851295"
       }
     },
     {
@@ -56088,8 +56070,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.458154478208364,
-          40.19707387658737
+          44.45880902353128,
+          40.1970552560186
         ]
       },
       "properties": {
@@ -56152,7 +56134,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Lukashin 3 St",
-        "maps_url": "https://www.google.com/maps?q=40.19707387658737,44.458154478208364"
+        "maps_url": "https://www.google.com/maps?q=40.1970552560186,44.45880902353128"
       }
     },
     {
@@ -56240,8 +56222,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.45603853454511,
-          40.20668605991748
+          44.45619356566348,
+          40.20668553008224
         ]
       },
       "properties": {
@@ -56298,7 +56280,7 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "G 1 dis.",
-        "maps_url": "https://www.google.com/maps?q=40.20668605991748,44.45603853454511"
+        "maps_url": "https://www.google.com/maps?q=40.20668553008224,44.45619356566348"
       }
     },
     {
@@ -56306,8 +56288,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.48491542946023,
-          40.20221567915288
+          44.48484573712432,
+          40.20219785898231
         ]
       },
       "properties": {
@@ -56376,7 +56358,75 @@
         "parsed_address_number": null,
         "geocode_precision": "street_jitter",
         "address": "Keri St",
-        "maps_url": "https://www.google.com/maps?q=40.20221567915288,44.48491542946023"
+        "maps_url": "https://www.google.com/maps?q=40.20219785898231,44.48484573712432"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.51994844797583,
+          40.167089766603475
+        ]
+      },
+      "properties": {
+        "id": 65142,
+        "url": "https://besthouse.am/en/estates/65142",
+        "source": "besthouse",
+        "title": "5 room house, M.Khorenatsi St, Center (Yerevan) | Best House",
+        "price_usd": 2384,
+        "city": "Yerevan",
+        "district": "Center",
+        "street": "M.Khorenatsi St",
+        "bathrooms": null,
+        "ceiling_height_m": null,
+        "floors": null,
+        "building_area_sqm": 214,
+        "land_area_sqm": 413,
+        "rooms": 5,
+        "building_type": "New construction",
+        "condition": "Renovated",
+        "facilities": [
+          "Heating",
+          "Irrigation",
+          "Permanent water",
+          "Central heating",
+          "Internet",
+          "Gas",
+          "Sewage",
+          "Drinking water",
+          "Electricity",
+          "Air conditioning",
+          "Hot water"
+        ],
+        "amenities": [],
+        "description": "",
+        "photo_urls": [
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/BdKd0xXDAwSVV5Hn1lPJOQw5o20kKmM8Xf5U1nQA.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/ar7o3K6uIuGgXIS5bXTzZv7fbWTgcfbLRzjmkL8D.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/bZdYUeYzFV75bHjy6q5OkiNdg4cmpllLsLLYxpAY.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/oLOA9sEDfW2jSSg2qtPXlxT8GFsV0s5vtF0eEbAj.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/wzMszwz6uuegACNdJzqT3LhGvoxGpjwzikcrjKGM.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/cRkDNxCLnwrhedfkZi4IGjFjYcbrEJaiQNtEa1hz.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/P4OLfWFApxKUQ2W8UfUSs3PcgmNBnl7m5OwVzpMm.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/1gR1S3FswM5TalFlmdzUeKADMrFkm64M4AUWZcQO.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/Q5rsg8jfjcCuAtCMgODQfLQF7GZUEdJrGRUFg7Tu.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/Db39JWZhkx7kEtDchqUGArGUOPfzw9RdReAzQ5sV.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/1Yuep2L1rFxhupL6oYWBNti2V9BzWG3aqlByhhqx.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/TQMLMKBje3LVsQieytDaQtbA9XQYhrY1x7lLrwlZ.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/BhnfXg1eP5X078ktuogsJvZGYTKRNxFWKlyVxzmj.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/2dInd3DwIQUQMBCvrNy18spQufNeFKGtVy1CseEp.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/BXcOyUJzwhdwDa2V0uZJnZMtIdrPSW1C8dpnjfdK.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/qgGecS1IjBDDYHTzJkML62jQwKF5bj8lwMqHymVG.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/DsfQL73G8QgiDXEpiQTtv7BTkczd38ZFBjyaXXpT.webp",
+          "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65142/images/original/yN3WWPhYVUcwN5YgKdhJX9EcLKqafyds5J3rRxdG.webp"
+        ],
+        "photo_count": 18,
+        "parsed_address_number": null,
+        "geocode_precision": "street_jitter",
+        "address": "M.Khorenatsi St",
+        "maps_url": "https://www.google.com/maps?q=40.167089766603475,44.51994844797583"
       }
     },
     {
@@ -60647,6 +60697,162 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          44.50917817238789,
+          40.20619994710416
+        ]
+      },
+      "properties": {
+        "id": 23090172,
+        "url": "https://www.list.am/en/item/23090172",
+        "source": "listam",
+        "city": "Yerevan",
+        "district": "Arabkir",
+        "street": "",
+        "title": "Two story stone house on Avet Avetisyan Street in Arabkir, 200 sq.m., on a 150 sq.m. land",
+        "price_usd": null,
+        "rooms": null,
+        "bathrooms": null,
+        "floors": null,
+        "building_area_sqm": null,
+        "land_area_sqm": null,
+        "ceiling_height_m": null,
+        "building_type": null,
+        "condition": null,
+        "facilities": [],
+        "amenities": [],
+        "description": "",
+        "photo_urls": [],
+        "photo_count": 0,
+        "parsed_address_number": null,
+        "geocode_precision": "district_jitter",
+        "listed_date": null,
+        "renewed_date": null,
+        "address": "",
+        "maps_url": "https://www.google.com/maps?q=40.20619994710416,44.50917817238789"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5725091,
+          40.2202471
+        ]
+      },
+      "properties": {
+        "id": 23319064,
+        "url": "https://www.list.am/en/item/23319064",
+        "source": "listam",
+        "city": "Yerevan",
+        "district": "Avan",
+        "street": "",
+        "title": "Three story stone house, Պետրոս Դուրյանի 1-ին փողոց in Avan, 500 sq.m., on a 1000 sq.m. land",
+        "price_usd": null,
+        "rooms": null,
+        "bathrooms": null,
+        "floors": null,
+        "building_area_sqm": null,
+        "land_area_sqm": null,
+        "ceiling_height_m": null,
+        "building_type": null,
+        "condition": null,
+        "facilities": [],
+        "amenities": [],
+        "description": "",
+        "photo_urls": [],
+        "photo_count": 0,
+        "parsed_address_number": null,
+        "geocode_precision": "failed",
+        "listed_date": null,
+        "renewed_date": null,
+        "address": "",
+        "maps_url": "https://www.google.com/maps?q=40.2202471,44.5725091"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.459774031033994,
+          40.20294401165461
+        ]
+      },
+      "properties": {
+        "id": 23520625,
+        "url": "https://www.list.am/en/item/23520625",
+        "source": "listam",
+        "city": "Yerevan",
+        "district": "Achapnyak",
+        "street": "",
+        "title": "Two story house, G-1 microdistrict in Ajapnyak, 300 sq.m., on a 550 sq.m. land, 2 bathrooms",
+        "price_usd": null,
+        "rooms": null,
+        "bathrooms": null,
+        "floors": null,
+        "building_area_sqm": null,
+        "land_area_sqm": null,
+        "ceiling_height_m": null,
+        "building_type": null,
+        "condition": null,
+        "facilities": [],
+        "amenities": [],
+        "description": "",
+        "photo_urls": [],
+        "photo_count": 0,
+        "parsed_address_number": null,
+        "geocode_precision": "district_jitter",
+        "listed_date": null,
+        "renewed_date": null,
+        "address": "",
+        "maps_url": "https://www.google.com/maps?q=40.20294401165461,44.459774031033994"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5334171,
+          40.1419234
+        ]
+      },
+      "properties": {
+        "id": 23192766,
+        "url": "https://www.list.am/en/item/23192766",
+        "source": "listam",
+        "city": "Yerevan",
+        "district": "Erebuni",
+        "street": "",
+        "title": "Two story house on Nor Aresh 16th Street in Erebuni, 240 sq.m., on a 350 sq.m. land, 2 bathrooms",
+        "price_usd": null,
+        "rooms": null,
+        "bathrooms": null,
+        "floors": null,
+        "building_area_sqm": null,
+        "land_area_sqm": null,
+        "ceiling_height_m": null,
+        "building_type": null,
+        "condition": null,
+        "facilities": [],
+        "amenities": [],
+        "description": "",
+        "photo_urls": [],
+        "photo_count": 0,
+        "parsed_address_number": null,
+        "geocode_precision": "failed",
+        "listed_date": null,
+        "renewed_date": null,
+        "address": "",
+        "maps_url": "https://www.google.com/maps?q=40.1419234,44.5334171"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           44.461163,
           40.202244
         ]
@@ -60733,18 +60939,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.457798727343565,
-          40.206415343211624
+          44.45972859249132,
+          40.207232579961826
         ]
       },
       "properties": {
-        "id": 23515794,
-        "url": "https://www.list.am/en/item/23515794",
+        "id": 23509112,
+        "url": "https://www.list.am/en/item/23509112",
         "source": "listam",
         "city": "Yerevan",
         "district": "Achapnyak",
         "street": "",
-        "title": "Single story stone house on Lukashin Street in Ajapnyak, 377 sq.m., on a 497 sq.m. land",
+        "title": "Two story house on Mush 10th Street in Ajapnyak, 400 sq.m., on a 1250 sq.m. land, 3+ bathrooms",
         "price_usd": null,
         "rooms": null,
         "bathrooms": null,
@@ -60764,7 +60970,46 @@
         "listed_date": null,
         "renewed_date": null,
         "address": "",
-        "maps_url": "https://www.google.com/maps?q=40.206415343211624,44.457798727343565"
+        "maps_url": "https://www.google.com/maps?q=40.207232579961826,44.45972859249132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.508709807308236,
+          40.177828297354644
+        ]
+      },
+      "properties": {
+        "id": 22716987,
+        "url": "https://www.list.am/en/item/22716987",
+        "source": "listam",
+        "city": "Yerevan",
+        "district": "Center",
+        "street": "",
+        "title": "Single story stone house on Khorenatsi Street in the center, 214 sq.m., on a 413 sq.m. land",
+        "price_usd": null,
+        "rooms": null,
+        "bathrooms": null,
+        "floors": null,
+        "building_area_sqm": null,
+        "land_area_sqm": null,
+        "ceiling_height_m": null,
+        "building_type": null,
+        "condition": null,
+        "facilities": [],
+        "amenities": [],
+        "description": "",
+        "photo_urls": [],
+        "photo_count": 0,
+        "parsed_address_number": null,
+        "geocode_precision": "district_jitter",
+        "listed_date": null,
+        "renewed_date": null,
+        "address": "",
+        "maps_url": "https://www.google.com/maps?q=40.177828297354644,44.508709807308236"
       }
     },
     {
@@ -60811,57 +61056,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5725091,
-          40.2202471
+          44.457798727343565,
+          40.206415343211624
         ]
       },
       "properties": {
-        "id": 23319064,
-        "url": "https://www.list.am/en/item/23319064",
-        "source": "listam",
-        "city": "Yerevan",
-        "district": "Avan",
-        "street": "",
-        "title": "Three story stone house, Պետրոս Դուրյանի 1-ին փողոց in Avan, 500 sq.m., on a 1000 sq.m. land",
-        "price_usd": null,
-        "rooms": null,
-        "bathrooms": null,
-        "floors": null,
-        "building_area_sqm": null,
-        "land_area_sqm": null,
-        "ceiling_height_m": null,
-        "building_type": null,
-        "condition": null,
-        "facilities": [],
-        "amenities": [],
-        "description": "",
-        "photo_urls": [],
-        "photo_count": 0,
-        "parsed_address_number": null,
-        "geocode_precision": "district",
-        "listed_date": null,
-        "renewed_date": null,
-        "address": "",
-        "maps_url": "https://www.google.com/maps?q=40.2202471,44.5725091"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          44.45972859249132,
-          40.207232579961826
-        ]
-      },
-      "properties": {
-        "id": 23509112,
-        "url": "https://www.list.am/en/item/23509112",
+        "id": 23515794,
+        "url": "https://www.list.am/en/item/23515794",
         "source": "listam",
         "city": "Yerevan",
         "district": "Achapnyak",
         "street": "",
-        "title": "Two story house on Mush 10th Street in Ajapnyak, 400 sq.m., on a 1250 sq.m. land, 3+ bathrooms",
+        "title": "Single story stone house on Lukashin Street in Ajapnyak, 377 sq.m., on a 497 sq.m. land",
         "price_usd": null,
         "rooms": null,
         "bathrooms": null,
@@ -60881,85 +61087,7 @@
         "listed_date": null,
         "renewed_date": null,
         "address": "",
-        "maps_url": "https://www.google.com/maps?q=40.207232579961826,44.45972859249132"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          44.50635884367146,
-          40.17753443994839
-        ]
-      },
-      "properties": {
-        "id": 23497519,
-        "url": "https://www.list.am/en/item/23497519",
-        "source": "listam",
-        "city": "Yerevan",
-        "district": "Center",
-        "street": "",
-        "title": "Four story stone house on Verfel Street in the center, 580 sq.m., on a 400 sq.m. land, 3+ bathrooms",
-        "price_usd": null,
-        "rooms": null,
-        "bathrooms": null,
-        "floors": null,
-        "building_area_sqm": null,
-        "land_area_sqm": null,
-        "ceiling_height_m": null,
-        "building_type": null,
-        "condition": null,
-        "facilities": [],
-        "amenities": [],
-        "description": "",
-        "photo_urls": [],
-        "photo_count": 0,
-        "parsed_address_number": null,
-        "geocode_precision": "failed",
-        "listed_date": null,
-        "renewed_date": null,
-        "address": "",
-        "maps_url": "https://www.google.com/maps?q=40.17753443994839,44.50635884367146"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          44.5334171,
-          40.1419234
-        ]
-      },
-      "properties": {
-        "id": 23192766,
-        "url": "https://www.list.am/en/item/23192766",
-        "source": "listam",
-        "city": "Yerevan",
-        "district": "Erebuni",
-        "street": "",
-        "title": "Two story house on Nor Aresh 16th Street in Erebuni, 240 sq.m., on a 350 sq.m. land, 2 bathrooms",
-        "price_usd": null,
-        "rooms": null,
-        "bathrooms": null,
-        "floors": null,
-        "building_area_sqm": null,
-        "land_area_sqm": null,
-        "ceiling_height_m": null,
-        "building_type": null,
-        "condition": null,
-        "facilities": [],
-        "amenities": [],
-        "description": "",
-        "photo_urls": [],
-        "photo_count": 0,
-        "parsed_address_number": null,
-        "geocode_precision": "failed",
-        "listed_date": null,
-        "renewed_date": null,
-        "address": "",
-        "maps_url": "https://www.google.com/maps?q=40.1419234,44.5334171"
+        "maps_url": "https://www.google.com/maps?q=40.206415343211624,44.457798727343565"
       }
     }
   ]
