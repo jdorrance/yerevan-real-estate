@@ -44964,5 +44964,63 @@
     ],
     "photo_count": 18,
     "parsed_address_number": null
+  },
+  {
+    "id": 65145,
+    "url": "https://besthouse.am/en/estates/65145",
+    "source": "besthouse",
+    "title": "5 room house, G 1 dis., Achapnyak (Yerevan) | Best House",
+    "price_usd": 3200,
+    "city": "Yerevan",
+    "district": "Achapnyak",
+    "street": "G 1 dis.",
+    "bathrooms": null,
+    "ceiling_height_m": null,
+    "floors": null,
+    "building_area_sqm": 300,
+    "land_area_sqm": 500,
+    "rooms": 5,
+    "building_type": "Monolith",
+    "condition": "Renovated",
+    "facilities": [
+      "Heating",
+      "Permanent water",
+      "Internet",
+      "Gas",
+      "Drinking water",
+      "Electricity",
+      "Air conditioning",
+      "Hot water"
+    ],
+    "amenities": [
+      "Furniture",
+      "Technique",
+      "Euro windows",
+      "Fence"
+    ],
+    "description": "A two-story, 5-room, fully renovated house with all utilities is for rent in District C 1.",
+    "photo_urls": [
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/y5QwfvgQBYPBkAnSdj4yPAoJO63uIWpO4QzzZTyK.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/sM8Tg0UQQuM5NqseDbOyFsK0v67sajtY9qKT9e4t.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/ViEsKGxUc0jh5sXZkPGOVhcTwfe49dU9kbj4jtCS.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/Icz8NXeMgKtbCurne3UfKrMVZNOjPFXv4R2rZFGX.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/p7iCb43zRES7Sfecw4AIcHsBJ4KoHkRADAI1D7Nv.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/D6JyKDQyoNW5Rpxv9TgIhuO14mrII9nEaGZEYu6Z.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/pgN4fGo1tcGPlDDC4NnLml8TwpFsyEABW63uxafI.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/jE5PIlIp7BlfrqoRHaHkyspj0RqdGaKZ7YcK4kS6.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/JmVhzecOnl8wqMycdUsDgUvI0tkNnez8eCOnf92V.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/A1R94mcQ1NlVzaDPUxApwJf6y9NbfZEA3BEIhP1j.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/77IEncbZymLbYYWzFgECPZi0p4Gh7jckj2rykWc7.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/0gZSnOEFNnBz5FgVHfllAV3H3Qy40S8kIrLssoFE.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/hySQJxtHrD8jkPCYDk2yLF3ydhwyD53s9i7QqvAC.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/2NCJds6lf14G8qaAHSvM8bE5k4FAYE5PBclUjman.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/ogmv3JCg8SrZSeQAc4JClBQWTCNjK5L3hX3R5xax.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/P1f1baPvEVfBoeVzxMxWsueDbsGdf2Cce9FSVXiE.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/VXxbBRklFMzyu8eVFssakX1h16r0aE7M0aQwcCq1.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/V0SnLGdNGCzc2jEB21H26bRD55uydXAjYcR5MuVj.webp",
+      "https://objectstorage.eu-stockholm-1.oraclecloud.com/n/axmal8d79xjn/b/besthouse-public-001-prod/o/estates/65145/images/original/w6dOFPVTNfOs678CBo6CAcUxMMyYk0jJDMHMNSrl.webp"
+    ],
+    "photo_count": 19,
+    "parsed_address_number": null
   }
 ]

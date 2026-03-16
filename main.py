@@ -22,11 +22,11 @@ from output import generate_csv, generate_geojson
 
 def _reset_bad_geocodes_for_regen(listings: list[dict]) -> int:
     """
-    Clear lat/lng so the improved district-aware geocoder can re-run.
+    Clear lat/lng only when coordinates are invalid (outside district bbox).
 
-    Untouched: overrides, address-precision.
-    Reset: district / district_jitter precision (always); street-level results that
-    land outside the district bbox (likely wrong-district geocoding).
+    Untouched: overrides, address-precision, source_approx.
+    Reset: district / district_jitter / street-level results that land outside the
+    district bbox (likely wrong-district geocoding).
     Also validate source_map (Kentron embedded coords) — if they fall outside the
     district bbox, the source site has wrong data; clear so our geocoder can fix.
     """
@@ -53,11 +53,16 @@ def _reset_bad_geocodes_for_regen(listings: list[dict]) -> int:
             continue
 
         if prec in {"district", "district_jitter"}:
-            if l.get("lat") is not None or l.get("lng") is not None or l.get("geocode_precision"):
-                l["lat"] = None
-                l["lng"] = None
-                l["geocode_precision"] = None
-                cleared += 1
+            lat = l.get("lat")
+            lng = l.get("lng")
+            district = l.get("district") or ""
+            if lat is not None and lng is not None and district:
+                ok = in_district_bbox(lat, lng, district)
+                if ok is False:
+                    l["lat"] = None
+                    l["lng"] = None
+                    l["geocode_precision"] = None
+                    cleared += 1
             continue
 
         lat = l.get("lat")
